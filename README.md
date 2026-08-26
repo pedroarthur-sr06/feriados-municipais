@@ -57,6 +57,6 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
 
 - [x] Fase 0 — Pesquisa de fontes de dados
 - [x] Fase 1 — Fundação (este repositório: modelo de dados, seed do IBGE)
-- [ ] Fase 2 — Motor de feriados (cálculo + resolução em camadas + testes)
+- [x] Fase 2 — Motor de feriados (cálculo + resolução em camadas + testes)
 - [ ] Fase 3 — Interface web
 - [ ] Fase 4 — Operação em lote (CSV/XLSX, exportação, tela administrativa)

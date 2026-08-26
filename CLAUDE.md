@@ -69,7 +69,10 @@ src/
   scripts/
     seed*.ts       # scripts de seed (idempotentes, upsert)
   server.ts        # entrypoint Fastify
-  motor/            # (Fase 2) cálculo de feriados nacionais + resolução em camadas
+  motor/            # lógica pura: cálculo de feriados nacionais + resolução em camadas (sem acesso a banco)
+    pascoa.ts         # algoritmo de Gauss/Meeus + aritmética de datas
+    feriados-nacionais.ts  # feriados/pontos facultativos nacionais calculados por ano
+    resolver.ts        # consultarDia / consultarPeriodo — camadas nacional+estadual+municipal
 db/
   seed-data/        # snapshots versionados de datasets externos usados no seed (ex.: candidatos comunitários)
 drizzle/            # migrations SQL geradas (versionadas no git)
@@ -107,7 +110,16 @@ tests/                # Vitest
    municipal (curado). Camadas podem coexistir na mesma data — mostrar
    todas, nenhuma "vence" a outra.
 2. Feriado vs. ponto facultativo têm tratamento diferente na folha de ponto
-   — nunca tratar como sinônimos na UI ou nos dados.
+   — nunca tratar como sinônimos na UI ou nos dados. Importante: **Carnaval
+   e Corpus Christi são `ponto_facultativo`, não `nacional`** — não são
+   feriados fixados em lei federal, são decretados ano a ano por portaria do
+   Executivo (mas a data em si é 100% previsível a partir da Páscoa, por
+   isso são calculados). Sexta-feira Santa é tratada como `nacional` (feriado
+   pleno), por ser excluída da lista de pontos facultativos do próprio
+   governo federal. Ver o comentário extenso em
+   [src/motor/feriados-nacionais.ts](src/motor/feriados-nacionais.ts) antes
+   de mudar essa classificação — a maioria dos agregadores públicos
+   (BrasilAPI, Nager.Date) erra isso classificando tudo como "nacional".
 3. Município sem curadoria municipal feita → resposta inclui aviso explícito
    `nao_verificado`, nunca "dia útil" implícito.
 4. Suporte a datas passadas (fechamentos retroativos) e ao ano seguinte —
