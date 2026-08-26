@@ -46,6 +46,17 @@ html, body {
 .topo h1 { margin: 0 0 0.25rem; font-size: 1.4rem; }
 .subtitulo { margin: 0; color: var(--cor-texto-suave); font-size: 0.95rem; }
 
+.nav-principal { display: flex; gap: 1rem; margin: 0.6rem 0 0; flex-wrap: wrap; }
+.nav-principal a {
+  color: var(--cor-primaria-escura);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+}
+.nav-principal a:hover, .nav-principal a:focus { border-bottom-color: var(--cor-primaria); }
+
 main {
   max-width: 960px;
   margin: 0 auto;
@@ -213,6 +224,55 @@ td .marcador-multiplo { position: absolute; top: 2px; right: 3px; font-size: 0.6
 .erro { background: var(--cor-nao-verificado-bg); border: 1px solid var(--cor-nao-verificado); color: #7a1710; border-radius: var(--raio); padding: 0.75rem 0.9rem; }
 
 footer.rodape { max-width: 960px; margin: 2rem auto 0; padding: 0 1rem 1.5rem; color: var(--cor-texto-suave); font-size: 0.8rem; }
+
+/* --- Fase 4: lote e administração --- */
+
+.secao-titulo { margin: 1.5rem 0 0.5rem; font-size: 1.1rem; }
+.instrucoes { background: var(--cor-superficie); border: 1px solid var(--cor-borda); border-radius: var(--raio); padding: 0.9rem 1rem; margin-bottom: 1rem; font-size: 0.9rem; }
+.instrucoes code { background: #eef0f2; padding: 0.1rem 0.35rem; border-radius: 4px; }
+
+.tabela-wrap { overflow-x: auto; border: 1px solid var(--cor-borda); border-radius: var(--raio); background: var(--cor-superficie); }
+table.tabela-dados { width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 640px; }
+table.tabela-dados th, table.tabela-dados td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #eef0f2; vertical-align: top; }
+table.tabela-dados th { background: #fafbfc; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.02em; color: var(--cor-texto-suave); }
+table.tabela-dados tr.inativo { opacity: 0.5; }
+table.tabela-dados .acoes { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+.botao-link { color: var(--cor-primaria-escura); text-decoration: none; font-weight: 600; font-size: 0.82rem; }
+.botao-link:hover { text-decoration: underline; }
+.botao-secundario, .botao-perigo {
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+  border: 1px solid var(--cor-borda);
+  background: #fff;
+}
+.botao-secundario { color: var(--cor-primaria-escura); border-color: var(--cor-primaria); }
+.botao-perigo { color: var(--cor-nao-verificado); border-color: var(--cor-nao-verificado); }
+
+.formulario-admin { background: var(--cor-superficie); border: 1px solid var(--cor-borda); border-radius: var(--raio); padding: 1.2rem; display: flex; flex-direction: column; gap: 1rem; max-width: 640px; }
+.formulario-admin fieldset { border: 1px solid var(--cor-borda); border-radius: 6px; padding: 0.8rem 1rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.formulario-admin legend { font-weight: 700; padding: 0 0.4rem; }
+.formulario-admin select, .formulario-admin textarea, .formulario-admin input[type="number"] {
+  padding: 0.5rem 0.6rem; border: 1px solid var(--cor-borda); border-radius: 6px; font-size: 0.95rem; width: 100%; font-family: inherit;
+}
+.formulario-admin textarea { min-height: 4.5rem; resize: vertical; }
+.linha-campos { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.linha-campos > .campo { flex: 1 1 160px; }
+.ajuda-campo { font-size: 0.78rem; color: var(--cor-texto-suave); margin: 0.1rem 0 0; }
+
+.filtros { display: flex; gap: 0.75rem; align-items: flex-end; margin-bottom: 1rem; flex-wrap: wrap; }
+
+.exportar-links { display: flex; gap: 0.75rem; margin: 0.5rem 0 1.25rem; }
+.exportar-links a { font-size: 0.85rem; font-weight: 600; color: var(--cor-primaria-escura); text-decoration: none; border: 1px solid var(--cor-primaria); border-radius: 6px; padding: 0.35rem 0.7rem; }
+.exportar-links a:hover { background: var(--cor-nacional-bg); }
+
+.dropzone { border: 2px dashed var(--cor-borda); border-radius: var(--raio); padding: 2rem 1rem; text-align: center; color: var(--cor-texto-suave); background: var(--cor-superficie); }
+.paginacao { display: flex; gap: 0.5rem; margin-top: 1rem; font-size: 0.85rem; }
+.paginacao a, .paginacao span { padding: 0.25rem 0.55rem; border: 1px solid var(--cor-borda); border-radius: 5px; text-decoration: none; color: var(--cor-texto); }
+.paginacao .atual { background: var(--cor-primaria); color: #fff; border-color: var(--cor-primaria); }
 
 @media (min-width: 640px) {
   .topo h1 { font-size: 1.7rem; }

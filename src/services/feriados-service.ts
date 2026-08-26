@@ -5,7 +5,7 @@
  */
 import { and, eq, or, sql } from "drizzle-orm";
 import { db } from "../db/client.js";
-import { feriados, fontes, municipios, tiposFeriado } from "../db/schema.js";
+import { candidatosNaoVerificados, feriados, fontes, municipios, tiposFeriado } from "../db/schema.js";
 import {
   consultarDia as motorConsultarDia,
   consultarPeriodo as motorConsultarPeriodo,
@@ -46,6 +46,43 @@ export function buscarMunicipioPorCodigo(codigoIbge: number): MunicipioResumo | 
     .from(municipios)
     .where(eq(municipios.codigoIbge, codigoIbge))
     .get();
+}
+
+function normalizarNomeMunicipio(valor: string): string {
+  return valor
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, ""); // remove acentos — "Abaíra" e "Abaira" comparam iguais
+}
+
+/**
+ * Busca por nome + UF — usada na operação em lote (Fase 4), onde a planilha
+ * traz o nome do município como texto solto, não um código IBGE. Tenta
+ * primeiro um match exato (case-insensitive) e, se não achar, um match
+ * ignorando acentos (ainda EXATO depois de normalizar, nunca aproximado por
+ * similaridade). Se mesmo assim não achar, quem chama deve reportar a linha
+ * como "município não encontrado" — nunca adivinhar por aproximação.
+ */
+export function buscarMunicipioPorNomeEUf(nome: string, uf: string): MunicipioResumo | undefined {
+  const nomeNormalizado = nome.trim();
+  const ufNormalizada = uf.trim().toUpperCase();
+  if (!nomeNormalizado || !ufNormalizada) return undefined;
+
+  const exato = db
+    .select({ codigoIbge: municipios.codigoIbge, nome: municipios.nome, uf: municipios.uf })
+    .from(municipios)
+    .where(and(sql`${municipios.nome} = ${nomeNormalizado} COLLATE NOCASE`, eq(municipios.uf, ufNormalizada)))
+    .get();
+  if (exato) return exato;
+
+  const candidatosDaUf = db
+    .select({ codigoIbge: municipios.codigoIbge, nome: municipios.nome, uf: municipios.uf })
+    .from(municipios)
+    .where(eq(municipios.uf, ufNormalizada))
+    .all();
+  const alvo = normalizarNomeMunicipio(nomeNormalizado);
+  return candidatosDaUf.find((m) => normalizarNomeMunicipio(m.nome) === alvo);
 }
 
 function comoTipoCurado(chave: string, nomeFeriado: string): "estadual" | "municipal" | "ponto_facultativo" {
@@ -149,4 +186,273 @@ export function consultarMesPorMunicipio(
     { ano, mes, dia: 1 },
     { ano, mes, dia: ultimoDiaDoMes(ano, mes) },
   );
+}
+
+// ---------------------------------------------------------------------------
+// Tela administrativa (Fase 4): CRUD de feriados curados + fila de candidatos
+// ---------------------------------------------------------------------------
+
+export type TipoFonte = "lei" | "decreto" | "diario_oficial" | "api_publica" | "outro";
+
+export interface FeriadoCuradoResumo {
+  id: number;
+  nome: string;
+  tipo: "estadual" | "municipal" | "ponto_facultativo";
+  abrangencia: "uf" | "municipio";
+  uf: string;
+  codigoIbge: number | null;
+  municipioNome: string | null;
+  mes: number | null;
+  dia: number | null;
+  regraCalculo: string | null;
+  anoInicio: number | null;
+  anoFim: number | null;
+  fonteDescricao: string;
+  fonteUrl: string | null;
+  fonteTipo: TipoFonte;
+  fonteDataPublicacao: string | null;
+  autor: string;
+  dataVerificacao: string;
+  observacao: string | null;
+  ativo: boolean;
+}
+
+export function listarFeriadosCurados(): FeriadoCuradoResumo[] {
+  return db
+    .select({
+      id: feriados.id,
+      nome: feriados.nome,
+      tipo: tiposFeriado.chave,
+      abrangencia: feriados.abrangencia,
+      uf: feriados.uf,
+      codigoIbge: feriados.codigoIbge,
+      municipioNome: municipios.nome,
+      mes: feriados.mes,
+      dia: feriados.dia,
+      regraCalculo: feriados.regraCalculo,
+      anoInicio: feriados.anoInicio,
+      anoFim: feriados.anoFim,
+      fonteDescricao: fontes.descricao,
+      fonteUrl: fontes.url,
+      fonteTipo: fontes.tipo,
+      fonteDataPublicacao: fontes.dataPublicacao,
+      autor: feriados.autor,
+      dataVerificacao: feriados.dataVerificacao,
+      observacao: feriados.observacao,
+      ativo: feriados.ativo,
+    })
+    .from(feriados)
+    .innerJoin(tiposFeriado, eq(feriados.tipoFeriadoId, tiposFeriado.id))
+    .innerJoin(fontes, eq(feriados.fonteId, fontes.id))
+    .leftJoin(municipios, eq(feriados.codigoIbge, municipios.codigoIbge))
+    .orderBy(feriados.uf, feriados.nome)
+    .all()
+    .map((l) => ({ ...l, tipo: comoTipoCurado(l.tipo, l.nome) }));
+}
+
+export interface DadosFeriadoCurado {
+  nome: string;
+  tipoChave: "estadual" | "municipal" | "ponto_facultativo";
+  abrangencia: "uf" | "municipio";
+  uf: string;
+  codigoIbge: number | null;
+  mes: number | null;
+  dia: number | null;
+  regraCalculo: string | null;
+  anoInicio: number | null;
+  anoFim: number | null;
+  autor: string;
+  dataVerificacao: string;
+  observacao: string | null;
+  fonte: {
+    descricao: string;
+    url: string | null;
+    tipo: TipoFonte;
+    dataPublicacao: string | null;
+  };
+}
+
+function idDoTipoFeriado(chave: "estadual" | "municipal" | "ponto_facultativo"): number {
+  const tipo = db.select().from(tiposFeriado).where(eq(tiposFeriado.chave, chave)).get();
+  if (!tipo) throw new Error(`Tipo de feriado "${chave}" não encontrado.`);
+  return tipo.id;
+}
+
+/**
+ * Cria um novo feriado curado. Sempre grava uma fonte nova (mesmo que o
+ * texto repita uma já existente) — isso preserva, na prática, um rastro de
+ * "o que foi citado em cada edição", já que `feriados` guarda só a fonte
+ * atual mas fontes antigas continuam no banco, nunca apagadas.
+ */
+export function criarFeriadoCurado(dados: DadosFeriadoCurado): number {
+  const tipoFeriadoId = idDoTipoFeriado(dados.tipoChave);
+  const fonte = db
+    .insert(fontes)
+    .values({
+      descricao: dados.fonte.descricao,
+      url: dados.fonte.url,
+      tipo: dados.fonte.tipo,
+      dataPublicacao: dados.fonte.dataPublicacao,
+    })
+    .returning()
+    .get();
+
+  const novo = db
+    .insert(feriados)
+    .values({
+      tipoFeriadoId,
+      nome: dados.nome,
+      abrangencia: dados.abrangencia,
+      uf: dados.uf,
+      codigoIbge: dados.codigoIbge,
+      mes: dados.mes,
+      dia: dados.dia,
+      regraCalculo: dados.regraCalculo,
+      anoInicio: dados.anoInicio,
+      anoFim: dados.anoFim,
+      fonteId: fonte.id,
+      autor: dados.autor,
+      dataVerificacao: dados.dataVerificacao,
+      observacao: dados.observacao,
+      ativo: true,
+    })
+    .returning({ id: feriados.id })
+    .get();
+
+  return novo.id;
+}
+
+export function atualizarFeriadoCurado(id: number, dados: DadosFeriadoCurado): void {
+  const tipoFeriadoId = idDoTipoFeriado(dados.tipoChave);
+  const fonte = db
+    .insert(fontes)
+    .values({
+      descricao: dados.fonte.descricao,
+      url: dados.fonte.url,
+      tipo: dados.fonte.tipo,
+      dataPublicacao: dados.fonte.dataPublicacao,
+    })
+    .returning()
+    .get();
+
+  db.update(feriados)
+    .set({
+      tipoFeriadoId,
+      nome: dados.nome,
+      abrangencia: dados.abrangencia,
+      uf: dados.uf,
+      codigoIbge: dados.codigoIbge,
+      mes: dados.mes,
+      dia: dados.dia,
+      regraCalculo: dados.regraCalculo,
+      anoInicio: dados.anoInicio,
+      anoFim: dados.anoFim,
+      fonteId: fonte.id,
+      autor: dados.autor,
+      dataVerificacao: dados.dataVerificacao,
+      observacao: dados.observacao,
+    })
+    .where(eq(feriados.id, id))
+    .run();
+}
+
+export function definirAtivoFeriadoCurado(id: number, ativo: boolean): void {
+  db.update(feriados).set({ ativo }).where(eq(feriados.id, id)).run();
+}
+
+export function buscarFeriadoCuradoPorId(id: number): FeriadoCuradoResumo | undefined {
+  return listarFeriadosCurados().find((f) => f.id === id);
+}
+
+export interface CandidatoResumo {
+  id: number;
+  fonteDataset: string;
+  tipoSugerido: "estadual" | "municipal" | "ponto_facultativo";
+  nome: string;
+  descricaoOriginal: string | null;
+  uf: string;
+  codigoIbge: number | null;
+  municipioNome: string | null;
+  data: string;
+  status: "pendente" | "promovido" | "rejeitado";
+  importadoEm: string;
+}
+
+export function listarCandidatos(
+  filtro: { uf?: string; status?: "pendente" | "promovido" | "rejeitado" } = {},
+  limite = 50,
+  offset = 0,
+): CandidatoResumo[] {
+  const condicoes = [];
+  if (filtro.uf) condicoes.push(eq(candidatosNaoVerificados.uf, filtro.uf));
+  condicoes.push(eq(candidatosNaoVerificados.status, filtro.status ?? "pendente"));
+
+  return db
+    .select({
+      id: candidatosNaoVerificados.id,
+      fonteDataset: candidatosNaoVerificados.fonteDataset,
+      tipoSugerido: candidatosNaoVerificados.tipoSugerido,
+      nome: candidatosNaoVerificados.nome,
+      descricaoOriginal: candidatosNaoVerificados.descricaoOriginal,
+      uf: candidatosNaoVerificados.uf,
+      codigoIbge: candidatosNaoVerificados.codigoIbge,
+      municipioNome: municipios.nome,
+      data: candidatosNaoVerificados.data,
+      status: candidatosNaoVerificados.status,
+      importadoEm: candidatosNaoVerificados.importadoEm,
+    })
+    .from(candidatosNaoVerificados)
+    .leftJoin(municipios, eq(candidatosNaoVerificados.codigoIbge, municipios.codigoIbge))
+    .where(and(...condicoes))
+    .orderBy(candidatosNaoVerificados.uf, candidatosNaoVerificados.nome)
+    .limit(limite)
+    .offset(offset)
+    .all();
+}
+
+export function contarCandidatos(filtro: { uf?: string; status?: "pendente" | "promovido" | "rejeitado" } = {}): number {
+  const condicoes = [];
+  if (filtro.uf) condicoes.push(eq(candidatosNaoVerificados.uf, filtro.uf));
+  condicoes.push(eq(candidatosNaoVerificados.status, filtro.status ?? "pendente"));
+  const linha = db
+    .select({ total: sql<number>`count(*)` })
+    .from(candidatosNaoVerificados)
+    .where(and(...condicoes))
+    .get();
+  return linha?.total ?? 0;
+}
+
+export function buscarCandidatoPorId(id: number): CandidatoResumo | undefined {
+  return db
+    .select({
+      id: candidatosNaoVerificados.id,
+      fonteDataset: candidatosNaoVerificados.fonteDataset,
+      tipoSugerido: candidatosNaoVerificados.tipoSugerido,
+      nome: candidatosNaoVerificados.nome,
+      descricaoOriginal: candidatosNaoVerificados.descricaoOriginal,
+      uf: candidatosNaoVerificados.uf,
+      codigoIbge: candidatosNaoVerificados.codigoIbge,
+      municipioNome: municipios.nome,
+      data: candidatosNaoVerificados.data,
+      status: candidatosNaoVerificados.status,
+      importadoEm: candidatosNaoVerificados.importadoEm,
+    })
+    .from(candidatosNaoVerificados)
+    .leftJoin(municipios, eq(candidatosNaoVerificados.codigoIbge, municipios.codigoIbge))
+    .where(eq(candidatosNaoVerificados.id, id))
+    .get();
+}
+
+export function marcarStatusCandidato(id: number, status: "promovido" | "rejeitado"): void {
+  db.update(candidatosNaoVerificados).set({ status }).where(eq(candidatosNaoVerificados.id, id)).run();
+}
+
+/** Todas as UFs distintas presentes na fila de candidatos (para o filtro da tela administrativa). */
+export function listarUfsComCandidatos(): string[] {
+  return db
+    .selectDistinct({ uf: candidatosNaoVerificados.uf })
+    .from(candidatosNaoVerificados)
+    .orderBy(candidatosNaoVerificados.uf)
+    .all()
+    .map((r) => r.uf);
 }

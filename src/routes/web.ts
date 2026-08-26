@@ -122,6 +122,9 @@ export default async function rotasWeb(app: FastifyInstance) {
     const diasComOcorrencia: ResultadoConsultaDia[] = consulta.dias.filter((d) => d.ocorrencias.length > 0);
     const statusMunicipal = consulta.dias[0]?.statusMunicipal ?? "nao_verificado";
 
+    const dataInicioIso = `${dataInicio.ano}-${String(dataInicio.mes).padStart(2, "0")}-${String(dataInicio.dia).padStart(2, "0")}`;
+    const dataFimIso = `${dataFim.ano}-${String(dataFim.mes).padStart(2, "0")}-${String(dataFim.dia).padStart(2, "0")}`;
+
     reply.header("Cache-Control", CACHE_CURTO);
     return reply.view("resultado-periodo.ejs", {
       municipio: consulta.municipio,
@@ -129,8 +132,10 @@ export default async function rotasWeb(app: FastifyInstance) {
       calendarios,
       diasComOcorrencia,
       statusMunicipal,
-      dataInicioTexto: formatarBr(dataInicio.ano + "-" + String(dataInicio.mes).padStart(2, "0") + "-" + String(dataInicio.dia).padStart(2, "0")),
-      dataFimTexto: formatarBr(dataFim.ano + "-" + String(dataFim.mes).padStart(2, "0") + "-" + String(dataFim.dia).padStart(2, "0")),
+      dataInicioIso,
+      dataFimIso,
+      dataInicioTexto: formatarBr(dataInicioIso),
+      dataFimTexto: formatarBr(dataFimIso),
     });
   });
 }

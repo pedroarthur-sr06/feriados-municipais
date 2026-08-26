@@ -1,0 +1,34 @@
+<%- include('partials/head', { titulo: typeof titulo !== "undefined" ? titulo : "Operação em lote" }) %>
+<body>
+  <header class="topo">
+    <h1>Operação em lote</h1>
+    <p class="subtitulo">Envie uma planilha com postos e datas e baixe de volta com a classificação preenchida.</p>
+    <%- include('partials/nav') %>
+  </header>
+
+  <main>
+    <div class="instrucoes">
+      <strong>Formato esperado</strong> — CSV ou XLSX com as colunas
+      <code>posto</code>, <code>municipio</code>, <code>uf</code>, <code>data</code>
+      (data em <code>AAAA-MM-DD</code> ou <code>DD/MM/AAAA</code>). O arquivo baixado tem as mesmas colunas mais
+      <code>classificacao</code>, <code>tipos</code>, <code>fonte</code>, <code>status_municipal</code> e
+      <code>erro</code> (preenchida quando o município não é encontrado ou a data é inválida).
+    </div>
+
+    <% if (typeof erro !== "undefined" && erro) { %>
+      <div class="erro" role="alert" style="margin-bottom: 1rem;"><%= erro %></div>
+    <% } %>
+
+    <form action="/lote/processar" method="post" enctype="multipart/form-data" class="formulario-admin" style="max-width: 480px;">
+      <div class="campo">
+        <label for="arquivo">Arquivo (.csv ou .xlsx)</label>
+        <input type="file" id="arquivo" name="arquivo" accept=".csv,.xlsx" required />
+      </div>
+      <p class="ajuda-campo">Limite: 20.000 linhas / 10&nbsp;MB por envio.</p>
+      <button type="submit">Processar e baixar</button>
+    </form>
+  </main>
+
+  <%- include('partials/foot') %>
+</body>
+</html>

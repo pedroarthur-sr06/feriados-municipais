@@ -29,8 +29,11 @@ verificável no próprio texto do código.
 - **Frontend**: renderização server-side (Fastify + @fastify/view + EJS) com
   htmx + Alpine.js vendorizados em `public/vendor/` (sem CDN, sem
   SPA/bundler) — um único processo Node serve tudo, views em `views/`.
-- **Planilha/PDF (Fase 4)**: `exceljs`, `csv-parse`/`csv-stringify`,
-  `pdfmake`.
+- **Planilha/PDF**: `exceljs` (XLSX), `csv-parse`/`csv-stringify` (CSV),
+  `pdfmake` (PDF — usa a fonte padrão Helvetica do PDF, sem precisar
+  embutir `.ttf`; acentuação em português testada e funcionando).
+  Upload multipart via `@fastify/multipart`; formulários HTML via
+  `@fastify/formbody`.
 - **Testes**: Vitest.
 
 **Por quê essa stack**: o requisito não-funcional pede "simples de hospedar e
@@ -75,11 +78,19 @@ src/
     feriados-nacionais.ts  # feriados/pontos facultativos nacionais calculados por ano
     resolver.ts        # consultarDia / consultarPeriodo — camadas nacional+estadual+municipal
   services/
-    feriados-service.ts  # busca no SQLite (municípios, feriados curados) e chama o motor
+    feriados-service.ts  # busca no SQLite (municípios, feriados curados) e chama o motor; CRUD admin + candidatos
   routes/
-    web.ts            # página inicial + endpoints htmx (autocomplete, consulta)
+    web.ts             # página inicial + endpoints htmx (autocomplete, consulta)
+    lote.ts             # upload CSV/XLSX -> download classificado
+    exportacao.ts        # exportação CSV/PDF de um período
+    admin.ts              # tela administrativa (CRUD de feriados curados + fila de candidatos)
   web/
     calendario.ts      # helper de apresentação: monta a grade do calendário mensal
+  lote/
+    planilha.ts          # leitura/escrita CSV/XLSX (I/O puro, sem banco)
+    classificador.ts      # classifica linhas de planilha usando o serviço
+    pdf.ts                  # setup do pdfmake (fonte Helvetica padrão)
+    exportacao.ts           # linhas de período -> CSV/PDF para anexar ao fechamento
 views/                  # templates EJS (views/partials/ para fragmentos htmx)
 public/
   css/styles.css        # estilos (sem framework externo)
@@ -138,9 +149,29 @@ tests/                # Vitest
 5. Toda entrada em `feriados` carrega `fonte_id`, `autor` e
    `data_verificacao` — auditoria de quem cadastrou/confirmou o quê.
 
+## Operação em lote e administração (Fase 4)
+
+- **Lote** (`/lote`): CSV/XLSX com colunas `posto, municipio, uf, data` →
+  mesmo arquivo de volta com `classificacao, tipos, fonte,
+  status_municipal, erro`. Município é resolvido por nome+UF (não código
+  IBGE) com match exato e, se falhar, um segundo match ignorando acentos
+  (`buscarMunicipioPorNomeEUf` em feriados-service.ts) — nunca aproximação
+  por similaridade. Limite: 20.000 linhas / 10 MB por envio.
+- **Exportação** (`/exportar/csv`, `/exportar/pdf`): todos os dias do
+  período informado (inclusive os úteis) — é o documento para anexar ao
+  fechamento, diferente da lista resumida da tela de consulta (que só
+  mostra dias com ocorrência).
+- **Administração** (`/admin`): CRUD de `feriados` curados + fila de
+  `candidatos_nao_verificados` (revisar/promover/rejeitar). **Sem login
+  nesta versão** — qualquer pessoa com acesso à rede onde o app roda pode
+  editar dados; não é controle de acesso, é só o requisito explícito do
+  projeto para esta fase. Editar um feriado sempre grava uma fonte nova no
+  banco (fontes antigas nunca são apagadas) — dá um rastro básico de quem
+  citou o quê, mas não é um histórico de versões completo.
+
 ## Fases do projeto (ver plano completo com o usuário)
 
-Fase 0 (pesquisa de fontes), Fase 1 (fundação), Fase 2 (motor + testes) e
-Fase 3 (interface web) concluídas. Fase 4 (lote CSV/XLSX, exportação, tela
-administrativa) é a próxima — segue o mesmo padrão: uma fase por vez, com
-aprovação do usuário ao final.
+Fase 0 (pesquisa de fontes), Fase 1 (fundação), Fase 2 (motor + testes),
+Fase 3 (interface web) e Fase 4 (lote CSV/XLSX, exportação, administração)
+concluídas. Sem fases pendentes do escopo original — próximos passos ficam
+a critério do usuário.

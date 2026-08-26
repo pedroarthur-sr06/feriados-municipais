@@ -46,18 +46,37 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
 - **Feriados nacionais**: não precisam de atualização de dado — são
   calculados em código a partir da lei (Fase 2). Só muda se uma nova lei
   federal alterar a lista, o que exige alteração de código, não de seed.
-- **Feriados estaduais e municipais**: cadastro/correção manual, com fonte
-  obrigatória, pela tela administrativa (Fase 4) ou editando
-  `src/scripts/seed-feriados-curados.ts` (`npm run seed:feriados-curados`)
-  até a tela administrativa existir — nunca sem fonte primária verificada.
+- **Feriados estaduais e municipais**: cadastro/correção pela tela
+  administrativa em `/admin` (sempre pedindo fonte, autor e data de
+  verificação — nunca aceita sem fonte). Alternativa por script:
+  editar `src/scripts/seed-feriados-curados.ts` e rodar
+  `npm run seed:feriados-curados`.
 - **Candidatos não verificados**: `npm run seed:candidatos` reimporta o
   snapshot comunitário de `db/seed-data/`. Esses registros são só pistas de
-  trabalho — nunca aparecem como feriado confirmado para quem consulta.
+  trabalho (fila em `/admin/candidatos`) — nunca aparecem como feriado
+  confirmado para quem consulta.
+
+## Operação em lote e administração
+
+- **`/lote`** — envie um CSV/XLSX com colunas `posto, municipio, uf, data`
+  e baixe de volta o mesmo arquivo com `classificacao`, `tipos`, `fonte`,
+  `status_municipal` e `erro` preenchidos. Município é casado por
+  nome+UF (não por código IBGE) — se a grafia não bater com a base do
+  IBGE (nem ignorando acentuação), a linha volta com erro explicando.
+- **`/exportar/csv`** e **`/exportar/pdf`** — a partir da tela de consulta
+  por período, exportam todos os dias do intervalo (incluindo os úteis)
+  para anexar ao fechamento de ponto.
+- **`/admin`** — cadastra/edita/desativa feriados estaduais e municipais, e
+  revisa a fila de candidatos importados (`/admin/candidatos`), promovendo
+  os que tiverem fonte primária confirmada ou rejeitando os demais.
+  **Não tem login nesta versão** — qualquer pessoa com acesso à rede onde
+  o app roda pode editar; não é um controle de acesso, é o requisito
+  explícito do escopo atual.
 
 ## Estado do projeto
 
 - [x] Fase 0 — Pesquisa de fontes de dados
-- [x] Fase 1 — Fundação (este repositório: modelo de dados, seed do IBGE)
+- [x] Fase 1 — Fundação (modelo de dados, seed do IBGE)
 - [x] Fase 2 — Motor de feriados (cálculo + resolução em camadas + testes)
 - [x] Fase 3 — Interface web (busca com autocomplete, data única/período, calendário mensal, aviso de não verificado)
-- [ ] Fase 4 — Operação em lote (CSV/XLSX, exportação, tela administrativa)
+- [x] Fase 4 — Operação em lote (CSV/XLSX, exportação CSV/PDF, tela administrativa)

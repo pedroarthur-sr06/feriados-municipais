@@ -1,0 +1,71 @@
+<%- include('partials/head', { titulo: typeof titulo !== "undefined" ? titulo : "Administração" }) %>
+<body>
+  <header class="topo">
+    <h1>Administração</h1>
+    <p class="subtitulo">Feriados estaduais e municipais cadastrados manualmente — sempre com fonte, autor e data de verificação.</p>
+    <%- include('partials/nav') %>
+  </header>
+
+  <main>
+    <div class="instrucoes">
+      Sem login nesta versão — qualquer pessoa com acesso a este endereço pode editar. Toda edição substitui a fonte,
+      o autor e a data de verificação do registro (auditoria simples, sem histórico completo de versões ainda).
+    </div>
+
+    <p>
+      <a class="botao-link" href="/admin/feriados/novo">+ Novo feriado curado</a>
+      &nbsp;·&nbsp;
+      <a class="botao-link" href="/admin/candidatos"><%= totalCandidatosPendentes %> candidato(s) pendente(s) de revisão →</a>
+    </p>
+
+    <h2 class="secao-titulo">Feriados curados (<%= feriadosCurados.length %>)</h2>
+
+    <div class="tabela-wrap">
+      <table class="tabela-dados">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Tipo</th>
+            <th>Abrangência</th>
+            <th>Data</th>
+            <th>Fonte</th>
+            <th>Autor</th>
+            <th>Verificado em</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% feriadosCurados.forEach(function (f) { %>
+            <tr class="<%= f.ativo ? '' : 'inativo' %>">
+              <td><%= f.nome %></td>
+              <td><%= f.tipo %></td>
+              <td><%= f.abrangencia === 'uf' ? f.uf : (f.municipioNome + '/' + f.uf) %></td>
+              <td><%= f.regraCalculo ? f.regraCalculo : (String(f.dia).padStart(2,'0') + '/' + String(f.mes).padStart(2,'0')) %></td>
+              <td title="<%= f.fonteDescricao %>"><%= f.fonteDescricao.length > 40 ? f.fonteDescricao.slice(0, 40) + '…' : f.fonteDescricao %></td>
+              <td><%= f.autor %></td>
+              <td><%= f.dataVerificacao.split('-').reverse().join('/') %></td>
+              <td class="acoes">
+                <a class="botao-link" href="/admin/feriados/<%= f.id %>/editar">Editar</a>
+                <% if (f.ativo) { %>
+                  <form method="post" action="/admin/feriados/<%= f.id %>/desativar" onsubmit="return confirm('Desativar este feriado?');">
+                    <button type="submit" class="botao-perigo">Desativar</button>
+                  </form>
+                <% } else { %>
+                  <form method="post" action="/admin/feriados/<%= f.id %>/reativar">
+                    <button type="submit" class="botao-secundario">Reativar</button>
+                  </form>
+                <% } %>
+              </td>
+            </tr>
+          <% }); %>
+          <% if (feriadosCurados.length === 0) { %>
+            <tr><td colspan="8" class="sem-resultado">Nenhum feriado curado ainda.</td></tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <%- include('partials/foot') %>
+</body>
+</html>

@@ -1,5 +1,10 @@
 <h2><%= municipio.nome %>/<%= municipio.uf %> — <%= dataInicioTexto %> a <%= dataFimTexto %></h2>
 
+<div class="exportar-links">
+  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">⬇ Exportar CSV</a>
+  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">⬇ Exportar PDF</a>
+</div>
+
 <%- include('partials/aviso-nao-verificado', { statusMunicipal: statusMunicipal }) %>
 
 <%- include('partials/legenda') %>
