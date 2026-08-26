@@ -1,0 +1,37 @@
+{
+  "name": "feriados-municipais",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Consulta de feriados nacionais, estaduais e municipais para fechamento de ponto.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "seed": "tsx src/scripts/seed.ts",
+    "seed:municipios": "tsx src/scripts/seed-municipios.ts",
+    "seed:tipos-feriado": "tsx src/scripts/seed-tipos-feriado.ts",
+    "seed:candidatos": "tsx src/scripts/seed-candidatos.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "drizzle-orm": "^0.44.5",
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.20.0",
+    "drizzle-kit": "^0.31.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
