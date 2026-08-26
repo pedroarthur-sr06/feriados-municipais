@@ -1,0 +1,25 @@
+<h2><%= municipio.nome %>/<%= municipio.uf %> — <%= resultado.data.split("-").reverse().join("/") %>
+  <small>(<%= resultado.diaSemana %>)</small>
+</h2>
+
+<%- include('partials/aviso-nao-verificado', { statusMunicipal: resultado.statusMunicipal }) %>
+
+<%- include('partials/legenda') %>
+
+<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas }) %>
+
+<% if (resultado.ocorrencias.length === 0) { %>
+  <p class="sem-ocorrencias">
+    <% if (resultado.statusMunicipal === "verificado") { %>
+      Dia útil confirmado — nenhum feriado nacional, estadual ou municipal nesta data.
+    <% } else { %>
+      Nenhum feriado nacional ou estadual nesta data. Feriados municipais não verificados (ver aviso acima).
+    <% } %>
+  </p>
+<% } else { %>
+  <div class="lista-ocorrencias">
+    <% resultado.ocorrencias.forEach(function (o) { %>
+      <%- include('partials/ocorrencia-item', { o: o }) %>
+    <% }); %>
+  </div>
+<% } %>

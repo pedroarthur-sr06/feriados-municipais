@@ -1,0 +1,34 @@
+<%
+  const NOMES_DIA_SEMANA = ["D", "S", "T", "Q", "Q", "S", "S"];
+  const NOMES_MES_PT = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+%>
+<div class="calendario-wrap">
+  <p class="calendario-titulo"><%= NOMES_MES_PT[mes - 1] %> de <%= ano %></p>
+  <table class="calendario">
+    <thead>
+      <tr>
+        <% NOMES_DIA_SEMANA.forEach(function (n) { %><th scope="col"><%= n %></th><% }); %>
+      </tr>
+    </thead>
+    <tbody>
+      <% semanas.forEach(function (semana) { %>
+        <tr>
+          <% semana.forEach(function (celula) { %>
+            <% if (celula.dia === null) { %>
+              <td class="vazia"></td>
+            <% } else { %>
+              <%
+                const qtd = celula.resultado ? celula.resultado.ocorrencias.length : 0;
+                const titulo = qtd > 0 ? celula.resultado.ocorrencias.map(function(o){ return o.nome; }).join(" + ") : "";
+              %>
+              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
+                <%= celula.dia %>
+                <% if (qtd > 1) { %><span class="marcador-multiplo">+<%= qtd %></span><% } %>
+              </td>
+            <% } %>
+          <% }); %>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>

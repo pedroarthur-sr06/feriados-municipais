@@ -1,0 +1,223 @@
+/* Feriados Municipais — estilos. Mobile-first, sem framework externo. */
+
+:root {
+  --cor-fundo: #f7f7f5;
+  --cor-texto: #1f2328;
+  --cor-texto-suave: #57606a;
+  --cor-borda: #d0d7de;
+  --cor-superficie: #ffffff;
+  --cor-primaria: #0b5fff;
+  --cor-primaria-escura: #0a4fd6;
+
+  --cor-nacional: #0b5fff;
+  --cor-nacional-bg: #e6efff;
+  --cor-estadual: #7a3ff2;
+  --cor-estadual-bg: #efe6ff;
+  --cor-municipal: #1a8a4a;
+  --cor-municipal-bg: #e3f6ea;
+  --cor-facultativo: #b4750a;
+  --cor-facultativo-bg: #fdf0da;
+  --cor-nao-verificado: #b42318;
+  --cor-nao-verificado-bg: #fdecea;
+  --cor-util-bg: #ffffff;
+
+  --raio: 8px;
+  --fonte: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+[x-cloak] { display: none !important; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.topo {
+  padding: 1.25rem 1rem 0.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.topo h1 { margin: 0 0 0.25rem; font-size: 1.4rem; }
+.subtitulo { margin: 0; color: var(--cor-texto-suave); font-size: 0.95rem; }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem 3rem;
+}
+
+form#form-consulta {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.campo { display: flex; flex-direction: column; gap: 0.3rem; position: relative; }
+.campo-grupo { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.campo-grupo .campo { flex: 1 1 140px; }
+
+label { font-weight: 600; font-size: 0.9rem; }
+
+input[type="text"],
+input[type="date"] {
+  padding: 0.55rem 0.6rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+input:focus { outline: 2px solid var(--cor-primaria); outline-offset: 1px; }
+
+.opcoes-modo { display: flex; gap: 1.25rem; font-weight: 500; }
+.opcoes-modo label { display: flex; align-items: center; gap: 0.4rem; font-weight: 500; }
+
+button[type="submit"] {
+  background: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.65rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+button[type="submit"]:hover { background: var(--cor-primaria-escura); }
+
+.htmx-indicator { opacity: 0; margin-left: 0.75rem; color: var(--cor-texto-suave); transition: opacity 0.15s; }
+.htmx-request .htmx-indicator,
+.htmx-indicator.htmx-request { opacity: 1; }
+
+.lista-sugestoes { position: relative; }
+.sugestoes {
+  list-style: none;
+  margin: 0.25rem 0 0;
+  padding: 0.25rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: 6px;
+  background: var(--cor-superficie);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-height: 260px;
+  overflow-y: auto;
+}
+.sugestoes li { margin: 0; }
+.sugestoes button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.sugestoes button:hover, .sugestoes button:focus { background: var(--cor-nacional-bg); }
+.sugestoes .uf { color: var(--cor-texto-suave); font-size: 0.85rem; }
+.sem-resultado { margin: 0.4rem 0 0; color: var(--cor-texto-suave); font-size: 0.9rem; }
+
+.municipio-selecionado { margin: 0; font-size: 0.9rem; color: var(--cor-primaria-escura); font-weight: 600; min-height: 1.2em; }
+
+.dica { color: var(--cor-texto-suave); }
+
+.aviso {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  background: var(--cor-nao-verificado-bg);
+  border: 1px solid var(--cor-nao-verificado);
+  color: #7a1710;
+  border-radius: var(--raio);
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+.aviso strong { display: block; margin-bottom: 0.15rem; }
+
+.legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin: 0.75rem 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--cor-texto-suave);
+}
+.legenda-item { display: flex; align-items: center; gap: 0.35rem; }
+.legenda-swatch { width: 0.85rem; height: 0.85rem; border-radius: 3px; display: inline-block; border: 1px solid rgba(0,0,0,0.15); }
+
+.calendario-wrap { margin-bottom: 1.5rem; }
+.calendario-titulo { font-weight: 700; margin: 0 0 0.5rem; text-transform: capitalize; }
+
+table.calendario { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--cor-superficie); border: 1px solid var(--cor-borda); border-radius: var(--raio); overflow: hidden; }
+table.calendario th { font-size: 0.72rem; font-weight: 600; color: var(--cor-texto-suave); padding: 0.35rem 0.1rem; border-bottom: 1px solid var(--cor-borda); }
+table.calendario td { height: 2.6rem; text-align: center; vertical-align: middle; font-size: 0.85rem; border: 1px solid #eef0f2; position: relative; }
+table.calendario td.vazia { background: #fafbfc; }
+
+td.dia-nacional { background: var(--cor-nacional-bg); color: var(--cor-nacional); font-weight: 700; }
+td.dia-estadual { background: var(--cor-estadual-bg); color: var(--cor-estadual); font-weight: 700; }
+td.dia-municipal { background: var(--cor-municipal-bg); color: var(--cor-municipal); font-weight: 700; }
+td.dia-ponto_facultativo { background: var(--cor-facultativo-bg); color: var(--cor-facultativo); font-weight: 700; }
+td.dia-nao_verificado { background: repeating-linear-gradient(45deg, var(--cor-nao-verificado-bg), var(--cor-nao-verificado-bg) 6px, #fff 6px, #fff 12px); color: var(--cor-nao-verificado); }
+td.dia-util { background: var(--cor-util-bg); color: var(--cor-texto); }
+
+td.tem-ocorrencia { cursor: default; }
+td .marcador-multiplo { position: absolute; top: 2px; right: 3px; font-size: 0.6rem; }
+
+.lista-ocorrencias { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.5rem; }
+.ocorrencia {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-left-width: 5px;
+  border-radius: 6px;
+  padding: 0.65rem 0.8rem;
+}
+.ocorrencia.camada-nacional { border-left-color: var(--cor-nacional); }
+.ocorrencia.camada-estadual { border-left-color: var(--cor-estadual); }
+.ocorrencia.camada-municipal { border-left-color: var(--cor-municipal); }
+.ocorrencia.camada-ponto_facultativo { border-left-color: var(--cor-facultativo); }
+
+.ocorrencia-cabecalho { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.ocorrencia-nome { font-weight: 700; }
+.ocorrencia-data { color: var(--cor-texto-suave); font-size: 0.85rem; }
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+}
+.badge.camada-nacional { background: var(--cor-nacional-bg); color: var(--cor-nacional); }
+.badge.camada-estadual { background: var(--cor-estadual-bg); color: var(--cor-estadual); }
+.badge.camada-municipal { background: var(--cor-municipal-bg); color: var(--cor-municipal); }
+.badge.camada-ponto_facultativo { background: var(--cor-facultativo-bg); color: var(--cor-facultativo); }
+
+.ocorrencia-fonte { margin: 0.3rem 0 0; font-size: 0.85rem; color: var(--cor-texto-suave); }
+.ocorrencia-fonte a { color: var(--cor-primaria-escura); }
+.ocorrencia-verificacao { margin: 0.15rem 0 0; font-size: 0.78rem; color: var(--cor-texto-suave); }
+
+.resumo-periodo { font-size: 0.95rem; margin-bottom: 0.75rem; }
+.sem-ocorrencias { color: var(--cor-texto-suave); font-style: italic; }
+
+.erro { background: var(--cor-nao-verificado-bg); border: 1px solid var(--cor-nao-verificado); color: #7a1710; border-radius: var(--raio); padding: 0.75rem 0.9rem; }
+
+footer.rodape { max-width: 960px; margin: 2rem auto 0; padding: 0 1rem 1.5rem; color: var(--cor-texto-suave); font-size: 0.8rem; }
+
+@media (min-width: 640px) {
+  .topo h1 { font-size: 1.7rem; }
+  form#form-consulta { flex-direction: row; flex-wrap: wrap; align-items: flex-end; }
+  form#form-consulta .campo:has(#municipio-busca) { flex: 1 1 260px; }
+  form#form-consulta button[type="submit"] { align-self: center; }
+  .calendarios-periodo { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+}

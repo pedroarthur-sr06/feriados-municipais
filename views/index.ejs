@@ -1,0 +1,67 @@
+<%- include('partials/head', { titulo: 'Feriados Municipais' }) %>
+<body>
+  <header class="topo">
+    <h1>Feriados Municipais</h1>
+    <p class="subtitulo">No dia X, no município Y/UF, houve feriado ou ponto facultativo? Sempre com a fonte.</p>
+  </header>
+
+  <main>
+    <form id="form-consulta" hx-get="/consulta" hx-target="#resultado" hx-indicator="#carregando"
+          x-data="{ modo: 'dia' }">
+      <div class="campo">
+        <label for="municipio-busca">Município</label>
+        <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off"
+               placeholder="Digite o nome do município..."
+               hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
+               hx-target="#lista-municipios" hx-swap="innerHTML" />
+        <input type="hidden" id="codigoIbge" name="codigoIbge" />
+        <div id="lista-municipios" class="lista-sugestoes"></div>
+        <p id="municipio-selecionado" class="municipio-selecionado" aria-live="polite"></p>
+      </div>
+
+      <div class="campo">
+        <span class="opcoes-modo">
+          <label><input type="radio" name="modo" value="dia" x-model="modo" checked /> Data única</label>
+          <label><input type="radio" name="modo" value="periodo" x-model="modo" /> Período</label>
+        </span>
+      </div>
+
+      <div class="campo" x-show="modo === 'dia'">
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" />
+      </div>
+
+      <div class="campo-grupo" x-show="modo === 'periodo'" x-cloak>
+        <div class="campo">
+          <label for="dataInicio">De</label>
+          <input type="date" id="dataInicio" name="dataInicio" />
+        </div>
+        <div class="campo">
+          <label for="dataFim">Até</label>
+          <input type="date" id="dataFim" name="dataFim" />
+        </div>
+      </div>
+
+      <div class="campo">
+        <button type="submit">Consultar</button>
+        <span id="carregando" class="htmx-indicator">Consultando…</span>
+      </div>
+    </form>
+
+    <section id="resultado" aria-live="polite">
+      <p class="dica">Busque um município e escolha uma data para começar.</p>
+    </section>
+  </main>
+
+  <%- include('partials/foot') %>
+
+  <script>
+    function selecionarMunicipio(codigoIbge, nome, uf) {
+      document.getElementById("codigoIbge").value = codigoIbge;
+      document.getElementById("municipio-busca").value = nome + " / " + uf;
+      document.getElementById("lista-municipios").innerHTML = "";
+      document.getElementById("municipio-selecionado").textContent = "Selecionado: " + nome + "/" + uf;
+    }
+  </script>
+</body>
+</html>

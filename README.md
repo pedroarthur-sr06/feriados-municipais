@@ -47,8 +47,9 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
   calculados em código a partir da lei (Fase 2). Só muda se uma nova lei
   federal alterar a lista, o que exige alteração de código, não de seed.
 - **Feriados estaduais e municipais**: cadastro/correção manual, com fonte
-  obrigatória, pela tela administrativa (Fase 4) ou diretamente na tabela
-  `feriados` — nunca sem preencher `fonte_id`, `autor` e `data_verificacao`.
+  obrigatória, pela tela administrativa (Fase 4) ou editando
+  `src/scripts/seed-feriados-curados.ts` (`npm run seed:feriados-curados`)
+  até a tela administrativa existir — nunca sem fonte primária verificada.
 - **Candidatos não verificados**: `npm run seed:candidatos` reimporta o
   snapshot comunitário de `db/seed-data/`. Esses registros são só pistas de
   trabalho — nunca aparecem como feriado confirmado para quem consulta.
@@ -58,5 +59,5 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
 - [x] Fase 0 — Pesquisa de fontes de dados
 - [x] Fase 1 — Fundação (este repositório: modelo de dados, seed do IBGE)
 - [x] Fase 2 — Motor de feriados (cálculo + resolução em camadas + testes)
-- [ ] Fase 3 — Interface web
+- [x] Fase 3 — Interface web (busca com autocomplete, data única/período, calendário mensal, aviso de não verificado)
 - [ ] Fase 4 — Operação em lote (CSV/XLSX, exportação, tela administrativa)

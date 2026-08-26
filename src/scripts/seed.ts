@@ -5,7 +5,7 @@
  */
 import { spawnSync } from "node:child_process";
 
-const ETAPAS = ["seed:tipos-feriado", "seed:municipios", "seed:candidatos"];
+const ETAPAS = ["seed:tipos-feriado", "seed:municipios", "seed:feriados-curados", "seed:candidatos"];
 
 for (const etapa of ETAPAS) {
   console.log(`\n=== npm run ${etapa} ===`);

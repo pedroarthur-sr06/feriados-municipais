@@ -1,0 +1,22 @@
+<%
+  const ROTULOS_CAMADA = {
+    nacional: "Nacional",
+    estadual: "Estadual",
+    municipal: "Municipal",
+    ponto_facultativo: "Ponto facultativo",
+  };
+%>
+<article class="ocorrencia camada-<%= o.camada %>">
+  <div class="ocorrencia-cabecalho">
+    <span class="ocorrencia-nome"><%= o.nome %></span>
+    <span class="badge camada-<%= o.camada %>"><%= ROTULOS_CAMADA[o.camada] %></span>
+  </div>
+  <p class="ocorrencia-data"><%= o.data.split("-").reverse().join("/") %></p>
+  <p class="ocorrencia-fonte">
+    <strong>Fonte:</strong> <%= o.baseLegal %>
+    <% if (o.fonteUrl) { %> — <a href="<%= o.fonteUrl %>" target="_blank" rel="noopener noreferrer">ver fonte</a><% } %>
+  </p>
+  <% if (o.dataVerificacao) { %>
+    <p class="ocorrencia-verificacao">Última verificação: <%= o.dataVerificacao.split("-").reverse().join("/") %></p>
+  <% } %>
+</article>

@@ -26,9 +26,9 @@ verificável no próprio texto do código.
 - **Banco**: SQLite (arquivo único em `data/holidays.db`) via
   `better-sqlite3` + [Drizzle ORM](https://orm.drizzle.team/) — schema em
   [src/db/schema.ts](src/db/schema.ts), migrations geradas em `drizzle/`.
-- **Frontend (Fase 3)**: renderização server-side (Fastify + EJS) com
-  htmx + Alpine.js vendorizados (sem CDN, sem SPA/bundler) — um único
-  processo Node serve tudo.
+- **Frontend**: renderização server-side (Fastify + @fastify/view + EJS) com
+  htmx + Alpine.js vendorizados em `public/vendor/` (sem CDN, sem
+  SPA/bundler) — um único processo Node serve tudo, views em `views/`.
 - **Planilha/PDF (Fase 4)**: `exceljs`, `csv-parse`/`csv-stringify`,
   `pdfmake`.
 - **Testes**: Vitest.
@@ -52,10 +52,11 @@ npm run test:watch    # Vitest em modo watch
 npm run db:generate   # gera migration SQL a partir de src/db/schema.ts
 npm run db:migrate    # aplica migrations em data/holidays.db
 
-npm run seed          # roda todos os seeds, em ordem (tipos -> municípios -> candidatos)
-npm run seed:tipos-feriado   # seed dos 4 tipos fixos (nacional/estadual/municipal/facultativo)
-npm run seed:municipios      # importa municípios da API do IBGE (~5.570 registros)
-npm run seed:candidatos      # importa dataset comunitário como leads não verificados
+npm run seed          # roda todos os seeds, em ordem (tipos -> municípios -> feriados curados -> candidatos)
+npm run seed:tipos-feriado    # seed dos 4 tipos fixos (nacional/estadual/municipal/facultativo)
+npm run seed:municipios       # importa municípios da API do IBGE (~5.570 registros)
+npm run seed:feriados-curados # feriados estaduais/municipais REAIS, com fonte primária verificada
+npm run seed:candidatos       # importa dataset comunitário como leads não verificados
 ```
 
 ## Estrutura de pastas
@@ -68,11 +69,21 @@ src/
     migrate.ts    # aplica migrations
   scripts/
     seed*.ts       # scripts de seed (idempotentes, upsert)
-  server.ts        # entrypoint Fastify
+  server.ts        # entrypoint Fastify (registra view engine, estáticos, rotas)
   motor/            # lógica pura: cálculo de feriados nacionais + resolução em camadas (sem acesso a banco)
     pascoa.ts         # algoritmo de Gauss/Meeus + aritmética de datas
     feriados-nacionais.ts  # feriados/pontos facultativos nacionais calculados por ano
     resolver.ts        # consultarDia / consultarPeriodo — camadas nacional+estadual+municipal
+  services/
+    feriados-service.ts  # busca no SQLite (municípios, feriados curados) e chama o motor
+  routes/
+    web.ts            # página inicial + endpoints htmx (autocomplete, consulta)
+  web/
+    calendario.ts      # helper de apresentação: monta a grade do calendário mensal
+views/                  # templates EJS (views/partials/ para fragmentos htmx)
+public/
+  css/styles.css        # estilos (sem framework externo)
+  vendor/                # htmx.min.js e alpine.min.js vendorizados (sem CDN)
 db/
   seed-data/        # snapshots versionados de datasets externos usados no seed (ex.: candidatos comunitários)
 drizzle/            # migrations SQL geradas (versionadas no git)
@@ -129,7 +140,7 @@ tests/                # Vitest
 
 ## Fases do projeto (ver plano completo com o usuário)
 
-Fase 0 (pesquisa de fontes) e Fase 1 (fundação, este commit) concluídas.
-Fase 2 (motor de feriados + testes), Fase 3 (interface) e Fase 4 (lote +
-admin) seguem uma de cada vez, com aprovação do usuário ao final de cada
-uma — não pular fases nem assumir escopo delas.
+Fase 0 (pesquisa de fontes), Fase 1 (fundação), Fase 2 (motor + testes) e
+Fase 3 (interface web) concluídas. Fase 4 (lote CSV/XLSX, exportação, tela
+administrativa) é a próxima — segue o mesmo padrão: uma fase por vez, com
+aprovação do usuário ao final.

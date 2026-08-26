@@ -1,0 +1,27 @@
+<h2><%= municipio.nome %>/<%= municipio.uf %> — <%= dataInicioTexto %> a <%= dataFimTexto %></h2>
+
+<%- include('partials/aviso-nao-verificado', { statusMunicipal: statusMunicipal }) %>
+
+<%- include('partials/legenda') %>
+
+<div class="calendarios-periodo">
+  <% calendarios.forEach(function (c) { %>
+    <%- include('partials/calendario', { ano: c.ano, mes: c.mes, semanas: c.semanas }) %>
+  <% }); %>
+</div>
+
+<p class="resumo-periodo">
+  <strong><%= diasComOcorrencia.length %></strong> dia(s) não útil(eis) classificado(s) em <%= dias.length %> dia(s) do período.
+</p>
+
+<% if (diasComOcorrencia.length === 0) { %>
+  <p class="sem-ocorrencias">Nenhum feriado nacional, estadual ou municipal confirmado neste período.</p>
+<% } else { %>
+  <div class="lista-ocorrencias">
+    <% diasComOcorrencia.forEach(function (resultado) { %>
+      <% resultado.ocorrencias.forEach(function (o) { %>
+        <%- include('partials/ocorrencia-item', { o: o }) %>
+      <% }); %>
+    <% }); %>
+  </div>
+<% } %>
