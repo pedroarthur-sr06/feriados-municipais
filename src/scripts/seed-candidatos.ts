@@ -55,45 +55,49 @@ function main() {
   let totalInseridos = 0;
   let totalIgnoradosCodigoInvalido = 0;
 
-  const inserirLote = db.transaction((registros: RegistroFonte[], tipo: "estadual" | "municipal") => {
-    for (const r of registros) {
-      const codigoIbge = r.codigo_ibge && codigosValidos.has(r.codigo_ibge) ? r.codigo_ibge : null;
-      if (r.codigo_ibge && !codigoIbge) {
-        totalIgnoradosCodigoInvalido++;
+  const lotes = arquivos.map(({ caminho, tipo }) => ({
+    caminho,
+    tipo,
+    registros: carregar(caminho),
+  }));
+
+  db.transaction((tx) => {
+    // Evita duplicar em re-execuções: limpa import anterior deste dataset antes de recarregar.
+    tx.delete(candidatosNaoVerificados)
+      .where(eq(candidatosNaoVerificados.fonteDataset, DATASET_ID))
+      .run();
+
+    for (const { registros, tipo } of lotes) {
+      for (const r of registros) {
+        const codigoIbge = r.codigo_ibge && codigosValidos.has(r.codigo_ibge) ? r.codigo_ibge : null;
+        if (r.codigo_ibge && !codigoIbge) {
+          totalIgnoradosCodigoInvalido++;
+        }
+        tx.insert(candidatosNaoVerificados)
+          .values({
+            fonteDataset: DATASET_ID,
+            tipoSugerido: tipo,
+            nome: r.nome,
+            descricaoOriginal: r.descricao || null,
+            uf: r.uf,
+            codigoIbge,
+            municipioNomeOriginal: null,
+            data: paraIso(r.data),
+            status: "pendente",
+            importadoEm: agora,
+          })
+          .run();
+        totalInseridos++;
       }
-      db.insert(candidatosNaoVerificados)
-        .values({
-          fonteDataset: DATASET_ID,
-          tipoSugerido: tipo,
-          nome: r.nome,
-          descricaoOriginal: r.descricao || null,
-          uf: r.uf,
-          codigoIbge,
-          municipioNomeOriginal: null,
-          data: paraIso(r.data),
-          status: "pendente",
-          importadoEm: agora,
-        })
-        .run();
-      totalInseridos++;
     }
   });
 
-  // Evita duplicar em re-execuções: limpa import anterior deste dataset antes de recarregar.
-  db.delete(candidatosNaoVerificados)
-    .where(eq(candidatosNaoVerificados.fonteDataset, DATASET_ID))
-    .run();
-
-  for (const { caminho, tipo } of arquivos) {
-    const registros = carregar(caminho);
-    inserirLote(registros, tipo);
+  for (const { caminho, tipo, registros } of lotes) {
     console.log(`  ${caminho}: ${registros.length} registros processados (tipo=${tipo}).`);
   }
 
-  const [{ total }] = db
-    .select({ total: sql<number>`count(*)` })
-    .from(candidatosNaoVerificados)
-    .all() as { total: number }[];
+  const contagem = db.select({ total: sql<number>`count(*)` }).from(candidatosNaoVerificados).all();
+  const total = contagem[0]?.total ?? 0;
 
   console.log(`✔ ${totalInseridos} candidatos inseridos (${total} na tabela ao todo).`);
   if (totalIgnoradosCodigoInvalido > 0) {

@@ -17,7 +17,11 @@ verificável no próprio texto do código.
 
 ## Stack
 
-- **Runtime**: Node.js 20+ / TypeScript (`"type": "module"`, ESM).
+- **Runtime**: Node.js 20 ou 22 LTS / TypeScript (`"type": "module"`, ESM).
+  Evitar Node 24+ por ora — `better-sqlite3` não publica binário
+  pré-compilado para essa ABI ainda, e sem Python/build tools o
+  `npm install` trava tentando compilar do zero (visto na prática nesta
+  máquina). Ver [README.md](README.md) para detalhes.
 - **Servidor**: [Fastify](https://fastify.dev/).
 - **Banco**: SQLite (arquivo único em `data/holidays.db`) via
   `better-sqlite3` + [Drizzle ORM](https://orm.drizzle.team/) — schema em

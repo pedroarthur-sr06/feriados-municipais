@@ -9,7 +9,12 @@ ponto facultativo num município, sempre citando a fonte.
 
 ## Instalação
 
-Requer [Node.js](https://nodejs.org/) 20 ou superior.
+Requer [Node.js](https://nodejs.org/) 20 ou 22 (LTS). **Evite Node 24+ por
+enquanto**: o `better-sqlite3` só publica binário pré-compilado até a ABI do
+Node 22; em versões mais novas o `npm install` tenta compilar na hora e, sem
+Python/ferramentas de build instaladas, trava. Se a máquina não tiver Node,
+baixe o zip portátil em https://nodejs.org/ (não precisa do instalador MSI,
+que exige admin) e extraia num local do seu usuário.
 
 ```bash
 npm install
@@ -25,6 +30,13 @@ Verifique a instalação:
 npm test               # roda a suíte de testes
 curl http://localhost:3000/health   # deve responder {"status":"ok"}
 ```
+
+**Problema conhecido**: `npm audit` reporta uma vulnerabilidade moderada
+transitiva do `drizzle-kit` (dependência de desenvolvimento antiga —
+`@esbuild-kit/esm-loader` — que ele mesmo empacota). É usada só localmente
+para gerar migrations, nunca roda em produção nem fica exposta pela
+aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
+`drizzle-kit` para uma versão quebrada, por isso foi deixada como está.
 
 ## Atualizando a base de feriados
 

@@ -45,9 +45,13 @@ async function main() {
   }
 
   const rows = data.map((m) => {
-    // A API expõe UF em dois caminhos possíveis dependendo do tipo de
-    // localidade; municípios normais sempre têm microrregiao.mesorregiao.UF.
-    const uf = m.microrregiao?.mesorregiao?.UF;
+    // A API do IBGE expõe a UF por dois caminhos possíveis. A maioria dos
+    // municípios tem microrregiao.mesorregiao.UF preenchido, mas alguns
+    // (ex.: 5101837 - Boa Esperança do Norte/MT) vêm com microrregiao=null
+    // e só têm UF disponível via regiao-imediata.regiao-intermediaria.UF.
+    const uf =
+      m.microrregiao?.mesorregiao?.UF ??
+      m["regiao-imediata"]?.["regiao-intermediaria"]?.UF;
     if (!uf) {
       throw new Error(`Município ${m.id} (${m.nome}) sem UF na resposta do IBGE.`);
     }
@@ -61,9 +65,9 @@ async function main() {
     };
   });
 
-  const insertMany = db.transaction((batch: typeof rows) => {
-    for (const row of batch) {
-      db.insert(municipios)
+  db.transaction((tx) => {
+    for (const row of rows) {
+      tx.insert(municipios)
         .values(row)
         .onConflictDoUpdate({
           target: municipios.codigoIbge,
@@ -78,12 +82,9 @@ async function main() {
         .run();
     }
   });
-  insertMany(rows);
 
-  const [{ total }] = db
-    .select({ total: sql<number>`count(*)` })
-    .from(municipios)
-    .all() as { total: number }[];
+  const contagem = db.select({ total: sql<number>`count(*)` }).from(municipios).all();
+  const total = contagem[0]?.total ?? 0;
   console.log(`Total de municípios na base local: ${total}`);
 
   const salvador = db
