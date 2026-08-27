@@ -72,15 +72,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE parciais (todos com alguns
-// promovidos, resto pendente — ver commits para detalhe por estado). Estaduais confirmados:
-// AM, PA (ainda falta), SC (ainda falta), SE (Aniversário de Sergipe, feito) e ~20 outros
-// (ver commits). Próxima: MS(150), PA(155, estadual N.Sra.Conceição pendente), MT(169),
-// ES(177), RJ(223) — continuar smallest-to-largest, sempre olhando primeiro
-// descricao_original por citação de lei embutida (grande atalho, ver padrão Teresina/Natal)
-// e depois clusters de data (padroeiro/emancipação compartilhados entre municípios).
-// `SELECT uf, COUNT(*) FROM candidatos_nao_verificados WHERE status='pendente' GROUP BY uf`.
-// -----------------------------------------------------------------------
+// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE, MS parciais (todos com
+// alguns promovidos, resto pendente — ver commits para detalhe por estado). ~28 feriados
+// ESTADUAIS confirmados (ver commits). Próxima: PA(155, estadual N.Sra.Conceição pendente),
+// MT(169), ES(177), RJ(223) — smallest-to-largest, sempre olhando primeiro
+// descricao_original por citação de lei embutida (atalho: padrão Teresina/Natal/Campo
+// Grande) e depois clusters de data (padroeiro/emancipação compartilhados entre municípios).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
