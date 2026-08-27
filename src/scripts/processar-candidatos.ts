@@ -175,7 +175,18 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 1870, mas Coruripe e Limoeiro de Anadia REJEITADOS pelo padrão de discórdia) e 13/06 (3
 // candidatos já rotulados 'Dia de Santo Antônio' no dataset). AL ainda tem candidatos
 // pendentes sem citação suficiente (08/09 Batalha, 31/05 Piaçabuçu/Campo Grande, 20/01 dos
-// demais municípios do cluster).
+// demais municípios do cluster). SE iniciado (20 promovidos, 1 rejeitado): o calendário
+// oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE, PDF anual) se
+// revelou uma fonte muito produtiva — cobre feriados municipais de praticamente todas as
+// comarcas do estado numa só fonte oficial, resolveu de uma vez os clusters de 19/03 (São
+// José), parte de 06/24 (São João) e 06/29 (São Pedro), 15/08 (padroeiras variadas: Nossa
+// Senhora da Glória, do Amparo, da Paz, Imperatriz dos Campos, Assunção) e 02/02 (padroeiras
+// variadas: Nossa Senhora da Ajuda, do Socorro, da Guia). Vale usar esse tipo de calendário
+// de comarca/TJ como fonte primária em outros estados também — geralmente publicado anualmente
+// em PDF pelo Tribunal de Justiça estadual. Malhador e Tomar do Geru confirmam mais uma onda
+// de criação simultânea (Lei nº 525-A, de 25/11/1953). Cluster de 12/08 (Nossa Senhora da
+// Conceição, 7 candidatos) ficou pendente — SE não tem estadual pleno nem ponto_facultativo
+// nessa data (só 08/07, Aniversário de Sergipe), precisaria confirmação individual por cidade.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
