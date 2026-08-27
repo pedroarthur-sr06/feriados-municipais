@@ -72,9 +72,22 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO, RR e AP completos. Próxima UF: ver query abaixo.
+// Progresso: RO, RR, AP e AC completos. Próxima UF: ver query abaixo.
 // `SELECT uf, COUNT(*) FROM candidatos_nao_verificados WHERE status='pendente' GROUP BY uf`.
 // -----------------------------------------------------------------------
+const REJEITO_DUPLICATA_ESTADUAL_EVANGELICO = {
+  acao: "rejeitar" as const,
+  motivo: "23/01 \"Feriado Municipal\" — data idêntica ao feriado ESTADUAL \"Dia do Evangélico\" (Lei 1.538/2004), já cadastrado com abrangência de UF (cobre todo o Acre, incluindo este município). Nenhuma evidência de lei municipal distinta — provável vazamento do feriado estadual para a lista por município no dataset de origem. Não promovido como municipal (seria redundante).",
+};
+const REJEITO_DUPLICATA_ESTADUAL_AMAZONIA = {
+  acao: "rejeitar" as const,
+  motivo: "\"Feriado Municipal\" em 06/09 — um dia depois do feriado ESTADUAL \"Dia da Amazônia\" (05/09, Lei 243/1968), já cadastrado com abrangência de UF. Provável erro de 1 dia + vazamento do feriado estadual para a lista por município. Não promovido como municipal.",
+};
+const REJEITO_DUPLICATA_ESTADUAL_CATOLICO = {
+  acao: "rejeitar" as const,
+  motivo: "20/01 \"Feriado Municipal\" — data-base do feriado ESTADUAL \"Dia do Católico\" (Lei 3.137/2016), já cadastrado com abrangência de UF. Nenhuma evidência de lei municipal distinta. Não promovido como municipal.",
+};
+
 const DECISOES2: Decisao[] = [];
 const DECISOES: Decisao[] = [];
 function main() {
