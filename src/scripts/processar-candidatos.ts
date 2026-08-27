@@ -74,10 +74,10 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
 // Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE, MS parciais (todos com
 // alguns promovidos, resto pendente — ver commits para detalhe por estado). ~28 feriados
-// ESTADUAIS confirmados (ver commits). Próxima: PA(155, estadual N.Sra.Conceição pendente),
-// MT(169), ES(177), RJ(223) — smallest-to-largest, sempre olhando primeiro
-// descricao_original por citação de lei embutida (atalho: padrão Teresina/Natal/Campo
-// Grande) e depois clusters de data (padroeiro/emancipação compartilhados entre municípios).
+// ESTADUAIS confirmados (ver commits). PA feito (parcial). Próxima: MT(169), ES(177),
+// RJ(223) — smallest-to-largest, sempre olhando primeiro descricao_original por citação
+// de lei embutida (atalho: padrão Teresina/Natal/Campo Grande/Belém) e depois clusters
+// de data (padroeiro/emancipação compartilhados entre municípios).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
