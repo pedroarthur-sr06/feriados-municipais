@@ -163,7 +163,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // e São Gabriel da Cachoeira/AM. Oeiras trouxe outra citação de lei específica (Lei nº
 // 1.135/1979). O grande cluster de 08/12 (13 candidatos restantes) permanece pendente — cada
 // cidade exigiria confirmação individual de padroeira, como já anotado no ponto_facultativo
-// estadual do PI.
+// estadual do PI. AL iniciado: confirma que 08/12 (Nossa Senhora da Conceição) já era feriado
+// ESTADUAL pleno em Alagoas (curado em leva anterior desta sessão) — resolveu de uma vez um
+// cluster de 27 candidatos municipais redundantes (mesmo padrão MA, mas ainda maior em
+// contagem). Nenhuma mudança em `feriados`/seed neste commit (só rejeições, que só alteram
+// status em `candidatos_nao_verificados`, tabela não versionada) — só o registro do achado
+// aqui no comentário. AL ainda tem outros clusters bons pendentes (20/01 com 5, 31/05 e 16/05
+// e 24/04 com 4 cada) para a próxima leva.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
