@@ -90,10 +90,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Taboão da Serra, Taubaté processados — a leva de SP também revelou um caso importante:
 // Dia da Consciência Negra (20/11) é feriado NACIONAL desde 2024, então uma lei municipal de
 // São Paulo anterior a isso instituindo a mesma data foi REJEITADA por redundância — mesmo
-// raciocínio de Sexta-feira Santa, útil lembrar ao revisar outros estados). Maringá/PR tem
-// 1 candidato pendente (antecipação de aniversário "2ª segunda-feira de maio" — limitação
-// de regraCalculo só aceitar pascoa±N). Próxima: MG(1410), o maior estado que resta.
-// smallest-to-largest continua valendo, sempre olhando primeiro descricao_original por
+// raciocínio de Sexta-feira Santa, útil lembrar ao revisar outros estados). MG também
+// parcial agora (Belo Horizonte capital, Uberlândia, Uberaba, Contagem, Juiz de Fora, Betim,
+// Montes Claros, Ribeirão das Neves, Pouso Alegre, Ipatinga, Araxá processados — mesmo
+// achado da Consciência Negra confirmado de novo em Betim e Uberaba, rejeitados). MARCO:
+// todos os 26 estados + DF já têm pelo menos alguns feriados curados nesta sessão (ver
+// commits) — o trabalho que resta agora é aprofundar cada estado, não mais abrir estados
+// novos. Maringá/PR tem 1 candidato pendente (antecipação de aniversário "2ª segunda-feira
+// de maio" — limitação de regraCalculo só aceitar pascoa±N). Continuar smallest-to-largest
+// pelos candidatos restantes de cada estado, sempre olhando primeiro descricao_original por
 // citação de lei embutida e depois clusters de data (padroeiro/emancipação compartilhados).
 const DECISOES2: Decisao[] = [
 ];
