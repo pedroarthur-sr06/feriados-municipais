@@ -194,7 +194,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Ceará-Mirim, Touros, Nova Cruz — que também tem São Sebastião em 20/01, cidades podem ter
 // 2 feriados de padroeiro/co-padroeiro — e Pedro Avelino, nome do município já homenageia o
 // santo). Mais 4 já rotulados no dataset (São José ×3, São João ×1). Cluster de 08/12 (14
-// candidatos) e 11/27 (4) ficaram pendentes por falta de fonte específica encontrada.
+// candidatos) e 11/27 (4) ficaram pendentes por falta de fonte específica encontrada. MS
+// iniciado (23 promovidos): duas ondas de criação simultânea de municípios muito claras —
+// 11/11/1963 (Anaurilândia, Ivinhema, Jateí, Naviraí, Pedro Gomes) e 12/05/1980 (Costa Rica,
+// Douradina, São Gabriel do Oeste, Selvíria, Taquarussu, confirmadas pelo Campo Grande News
+// com contagem exata "cinco municípios"). Cluster de 24/06 (São João Batista) resolvido quase
+// por completo (5 de 6) via uma única reportagem (acritica.net) que lista todas as cidades de
+// MS com o feriado. Padrão de datas distintas para emancipação vs. padroeiro confirmado de
+// novo em Selvíria (12/05 + 24/06) e Pedro Gomes (11/11 + 20/01 São Sebastião).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
