@@ -113,7 +113,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // municípios ainda comemoram aniversário nessa data — mesmo padrão de onda já visto em RO,
 // AM, TO, MT, PA). PB (Paraíba) tentada e abandonada nesta sessão: clusters enormes (06/24
 // São João ~55 municípios, 12/08 ~32, 06/29 ~17) não renderam achados com as buscas
-// tentadas — retomar com estratégia diferente ou mais tarde.
+// tentadas — retomar com estratégia diferente ou mais tarde. TO aprofundado (11 promovidos,
+// 1 rejeitado): confirma 3º caso de schema-limitação (Gurupi/TO, Dia do Evangélico = "último
+// sábado de setembro", igual Confresa/MT e Maringá/PR — regraCalculo só aceita pascoa±N).
+// Achado útil: quando uma fonte oficial municipal afirma explicitamente que uma data NÃO é
+// feriado por falta de lei (caso Porto Nacional/TO, aniversário 13/07 vs. padroeira 24/09,
+// que É feriado) — REJEITAR citando a própria fonte municipal, não deixar como não-verificado.
+// Padrão "padroeiro = data universal do santo" (Santo Antônio 13/06, São João Batista 24/06,
+// São Miguel Arcanjo 29/09) é uma boa heurística quando a paróquia do município é confirmada
+// mas não há lei específica localizada — 2+ fontes (existência da paróquia + data universal)
+// tratado como suficiente. NOTA: script de regeneração do seed (scratch-regenerar-seed.mjs,
+// não versionado) tinha bug de longa data — omitia regraCalculo:null em entradas com mes/dia
+// fixo e omitia mes/dia:null em entradas com regraCalculo, violando a interface
+// FeriadoParaCurar (campos obrigatórios, ainda que anuláveis); corrigido no commit do MA.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
