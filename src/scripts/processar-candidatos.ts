@@ -72,7 +72,7 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO, RR, AP, AC completos. AL e TO parciais (estaduais + clusters grandes feitos). Próxima: ver query abaixo.
+// Progresso: RO, RR, AP, AC completos. AL, TO, PI parciais. 21 feriados ESTADUAIS de outros estados confirmados (ver commits). Próxima: municípios de MA, ES, SC, SE (estaduais ainda incompletos), depois seguir municipais.
 // `SELECT uf, COUNT(*) FROM candidatos_nao_verificados WHERE status='pendente' GROUP BY uf`.
 // -----------------------------------------------------------------------
 const DECISOES2: Decisao[] = [
