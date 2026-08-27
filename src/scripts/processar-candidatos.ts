@@ -83,13 +83,18 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // dia/mês, é quase sempre o dataset comunitário anexando errado a um município — REJEITAR
 // como redundante, a camada estadual já cobre automaticamente (ver caso Nova Iguaçu/São
 // Jorge, RJ). ~30 feriados ESTADUAIS confirmados agora (São José do Ceará e Dia do Estado
-// de Santa Catarina adicionados via criar_direto). GO, PE, SC, RS, PR, BA também parciais
-// agora (Salvador, Feira de Santana, Vitória da Conquista, Itabuna processados). Maringá/PR
-// tem 1 candidato pendente (antecipação de aniversário na "2ª segunda-feira de maio" — mesma
-// limitação de regraCalculo só aceitar pascoa±N, ver nota acima). Próxima: SP(1201), MG(1410)
-// — os 2 maiores estados restam. smallest-to-largest continua valendo, sempre olhando
-// primeiro descricao_original por citação de lei embutida e depois clusters de data
-// (padroeiro/emancipação compartilhados entre municípios).
+// de Santa Catarina adicionados via criar_direto). GO, PE, SC, RS, PR, BA, SP também
+// parciais agora (São Paulo capital, Campinas, Guarulhos, Santo André, São Bernardo,
+// Sorocaba, Ribeirão Preto, São José dos Campos/Rio Preto, Osasco, Jundiaí, Piracicaba,
+// Bauru, Limeira, Mogi das Cruzes, Rio Claro, São Carlos, São Vicente, Praia Grande, Suzano,
+// Taboão da Serra, Taubaté processados — a leva de SP também revelou um caso importante:
+// Dia da Consciência Negra (20/11) é feriado NACIONAL desde 2024, então uma lei municipal de
+// São Paulo anterior a isso instituindo a mesma data foi REJEITADA por redundância — mesmo
+// raciocínio de Sexta-feira Santa, útil lembrar ao revisar outros estados). Maringá/PR tem
+// 1 candidato pendente (antecipação de aniversário "2ª segunda-feira de maio" — limitação
+// de regraCalculo só aceitar pascoa±N). Próxima: MG(1410), o maior estado que resta.
+// smallest-to-largest continua valendo, sempre olhando primeiro descricao_original por
+// citação de lei embutida e depois clusters de data (padroeiro/emancipação compartilhados).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
