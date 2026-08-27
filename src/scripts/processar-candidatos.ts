@@ -140,7 +140,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // a data do padroeiro dessas mesmas cidades, quando encontrada, FOI promovida separadamente).
 // Ficaram pendentes ~19 candidatos de AM sem citação/corroboração suficiente (Apuí, Canutama,
 // Maués, Carauari, Tapauá, Borba e alguns outros, além de datas "extras" sem padroeiro
-// identificado em cidades já parcialmente curadas).
+// identificado em cidades já parcialmente curadas). PI: início de aprofundamento revelou um
+// contraste importante com o caso MA — em Piauí, 08/12 (Nossa Senhora da Conceição) é PONTO
+// FACULTATIVO estadual (decreto anual do Governo do PI), não feriado estadual PLENO como no
+// Maranhão; e é feriado MUNICIPAL só em Teresina (capital). Isso significa que o cluster de
+// 14 candidatos municipais de outras cidades do PI para 08/12 NÃO pode ser resolvido pelo
+// mesmo atalho "1 criar_direto estadual + rejeitar todos" usado em MA — cada cidade precisaria
+// de confirmação individual de que Nossa Senhora da Conceição é padroeira local. Registrado
+// só o ponto_facultativo estadual do PI (criar_direto) + 1 promoção pontual (Uruçuí, que já
+// tinha o nome do santo explícito no dataset) — os outros 13 candidatos genéricos do cluster
+// ficaram pendentes. Lição para outros estados: sempre checar se o "feriado estadual" é
+// PLENO ou apenas ponto_facultativo antes de aplicar o atalho de cluster.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
