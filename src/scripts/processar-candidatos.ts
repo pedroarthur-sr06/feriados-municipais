@@ -126,6 +126,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // não versionado) tinha bug de longa data — omitia regraCalculo:null em entradas com mes/dia
 // fixo e omitia mes/dia:null em entradas com regraCalculo, violando a interface
 // FeriadoParaCurar (campos obrigatórios, ainda que anuláveis); corrigido no commit do MA.
+// AM aprofundado (27 promovidos, 5 rejeitados): confirma um padrão MUITO recorrente em
+// municípios pequenos do Norte — aniversário/emancipação E dia do padroeiro são datas
+// DIFERENTES, cada uma com seu próprio feriado municipal (ex.: Codajás 31/03 emancipação +
+// 31/05 Nossa Senhora das Graças; Urucará 12/05 criação + 26/07 Sant'Ana) — sempre promover
+// as duas separadamente quando confirmadas, não assumir que é a mesma data. Também confirma
+// que a frase-padrão de agregadores tipo calendario.online ("aniversário X não é feriado
+// oficial, motivo de discórdia, já que o município tem N feriados municipais e o aniversário
+// não está entre eles") é um sinal negativo específico e razoavelmente confiável (aparece
+// com o mesmo texto-molde em várias cidades, mas cita o N real de feriados de cada uma) —
+// tratado como base suficiente para REJEITAR quando não há outra evidência a favor (5 casos
+// nesta leva: Lábrea, Barcelos, Humaitá, Iranduba, Presidente Figueiredo — em todos os casos
+// a data do padroeiro dessas mesmas cidades, quando encontrada, FOI promovida separadamente).
+// Ficaram pendentes ~19 candidatos de AM sem citação/corroboração suficiente (Apuí, Canutama,
+// Maués, Carauari, Tapauá, Borba e alguns outros, além de datas "extras" sem padroeiro
+// identificado em cidades já parcialmente curadas).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
