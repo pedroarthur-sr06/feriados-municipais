@@ -72,8 +72,9 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: parte de Rondônia revisada (ver README/commits para status
-// atualizado de quantos municípios/UFs já foram cobertos).
+// Progresso: Rondônia (RO) completa — 0 candidatos pendentes. Próxima UF a
+// atacar: ver `SELECT DISTINCT uf FROM candidatos_nao_verificados WHERE
+// status='pendente'` para a lista do que falta.
 // -----------------------------------------------------------------------
 const DECISOES2: Decisao[] = [];
 const DECISOES: Decisao[] = [];
