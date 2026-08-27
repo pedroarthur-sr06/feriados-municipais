@@ -168,8 +168,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // cluster de 27 candidatos municipais redundantes (mesmo padrão MA, mas ainda maior em
 // contagem). Nenhuma mudança em `feriados`/seed neste commit (só rejeições, que só alteram
 // status em `candidatos_nao_verificados`, tabela não versionada) — só o registro do achado
-// aqui no comentário. AL ainda tem outros clusters bons pendentes (20/01 com 5, 31/05 e 16/05
-// e 24/04 com 4 cada) para a próxima leva.
+// aqui no comentário. AL leva 2 (12 promovidos, 2 rejeitados): resolveu os clusters de 20/01
+// (São Sebastião, inclusive o próprio município de São Sebastião/AL — nome coincide), 24/04
+// (onda de emancipação de Maragogi+Santana do Ipanema em 1875, mesma data; Matriz de
+// Camaragibe em 1958 no mesmo dia do calendário), 16/05 (São Luís do Quitunde 1892 + Traipu
+// 1870, mas Coruripe e Limoeiro de Anadia REJEITADOS pelo padrão de discórdia) e 13/06 (3
+// candidatos já rotulados 'Dia de Santo Antônio' no dataset). AL ainda tem candidatos
+// pendentes sem citação suficiente (08/09 Batalha, 31/05 Piaçabuçu/Campo Grande, 20/01 dos
+// demais municípios do cluster).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
