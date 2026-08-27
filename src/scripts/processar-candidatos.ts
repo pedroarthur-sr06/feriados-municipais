@@ -100,6 +100,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de maio" — limitação de regraCalculo só aceitar pascoa±N). Continuar smallest-to-largest
 // pelos candidatos restantes de cada estado, sempre olhando primeiro descricao_original por
 // citação de lei embutida e depois clusters de data (padroeiro/emancipação compartilhados).
+// A veia de "citação de lei embutida" está essencialmente esgotada em todos os estados
+// (exceto os 2 bloqueados por schema acima) — o que resta é mais lento: pesquisa de cluster
+// de data + corroboração por múltiplas fontes. MA processado agora: confirmado que 08/12
+// (Nossa Senhora da Conceição) é feriado ESTADUAL pleno no Maranhão (calendário oficial do
+// estado) — resolveu de uma vez um cluster de 28 candidatos municipais que eram só o
+// feriado estadual vazando para a lista municipal (mesmo padrão de Nova Iguaçu/RJ, mas em
+// escala maior: 1 criar_direto estadual + 28 rejeições em vez de 28 promoções individuais —
+// útil replicar essa checagem [feriado municipal ~= feriado estadual já curado na mesma UF]
+// antes de pesquisar cluster por cluster). Também promovidos 13 candidatos do cluster de
+// emancipação simultânea de 10/11 (onda de criação de municípios maranhenses 1994-1996, ~66
+// municípios ainda comemoram aniversário nessa data — mesmo padrão de onda já visto em RO,
+// AM, TO, MT, PA). PB (Paraíba) tentada e abandonada nesta sessão: clusters enormes (06/24
+// São João ~55 municípios, 12/08 ~32, 06/29 ~17) não renderam achados com as buscas
+// tentadas — retomar com estratégia diferente ou mais tarde.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
