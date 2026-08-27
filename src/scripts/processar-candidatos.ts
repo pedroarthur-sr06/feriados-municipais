@@ -187,6 +187,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de criação simultânea (Lei nº 525-A, de 25/11/1953). Cluster de 12/08 (Nossa Senhora da
 // Conceição, 7 candidatos) ficou pendente — SE não tem estadual pleno nem ponto_facultativo
 // nessa data (só 08/07, Aniversário de Sergipe), precisaria confirmação individual por cidade.
+// RN iniciado (15 promovidos): sem citação embutida e sem fonte tipo "calendário de comarca"
+// facilmente localizável (TJRN não indexado como o TJSE) — resolvido via clusters de padroeiro
+// puro: 01/20 (São Sebastião, 7 de 7 candidatos do cluster confirmados: Caraúbas, Florânia,
+// Governador Dix-Sept Rosado, Guamaré, Jucurutu, Nova Cruz, Parelhas) e 06/29 (São Pedro:
+// Ceará-Mirim, Touros, Nova Cruz — que também tem São Sebastião em 20/01, cidades podem ter
+// 2 feriados de padroeiro/co-padroeiro — e Pedro Avelino, nome do município já homenageia o
+// santo). Mais 4 já rotulados no dataset (São José ×3, São João ×1). Cluster de 08/12 (14
+// candidatos) e 11/27 (4) ficaram pendentes por falta de fonte específica encontrada.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
