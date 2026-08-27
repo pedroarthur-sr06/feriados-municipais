@@ -72,7 +72,7 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO e RR completos. Próxima UF: ver
+// Progresso: RO, RR e AP completos. Próxima UF: ver query abaixo.
 // `SELECT uf, COUNT(*) FROM candidatos_nao_verificados WHERE status='pendente' GROUP BY uf`.
 // -----------------------------------------------------------------------
 const DECISOES2: Decisao[] = [];
