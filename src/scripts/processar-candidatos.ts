@@ -72,7 +72,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM parciais (AM: 11 promovidos, ~53 pendentes — datas isoladas sem corroboração suficiente; TO: Palmas 20/05 e 19/03, Dianópolis 19/03, Ananás/Guaraí/Pedro Afonso 29/06, Gurupi 13/06, Aliança do Tocantins 24/06 promovidos, resto pendente). 21+ feriados ESTADUAIS de outros estados confirmados (ver commits). Próxima: PI (~121, só estadual feito), RN, SE (estadual "Aniversário de Sergipe" ainda não confirmado), depois seguir municipais dos demais estados.
+// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE parciais (todos com alguns
+// promovidos, resto pendente — ver commits para detalhe por estado). Estaduais confirmados:
+// AM, PA (ainda falta), SC (ainda falta), SE (Aniversário de Sergipe, feito) e ~20 outros
+// (ver commits). Próxima: MS(150), PA(155, estadual N.Sra.Conceição pendente), MT(169),
+// ES(177), RJ(223) — continuar smallest-to-largest, sempre olhando primeiro
+// descricao_original por citação de lei embutida (grande atalho, ver padrão Teresina/Natal)
+// e depois clusters de data (padroeiro/emancipação compartilhados entre municípios).
 // `SELECT uf, COUNT(*) FROM candidatos_nao_verificados WHERE status='pendente' GROUP BY uf`.
 // -----------------------------------------------------------------------
 const DECISOES2: Decisao[] = [
