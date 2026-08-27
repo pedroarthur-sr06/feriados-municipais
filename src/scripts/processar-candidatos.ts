@@ -157,7 +157,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // em vários estados, mas aqui por RESTAURAÇÃO de autonomia, não criação original. Também
 // reforça o padrão de aniversário/emancipação E padroeiro serem datas distintas (Buriti dos
 // Lopes 04/09 + 13/12 Santa Luzia; Ribeiro Gonçalves 24/06 São João Batista + 26/07
-// emancipação) — sempre promover separadamente quando ambas confirmadas.
+// emancipação) — sempre promover separadamente quando ambas confirmadas. PI leva 3 (5
+// promovidos, 1 rejeitado): São Miguel do Tapuio e Miguel Alves confirmam de novo o padrão
+// "nome do município homenageia o santo" (São Miguel Arcanjo, 29/09) já visto em Xambioá/TO
+// e São Gabriel da Cachoeira/AM. Oeiras trouxe outra citação de lei específica (Lei nº
+// 1.135/1979). O grande cluster de 08/12 (13 candidatos restantes) permanece pendente — cada
+// cidade exigiria confirmação individual de padroeira, como já anotado no ponto_facultativo
+// estadual do PI.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
