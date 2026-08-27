@@ -72,12 +72,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // -----------------------------------------------------------------------
 // LOTE ATUAL — editar aqui a cada rodada (deixar vazio entre rodadas para
 // não rodar um lote antigo por engano — já aconteceu uma vez, ver commit).
-// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE, MS parciais (todos com
-// alguns promovidos, resto pendente — ver commits para detalhe por estado). ~28 feriados
-// ESTADUAIS confirmados (ver commits). PA feito (parcial). Próxima: MT(169), ES(177),
-// RJ(223) — smallest-to-largest, sempre olhando primeiro descricao_original por citação
-// de lei embutida (atalho: padrão Teresina/Natal/Campo Grande/Belém) e depois clusters
-// de data (padroeiro/emancipação compartilhados entre municípios).
+// Progresso: RO, RR, AP, AC completos. AL, TO, PI, AM, RN, SE, MS, PA, MT parciais (todos
+// com alguns promovidos, resto pendente — ver commits para detalhe por estado). ~28
+// feriados ESTADUAIS confirmados (ver commits). NOTA DE LIMITAÇÃO DE SCHEMA: regraCalculo
+// só aceita "pascoa±N" — feriados em regra tipo "2º sábado de julho" (ex.: candidato 12479,
+// Confresa/MT, Dia do Evangélico) não podem ser cadastrados como data fixa sem inventar um
+// dia errado em anos futuros; ficam pendentes até o schema suportar outras regras (ou até
+// decidir aproximar com aviso explícito). Próxima: ES(177), RJ(223), PB(277) —
+// smallest-to-largest, sempre olhando primeiro descricao_original por citação de lei
+// embutida (atalho: padrão Teresina/Natal/Campo Grande/Belém/Cuiabá) e depois clusters de
+// data (padroeiro/emancipação compartilhados entre municípios).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
