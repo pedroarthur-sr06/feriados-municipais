@@ -83,13 +83,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // dia/mês, é quase sempre o dataset comunitário anexando errado a um município — REJEITAR
 // como redundante, a camada estadual já cobre automaticamente (ver caso Nova Iguaçu/São
 // Jorge, RJ). ~30 feriados ESTADUAIS confirmados agora (São José do Ceará e Dia do Estado
-// de Santa Catarina adicionados via criar_direto). GO, PE, SC, RS, PR também parciais agora
-// (Curitiba, Londrina, Maringá, Foz do Iguaçu, Cascavel, Paranaguá processados). Maringá tem
-// 1 candidato pendente (antecipação de aniversário na "2ª segunda-feira de maio" — mesma
-// limitação de regraCalculo só aceitar pascoa±N, ver nota acima). Próxima: BA(890),
-// SP(1201), MG(1410) — os 3 maiores estados restam. smallest-to-largest continua valendo,
-// sempre olhando primeiro descricao_original por citação de lei embutida e depois clusters
-// de data (padroeiro/emancipação compartilhados entre municípios).
+// de Santa Catarina adicionados via criar_direto). GO, PE, SC, RS, PR, BA também parciais
+// agora (Salvador, Feira de Santana, Vitória da Conquista, Itabuna processados). Maringá/PR
+// tem 1 candidato pendente (antecipação de aniversário na "2ª segunda-feira de maio" — mesma
+// limitação de regraCalculo só aceitar pascoa±N, ver nota acima). Próxima: SP(1201), MG(1410)
+// — os 2 maiores estados restam. smallest-to-largest continua valendo, sempre olhando
+// primeiro descricao_original por citação de lei embutida e depois clusters de data
+// (padroeiro/emancipação compartilhados entre municípios).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
