@@ -15,7 +15,7 @@
 import { readFileSync } from "node:fs";
 import { db, sqlite } from "../db/client.js";
 import { candidatosNaoVerificados, municipios } from "../db/schema.js";
-import { sql, eq } from "drizzle-orm";
+import { sql, eq, and, ne } from "drizzle-orm";
 
 interface RegistroFonte {
   data: string; // DD/MM/AAAA
@@ -61,6 +61,33 @@ function main() {
     registros: carregar(caminho),
   }));
 
+  // Preserva decisões já tomadas (promovido/rejeitado) através de re-execuções —
+  // sem isso, todo trabalho de revisão da fila seria perdido a cada `npm run seed`.
+  // Chave composta (não há ID estável na fonte externa): tipo+nome+uf+codigoIbge+data.
+  // LIMITAÇÃO CONHECIDA: quando a fonte tem duas linhas literalmente idênticas
+  // (mesmo tipo/nome/uf/codigoIbge/data — já visto no dataset, ex.: Carnaval de
+  // Rolim de Moura duplicado), elas colidem na mesma chave e só um status
+  // sobrevive para as duas após a reimportação. Confira manualmente se um
+  // candidato duplicado sumir do status esperado.
+  function chave(r: { tipoSugerido: string; nome: string; uf: string; codigoIbge: number | null; data: string }) {
+    return `${r.tipoSugerido}|${r.nome}|${r.uf}|${r.codigoIbge ?? "null"}|${r.data}`;
+  }
+  const statusPreservados = new Map(
+    db
+      .select({
+        tipoSugerido: candidatosNaoVerificados.tipoSugerido,
+        nome: candidatosNaoVerificados.nome,
+        uf: candidatosNaoVerificados.uf,
+        codigoIbge: candidatosNaoVerificados.codigoIbge,
+        data: candidatosNaoVerificados.data,
+        status: candidatosNaoVerificados.status,
+      })
+      .from(candidatosNaoVerificados)
+      .where(and(eq(candidatosNaoVerificados.fonteDataset, DATASET_ID), ne(candidatosNaoVerificados.status, "pendente")))
+      .all()
+      .map((r) => [chave(r), r.status] as const),
+  );
+
   db.transaction((tx) => {
     // Evita duplicar em re-execuções: limpa import anterior deste dataset antes de recarregar.
     tx.delete(candidatosNaoVerificados)
@@ -73,6 +100,8 @@ function main() {
         if (r.codigo_ibge && !codigoIbge) {
           totalIgnoradosCodigoInvalido++;
         }
+        const data = paraIso(r.data);
+        const statusRestaurado = statusPreservados.get(chave({ tipoSugerido: tipo, nome: r.nome, uf: r.uf, codigoIbge, data }));
         tx.insert(candidatosNaoVerificados)
           .values({
             fonteDataset: DATASET_ID,
@@ -82,8 +111,8 @@ function main() {
             uf: r.uf,
             codigoIbge,
             municipioNomeOriginal: null,
-            data: paraIso(r.data),
-            status: "pendente",
+            data,
+            status: statusRestaurado ?? "pendente",
             importadoEm: agora,
           })
           .run();
@@ -91,6 +120,10 @@ function main() {
       }
     }
   });
+
+  if (statusPreservados.size > 0) {
+    console.log(`  ${statusPreservados.size} decisões já tomadas (promovido/rejeitado) preservadas nesta reimportação.`);
+  }
 
   for (const { caminho, tipo, registros } of lotes) {
     console.log(`  ${caminho}: ${registros.length} registros processados (tipo=${tipo}).`);
