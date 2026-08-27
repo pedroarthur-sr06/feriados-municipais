@@ -150,7 +150,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // só o ponto_facultativo estadual do PI (criar_direto) + 1 promoção pontual (Uruçuí, que já
 // tinha o nome do santo explícito no dataset) — os outros 13 candidatos genéricos do cluster
 // ficaram pendentes. Lição para outros estados: sempre checar se o "feriado estadual" é
-// PLENO ou apenas ponto_facultativo antes de aplicar o atalho de cluster.
+// PLENO ou apenas ponto_facultativo antes de aplicar o atalho de cluster. PI aprofundado
+// (20 promovidos, 2 rejeitados): achado novo — onda de restauração de municípios piauienses
+// anexados/desmembrados em 1931 e restaurados em 04/09/1933 (Decreto Estadual nº 1478; ver
+// Buriti dos Lopes, Gilbués, Simplício Mendes) — mesmo padrão de "onda simultânea" já visto
+// em vários estados, mas aqui por RESTAURAÇÃO de autonomia, não criação original. Também
+// reforça o padrão de aniversário/emancipação E padroeiro serem datas distintas (Buriti dos
+// Lopes 04/09 + 13/12 Santa Luzia; Ribeiro Gonçalves 24/06 São João Batista + 26/07
+// emancipação) — sempre promover separadamente quando ambas confirmadas.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
