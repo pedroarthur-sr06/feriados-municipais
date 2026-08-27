@@ -82,12 +82,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Estadual" que já bate com um feriado ESTADUAL já curado (abrangencia=uf) para o mesmo
 // dia/mês, é quase sempre o dataset comunitário anexando errado a um município — REJEITAR
 // como redundante, a camada estadual já cobre automaticamente (ver caso Nova Iguaçu/São
-// Jorge, RJ). ~29 feriados ESTADUAIS confirmados agora (São José do Ceará adicionado via
-// criar_direto). GO e PE também parciais agora. Próxima: SC(474), RS(649), PR(687) —
-// smallest-to-largest, sempre olhando primeiro descricao_original por citação de lei
-// embutida (atalho: padrão Teresina/Natal/Campo Grande/Belém/Cuiabá/Grande Rio/Fortaleza/
-// Recife-Olinda) e depois clusters de data (padroeiro/emancipação compartilhados entre
-// municípios).
+// Jorge, RJ). ~30 feriados ESTADUAIS confirmados agora (São José do Ceará e Dia do Estado
+// de Santa Catarina adicionados via criar_direto). GO, PE, SC também parciais agora.
+// Próxima: RS(649), PR(687), BA(890), SP(1201), MG(1410) — smallest-to-largest, sempre
+// olhando primeiro descricao_original por citação de lei embutida (atalho: padrão
+// Teresina/Natal/Campo Grande/Belém/Cuiabá/Grande Rio/Fortaleza/Recife-Olinda/interior de
+// SC) e depois clusters de data (padroeiro/emancipação compartilhados entre municípios).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
