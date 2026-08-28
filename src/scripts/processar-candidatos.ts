@@ -616,6 +616,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (de novo) que uma lista nomeada só serve para confirmar os municípios que aparecem nela, não
 // para promover em bloco os candidatos de uma data compartilhada. Restam pendentes ~94
 // candidatos de SE.
+// SE segunda rodada: 5 promovidos, 0 rejeitados. Caso raro e valioso: Nossa Senhora de
+// Lourdes/SE tinha DOIS candidatos, e a própria página de história do município resolveu os
+// dois de uma vez só: 11/02 (padroeira, festa TRANSFERIDA de 02/12 para a data universal da
+// santa) e 13/05 (elevação a cidade pela Lei nº 103-A) — mesma fonte única cobrindo dois
+// eventos distintos. Feira Nova também 2 de 2: 18/10 (emancipação, IBGE) e 27/11 (padroeira
+// Nossa Senhora das Graças, data universal — Medalha Milagrosa). Poço Verde: só a co-padroeira
+// (03/05) confirmada; os outros 2 candidatos (20/01, 24/06) ficaram pendentes sem fonte.
+// Restam pendentes ~89 candidatos de SE.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
