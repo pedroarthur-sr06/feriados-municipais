@@ -518,6 +518,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // criação da freguesia em 1870, achado histórico à parte) ficou pendente por falta de
 // confirmação de que essa é de fato a data comemorada hoje. Restam pendentes ~95 candidatos de
 // PA.
+// PA segunda rodada: mais 5 promovidos, 0 rejeitados. Benevides (16/07, Nossa Senhora do
+// Carmo) tem citação de lei explícita e rara (Lei Municipal nº 194/68) — bom achado. Caso
+// instrutivo: Bragança tinha DOIS candidatos (07/08 e 28/08); a fonte confirmou explicitamente
+// que o aniversário real é 08/07 ('413 anos... no dia 8 de julho'), então só esse foi
+// promovido — 28/08 ficou pendente sem confirmação (mostra de novo a importância de checar
+// TODOS os candidatos do mesmo município antes de assumir qual data é a correta, em vez de
+// pesquisar a data "óbvia" do cluster). Restam pendentes ~90 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
