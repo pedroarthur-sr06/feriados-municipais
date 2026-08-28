@@ -601,6 +601,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // municípios paraenses em 13/12/1991, já documentada). Curionópolis pesquisado mas seu
 // candidato (27/11) não bate com a emancipação real (10/05/1988, mesma onda de 15 municípios
 // de 1988 já documentada) — ficou pendente. Restam pendentes ~66 candidatos de PA.
+// SE (Sergipe) iniciado nesta rodada: 6 promovidos de 100+ candidatos pendentes, via lista
+// nomeada de reportagem sobre 08/12 (Nossa Senhora da Conceição) — Arauá, Canhoba, Canindé de
+// São Francisco, Itabaianinha, Japaratuba, Porto da Folha (6 de 7 candidatos do cluster
+// batendo; Pinhão não está na lista, ficou pendente). Achado importante: buscas por listas
+// nomeadas para os outros dois grandes clusters de SE (06/24 São João Batista, 20 municípios
+// nomeados incluindo Aracaju/capital; 06/29 São Pedro) NÃO renderam overlap com os candidatos
+// reais do banco — os municípios nomeados nas reportagens (Boquim, Campo do Brito, Canhoba,
+// Estância, Indiaroba, Itabaianinha, Itabi, Itaporanga D'Ajuda, Japoatã, Japaratuba, N. Sra.
+// Aparecida, N. Sra. das Dores, Pedra Mole, Rosário do Catete, Santo Amaro das Brotas, São
+// Cristóvão, Simão Dias, Siriri, Umbaúba) são DIFERENTES dos 10 candidatos do cluster 06/24 no
+// banco (Areia Branca, Cristinápolis, Moita Bonita, Neópolis, Nossa Senhora de Lourdes,
+// Pacatuba, Poço Redondo, Poço Verde, Salgado, Tomar do Geru) — zero sobreposição, reforçando
+// (de novo) que uma lista nomeada só serve para confirmar os municípios que aparecem nela, não
+// para promover em bloco os candidatos de uma data compartilhada. Restam pendentes ~94
+// candidatos de SE.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
