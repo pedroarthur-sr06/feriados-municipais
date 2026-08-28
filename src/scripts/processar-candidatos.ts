@@ -624,6 +624,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Nossa Senhora das Graças, data universal — Medalha Milagrosa). Poço Verde: só a co-padroeira
 // (03/05) confirmada; os outros 2 candidatos (20/01, 24/06) ficaram pendentes sem fonte.
 // Restam pendentes ~89 candidatos de SE.
+// SE terceira rodada: 7 promovidos, 0 rejeitados. Achado de fonte nova: o Calendário Judicial
+// do TJSE (Tribunal de Justiça de Sergipe) lista, comarca por comarca, tanto a data de
+// emancipação quanto a data da padroeira de vários municípios — fonte auxiliar muito boa para
+// SE, seguindo o padrão já visto com TJES/TJSE/TJMT em sessões anteriores. Dois casos de
+// "aniversário/padroeira ≠ data de criação legal, resolvido a favor da data efetivamente
+// comemorada": Riachão do Dantas (emancipação real é 09/05, mas o candidato pendente era a
+// padroeira em 21/11, coincidindo com a data de Pedra Mole) e Poço Redondo (Lei Estadual nº
+// 525-A foi assinada em 25/11/1953, mas a Lei Orgânica municipal fixa 23/11 como a data
+// comemorada). Simão Dias resolveu emancipação (12/06) e padroeira Sant'Ana (26/07, data
+// universal) de uma vez. Restam pendentes ~82 candidatos de SE.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
