@@ -213,7 +213,18 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 1752 como primeira capital de MT, com lei estadual de 2016 prevendo transferência simbólica
 // anual da capital nesse dia. Único candidato com citação de lei embutida neste estado
 // (Confresa, Dia do Evangélico) segue bloqueado por limitação de schema (regra "2º sábado de
-// julho"), mesmo caso já documentado.
+// julho"), mesmo caso já documentado. PA iniciado (30 promovidos, 7 rejeitados): já tinha
+// estadual pleno de 08/12 (Nossa Senhora da Conceição, curado antes desta sessão) — aplicado
+// o atalho de cluster (4 rejeições diretas por redundância, sem precisar criar_direto).
+// Clusters de 26/07 (Sant'Ana) e 20/01 (São Sebastião) resolvidos por completo (5 de 5 cada).
+// Onda de aniversário simultâneo de 11 municípios paraenses em 29/12 confirmada pela ALEPA
+// (Assembleia Legislativa do Pará) — fonte legislativa estadual muito útil, vale reusar em
+// outros clusters de aniversário do PA. Também reforça o padrão "fonte afirma explicitamente
+// que a data NÃO é feriado oficial" para 3 rejeições (Benevides 29/12, São Miguel do Guamá
+// 31/10, Novo Progresso 13/12) — em 2 desses casos o feriado real da cidade (outra data) foi
+// identificado e promovido separadamente. São Miguel do Guamá também ilustra o padrão
+// "projeto de lei, não confirmado sancionado" (São Miguel Arcanjo, 29/09) — promovido com
+// ressalva explícita de confiança menor.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
