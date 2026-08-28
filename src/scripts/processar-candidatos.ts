@@ -579,6 +579,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // das Neves confirmada com data universal (05/08) batendo exatamente; o outro candidato
 // (14/02, suposto retorno da imagem de Nazaré) ficou pendente por fonte fraca (blog pessoal,
 // sem confirmação independente). Restam pendentes ~75 candidatos de PA.
+// PA sétima rodada: 4 promovidos, 0 rejeitados. Altamira é o achado mais forte: Lei Municipal
+// nº 2.055, de 07/10/2009, institui explicitamente 06/11 como feriado municipal reconhecendo a
+// emancipação (Lei Estadual nº 1.234, de 06/11/1911) — citação de lei dupla (estadual +
+// municipal) rara e muito sólida. Bonito, Itupiranga e Capanema seguiram o padrão usual
+// (padroeiro/emancipação com 2+ fontes). Vários outros candidatos pesquisados nesta rodada
+// (Igarapé-Miri, Ourilândia do Norte, Mocajuba, Floresta do Araguaia) NÃO renderam confirmação
+// — todos têm datas de emancipação/aniversário conhecidas que não batem com nenhum dos
+// candidatos pendentes no banco, reforçando que esses 4 municípios têm candidatos
+// provavelmente errados ou de origem obscura (talvez padroeiro secundário não pesquisado, ou
+// erro do dataset comunitário) — ficaram todos pendentes. Restam pendentes ~71 candidatos de
+// PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
