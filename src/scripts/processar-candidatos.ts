@@ -451,6 +451,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // emancipação legal vs. instalação efetiva). Também: Sinop tem FUNDAÇÃO (14/09/1974) distinta
 // de EMANCIPAÇÃO/autonomia (17/12/1979) — mesmo padrão de Nova Xavantina. Restam pendentes ~76
 // candidatos de MT.
+// MT quarta rodada: mais 6 promovidos. Caso Cáceres: candidato tinha 2 datas (25/08 padroeiro
+// São Luiz, 06/10 fundação), ambas confirmadas via a mesma fonte primária — a própria Câmara
+// Municipal publica portaria anual com o calendário completo de feriados/pontos facultativos
+// (boa prática a replicar: procurar "portaria feriados pontos facultativos [município]" antes
+// de ir atrás de reportagens dispersas, quando existir). Caso Alta Floresta: reforça o padrão
+// "data comemorada oficialmente ≠ data da lei" — emancipação/autonomia institucional é
+// 18/12/1979, mas o feriado municipal decretado é 19/05 (data da fundação/abertura da estrada
+// em 1976). Poconé também é fundação (21/01/1781), não emancipação (25/10, não candidatada).
+// Restam pendentes ~70 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
