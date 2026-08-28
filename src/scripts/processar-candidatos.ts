@@ -394,6 +394,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Piranhas 22/03, Major Isidoro, Campo Grande 01/06, Porto Calvo 22/07, Taquarana 03/05) não
 // renderam fonte suficiente com as buscas tentadas — retomar com estratégia diferente ou mais
 // tarde, mesmo padrão de "abandono documentado" já usado para PB.
+// PI segunda rodada: 10 promovidos, 1 rejeitado. Achado importante: São Pedro do Piauí —
+// candidato de 21/06 CONFIRMADO como o feriado municipal oficial (fonte já achada na rodada
+// anterior), resolvendo a dúvida que tinha ficado pendente sobre 29/06 (esse continua
+// pendente, é só o fim do festejo/novena, não o feriado decretado). Outro achado importante:
+// Parnaíba/PI — candidato de 14/08 REJEITADO com fonte explícita dizendo que, apesar de ser a
+// data de aniversário amplamente celebrada, NÃO é oficialmente feriado municipal (mesmo padrão
+// "aniversário celebrado ≠ feriado decretado" já visto em Major Isidoro/AL e outros). Confirma
+// de novo o padrão robusto de emancipação política via reportagens locais + câmara/prefeitura
+// (Fronteiras, Cocal, Angical do Piauí, Castelo do Piauí, Santa Cruz do Piauí) e um caso de
+// coincidência de data de fundação entre municípios distintos (Bom Jesus e Canto do Buriti,
+// ambos 15/12/1938). Restam pendentes ~60 candidatos de PI.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
