@@ -546,6 +546,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // onda de 1943 mas por coincidência) — cuidado ao pesquisar esse tipo de caso para não
 // confundir assinatura com publicação quando ambas aparecem na mesma fonte. Restam pendentes
 // ~85 candidatos de PA.
+// MT nona rodada (retomada por engano ao pesquisar "PA" — Nova Monte Verde, Nova Maringá e
+// Tabaporã são municípios de MT, não PA; confusão de sigla corrigida antes de aplicar): 2
+// promovidos, 1 rejeitado, 1 cadastro direto. Nova Monte Verde (19/08, fundação) e Nova
+// Maringá (26/08, data de escolha do nome, celebrada como aniversário) seguem o padrão
+// fundação/nome ≠ emancipação já visto muitas vezes nesta sessão. Caso valioso: Tabaporã tinha
+// candidato para 20/09, mas a data real é 20/12 (Lei Estadual nº 5.913/1991) — REJEITADO o
+// candidato errado e feito CRIAR_DIRETO para a data certa, que tem uma reportagem muito
+// específica e recente: a Prefeitura só oficializou esse aniversário como feriado municipal em
+// 2025 (Lei Ordinária nº 1.517, de 18/09/2025) — mais um caso do "feriado novíssimo que o
+// dataset comunitário não captura", como o de Rondonópolis/São João Batista já visto nesta
+// sessão. Vale sempre considerar criar_direto quando a pesquisa aponta pra uma data diferente
+// da candidatada, em vez de só rejeitar e deixar a data certa sem registro. Restam pendentes
+// ~56 candidatos de MT (contagem não muda o total de PA, que segue ~85).
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
