@@ -436,6 +436,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // fundação, não a emancipação; promovido como 'Aniversário de Fundação' distinto de
 // 'Aniversário de Emancipação Política' (nomenclatura já usada em outros casos de fundação vs.
 // emancipação, ex. Piaçabuçu/AL, Angical do Piauí). Restam pendentes ~81 candidatos de MT.
+// MT terceira rodada: mais 5 promovidos. DESCOBERTA IMPORTANTE: existe uma "onda de 13 de
+// maio" em MT — pelo menos 23-25 municípios emancipados nessa data em duas leva (1976 e 1986,
+// governador Júlio Campos), incluindo São Félix do Araguaia, Tangará da Serra, Barra do
+// Bugres, Diamantino, Sorriso, Vera, Marcelândia, Vila Rica, Campinápolis, Porto Alegre do
+// Norte, Novo São Joaquim, entre outros (ver reportagem do Diário de Cuiabá). PORÉM: ao
+// cruzar essa lista com os candidatos pendentes desses mesmos municípios no dataset, NENHUMA
+// data de candidato bate com 13/05 — cada um está candidatado a uma data completamente
+// diferente (Vila Rica@10/08, Campinápolis@01/11, Porto Alegre do Norte@24/09, Novo São
+// Joaquim@26/07, Marcelândia@08/12). Isso sugere que a data de criação por LEI (13/05) e a
+// data efetivamente comemorada/instalação variam muito nesses municípios — NÃO promover por
+// associação com a onda sem confirmar a data específica candidatada para cada um. Acrescenta-se
+// aos casos "duas datas diferentes, ambas legítimas" já vistos (fundação vs. emancipação,
+// emancipação legal vs. instalação efetiva). Também: Sinop tem FUNDAÇÃO (14/09/1974) distinta
+// de EMANCIPAÇÃO/autonomia (17/12/1979) — mesmo padrão de Nova Xavantina. Restam pendentes ~76
+// candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
