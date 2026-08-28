@@ -656,17 +656,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
-// Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
-// contrária o bastante para rejeitar — não incluídos em DECISOES2):
-// 8880 Tabatinga 09/29 (padroeiro incerto — colonização ligada a São
-// Francisco Xavier, não a São Miguel Arcanjo), 8846 Humaitá 10/31 ("Dia do
-// Evangélico" confirmado por agregadores e por padrão regional similar em
-// Manicoré, mas sem lei municipal específica encontrada), 8841 Codajás
-// 11/28 (nem aniversário [31/03] nem emancipação [02/08/1894] batem com a
-// data, sem padroeiro identificado), 8881 Tapauá 05/22 (só agregadores
-// genéricos, emancipação é 19/12/1955), 8830 Borba 06/01 (aniversário é
-// 26/09, sem padroeiro identificado), 8825 Barcelos 08/07 (aniversário é
-// 06/05 e não é feriado, sem padroeiro identificado).
+// AM rodada final (retomada após pausa por limite de uso): 3 promovidos, 0 rejeitados. Dos 7
+// candidatos que restavam em AM, 3 tinham evidência específica o bastante: Apuí 12/30
+// (emancipação, Lei Estadual nº 1.826/1987, confirmada por AAM + agregador de aniversários),
+// Borba 06/01 (padroeiro Santo Antônio — a "Alvorada de Santo Antônio" na virada de 31/05 para
+// 01/06 é tradição de 1756, e a festa é Patrimônio Cultural Imaterial do AM pela Lei Estadual
+// nº 5.975/2022) e Tapauá 05/22 (padroeira Santa Rita de Cássia, confirmada pela Wikipédia
+// independentemente da lista de feriados usada pela Febraban). Os outros 4 seguem PENDENTES,
+// sem evidência específica o bastante para a data exata do candidato: 8880 Tabatinga 09/29
+// (padroeiro incerto — colonização ligada a São Francisco Xavier, não a São Miguel Arcanjo),
+// 8846 Humaitá 10/31 ("Dia do Evangélico" confirmado por vários agregadores nacionais, mas sem
+// lei municipal específica encontrada — mesmo padrão de Manicoré), 8841 Codajás 11/28 (nem o
+// "Ato de Criação" via IDAM [01/05/1874 ou 02/08/1894, fontes divergem] nem a data de aniversário
+// da AAM [31/03] nem a festa da padroeira Nossa Senhora das Graças [22 a 31/05] batem com a
+// data), 8825 Barcelos 08/07 (aniversário oficial é 06/05, decretado em 1977; agregadores
+// listam 08/07 como segundo "feriado municipal" sem motivo declarado, e nenhuma busca revelou
+// padroeiro ou lei específica para essa segunda data). Amazonas está, portanto, encerrado nesta
+// rodada: 4 candidatos permanecem genuinamente sem fonte suficiente, mas não há mais trabalho
+// de pesquisa óbvio a fazer sem uma fonte nova (ex.: Diário Oficial dos Municípios do Amazonas,
+// se existir um agregador confiável).
 const DECISOES: Decisao[] = [];
 function main() {
   for (const d of [...DECISOES2, ...DECISOES]) {
