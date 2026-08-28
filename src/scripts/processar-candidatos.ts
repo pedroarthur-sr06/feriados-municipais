@@ -257,7 +257,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // dataset comunitário, distinto do padrão "não é feriado oficial" já visto — aqui é um caso
 // de DATA ERRADA atribuída à cidade certa). Restam no cluster de 24/06 do PB: Bonito de
 // Santa Fé, Barra de Santa Rosa, Santa Rita, Sapé, Soledade, Sousa, Sumé (7 pendentes, sem
-// confirmação clara). PB ainda tem clusters grandes pendentes: 08/12 (32), 06/29 (17).
+// confirmação clara). Cluster de 08/12 do PB (32 candidatos) parcialmente resolvido (5
+// promovidos: Gurinhém, Ingá, Jacaraú, Taperoá, Itaporanga) — colheita bem mais fraca que
+// 24/06, já que "existe paróquia dedicada à santa" não confirma automaticamente feriado
+// municipal DECRETADO (padrão mais rigoroso aplicado aqui: só promovido quando achada fonte
+// oficial da prefeitura ou confirmação explícita de celebração no ano corrente). 27
+// candidatos restantes de 08/12 e todo o cluster de 06/29 (17) seguem pendentes no PB.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
