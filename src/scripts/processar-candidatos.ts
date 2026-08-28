@@ -224,7 +224,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 31/10, Novo Progresso 13/12) — em 2 desses casos o feriado real da cidade (outra data) foi
 // identificado e promovido separadamente. São Miguel do Guamá também ilustra o padrão
 // "projeto de lei, não confirmado sancionado" (São Miguel Arcanjo, 29/09) — promovido com
-// ressalva explícita de confiança menor.
+// ressalva explícita de confiança menor. ES iniciado (42 promovidos!): achado do dia — o PDF
+// oficial anual "Feriados Municipais" do TJES (tjes.jus.br) lista TODOS os feriados de TODAS
+// as comarcas do estado, com data, nome E número de lei/decreto de cada um — fonte primária
+// completíssima, resolveu praticamente todos os clusters pendentes de uma vez (10/31 Reforma
+// Protestante/Luterana/Dia do Evangélico — forte herança de colonização alemã/pomerana no
+// interior capixaba —, 06/24 São João, 06/29 São Pedro, 01/20 São Sebastião, 05/13 e 08/15
+// padroeiras variadas, 03/19 São José). MUITO recomendado checar se outros TJs estaduais
+// publicam PDF equivalente antes de partir para pesquisa cluster-a-cluster (padrão já visto
+// com o TJSE em Sergipe, agora confirmado de novo e com MAIS detalhe no TJES — vale futuramente
+// checar TJAM, TJPA, TJRN, TJMS, TJPI para os candidatos que ainda restam desses estados).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
