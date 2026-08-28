@@ -590,6 +590,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // provavelmente errados ou de origem obscura (talvez padroeiro secundário não pesquisado, ou
 // erro do dataset comunitário) — ficaram todos pendentes. Restam pendentes ~71 candidatos de
 // PA.
+// PA oitava rodada: 2 promovidos, 1 rejeitado. Santana do Araguaia e Porto de Moz seguiram o
+// padrão usual (emancipação com fonte forte da própria prefeitura). Novo Repartimento:
+// mais um caso "aniversário celebrado ≠ feriado decretado" — REJEITADO com a fonte que nega
+// explicitamente. Barcarena pesquisado de novo (Decreto-Lei nº 4.505, mesma onda de 1943 já
+// documentada) mas seu candidato no banco é para 03/12, não 30/12 — não bate, ficou pendente
+// (mesma cautela de sempre com a onda). Restam pendentes ~69 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
