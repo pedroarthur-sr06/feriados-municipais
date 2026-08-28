@@ -596,6 +596,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // explicitamente. Barcarena pesquisado de novo (Decreto-Lei nº 4.505, mesma onda de 1943 já
 // documentada) mas seu candidato no banco é para 03/12, não 30/12 — não bate, ficou pendente
 // (mesma cautela de sempre com a onda). Restam pendentes ~69 candidatos de PA.
+// PA nona rodada: 3 promovidos, 0 rejeitados. Placas, Ipixuna do Pará e Itaituba seguiram o
+// padrão usual de emancipação com fonte forte (Ipixuna faz parte de mais uma onda de 15
+// municípios paraenses em 13/12/1991, já documentada). Curionópolis pesquisado mas seu
+// candidato (27/11) não bate com a emancipação real (10/05/1988, mesma onda de 15 municípios
+// de 1988 já documentada) — ficou pendente. Restam pendentes ~66 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
