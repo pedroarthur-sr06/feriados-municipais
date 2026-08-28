@@ -477,6 +477,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // comunitário não captura leis municipais recentes, e por isso há uma lacuna estrutural de
 // feriados novíssimos que só aparecem se procurados ativamente, fora do fluxo normal de
 // revisar candidatos pendentes. Restam pendentes ~64 candidatos de MT.
+// MT sétima rodada: 3 promovidos, 0 rejeitados. Barra do Bugres (19/04) e Jauru (20/09)
+// resolvidos com fontes fortes de prefeitura própria. Caso muito instrutivo: Lucas do Rio
+// Verde — a Câmara de Vereadores, na 1ª sessão de janeiro/1989, DELIBERADAMENTE escolheu a
+// data de FUNDAÇÃO do núcleo urbano (05/08/1982) como feriado municipal, em vez da data de
+// emancipação política formal (04/07/1988, mesma data também de Tapurah, Nova Mutum e Campo
+// Novo do Parecis — outra onda de desmembramento simultâneo de Diamantino, ainda não
+// verificada candidato a candidato). Reforça que fundação e emancipação nem sempre coincidem,
+// e que a escolha de qual delas vira feriado é uma decisão legislativa específica, não uma
+// regra genérica — sempre verificar qual data bate com o candidato real antes de assumir.
+// Restam pendentes ~61 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
