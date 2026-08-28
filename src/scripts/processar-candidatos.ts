@@ -266,7 +266,9 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de busca em lotes pequenos usada no cluster de 24/06 — colheita voltou a ser forte assim
 // que a data é uma festa junina popular (São Pedro fecha o ciclo junino, junto com São João).
 // Restam pendentes no PB: 27 candidatos de 08/12, 4 de 06/29 (Alagoa Nova, Bonito de Santa
-// Fé, Cabaceiras, Coremas) e os 7 remanescentes de 24/06.
+// Fé, Cabaceiras, Coremas) e os 7 remanescentes de 24/06. Mais 3 confirmados em 08/12
+// (Itabaiana, Pedras de Fogo, Areia — fontes oficiais/específicas confirmando feriado
+// municipal decretado, não só existência de paróquia). Restam 24 candidatos de 08/12 no PB.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
