@@ -656,6 +656,36 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// TO segunda rodada (após a de 11 promovidos/1 rejeitado já registrada acima): 1 promovido, 0
+// rejeitados, de 15 candidatos revisados. Baixo aproveitamento apesar de pesquisa extensa —
+// achado principal: descobri e usei pela primeira vez as páginas de diocese que listam a
+// paróquia exata de cada município (Diocese de Cristalândia e Diocese de Porto Nacional cobrem
+// o sul do Tocantins) — uma fonte nova e valiosa para o padrão "padroeiro = data universal do
+// santo", só que desta vez ela DESCARTOU hipóteses em vez de confirmá-las: Araguaçu 12/08
+// promovido (paróquia Nossa Senhora Imaculada Conceição, confirmada por Diocese de Cristalândia
+// + gcatholic.org, data universal 08/12 bate exatamente). Mas Arraias 01/20 e Silvanópolis
+// 01/20 (ambos candidatos a São Sebastião por coincidência de data comum) foram REFUTADOS pela
+// mesma fonte: a paróquia de Arraias é Nossa Senhora dos Remédios (não São Sebastião) e a de
+// Silvanópolis é Sant'Ana (não São Sebastião) — nenhuma bate com 20/01. Além disso, uma busca
+// anterior havia "confirmado" via resumo que Arraias e Silvanópolis apareciam numa lista
+// nomeada de cidades com feriado em 20/01 — ao abrir os dois artigos originais (istoedinheiro e
+// brasilturis) diretamente, NENHUM dos dois sequer menciona uma cidade do Tocantins: outra
+// fabricação de resumo de busca, mesmo padrão de erro já visto na terceira rodada de SE, pego
+// aqui ANTES de promover (não depois). Almas (3 candidatos: 05/17, 05/18, 12/10) tem padroeiro
+// confirmado São Miguel Arcanjo (29/09, paróquia "São Miguel e Almas") — não bate com nenhuma
+// das 3 datas, ficam pendentes. Fátima 12/21: padroeira N. Sra. de Fátima com festa em 13/05 e
+// 13/10 (data dupla, comum para Fátima devido às aparições de Fátima-Portugal), nenhuma bate
+// com 21/12. Colinas do Tocantins 10/31 ("Dia do Evangélico"): pesquisa revelou que o evangélico
+// estadual no Tocantins é oficialmente 25/04 e o nacional é 30/11 — e uma celebração
+// especificamente noticiada em Colinas foi em 14/12/2024, não 31/10 — a hipótese de 31/10 fica
+// mais fraca ainda do que apenas "sem lei", parece ser um erro do próprio dataset de origem.
+// Miracema do Tocantins 06/25: emancipação real é 25 de AGOSTO (não junho) e padroeira Santa
+// Terezinha é 01/10 — 25/06 não bate com nada identificado. Natividade 08/16: padroeira do
+// ESTADO (Nossa Senhora da Natividade) tem feriado estadual em 08/09, não 16/08, e não achei
+// data de emancipação exata do município. Codajás [já tratado na rodada anterior de AM, não
+// aplicável aqui]. Palmeirópolis 11/27, Colméia 08/06 e 12/26, Tocantinópolis 07/07 (que já tem
+// emancipação curada em 28/07): nenhuma busca (geral, diocesana, ou de aniversário) revelou
+// motivo para essas datas específicas. Restam pendentes 14 candidatos de TO.
 // AM rodada final (retomada após pausa por limite de uso): 3 promovidos, 0 rejeitados. Dos 7
 // candidatos que restavam em AM, 3 tinham evidência específica o bastante: Apuí 12/30
 // (emancipação, Lei Estadual nº 1.826/1987, confirmada por AAM + agregador de aniversários),
