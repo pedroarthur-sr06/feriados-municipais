@@ -568,10 +568,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // tempo (14/03/1758 elevação a vila, 24/10/1848 elevação a cidade, 22/06/1661 fundação da
 // missão jesuíta) — o poder público municipal formalmente pesquisou e OFICIALIZOU 22/06 como a
 // data das comemorações cívicas atuais (após confirmação documental com o Vaticano sobre a
-// data de chegada do padre Bettendorf), then abandonando as datas anteriores. Quando uma
+// data de chegada do padre Bettendorf), abandonando as datas anteriores. Quando uma
 // cidade tem múltiplas datas históricas plausíveis, procurar a fonte que explica qual foi
-// FORMALMENTE ADOTADA como a atual, não assumir a mais antiga ou a mais "óbvia". Restam
-// pendentes ~81 candidatos de PA.
+// FORMALMENTE ADOTADA como a atual, não assumir a mais antiga ou a mais "óbvia".
+// PA sexta rodada: 6 promovidos, 0 rejeitados. Baião resolveu 2 de 3 candidatos de uma vez
+// (30/10 aniversário + 01/06 Círio de Santo Antônio padroeiro, 31/08 ficou pendente). Portel
+// também 2 de 2 (24/01 instalação da vila + 02/02 Nossa Senhora da Luz padroeira). Rurópolis:
+// mais um caso "fundação (12/02/1974, celebrada) ≠ emancipação política formal (10/05/1988,
+// Lei Estadual nº 5.446)" — o candidato batia com a fundação. Vigia: padroeira Nossa Senhora
+// das Neves confirmada com data universal (05/08) batendo exatamente; o outro candidato
+// (14/02, suposto retorno da imagem de Nazaré) ficou pendente por fonte fraca (blog pessoal,
+// sem confirmação independente). Restam pendentes ~75 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
