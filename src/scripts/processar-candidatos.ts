@@ -416,6 +416,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // próximas mas distintas, cuidado ao não confundir uma pela outra). Restam pendentes ~47
 // candidatos de PI, incluindo o cluster de 10 candidatos ainda não resolvidos em 08/12 (Nossa
 // Senhora da Conceição) que não bateram com as listas nomeadas de padroeiras já usadas.
+// MT (Mato Grosso) iniciado nesta rodada: 5 promovidos de 93 candidatos pendentes. Achado
+// principal: confirma mais um caso de "onda de criação simultânea de municípios" (padrão já
+// visto em RO/AM/TO/MA/PA) — Nova Ubiratã, Querência e Santa Carmem, todos emancipados em
+// 19/12/1991-1993 na mesma região do MT. Sant'Ana confirmada como padroeira de Chapada dos
+// Guimarães (26/07), mas os outros 3 candidatos do mesmo cluster de data (Aripuanã,
+// Nortelândia, Novo São Joaquim) não têm confirmação individual — mesmo padrão de cautela já
+// usado no MA/PI: não promover em bloco só porque a data é compartilhada por vários
+// municípios, cada um precisa de confirmação nominal. Mesma cautela aplicada ao cluster de
+// 25/07 (Canarana, Denise, Santa Carmem — candidata a São Cristóvão/São Tiago, mas sem
+// confirmação por município) e ao cluster de 08/12 (Diamantino confirmado como Nossa Senhora
+// da Conceição, Marcelândia e Querência não). Restam pendentes ~88 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
