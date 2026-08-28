@@ -498,6 +498,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (13/05, mesma onda de 23 municípios de MT em 13 de maio já documentada, ainda não conferida
 // candidato a candidato nesta sessão — Vera não tinha candidato para 13/05 na fila). Restam
 // pendentes ~58 candidatos de MT.
+// PA (Pará) iniciado nesta rodada: 2 promovidos, 1 rejeitado, de 97 candidatos pendentes.
+// Achado importante: PA tem PELO MENOS duas ondas grandes de criação/emancipação simultânea de
+// municípios já documentadas em reportagens ("15 municípios paraenses" emancipados em
+// 10/05/1988: Bom Jesus do Tocantins, Brejo Grande do Araguaia, Concórdia do Pará,
+// Curionópolis, Dom Eliseu, Garrafão do Norte, Ourilândia do Norte, Pacajá, Parauapebas,
+// Rurópolis, Santa Maria das Barreiras, São Geraldo do Araguaia, São João de Pirabas,
+// Tailândia, Tucumã; e "11 municípios" criados pela Lei nº 2.460 em 29/12/1961: Jacundá, Santa
+// Maria do Pará, Benevides, Limoeiro do Ajuru, Peixe-Boi, Bonito, Capitão Poço, Colares,
+// Senador José Porfírio, São João do Araguaia, Piçarra) — MAS, ao cruzar essas duas listas
+// contra os candidatos pendentes reais no banco, NENHUM candidato bate exatamente com 10/05 ou
+// 29/12 (os candidatos desses mesmos municípios estão em datas próximas mas diferentes, ex.
+// Dom Eliseu candidatado a 12/05 não 10/05, Curionópolis a 27/11 não 10/05) — reforça que o
+// dataset comunitário nem sempre reflete a data de emancipação "oficial" pesquisável, podendo
+// ser padroeiro, data de instalação (distinta da criação), ou erro de fonte; não force-matchear
+// datas de onda contra candidatos que não batem exatamente. Confirma de novo 'aniversário
+// celebrado ≠ feriado decretado' com Tucuruí (31/12, aniversário real do município, mas fonte
+// nega status de feriado) — REJEITADO; o candidato de Tucuruí para 31/10 (que corresponderia à
+// criação da freguesia em 1870, achado histórico à parte) ficou pendente por falta de
+// confirmação de que essa é de fato a data comemorada hoje. Restam pendentes ~95 candidatos de
+// PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
