@@ -278,7 +278,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // com 24 dos 30 candidatos do cluster de uma vez (lista nomeada exaustivamente, como um
 // "PDF de TJ" informal). Restam pendentes no CE: 6 candidatos de 08/12 (Barbalha, Baturité,
 // Brejo Santo, Mombaça, Palmácia, Umirim — não constam na lista de 35) e os demais clusters
-// grandes ainda não trabalhados (08/15 com 11, 06/13 com 10, 06/29 com 9).
+// grandes ainda não trabalhados (08/15 com 11, 06/13 com 10, 06/29 com 9). CE aprofundado
+// (45 promovidos): reportagens jornalísticas cearenses (opovo.com.br, diariodonordeste,
+// metropoles.com) publicam listas NOMEADAS de cidades por data de feriado com regularidade
+// impressionante — funcionou de novo para 08/15 (17 cidades listadas, 11 bateram), 06/29
+// (São Pedro, lista bateu 100% com o cluster), 07/26 (Sant'Ana, 11 cidades listadas, 8
+// bateram), e uma Lei Municipal explícita (nº 335/1968) resolveu Juazeiro do Norte em 09/15.
+// 12 candidatos já rotulados no dataset (Santo Antônio ×10, São João ×2) + 1 São Sebastião.
+// CE parece ter uma imprensa estadual particularmente ativa em publicar esse tipo de lista —
+// vale sempre tentar a busca "[data] é feriado em quantas cidades" / "[santo] X cidades
+// celebram" antes de ir cidade por cidade, padrão que se repetiu em quase todo cluster do CE.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
