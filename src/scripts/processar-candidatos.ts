@@ -487,6 +487,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // e que a escolha de qual delas vira feriado é uma decisão legislativa específica, não uma
 // regra genérica — sempre verificar qual data bate com o candidato real antes de assumir.
 // Restam pendentes ~61 candidatos de MT.
+// MT oitava rodada: 3 promovidos, 1 rejeitado. Caso muito instrutivo: Ribeirão Cascalheira
+// tem candidatos para AMBAS 03/05 (data da Lei Estadual nº 5.267 de criação) e 12/08 (Decreto
+// Municipal nº 234/1993, que fixou essa outra data como a comemoração cívica oficial e feriado
+// municipal) — promovido só 12/08 (a data efetivamente decretada como feriado), 03/05 ficou
+// pendente (é só a data de criação legal, sem confirmação de que também virou feriado
+// separado). Confirma de novo o padrão "aniversário celebrado ≠ feriado decretado" com Itiquira
+// (01/12, fonte explícita nega status de feriado apesar da comemoração popular) — REJEITADO.
+// Vera resolvido como fundação (27/07/1972), distinta da emancipação política-administrativa
+// (13/05, mesma onda de 23 municípios de MT em 13 de maio já documentada, ainda não conferida
+// candidato a candidato nesta sessão — Vera não tinha candidato para 13/05 na fila). Restam
+// pendentes ~58 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
