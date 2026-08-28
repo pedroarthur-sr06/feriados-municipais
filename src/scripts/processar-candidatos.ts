@@ -201,7 +201,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // com contagem exata "cinco municípios"). Cluster de 24/06 (São João Batista) resolvido quase
 // por completo (5 de 6) via uma única reportagem (acritica.net) que lista todas as cidades de
 // MS com o feriado. Padrão de datas distintas para emancipação vs. padroeiro confirmado de
-// novo em Selvíria (12/05 + 24/06) e Pedro Gomes (11/11 + 20/01 São Sebastião).
+// novo em Selvíria (12/05 + 24/06) e Pedro Gomes (11/11 + 20/01 São Sebastião). MT iniciado
+// (40 promovidos): leva muito produtiva — 16 candidatos já vinham com nome específico no
+// próprio dataset comunitário (Santo Antônio ×7, São Cristóvão ×2, Aniversário/Emancipação
+// ×2, São José ×3, Reforma Protestante ×1, Dia do Evangélico ×1). O calendário forense do
+// TJMT (PDF anual) confirmou vários casos de padroeiro isolados (Santo Antônio, São João
+// Batista, Dia do Evangélico). Onda de emancipação simultânea de 8 municípios em 04/07
+// (Campo Novo do Parecis, Campo Verde, Cláudia, Juruena, Matupá, Nova Mutum, São José do
+// Povo, Tapurah — 7 dos 8 tinham candidato neste dataset). Cluster de 20/01 (São Sebastião)
+// resolvido por completo (5 de 5). Vila Bela da Santíssima Trindade confirma fundação de
+// 1752 como primeira capital de MT, com lei estadual de 2016 prevendo transferência simbólica
+// anual da capital nesse dia. Único candidato com citação de lei embutida neste estado
+// (Confresa, Dia do Evangélico) segue bloqueado por limitação de schema (regra "2º sábado de
+// julho"), mesmo caso já documentado.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
