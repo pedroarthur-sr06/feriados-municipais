@@ -269,6 +269,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Fé, Cabaceiras, Coremas) e os 7 remanescentes de 24/06. Mais 3 confirmados em 08/12
 // (Itabaiana, Pedras de Fogo, Areia — fontes oficiais/específicas confirmando feriado
 // municipal decretado, não só existência de paróquia). Restam 24 candidatos de 08/12 no PB.
+// CE iniciado (24 promovidos, 21 rejeitados): já tinha estadual pleno de 19/03 (São José,
+// padroeiro do Ceará, curado antes desta sessão) — aplicado o atalho de cluster: 21 rejeições
+// diretas por redundância (um dos candidatos, Ararendá, trazia no próprio dataset o nome
+// 'Dia de São José, padroeiro do ESTADO', confirmando a leitura). Cluster de 08/12 (30
+// candidatos) resolvido com uma fonte excepcional: reportagem do Diário do Nordeste/GC Mais
+// lista as 35 cidades cearenses onde Nossa Senhora da Imaculada Conceição é padroeira — bateu
+// com 24 dos 30 candidatos do cluster de uma vez (lista nomeada exaustivamente, como um
+// "PDF de TJ" informal). Restam pendentes no CE: 6 candidatos de 08/12 (Barbalha, Baturité,
+// Brejo Santo, Mombaça, Palmácia, Umirim — não constam na lista de 35) e os demais clusters
+// grandes ainda não trabalhados (08/15 com 11, 06/13 com 10, 06/29 com 9).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
