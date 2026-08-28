@@ -627,13 +627,33 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // SE terceira rodada: 7 promovidos, 0 rejeitados. Achado de fonte nova: o Calendário Judicial
 // do TJSE (Tribunal de Justiça de Sergipe) lista, comarca por comarca, tanto a data de
 // emancipação quanto a data da padroeira de vários municípios — fonte auxiliar muito boa para
-// SE, seguindo o padrão já visto com TJES/TJSE/TJMT em sessões anteriores. Dois casos de
-// "aniversário/padroeira ≠ data de criação legal, resolvido a favor da data efetivamente
-// comemorada": Riachão do Dantas (emancipação real é 09/05, mas o candidato pendente era a
-// padroeira em 21/11, coincidindo com a data de Pedra Mole) e Poço Redondo (Lei Estadual nº
-// 525-A foi assinada em 25/11/1953, mas a Lei Orgânica municipal fixa 23/11 como a data
-// comemorada). Simão Dias resolveu emancipação (12/06) e padroeira Sant'Ana (26/07, data
-// universal) de uma vez. Restam pendentes ~82 candidatos de SE.
+// SE, seguindo o padrão já visto com TJES/TJSE/TJMT em sessões anteriores. Simão Dias resolveu
+// emancipação (12/06) e padroeira Sant'Ana (26/07, data universal) de uma vez. Nesta rodada,
+// dois candidatos (Riachão do Dantas/Pedra Mole em 21/11, e Poço Redondo em 23/11) foram
+// promovidos citando "o Calendário Judicial do TJSE" como fonte, mas essa citação vinha de um
+// resumo de busca, não da leitura direta do PDF — ver CORREÇÃO na nota da quarta rodada abaixo.
+// Restam pendentes ~82 candidatos de SE.
+// SE quarta rodada: 36 promovidos + 1 cadastro direto, 0 rejeitados. Desta vez o PDF do
+// Calendário Judicial do TJSE 2026 foi de fato baixado e lido por inteiro (via Read direto no
+// arquivo local, já que o WebFetch não conseguiu extrair o texto do PDF) — ele lista, mês a mês,
+// o feriado forense de cada comarca de Sergipe (padroeiro E emancipação), e rendeu 36
+// promoções de uma vez, o maior lote de uma fonte única nesta sessão. CORREÇÃO IMPORTANTE: ao
+// cruzar o texto real do calendário com os dois lançamentos da terceira rodada citados acima,
+// descobriu-se que (a) o calendário NÃO lista Pedra Mole em 21/11 — só Japoatã e Riachão do
+// Dantas aparecem nessa data — ou seja, a citação anterior "confirmada pelo TJSE" para Pedra
+// Mole era uma síntese de busca não lastreada no documento real, uma fabricação; e (b) o
+// calendário lista a emancipação de Poço Redondo em 25/11, não 23/11 como uma fonte secundária
+// (blog citando a Lei Orgânica) havia indicado. Os dois lançamentos errados (feriados #70528
+// Pedra Mole 21/11 e #70530 Poço Redondo 23/11) foram desativados via SQL direto
+// (UPDATE feriados SET ativo=0), os candidatos de origem (15847, 15859) voltaram a
+// status='pendente', e Poço Redondo foi recadastrado corretamente em 25/11 via criar_direto
+// (sem candidato correspondente na fila para essa data). Pedra Mole permanece genuinamente sem
+// fonte e pendente — o calendário não traz nenhuma data para o município. Lição para o
+// trabalho futuro: uma citação sintetizada por busca ("o calendário do TJSE confirma X") não é
+// o mesmo que ter lido o documento primário — deve ser tratada como não verificada até o PDF
+// (ou equivalente) ser de fato aberto e conferido linha a linha. Restam pendentes ~46
+// candidatos de SE (~47 contando Pedra Mole, que segue sem fonte para 21/11 ou qualquer outra
+// data).
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
