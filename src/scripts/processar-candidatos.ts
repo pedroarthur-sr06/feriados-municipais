@@ -323,6 +323,27 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Colméia (06/08, 26/12), Natividade 16/08, Colinas do Tocantins 31/10, Palmeirópolis 27/11
 // (emancipação real é 10/06/1980, mas nenhuma fonte confirma OU nega 27/11 especificamente),
 // Araguaçu 08/12, e o já conhecido Gurupi Dia do Evangélico (limitação de schema).
+// AL (Alagoas) aprofundado nesta rodada: 21 promovidos, 3 rejeitados de 75 candidatos
+// pendentes (muitos ainda restam — não é o estado inteiro, só uma rodada de pesquisa).
+// Achados úteis: (1) primeira rejeição por REDUNDÂNCIA COM SEXTA-FEIRA SANTA nesta sessão —
+// candidato de Marechal Deodoro para 03/04/2026 já é Sexta-feira Santa (nacional, calculada
+// em código) — vale sempre checar se a data do candidato cai numa Páscoa-derivada do ano antes
+// de pesquisar; (2) caso raro de duas cidades VIZINHAS com a MESMA data de emancipação
+// (22/08/1962, Canapi e Inhapi, desmembradas juntas) mas com desfechos OPOSTOS — Canapi tem
+// lei declarando feriado, Inhapi tem fonte explícita dizendo que NÃO virou feriado por falta
+// de lei — reforça que nunca dá para inferir de um município vizinho para outro, mesmo com
+// história compartilhada; (3) AL tem portal de notícias municipais muito ativo (Agenda
+// Alagoas, AMA, Assembleia Legislativa de Alagoas com página dedicada por município listando
+// emancipação/padroeiro/eventos) — a página da ALE-AL por município é uma fonte auxiliar
+// muito boa, similar à AAM no Amazonas; (4) caso raro de MUDANÇA DE DATA de comemoração por
+// motivo prático (São Miguel dos Campos: emancipação legal é 18/06/1864, mas a comemoração
+// foi transferida para 29/09 por causa de chuvas fortes em junho — 29/09 é a data hoje
+// efetivamente celebrada e a que promovemos); (5) padroeiro rendeu bastante de novo: São
+// Sebastião (Limoeiro de Anadia, Porto Calvo), São Benedito (Coité do Nóia), Nossa Senhora do
+// Rosário (Inhapi), Sant'Ana (Santana do Ipanema, nome do município já indica), Santa Maria
+// Madalena (União dos Palmares, com lei municipal citada), Nossa Senhora da Penha (Batalha e
+// São Sebastião/AL, mesma padroeira em municípios vizinhos) e Nossa Senhora do Ó (São Miguel
+// dos Campos). Restam pendentes ~54 candidatos de AL não pesquisados nesta rodada.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
