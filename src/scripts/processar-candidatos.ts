@@ -234,6 +234,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // publicam PDF equivalente antes de partir para pesquisa cluster-a-cluster (padrão já visto
 // com o TJSE em Sergipe, agora confirmado de novo e com MAIS detalhe no TJES — vale futuramente
 // checar TJAM, TJPA, TJRN, TJMS, TJPI para os candidatos que ainda restam desses estados).
+// RJ iniciado (50 promovidos!): TJRJ publica calendários por "Núcleo Regional" (comarca) em
+// PDFs separados (não um único consolidado como TJES/TJSE) — usado o do 8º Núcleo como
+// referência. Estado já tinha 23/04 São Jorge (padroeiro do RJ) estadual curado antes desta
+// sessão, mas isso NÃO cobre feriados municipais de outros santos — cada cidade tem seu
+// próprio padroeiro municipal, sem atalho de cluster aqui (diferente do padrão 08/12 de
+// MA/PA). Praticamente todos os clusters grandes resolvidos: 13/06 Santo Antônio (9/9),
+// 19/03 São José (5/5), 20/01 São Sebastião (7/7), 15/08 Nossa Senhora da Assunção/variantes
+// (10/10), 24/06 São João Batista (7/7), 08/09 padroeiras variadas (6/6), 29/06 São Pedro
+// (6/6, com Petrópolis como exceção interessante — não é padroeiro, é Dia da Chegada dos
+// Primeiros Colonos Alemães). Cluster de 08/12 (17 candidatos, o maior do estado) ficou
+// pendente — sem estadual pleno em RJ nessa data, precisaria confirmação individual.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
