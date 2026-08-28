@@ -559,6 +559,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // sessão. Vale sempre considerar criar_direto quando a pesquisa aponta pra uma data diferente
 // da candidatada, em vez de só rejeitar e deixar a data certa sem registro. Restam pendentes
 // ~56 candidatos de MT (contagem não muda o total de PA, que segue ~85).
+// PA quinta rodada: 4 promovidos, 0 rejeitados — bom rendimento com as 4 maiores cidades do
+// aglomerado metropolitano/polos regionais do PA (Ananindeua, Castanhal, Marabá, Santarém).
+// Padrão que se repete: para municípios mais antigos/maiores, a "data de instalação" (não a
+// de criação/decreto) costuma ser a celebrada oficialmente — Ananindeua (decreto 30/12/1943,
+// instalação 03/01/1944) e Marabá (criação 27/02/1913, instalação 05/04/1913) seguem esse
+// padrão. Caso mais rico: Santarém teve PELO MENOS 3 datas históricas candidatas ao longo do
+// tempo (14/03/1758 elevação a vila, 24/10/1848 elevação a cidade, 22/06/1661 fundação da
+// missão jesuíta) — o poder público municipal formalmente pesquisou e OFICIALIZOU 22/06 como a
+// data das comemorações cívicas atuais (após confirmação documental com o Vaticano sobre a
+// data de chegada do padre Bettendorf), then abandonando as datas anteriores. Quando uma
+// cidade tem múltiplas datas históricas plausíveis, procurar a fonte que explica qual foi
+// FORMALMENTE ADOTADA como a atual, não assumir a mais antiga ou a mais "óbvia". Restam
+// pendentes ~81 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
