@@ -525,6 +525,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // promovido — 28/08 ficou pendente sem confirmação (mostra de novo a importância de checar
 // TODOS os candidatos do mesmo município antes de assumir qual data é a correta, em vez de
 // pesquisar a data "óbvia" do cluster). Restam pendentes ~90 candidatos de PA.
+// PA terceira rodada: 2 promovidos, 1 rejeitado. Caso raro e muito instrutivo: Oriximiná e
+// Cametá comemoram aniversário na MESMA data (24/12), mas com desfechos opostos — Oriximiná
+// tem confirmação explícita de status de feriado ('Aniversário da Emancipação Política'
+// oficial), Cametá tem fonte explícita negando esse status. Mesmo padrão do caso Canapi/Inhapi
+// em AL (duas cidades vizinhas com a mesma data de emancipação, uma virou feriado, outra não)
+// — reforça que nunca dá para inferir o status de feriado de uma cidade a partir de outra, por
+// mais parecida que seja a história ou a data. São Domingos do Araguaia confirmado via ficha
+// da FAPESPA (Fundação Amazônia de Amparo a Estudos e Pesquisas do Pará) — fonte estadual
+// oficial nova para esta sessão, boa para MT/PA/estados amazônicos em geral. Restam pendentes
+// ~88 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
