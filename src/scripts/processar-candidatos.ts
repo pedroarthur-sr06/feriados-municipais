@@ -261,8 +261,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // promovidos: Gurinhém, Ingá, Jacaraú, Taperoá, Itaporanga) — colheita bem mais fraca que
 // 24/06, já que "existe paróquia dedicada à santa" não confirma automaticamente feriado
 // municipal DECRETADO (padrão mais rigoroso aplicado aqui: só promovido quando achada fonte
-// oficial da prefeitura ou confirmação explícita de celebração no ano corrente). 27
-// candidatos restantes de 08/12 e todo o cluster de 06/29 (17) seguem pendentes no PB.
+// oficial da prefeitura ou confirmação explícita de celebração no ano corrente). Cluster de
+// 06/29 (17 candidatos, São Pedro) resolvido quase por completo (13 de 17) com a mesma tática
+// de busca em lotes pequenos usada no cluster de 24/06 — colheita voltou a ser forte assim
+// que a data é uma festa junina popular (São Pedro fecha o ciclo junino, junto com São João).
+// Restam pendentes no PB: 27 candidatos de 08/12, 4 de 06/29 (Alagoa Nova, Bonito de Santa
+// Fé, Cabaceiras, Coremas) e os 7 remanescentes de 24/06.
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
