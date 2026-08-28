@@ -363,6 +363,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // é 21/06 (aniversário da cidade, data não candidatada) — "festejo"/novena terminando num dia
 // não implica necessariamente que aquele dia é o feriado decretado; mantido pendente por
 // prudência. Restam pendentes a maioria dos 78 candidatos de PI (não é o estado inteiro).
+// AL segunda rodada: mais 17 promovidos (0 rejeitados desta vez), quase todos via emancipação
+// política confirmada pela AMA (Associação dos Municípios Alagoanos, fonte-mãe para todo AL —
+// tem página dedicada por município e também uma "lista de emancipações" central muito útil
+// para checar vários municípios de uma vez) cruzada com reportagem/prefeitura local. Também 2
+// padroeiros: Santa Rita de Cássia (Boca da Mata, 22/05) e Sant'Ana (Barra de São Miguel,
+// 26/07, mesmo padrão já visto em Santana do Ipanema). Caso instrutivo: Piranhas/AL tem duas
+// fontes conflitantes sobre a data da padroeira Nossa Senhora da Saúde (uma diz 02/02, outra
+// diz 22/03, que era a data candidatada) — como "Nossa Senhora da Saúde" não tem uma data
+// universal fixa no calendário católico (varia por devoção local), a divergência não pôde ser
+// resolvida com confiança e o candidato ficou pendente. Outro caso: Matriz de Camaragibe tem
+// candidatos para 24/05 e 13/12, mas a fonte oficial (AMA) só confirma emancipação em 24/04 e
+// aniversário em 19/06 — nenhuma bate com as datas candidatadas, então ambas ficaram pendentes
+// (nem confirma nem nega o suficiente pra rejeitar). Restam pendentes ~34 candidatos de AL.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
