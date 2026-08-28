@@ -344,6 +344,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Madalena (União dos Palmares, com lei municipal citada), Nossa Senhora da Penha (Batalha e
 // São Sebastião/AL, mesma padroeira em municípios vizinhos) e Nossa Senhora do Ó (São Miguel
 // dos Campos). Restam pendentes ~54 candidatos de AL não pesquisados nesta rodada.
+// PI (Piauí) iniciado nesta rodada: 6 promovidos de 78 candidatos pendentes, focado no maior
+// cluster (13 candidatos para 08/12, Nossa Senhora da Conceição). Achado importante: PI já
+// tinha um PONTO FACULTATIVO ESTADUAL curado para 08/12 (só administração pública estadual,
+// decreto anual) — MAS isso NÃO torna os candidatos municipais automaticamente redundantes
+// (diferente do padrão MA/RJ, onde havia um feriado ESTADUAL PLENO): ponto facultativo
+// estadual e feriado municipal pleno são categorias jurídicas diferentes que coexistem, então
+// cada candidato municipal ainda precisa de pesquisa individual. Duas reportagens/listas
+// nomeadas independentes (Info Newss "17 cidades" e uma lista por diocese "18 municípios")
+// identificaram só 3 dos 13 candidatos do cluster como tendo N. Sra. da Conceição como
+// padroeira oficial (Corrente, Luís Correia, Pedro II) — os outros 10 NÃO aparecem em nenhuma
+// das duas listas apesar de serem candidatos a "Feriado Municipal" na mesma data, reforçando
+// que uma data compartilhada por muitos municípios não pode ser promovida em bloco sem
+// confirmação nominal por cidade. Também promovidos: São Raimundo Nonato e União (co-padroeiro
+// em ambos, 31/08, São Raimundo Nonato) e Guadalupe (12/12, Nossa Senhora de Guadalupe,
+// heurística do nome do município). Achado a registrar: São Pedro do Piauí tem candidato para
+// 29/06 (fim do festejo de São Pedro), mas fonte oficial diz que o FERIADO MUNICIPAL decretado
+// é 21/06 (aniversário da cidade, data não candidatada) — "festejo"/novena terminando num dia
+// não implica necessariamente que aquele dia é o feriado decretado; mantido pendente por
+// prudência. Restam pendentes a maioria dos 78 candidatos de PI (não é o estado inteiro).
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
