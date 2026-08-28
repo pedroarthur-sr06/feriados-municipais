@@ -466,6 +466,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // São Francisco Xavier). Colíder pesquisado mas sem confirmação para nenhuma das 2 datas
 // candidatadas (24/06, 18/12) — aniversário real (07/05) nem sequer é feriado, mantido
 // pendente. Restam pendentes ~66 candidatos de MT.
+// MT sexta rodada: 2 promovidos + 1 cadastro direto. Achado raro e valioso: durante a
+// pesquisa de Guiratinga, uma busca lateral revelou que Rondonópolis SANCIONOU em 2026 (Lei
+// nº 14.933, 21/07/2026, em vigor 22/07/2026) um feriado municipal NOVO para São João Batista
+// (padroeiro, 24/06), após anos de tentativas frustradas de vereadores — não havia candidato
+// correspondente no dataset comunitário (que é uma captura estática mais antiga), então foi
+// cadastrado via criar_direto com base em cobertura jornalística ampla e recente (7+ fontes
+// independentes, incluindo a própria Câmara Municipal). Isso mostra que vale a pena, de vez em
+// quando, fazer uma busca geral por "feriado municipal sancionado 2026 [UF]" — o dataset
+// comunitário não captura leis municipais recentes, e por isso há uma lacuna estrutural de
+// feriados novíssimos que só aparecem se procurados ativamente, fora do fluxo normal de
+// revisar candidatos pendentes. Restam pendentes ~64 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
