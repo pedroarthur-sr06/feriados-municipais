@@ -245,6 +245,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (6/6, com Petrópolis como exceção interessante — não é padroeiro, é Dia da Chegada dos
 // Primeiros Colonos Alemães). Cluster de 08/12 (17 candidatos, o maior do estado) ficou
 // pendente — sem estadual pleno em RJ nessa data, precisaria confirmação individual.
+// MARCO: 1000+ feriados curados nesta sessão. PB retomada com sucesso (47 promovidos, 1
+// rejeitado) — a tentativa anterior desta sessão tinha abandonado o cluster de 24/06 (56
+// candidatos!) por falta de retorno nas buscas; desta vez, buscando em lotes de 5-6 cidades
+// por vez em vez de cidade a cidade, quase todo o cluster foi resolvido (47 de 56) citando a
+// mesma reportagem de abrangência nacional (opovo.com.br, "mais de 600 cidades") como fonte
+// corroborante compartilhada — tática útil para clusters gigantes de datas populares (São
+// João, São Pedro, São Sebastião) quando não há PDF de TJ ou fonte única equivalente: BUSCAR
+// EM LOTES pequenos de nomes de cidade, não uma de cada vez. Brejo do Cruz REJEITADO — fonte
+// aponta que seu feriado real é 10/07 (aniversário), não 24/06 (erro de atribuição no
+// dataset comunitário, distinto do padrão "não é feriado oficial" já visto — aqui é um caso
+// de DATA ERRADA atribuída à cidade certa). Restam no cluster de 24/06 do PB: Bonito de
+// Santa Fé, Barra de Santa Rosa, Santa Rita, Sapé, Soledade, Sousa, Sumé (7 pendentes, sem
+// confirmação clara). PB ainda tem clusters grandes pendentes: 08/12 (32), 06/29 (17).
 const DECISOES2: Decisao[] = [
 ];
 const DECISOES: Decisao[] = [];
