@@ -427,6 +427,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 25/07 (Canarana, Denise, Santa Carmem — candidata a São Cristóvão/São Tiago, mas sem
 // confirmação por município) e ao cluster de 08/12 (Diamantino confirmado como Nossa Senhora
 // da Conceição, Marcelândia e Querência não). Restam pendentes ~88 candidatos de MT.
+// MT segunda rodada: mais 7 promovidos, 0 rejeitados. Mais dois pares de municípios vizinhos
+// com a MESMA data de emancipação em anos diferentes (Arenápolis + Nortelândia, 05/02/1954,
+// desmembrados juntos de Diamantino/Barra do Bugres; Araguaiana + Mirassol d'Oeste, 14/05,
+// anos diferentes — 1976 e 1986 — mera coincidência de data, não onda). Caso novo e importante:
+// Nova Xavantina tem FUNDAÇÃO (14/04/1944, lançamento de pedra fundamental) e EMANCIPAÇÃO
+// POLÍTICA (03/03/1980) como datas diferentes e ambas comemoradas — candidato batia com a
+// fundação, não a emancipação; promovido como 'Aniversário de Fundação' distinto de
+// 'Aniversário de Emancipação Política' (nomenclatura já usada em outros casos de fundação vs.
+// emancipação, ex. Piaçabuçu/AL, Angical do Piauí). Restam pendentes ~81 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
