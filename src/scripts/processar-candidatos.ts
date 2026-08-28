@@ -288,8 +288,34 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // CE parece ter uma imprensa estadual particularmente ativa em publicar esse tipo de lista —
 // vale sempre tentar a busca "[data] é feriado em quantas cidades" / "[santo] X cidades
 // celebram" antes de ir cidade por cidade, padrão que se repetiu em quase todo cluster do CE.
+// AM (Amazonas) fechado nesta rodada: era o menor estado pendente (20 candidatos, sem
+// clusters de data compartilhada — cada município com data própria). 13 promovidos, 1
+// rejeitado (Manicoré 08/15 — Lei Orgânica lista os feriados oficiais do município e 15/08
+// não está entre eles, só é "dia da elevação à categoria de cidade"), 6 pendentes sem fonte
+// suficiente (Tabatinga, Humaitá, Codajás, Tapauá, Borba, Barcelos). Achados úteis: (1) a
+// Associação Amazonense de Municípios (aam.org.br) tem ficha por município com data de
+// aniversário/emancipação e às vezes padroeiro — boa fonte auxiliar para o Norte, mas nem
+// sempre cita a lei; (2) o IDAM (idam.am.gov.br) tem fichas técnicas por município com "Ato
+// de Criação: Lei Nº X de DD/MM/AAAA" — quando essa data bate com notícia de câmara/prefeitura
+// celebrando aniversário, conta como 2ª fonte independente; (3) heurística "padroeiro = data
+// universal do santo" usada de novo com sucesso (São Sebastião 20/01, São João Batista 24/06,
+// Santo Elias 20/07 — este último inédito, padroeiro de Novo Airão); (4) quando uma Lei
+// Orgânica municipal lista explicitamente os feriados oficiais e a data candidata NÃO está
+// nessa lista, é motivo válido de rejeição (não apenas "sem fonte") — mesmo padrão já visto
+// com fontes municipais negando data em outros estados.
 const DECISOES2: Decisao[] = [
 ];
+// Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
+// contrária o bastante para rejeitar — não incluídos em DECISOES2):
+// 8880 Tabatinga 09/29 (padroeiro incerto — colonização ligada a São
+// Francisco Xavier, não a São Miguel Arcanjo), 8846 Humaitá 10/31 ("Dia do
+// Evangélico" confirmado por agregadores e por padrão regional similar em
+// Manicoré, mas sem lei municipal específica encontrada), 8841 Codajás
+// 11/28 (nem aniversário [31/03] nem emancipação [02/08/1894] batem com a
+// data, sem padroeiro identificado), 8881 Tapauá 05/22 (só agregadores
+// genéricos, emancipação é 19/12/1955), 8830 Borba 06/01 (aniversário é
+// 26/09, sem padroeiro identificado), 8825 Barcelos 08/07 (aniversário é
+// 06/05 e não é feriado, sem padroeiro identificado).
 const DECISOES: Decisao[] = [];
 function main() {
   for (const d of [...DECISOES2, ...DECISOES]) {
