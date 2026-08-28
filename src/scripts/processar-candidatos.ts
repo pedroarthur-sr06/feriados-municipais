@@ -460,6 +460,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 18/12/1979, mas o feriado municipal decretado é 19/05 (data da fundação/abertura da estrada
 // em 1976). Poconé também é fundação (21/01/1781), não emancipação (25/10, não candidatada).
 // Restam pendentes ~70 candidatos de MT.
+// MT quinta rodada: mais 4 promovidos. Confresa (29/07, Lei Municipal nº 433/2010) e
+// Diamantino (18/09/1728) reforçam o padrão fundação-como-feriado-decretado. Paranatinga
+// resolveu as duas datas do mesmo município de uma vez (17/12 emancipação + 03/12 padroeiro
+// São Francisco Xavier). Colíder pesquisado mas sem confirmação para nenhuma das 2 datas
+// candidatadas (24/06, 18/12) — aniversário real (07/05) nem sequer é feriado, mantido
+// pendente. Restam pendentes ~66 candidatos de MT.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
