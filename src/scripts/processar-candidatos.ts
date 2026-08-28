@@ -405,6 +405,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (Fronteiras, Cocal, Angical do Piauí, Castelo do Piauí, Santa Cruz do Piauí) e um caso de
 // coincidência de data de fundação entre municípios distintos (Bom Jesus e Canto do Buriti,
 // ambos 15/12/1938). Restam pendentes ~60 candidatos de PI.
+// PI terceira rodada: 13 promovidos, 1 rejeitado. Padrão dominante segue sendo emancipação
+// política via prefeitura/câmara municipal + reportagens locais (portais regionais como
+// Cidades na Net, 180graus, Cidades em Foco, Portal R10 são muito ativos no PI, similar ao
+// papel do Atitude TO no Tocantins). Segundo caso de "aniversário celebrado ≠ feriado
+// decretado" nesta rodada (Luzilândia 10/03, mesmo padrão de Parnaíba 14/08 já visto) — REJEITAR
+// com a fonte que nega explicitamente, não deixar pendente. Terceiro caso desta sessão de
+// "duas datas diferentes para o mesmo município, ambas confirmáveis separadamente" (Água Branca:
+// 01/07 emancipação + 15/08 padroeira; Floriano: 02/07 padroeira + 08/07 emancipação — datas
+// próximas mas distintas, cuidado ao não confundir uma pela outra). Restam pendentes ~47
+// candidatos de PI, incluindo o cluster de 10 candidatos ainda não resolvidos em 08/12 (Nossa
+// Senhora da Conceição) que não bateram com as listas nomeadas de padroeiras já usadas.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
