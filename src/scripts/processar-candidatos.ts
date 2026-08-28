@@ -535,6 +535,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // da FAPESPA (Fundação Amazônia de Amparo a Estudos e Pesquisas do Pará) — fonte estadual
 // oficial nova para esta sessão, boa para MT/PA/estados amazônicos em geral. Restam pendentes
 // ~88 candidatos de PA.
+// PA quarta rodada: 3 promovidos, 0 rejeitados. Mais uma onda confirmada: Decreto-Lei nº
+// 4.505, de 30/12/1943, criou simultaneamente Barcarena, Bujaru, Inhangapi, Nova Timboteua e
+// São Francisco do Pará (Melgaço juntou-se ao grupo em 1961 por lei diferente) — Nova
+// Timboteua e São Francisco do Pará confirmados (candidatos batiam exatamente com 30/12);
+// Barcarena tinha candidato só para 03/12 (não bate com a onda) — mesma cautela de sempre, só
+// promover quando a data do candidato bate exatamente. Nova Esperança do Piriá é caso à parte
+// (Lei nº 5.707/1991, não relacionada à onda de 1943) — a data de ASSINATURA da lei (27/12)
+// bateu com o candidato, distinta da data de PUBLICAÇÃO no Diário Oficial (30/12, mesmo dia da
+// onda de 1943 mas por coincidência) — cuidado ao pesquisar esse tipo de caso para não
+// confundir assinatura com publicação quando ambas aparecem na mesma fonte. Restam pendentes
+// ~85 candidatos de PA.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
