@@ -376,6 +376,24 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // candidatos para 24/05 e 13/12, mas a fonte oficial (AMA) só confirma emancipação em 24/04 e
 // aniversário em 19/06 — nenhuma bate com as datas candidatadas, então ambas ficaram pendentes
 // (nem confirma nem nega o suficiente pra rejeitar). Restam pendentes ~34 candidatos de AL.
+// AL terceira rodada: mais 17 promovidos (0 rejeitados), praticamente esgotando o padrão
+// "emancipação via AMA/prefeitura" nesse estado. Achados notáveis: (1) primeiro caso desta
+// sessão de um único município com DUAS datas de emancipação candidatadas que na verdade são
+// EVENTOS DIFERENTES do mesmo tipo em municípios vizinhos com histórico compartilhado (Olho
+// d'Água das Flores e Paulo Jacinto, mesma data exata 02/12/1953 — desmembrados juntos);
+// (2) caso Campo Grande/AL: candidato tinha 3 datas (31/05, 01/06, 13/12) — resolvidos 2 das 3
+// (31/05 emancipação por lei estadual nº 2.330/1960, 13/12 padroeira Santa Luzia), 01/06 ficou
+// pendente por falta de fonte específica (não é claramente nem a emancipação nem a padroeira);
+// padrão de "1 município, 2 datas diferentes, ambas confirmáveis separadamente" segue sendo o
+// mais comum quando há mais de um candidato pendente para o mesmo município. (3) Major
+// Isidoro/AL: candidato de 01/06 é confirmado como feriado municipal REAL por agregadores, mas
+// a razão não é a emancipação (17/09/1949) nem foi encontrada — mantido pendente por falta de
+// citação específica, mesmo com razoável certeza de que a data existe como feriado. AL está
+// essencialmente esgotado com as técnicas de busca tentadas — os ~17 que restam pendentes
+// (Traipu, Poço das Trincheiras 20/01, Quebrangulo, São José da Laje, Matriz de Camaragibe,
+// Piranhas 22/03, Major Isidoro, Campo Grande 01/06, Porto Calvo 22/07, Taquarana 03/05) não
+// renderam fonte suficiente com as buscas tentadas — retomar com estratégia diferente ou mais
+// tarde, mesmo padrão de "abandono documentado" já usado para PB.
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
