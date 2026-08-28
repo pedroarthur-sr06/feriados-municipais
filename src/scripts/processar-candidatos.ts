@@ -303,6 +303,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Orgânica municipal lista explicitamente os feriados oficiais e a data candidata NÃO está
 // nessa lista, é motivo válido de rejeição (não apenas "sem fonte") — mesmo padrão já visto
 // com fontes municipais negando data em outros estados.
+// TO (Tocantins) aprofundado nesta rodada: 9 promovidos, 2 rejeitados, 15 pendentes (26
+// candidatos, quase todos com data própria por município, poucos clusters). Achados úteis:
+// (1) confirma de novo o padrão de "onda de instalação simultânea" já visto em RO/AM/MT/PA —
+// desta vez 15 municípios tocantinenses instalados em 01/06/1989 (Combinado, Divinópolis do
+// Tocantins e outros 13, ver reportagem do Gazeta do Cerrado) e 17 em 14/11/1958 (Xambioá,
+// Araguaçu, Gurupi e outros); (2) esse mesmo achado serviu para REJEITAR com segurança 2
+// candidatos cuja data não batia com a onda confirmada (Xambioá tinha candidato para 30/11,
+// mas a data real e oficialmente decretada é 14/11 — Lei Municipal nº 216/89; Formoso do
+// Araguaia tinha candidato para 23/08, mas a data real é 1º de outubro) — quando a fonte
+// oficial do município aponta uma data DIFERENTE da do candidato (não apenas "sem fonte"),
+// vale rejeitar citando a data correta; (3) portais regionais dedicados ao estado (Gazeta do
+// Cerrado, Atitude TO, SECOM-TO) são boas fontes auxiliares para aniversário municipal no
+// Norte, similar ao papel da AAM no Amazonas; (4) padroeiro segue rendendo: Nossa Senhora de
+// Fátima em Fátima/TO (nome do próprio município já é forte indício) e Nossa Senhora do Carmo
+// em Divinópolis do Tocantins, ambos com data universal do santo. Restam pendentes: Arraias
+// 20/01, Silvanópolis 20/01, Fátima 21/12, Almas (17/05, 18/05, 10/12 — nenhuma bate com a
+// emancipação real de 14/11/1958), Miracema do Tocantins 25/06, Tocantinópolis 07/07,
+// Colméia (06/08, 26/12), Natividade 16/08, Colinas do Tocantins 31/10, Palmeirópolis 27/11
+// (emancipação real é 10/06/1980, mas nenhuma fonte confirma OU nega 27/11 especificamente),
+// Araguaçu 08/12, e o já conhecido Gurupi Dia do Evangélico (limitação de schema).
 const DECISOES2: Decisao[] = [
 ];
 // Permanecem PENDENTES no AM (sem evidência suficiente para promover, nem
