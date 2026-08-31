@@ -656,6 +656,22 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// MS segunda leva (mesma sessão): +4 promovidos, cluster de 08/12. Descoberta importante e
+// distinta de todos os outros clusters de 08/12 já vistos nesta sessão (PI, SE, MT): em MS o
+// feriado de 08/12 não é genericamente "Nossa Senhora da Conceição/Imaculada Conceição" — é
+// especificamente "Nossa Senhora de Caacupé", padroeira do PARAGUAI, celebrada por 9 municípios
+// de MS na região de fronteira (forte influência cultural paraguaia). Uma lista nomeada do Campo
+// Grande News (\"Feriado em MS: Nove Municípios Celebram Nossa Senhora de Caacupé\") nomeou
+// exatamente os 9 municípios (Aquidauana, Dourados, Iguatemi, Miranda, Rio Brilhante, Ribas do
+// Rio Pardo, Coronel Sapucaia, Sete Quedas, Porto Murtinho) — 4 desses batiam com candidatos
+// pendentes (Coronel Sapucaia, Porto Murtinho, Ribas do Rio Pardo, Sete Quedas), promovidos de
+// uma vez. Ao contrário dos clusters de PI/SE/MT, aqui a lista nomeada funcionou muito bem
+// (mesmo padrão de sucesso já visto com o Calendário do TJSE em SE) — mostra que vale sempre
+// tentar a lista nomeada primeiro quando o tema tem uma explicação regional específica (aqui,
+// fronteira com o Paraguai) em vez de ser um padroeiro genérico espalhado pelo Brasil todo.
+// Bela Vista, Paranhos, Tacuru e Vicentina (candidatos de 08/12 que NÃO estavam na lista dos 9)
+// ficam pendentes — Vicentina em particular tem padroeira confirmada como N. Sra. Rainha dos
+// Apóstolos, sem relação com 08/12.
 // MS iniciado nesta sessão: 13 promovidos, 1 rejeitado, de 103 candidatos pendentes (revisados
 // os primeiros ~30). Melhor aproveitamento da sessão até agora — o dataset comunitário de MS tem
 // qualidade nitidamente superior: muitos candidatos já vêm auto-rotulados com nome específico do
