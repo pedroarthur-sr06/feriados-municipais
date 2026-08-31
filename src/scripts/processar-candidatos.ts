@@ -656,6 +656,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN sexta leva (mesma sessão): +7 promovidos. Jardim do Seridó 08/12 (padroeira N. Sra. da
+// Conceição, confirmada pela página de história da própria Prefeitura). Lagoa Nova 02/01
+// (emancipação de Currais Novos em 1964). Lajes teve os 2 candidatos restantes confirmados de
+// uma vez pela própria página "Emancipação" da Prefeitura: 03/05 padroeira Divina Santa Cruz e
+// 03/12 emancipação política (Lei Estadual nº 572/1923) — distinta do aniversário popular
+// (25/11), que a mesma fonte deixa claro NÃO ser feriado oficial. São Paulo do Potengi teve os
+// 3 candidatos pendentes resolvidos de uma vez pela página oficial "Feriados Municipais" da
+// própria Prefeitura, que lista exaustivamente os 3 feriados municipais: 25/01 (padroeiro São
+// Paulo Apóstolo), 29/06 (São Pedro e São Paulo) e 30/12 (Emancipação Política).
 // RN quinta leva (mesma sessão): +6 promovidos, 1 rejeitado. Campo Redondo, Currais Novos e
 // Macau tiveram a maioria/todos os candidatos pendentes confirmados de uma vez. João Câmara: a
 // própria página oficial de feriados da Prefeitura lista só 2 feriados municipais (29/10
