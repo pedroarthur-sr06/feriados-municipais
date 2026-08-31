@@ -656,6 +656,24 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de MT (mesma sessão): +28 promovidos, 1 rejeitado — a maior leva única desta sessão.
+// GRANDE ACHADO: assim como TJSE/TJES/TJMS, o TJMT publica um PDF abrangente e oficial com
+// feriados municipais de TODAS as 79 comarcas do estado (Anexo II da Portaria TJMT/CGJ nº
+// 190/2025-GAB-CGJ, de 11/12/2025) — o WebFetch falhou ao converter o PDF para markdown, mas
+// salvou o binário localmente; o Read direto no PDF salvo extraiu o texto completo com sucesso
+// (mesma técnica já usada com sucesso para SE/ES nesta sessão). Cruzando as 79 comarcas listadas
+// contra os 39 candidatos pendentes de MT, quase todos os municípios com comarca própria tiveram
+// seus candidatos confirmados de uma vez: Alto Araguaia, Araputanga (2), Barra do Bugres,
+// Brasnorte, Campinápolis, Canarana (3), Cláudia, Colíder, Dom Aquino, Guiratinga, Itiquira,
+// Jauru (2), Juscimeira (2), Nortelândia, Novo São Joaquim, Porto Alegre do Norte, Porto dos
+// Gaúchos, Querência, Ribeirão Cascalheira, Rio Branco (2), Santo Antônio de Leverger e São José
+// dos Quatro Marcos (2). Vila Rica foi REJEITADO (10/08) por listagem oficial exaustiva mostrar
+// só 2 feriados municipais na comarca (13/05, 29/06), sem incluir a data do candidato. Restam
+// pendentes ~10 candidatos de MT, todos em municípios sem comarca própria listada no Anexo II
+// (Alto Paraguai, Campos de Júlio, Confresa, Denise, Jangada, Santa Carmem, Santo Antônio do
+// Leste, Torixoréu) — provavelmente anexados a comarcas de municípios vizinhos não identificadas
+// nesta pesquisa; precisaria localizar a que comarca cada um pertence para reaproveitar o mesmo
+// documento.
 // Inicia MS (retomada, mesma sessão): +14 promovidos, 1 direto, 1 rejeitado. Grande achado: o
 // TJMS publica um calendário de feriados municipais 2026 organizado por COMARCA (não por
 // município individualmente) em tjms.jus.br/institucional/feriados — vários municípios pequenos
