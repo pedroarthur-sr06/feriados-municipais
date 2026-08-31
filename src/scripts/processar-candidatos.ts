@@ -656,6 +656,28 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de PA (mesma sessão): +19 promovidos, 3 rejeitados. TJPA NÃO publica um PDF
+// abrangente por comarca como TJSE/TJES/TJMS/TJMT (testado e descartado) — pesquisa feita
+// município a município. Destaques: Benevides 30/03 é feriado histórico raro — "Libertação dos
+// Escravizados de Benevides" em 1884, quatro anos antes da Lei Áurea, tornando o município a
+// primeira localidade do Pará (e segunda do Brasil) a libertar pessoas escravizadas (Lei
+// Municipal nº 194/68) — mesma categoria rara já vista em Mossoró/RN nesta sessão. Marituba 22/09
+// e Igarapé-Miri 16/07 confirmados por lei municipal específica citada pela própria Prefeitura
+// (Lei 029/1997 e Lei 2.511/1980, respectivamente). Curuçá 14/05 e Paragominas 23/01 confirmados
+// pela própria comunicação do TJPA sobre suspensão de expediente forense nessas datas. Vigia
+// 14/02 tem motivo histórico específico (retorno de imagem furtada de N. Sra. de Nazaré). Três
+// rejeições por evidência específica contraditória (não por listagem exaustiva desta vez, mas
+// por fonte primária apontando outra data): Canaã dos Carajás 30/11 (decreto municipal exaustivo
+// lista só 30/08, 08/12, 05/10), Dom Eliseu 12/05 (lei institui 09/05, não 12/05) e Salinópolis
+// 08/09 (feriado real é 13/09). CASO CURIOSO: para Soure 29/06, o link de lei citado por uma
+// busca ("LEI-Nº-3.342.pdf") ao ser lido diretamente revelou-se a Lei nº 3.342/2014, que institui
+// o Dia do Evangélico em 30 DE NOVEMBRO — data totalmente diferente da do candidato (29/06) e sem
+// relação com ele. Candidato mantido pendente; lição reforçada de sempre abrir a fonte primária
+// antes de promover, mesmo quando o link parece specific/autoritativo. Restam pendentes ~30
+// candidatos de PA, muitos sem fonte localizada (Bragança, Capitão Poço, Igarapé-Açu, Irituia,
+// Juruti, Floresta do Araguaia, Concórdia do Pará, Mocajuba, Mãe do Rio, Ourilândia do Norte,
+// Ourém, Ponta de Pedras, Rio Maria, Rurópolis, Santa Maria do Pará, Soure 29/06, São Domingos do
+// Araguaia, São Domingos do Capim, São Félix do Xingu, Tucumã, Ulianópolis, Uruará, Óbidos).
 // Retomada de MT (mesma sessão): +28 promovidos, 1 rejeitado — a maior leva única desta sessão.
 // GRANDE ACHADO: assim como TJSE/TJES/TJMS, o TJMT publica um PDF abrangente e oficial com
 // feriados municipais de TODAS as 79 comarcas do estado (Anexo II da Portaria TJMT/CGJ nº
