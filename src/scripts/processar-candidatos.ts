@@ -656,6 +656,28 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// MT retomado (rodada X): 11 promovidos, 4 rejeitados, 2 cadastros diretos, de 54 candidatos
+// revisados (34 municípios). Achado de maior impacto metodológico desta rodada: TERCEIRA e
+// QUARTA instância de "feriado que EXISTIU mas foi EXTINTO/REVOGADO por lei municipal posterior,
+// substituído por outra data" — padrão novo, distinto de "aniversário nunca foi feriado"
+// (Amarante/PI, Piripiri/PI, Quebrangulo/AL) e de "feriado nacional vazando pra fila municipal"
+// (Parnaíba/PI, Aracaju/SE, e agora também Rondonópolis/MT Corpus Christi + Mirassol d'Oeste/MT
+// Sexta-feira Santa, ambos rejeitados aqui): Santa Rita do Trivelato (25/09 revogado por
+// decisão da própria prefeitura, substituído por 28/12) e Aripuanã (26/07 extinto por lei da
+// câmara municipal em 2013, substituído por 31/12) — em ambos os casos, o candidato antigo foi
+// REJEITADO com a fonte que confirma a revogação, e a data NOVA (sem candidato correspondente
+// na fila, já que o dataset comunitário é uma foto antiga) foi criada via criar_direto. Lição:
+// quando uma busca revela "o feriado MUDOU de data", sempre isso é meio caminho andado para
+// resolver DOIS itens de uma vez (rejeitar o antigo + criar_direto o novo), não só um. Também
+// bom aproveitamento de candidatos já auto-rotulados no dataset comunitário com nome específico
+// (Querência N. Sra. Imaculada Conceição, Vera São Judas Tadeu, Nova Xavantina N. Sra. das
+// Graças, Sapezal Dia da Padroeira/Fundação) — quando a descrição original já nomeia o santo/
+// motivo e a data bate com o padrão universal, a barra de evidência para promover é mais baixa
+// (a autodescrição do dataset conta como uma fonte, mesmo não sendo primária). Confirmado mais
+// um feriado-memorial (categoria rara: Mirassol d'Oeste, morte do Padre Thiago Cheza em 1982,
+// confirmado pelo próprio portal da prefeitura) e mais um caso de "Dia do Evangélico" com data
+// FIXA em vez de regra móvel (Aripuanã 31/10, diferente de Confresa/Gurupi/Uruçuí). Restam
+// pendentes ~43 candidatos de MT.
 // SE quinta rodada: 4 promovidos, 2 rejeitados, 2 cadastros diretos, de 48 candidatos revisados
 // (36 municípios). Retomando os dois grandes clusters (06/24 São João Batista e 06/29 São Pedro)
 // cujas listas nomeadas usadas antes tinham zero overlap: confirmação por paróquia individual
