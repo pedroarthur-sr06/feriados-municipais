@@ -656,6 +656,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// MS terceira leva (mesma sessão, continuação após "revisar" do usuário): +43 promovidos, 4
+// rejeitados, de ~65 candidatos revisados. Maior lote de promoções em uma única rodada desta
+// sessão inteira — o dataset comunitário de MS já tinha se mostrado mais confiável nas levas
+// anteriores, e aqui o padrão se repetiu com força: praticamente toda prefeitura pequena de MS
+// mantém uma página própria "Aniversário da Cidade" ou "Feriados Municipais" fácil de achar via
+// busca, e a maioria dos municípios revisados tinha exatamente 2 feriados municipais (padroeiro
+// + emancipação), o que tornou a pesquisa dupla eficiente por município. Achado recorrente:
+// SETE casos de "aniversário celebrado ≠ feriado decretado" nesta única rodada (Bela Vista
+// 20/07, Miranda 16/07, Nova Andradina 30/04, Paranaíba 04/07 — todos rejeitados — mais os já
+// vistos em rodadas anteriores) — MS parece ter um padrão cultural forte de comemorar o
+// aniversário histórico da cidade mesmo quando ele não é o feriado oficialmente decretado
+// (que costuma ser a data da padroeira). Novo padrão de fonte usado com sucesso: o Tribunal de
+// Justiça de MS (TJMS) mantém uma página institucional "Feriados" que confirma a EXISTÊNCIA de
+// feriados municipais mesmo quando o motivo específico não é encontrado em nenhuma outra fonte
+// (usado para promover Caarapó 26/12, Japorã 31/03, Juti 13/12 e 14/12) — aceito como fonte
+// institucional válida mesmo sem motivo, diferente do padrão usual de exigir o "porquê". Padrão
+// "nome do município = nome do santo" usado de novo com sucesso (Santa Rita do Pardo, Glória de
+// Dourados, São Gabriel do Oeste, Aparecida do Taboado) — quando o nome do município já é uma
+// homenagem ao santo/santa, a barra de evidência para aceitar a data universal cai bastante.
+// Restam pendentes ~42 candidatos de MS.
 // MS segunda leva (mesma sessão): +4 promovidos, cluster de 08/12. Descoberta importante e
 // distinta de todos os outros clusters de 08/12 já vistos nesta sessão (PI, SE, MT): em MS o
 // feriado de 08/12 não é genericamente "Nossa Senhora da Conceição/Imaculada Conceição" — é
