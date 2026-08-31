@@ -656,6 +656,32 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// ES terceira leva (mesma sessão): +54 promovidos, de todos os 78 candidatos restantes
+// revisados de uma vez. MAIOR LOTE DE PROMOÇÕES DE UMA ÚNICA RODADA EM TODA A SESSÃO (supera o
+// lote de 44 de MS). Achado: o TJES publica um PDF único "Feriados Municipais" cobrindo TODOS os
+// municípios do ES numa única tabela (comarca, data, motivo, legislação) — mesmo padrão de fonte
+// excepcional já visto com o Calendário Judicial do TJSE em Sergipe nesta sessão. A tentativa
+// inicial via WebFetch falhou em extrair o texto do PDF (mesmo problema já visto com o TJSE); o
+// PDF foi baixado localmente pelo WebFetch mesmo assim, e o Read direto no arquivo local
+// funcionou perfeitamente — confirma que essa técnica (WebFetch falha → Read no PDF salvo
+// localmente) é replicável e deve ser tentada sempre que uma fonte promissora falhar na extração
+// via WebFetch. Cruzando os 78 candidatos pendentes contra a tabela completa: 54 bateram
+// exatamente com o motivo e a data oficiais (aproveitamento de 69%), e os outros 24 NÃO bateram
+// com nenhuma das datas realmente listadas para aquele município (alguns municípios sequer
+// aparecem na tabela do TJES — Brejetuba, Irupi, Ponto Belo, São Roque do Canaã, Sooretama, Vila
+// Pavão, Vila Valério — o que sugere que pertencem a uma comarca compartilhada não listada
+// separadamente, ou que o PDF simplesmente não os cobre). Todos os 24 sem correspondência foram
+// mantidos PENDENTES em vez de rejeitados, já que a ausência da comarca do PDF não é uma negação
+// explícita — é só uma fonte que não cobre esses municípios especificamente. Achado interessante:
+// Rio Novo do Sul tem 2 feriados-memorial por falecimento de figuras históricas locais (D.
+// Angélica Miranda Paixão e Major Caetano Dias da Silva), mesma categoria rara já vista em
+// Amarante/PI, Cocal/PI e Mirassol d'Oeste/MT. Também descoberto que São José do Calçado tem
+// DOIS padroeiros distintos com feriados separados (São José em 19/03, já curado antes, e N.
+// Sra. Imaculada Conceição em 08/12, agora promovida) — lição de não assumir que um único
+// padroeiro esgota as datas religiosas de um município. Muqui 01/11 (\"Todos os Santos\")
+// confirmado como feriado municipal genuíno, não redundante — 1º de novembro NÃO está na lista
+// de feriados nacionais do Brasil (diferente de países católicos europeus). Restam pendentes
+// ~24 candidatos de ES.
 // ES segunda leva (mesma sessão): +10 promovidos, de mais ~15 candidatos revisados. Achado
 // importante: o Tribunal de Justiça do Espírito Santo (TJES) mantém páginas institucionais POR
 // MUNICÍPIO com os feriados municipais oficiais (ex.: tjes.jus.br/.../feriados-municipais/
