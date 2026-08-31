@@ -656,6 +656,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Inicia MS (retomada, mesma sessão): +14 promovidos, 1 direto, 1 rejeitado. Grande achado: o
+// TJMS publica um calendário de feriados municipais 2026 organizado por COMARCA (não por
+// município individualmente) em tjms.jus.br/institucional/feriados — vários municípios pequenos
+// compartilham comarca com uma cidade-polo maior e herdam seus feriados municipais judicialmente
+// reconhecidos. Usado para confirmar de uma vez: Coronel Sapucaia 15/12, Dois Irmãos do Buriti
+// 13/11, Fátima do Sul 09/07, Iguatemi 08/05, Itaporã 10/12, Jardim 14/05, Nioaque 08/04 e 22/05,
+// Sete Quedas 13/05, Tacuru 08/12 (via Comarca de Iguatemi), Paranhos 17/11 e 08/12 (via Comarca
+// de Sete Quedas) e Antônio João 27/06 (via Comarca de Ponta Porã). Nioaque 18/07 confirmado por
+// fonte adicional (MPMS). CASO IMPORTANTE — Antônio João 18/03 (candidato 12296) tinha 1 dia de
+// divergência da data real: o TJMS lista o feriado de São José da Comarca de Ponta Porã em
+// 19/03, não 18/03. Em vez de simplesmente "corrigir" o candidato, ele foi REJEITADO
+// explicitando o motivo, e a data correta (19/03) foi cadastrada via criar_direto — mantém o
+// candidato original como rastro de auditoria fiel ao que veio da fonte comunitária, sem misturar
+// com o dado verificado. Restam pendentes ~22 candidatos de MS, a maioria em municípios cuja
+// comarca não teve holiday específico localizado no calendário do TJMS (Aral Moreira, Bandeirantes,
+// Bela Vista, Bodoquena, Caracol, Figueirão, Jateí, Ladário, Laguna Carapã, Novo Horizonte do Sul,
+// Porto Murtinho, Rio Brilhante, Rochedo, Vicentina, Água Clara).
 // Retomada de PI (mesma sessão): +10 promovidos. Esperantina, José de Freitas e Oeiras (todos
 // 08/12, Nossa Senhora da Conceição) confirmados por múltiplos calendários municipais
 // consistentes ao longo de vários anos — padrão regional recorrente de padroeira no Piauí, já
