@@ -656,6 +656,35 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// ES (Espírito Santo) iniciado nesta sessão: 11 promovidos, 6 rejeitados, 1 cadastro direto
+// ESTADUAL, de ~35 candidatos revisados (dos 105 pendentes). ACHADO DE MAIOR IMPACTO DESTA
+// SESSÃO: descoberto que "Nossa Senhora da Penha" (padroeira do Espírito Santo) é feriado
+// ESTADUAL em TODOS os municípios do ES desde a Lei Estadual nº 11.010/2019, que declara seu dia
+// "Data Magna" do Estado — data MÓVEL (segunda-feira, 8 dias depois da Páscoa, regra
+// "pascoa+8"), verificada numericamente batendo com reportagens de 2026 (Páscoa 05/04 + 8 =
+// 13/04, confirmado como a data do feriado nesse ano). Cadastrado uma ÚNICA VEZ como estadual
+// (abrangencia='uf', sem codigoIbge) — o resolver aplica automaticamente a todos os ~78
+// municípios do ES, então qualquer candidato municipal futuro para "N. Sra. da Penha" deve ser
+// REJEITADO por redundância (já feito para Viana nesta rodada). Diferente do padrão usual de
+// "feriado nacional vazando pra fila municipal" (Corpus Christi, Sexta-feira Santa) — aqui é um
+// feriado ESTADUAL específico de um único estado que a comunidade tinha capturado errado como
+// pistas municipais individuais com datas fixas (que ficariam erradas em anos futuros, já que a
+// data é móvel). Grande economia de esforço: uma pesquisa resolveu potencialmente ~78 candidatos
+// futuros de uma vez, em vez de pesquisar cada município individualmente. Também descoberto:
+// "Colonização do Solo Espírito-Santense" (23/05) é feriado municipal APENAS em Vila Velha — em
+// outros municípios é no máximo ponto facultativo, e virar feriado estadual ainda está em
+// tramitação na Assembleia Legislativa do ES (não aprovado) — candidato de Viana rejeitado.
+// Restante do lote: aproveitamento alto de candidatos JÁ auto-rotulados no dataset comunitário
+// (Itarana tinha os 3 candidatos com nome+data certos: São Sebastião, Emancipação, N. Sra.
+// Auxiliadora; São Mateus e Viana também vinham quase todos rotulados) — 2 casos raros onde o
+// próprio campo "nome" do candidato já cita a lei municipal com número e URL (Marataízes: Lei
+// 48/1997 e Lei 334/2000, ambos "leismunicipa.is") — citação específica o bastante para promover
+// direto. Padrão "padroeiro = data universal" confirmado 3x para Santo Antônio (13/06, em
+// Atílio Vivácqua, Iconha e Rio Novo do Sul, todos já rotulados no próprio dataset). 4
+// REJEIÇÕES adicionais por redundância com feriados nacionais (Corpus Christi e Sexta-feira
+// Santa em São Mateus e Viana) — sexta e sétima instâncias desta sessão. Restam pendentes ~94
+// candidatos de ES (havia 105, 1 tornou-se redundante pelo cadastro estadual de N. Sra. da
+// Penha mas ainda não foi individualmente eliminado dos outros municípios).
 // MS terceira leva (mesma sessão, continuação após "revisar" do usuário): +43 promovidos, 4
 // rejeitados, de ~65 candidatos revisados. Maior lote de promoções em uma única rodada desta
 // sessão inteira — o dataset comunitário de MS já tinha se mostrado mais confiável nas levas
