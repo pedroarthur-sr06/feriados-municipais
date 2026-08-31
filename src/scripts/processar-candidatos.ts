@@ -656,6 +656,41 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// PI quarta rodada: 12 promovidos, 5 rejeitados, de 47 candidatos revisados (32 municípios) —
+// maior lote de rejeições justificadas desta sessão. Achados principais: (1) cluster de 10
+// candidatos de 08/12 (Nossa Senhora da Conceição): a lista nomeada da CNBB Regional Nordeste 4
+// (18 municípios do PI com essa padroeira) teve ZERO sobreposição com os candidatos pendentes —
+// mas busca de paróquia individual encontrou 1 confirmação que a lista nomeada não pegou
+// (Angical do Piauí, Igreja Matriz de N. Sra. da Conceição) — lição: lista nomeada e busca
+// individual são técnicas complementares, uma não substitui a outra. (2) DOIS casos de fonte
+// que NEGA explicitamente o status de feriado de uma data historicamente importante: Campo
+// Maior 13/03 (Batalha do Jenipapo — CNN Brasil explica que Lei Federal nº 9.093/1995 barra a
+// criação do feriado; Piauí usa 19/10 para esse fim) e Piripiri 04/07 (aniversário/emancipação,
+// mas fonte confirma que não está entre os 2 feriados municipais decretados) — mesmo padrão de
+// Amarante 04/08 (também rejeitado nesta rodada). (3) DOIS candidatos municipais que eram na
+// verdade duplicatas de feriados NACIONAIS já calculados pelo motor (Parnaíba: Sexta-feira Santa
+// e Corpus Christi) — rejeitados por redundância, não por falta de fonte; é a primeira vez nesta
+// sessão que um feriado NACIONAL (não estadual) vaza para a fila de candidatos municipais.
+// (4) Dois feriados por tragédia/acidente confirmados com fonte específica: Amarante 23/03
+// (acidente na BR-343, 2002, 9 professores + 1 motorista) e Cocal 27/05 (rompimento da Barragem
+// de Algodões, 2009) — categoria de feriado municipal rara nesta sessão (memorial de tragédia,
+// não padroeiro nem emancipação). (5) Padrão robusto de emancipação política via prefeitura
+// oficial continua rendendo: José de Freitas 07/04, São João do Piauí 07/05, Jaicós 02/21,
+// Pedro II 08/11, São Raimundo Nonato 06/25 — todos confirmados diretamente pelo portal oficial
+// da prefeitura ou da Assembleia Legislativa do Piauí. (6) Regeneração 01/10 (padroeiro São
+// Gonçalo) e Luzilândia 12/13 (padroeira Santa Luzia) seguem o padrão "padroeiro = data
+// universal do santo". (7) Oeiras 01/24: caso raro de feriado histórico-cívico municipal (adesão
+// do Piauí à Independência, ocorrida na própria cidade em 1823) decretado anualmente pelo
+// prefeito, confirmado pelo próprio portal da prefeitura. (8) Confirmada mais uma instância do
+// padrão de schema-limitação (Uruçuí, "Dia do Evangélico" na última sexta-feira de maio, Lei
+// Municipal nº 625/2013 — real mas com data variável ano a ano, mesmo padrão de Gurupi/TO,
+// Confresa/MT, Maringá/PR já visto) — mantido pendente, não promovido com data fixa errada.
+// (9) São Pedro do Piauí 29/06: quase promovido por engano usando o padrão "padroeiro = data
+// universal" (São Pedro = 29/06), mas o cabeçalho desta mesma rodada 2 já registrava que esse
+// candidato especificamente foi investigado e é apenas o fim do festejo/novena, NÃO o feriado
+// decretado (que é 21/06, já promovido antes) — lição: sempre conferir se um candidato específico
+// já foi resolvido/descartado em rodada anterior antes de aplicar um padrão geral por analogia.
+// Restam pendentes ~30 candidatos de PI.
 // AL terceira rodada: 7 promovidos, 1 rejeitado, de 17 candidatos revisados (13 municípios).
 // Bom aproveitamento com técnica de paróquia+diocese (Diocese de Palmeira dos Índios cobre boa
 // parte do agreste alagoano onde ficam vários destes municípios): Arapiraca 10/30 (Emancipação
