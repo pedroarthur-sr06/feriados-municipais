@@ -656,6 +656,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de AM+AL (mesma sessão): +8 promovidos, 2 rejeitados. AM: Codajás 28/11, Humaitá
+// 31/10 (Dia do Evangélico) e Tabatinga 29/09 (Santos Anjos) confirmados por agregadores
+// consistentes — restam pendentes só Barcelos (07/08, sem confirmação). AL: Campo Grande 01/06
+// (emancipação, observada 1 dia após a data legal 31/05/1960), Major Isidoro 01/06, Piranhas
+// 22/03 e São José da Tapera 15/09 confirmados por agregadores/página oficial, sem motivo
+// específico localizado em alguns casos — disclosure feita. Traipu 18/12 confirmado pela
+// Febraban (fonte institucional do setor bancário, mesmo padrão de confiabilidade já usado
+// nesta sessão). Duas rejeições importantes: Porto Calvo 22/07 — a listagem oficial exaustiva de
+// feriados do município (12/04, 21/11, 28/12) não inclui essa data, que corresponde a um
+// festival cultural (Festival Calabar), não a feriado. São José da Laje 06/01 (Santos Reis) — o
+// feriado foi EXPLICITAMENTE CANCELADO pela Lei nº 295, de 12/08/1953, permanecendo só como
+// festejo cultural sem efeito de feriado — novo padrão de rejeição (feriado revogado há décadas,
+// mas a festa popular continua existindo, o que gera falsos candidatos no dataset comunitário).
+// Restam pendentes apenas Maravilha/AL (07/12) e Quebrangulo/AL (27/09), sem fonte localizada.
 // RN décima leva (mesma sessão): +8 promovidos. Baraúna teve os 2 candidatos confirmados de uma
 // vez por agregadores consistentes (sem lei localizada — disclosure feita). Serra do Mel 13/05
 // confirmado por cobertura jornalística local detalhada da própria celebração oficial
