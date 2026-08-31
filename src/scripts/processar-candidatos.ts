@@ -656,6 +656,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// ES segunda leva (mesma sessão): +10 promovidos, de mais ~15 candidatos revisados. Achado
+// importante: o Tribunal de Justiça do Espírito Santo (TJES) mantém páginas institucionais POR
+// MUNICÍPIO com os feriados municipais oficiais (ex.: tjes.jus.br/.../feriados-municipais/
+// jeronimo-monteiro) — fonte muito forte, às vezes citando até o número da lei municipal (Lei
+// 1.731/2019 em Jerônimo Monteiro, Lei 1.282/1993 em Muniz Freire). Usada também para EXCLUIR
+// (não apenas confirmar): a listagem oficial de Atílio Vivácqua não incluía o candidato de 08/12
+// entre os feriados municipais reais, então esse ficou pendente, enquanto o de 10/04 (que a
+// listagem SIM confirma) foi promovido. Lista nomeada específica de ES para o cluster de 08/12
+// (Serra, Viana, Guarapari, Castelo, Linhares) rendeu 1 confirmação nova (Castelo). Itapemirim e
+// Domingos Martins tiveram todos os candidatos pendentes confirmados de uma vez via calendário
+// oficial/câmara municipal. Restam pendentes ~78 candidatos de ES.
 // ES (Espírito Santo) iniciado nesta sessão: 11 promovidos, 6 rejeitados, 1 cadastro direto
 // ESTADUAL, de ~35 candidatos revisados (dos 105 pendentes). ACHADO DE MAIOR IMPACTO DESTA
 // SESSÃO: descoberto que "Nossa Senhora da Penha" (padroeira do Espírito Santo) é feriado
