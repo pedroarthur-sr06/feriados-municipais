@@ -656,6 +656,40 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// AL terceira rodada: 7 promovidos, 1 rejeitado, de 17 candidatos revisados (13 municípios).
+// Bom aproveitamento com técnica de paróquia+diocese (Diocese de Palmeira dos Índios cobre boa
+// parte do agreste alagoano onde ficam vários destes municípios): Arapiraca 10/30 (Emancipação
+// Política, Lei Municipal nº 2.036/99, confirmada pelo calendário oficial da JFAL — Justiça
+// Federal em Alagoas, que é uma fonte quase-primária por ser orgão público que literalmente
+// fecha expediente na data); Lagoa da Canoa 08/14 (padroeiro São Maximiliano Kolbe, data
+// universal do seu martírio, distinta da fundação em 28/08); Poço das Trincheiras 01/20 (dupla
+// comemoração Emancipação + padroeiro São Sebastião, confirmada por SECULT-AL e pelo blog da
+// Diocese de Palmeira dos Índios); São José da Laje 07/28 (Emancipação Política, Lei nº 896 de
+// 28/07/1886); Taquarana 05/03 (padroeira Santa Cruz, confirmada por publicação oficial da
+// própria Câmara Municipal de Taquarana — fonte primária, incomum ter tanta precisão);
+// Matriz de Camaragibe 05/24 e 12/13 (dois candidatos do mesmo município, ambos confirmados:
+// Nossa Senhora Auxiliadora/Patrimônio do Bom Jesus e padroeira Santa Luzia, respectivamente —
+// a prefeitura mantém uma página oficial "Feriados Municipais" listando exatamente 3 feriados
+// municipais no calendário, o que ajudou a validar que ambas as datas são reais). REJEITADO:
+// Quebrangulo 03/16 — mesmo padrão "aniversário celebrado ≠ feriado decretado" já visto
+// repetidas vezes: uma fonte confirma explicitamente que o aniversário da cidade NÃO está entre
+// os 3 feriados municipais decretados, e o padroeiro confirmado (Bom Jesus dos Pobres) não tem
+// relação com essa data. PENDENTES (9): Campo Grande 06/01 (lei de criação é 31/05/1960,
+// instalação 14/08/1960 — nenhuma bate exatamente com 01/06), Major Isidoro 06/01 (feriados
+// confirmados são 13/06 padroeiro e 17/09 emancipação — 01/06 não bate com nada, mesmo padrão
+// de "aniversário/data não-oficial" já visto antes para este município), Maravilha 12/07
+// (padroeira Imaculada Conceição confirmada em 12/08, um dia depois da data do candidato — não
+// arrisco assumir "véspera"), Piranhas 03/22 (padroeira Nossa Senhora da Saúde parece ser
+// celebrada em setembro, não bate com março), Porto Calvo 07/22 (padroeira é Nossa Senhora da
+// Apresentação, com festa em 21/11 — não Santa Madalena como o nome do rio sugeriria, e não bate
+// com 22/07), Quebrangulo 09/27 (mesma pesquisa do candidato rejeitado — padroeiro Bom Jesus dos
+// Pobres não bate com essa data, apesar de 27/09 ser a data histórica pré-1969 de Cosme e
+// Damião), São José da Laje 01/06 (Festa dos Santos Reis instituída pela Lei nº 295/1953, mas há
+// indício de legislação posterior revogando o feriado — status atual incerto, não promovo sem
+// confirmar), São José da Tapera 09/15 (nenhuma fonte revelou motivo — aniversário confirmado é
+// 24/12, distinto), Traipu 12/18 (emancipação real é 16/05, sem padroeiro identificado para
+// 18/12). Restam pendentes ~9 candidatos de AL (dos 17 revisados nesta rodada; havia mais 0 já
+// pendentes de rodadas anteriores neste ciclo de retomada).
 // TO segunda rodada (após a de 11 promovidos/1 rejeitado já registrada acima): 1 promovido, 0
 // rejeitados, de 15 candidatos revisados. Baixo aproveitamento apesar de pesquisa extensa —
 // achado principal: descobri e usei pela primeira vez as páginas de diocese que listam a
