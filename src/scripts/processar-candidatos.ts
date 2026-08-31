@@ -656,6 +656,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de TO (mesma sessão): +6 promovidos. Almas teve 2 candidatos confirmados de uma vez
+// (18/05, 10/12), mas o de 17/05 ficou pendente por não constar na mesma listagem específica.
+// Arraias 20/01 (São Sebastião) confirmado pela própria notícia do TJTO sobre a portaria da
+// Comarca de Arraias para 2026. Colinas do Tocantins 31/10 (Dia do Evangélico) confirmado pelo
+// próprio Diário Oficial do Município. Miracema do Tocantins 25/06 (Dia de Ação de Graças) e
+// Tocantinópolis 07/07 confirmados por agregadores. IMPORTANTE — Silvanópolis 20/01 (candidato
+// 17159) foi INVESTIGADO E REJEITADO NA PRÁTICA (mantido pendente, não promovido): uma busca
+// inicial sugeriu confirmação via um artigo "listão" de cidades com feriado de São Sebastião,
+// mas ao abrir o artigo primário diretamente ele NÃO menciona Silvanópolis nem qualquer cidade
+// do Tocantins — mesmo padrão de fabricação de resumo de busca já flagrado antes nesta sessão
+// para este mesmo par de municípios (Arraias/Silvanópolis, ver nota de TO anterior). Lição
+// reforçada: um "listão" de cidades por data é o tipo de fonte mais sujeito a alucinação de
+// resumo de busca — SEMPRE abrir o artigo primário antes de promover com base nele. Restam
+// pendentes ~8 candidatos de TO (Almas 17/05, Colméia 06/08+26/12, Fátima 21/12, Natividade
+// 16/08, Palmeirópolis 27/11, Silvanópolis 20/01). NOTA PARA TRABALHO FUTURO: o TJMG (Minas
+// Gerais) também publica "Feriados municipais das Comarcas" em PDF
+// (tjmg.jus.br/data/files/.../feriados-interior.pdf) — mesmo padrão de "PDF abrangente" que
+// funcionou muito bem para TJSE/TJES nesta sessão; alta prioridade para quando MG (1337
+// candidatos pendentes) for atacado.
 // Retomada de AM+AL (mesma sessão): +8 promovidos, 2 rejeitados. AM: Codajás 28/11, Humaitá
 // 31/10 (Dia do Evangélico) e Tabatinga 29/09 (Santos Anjos) confirmados por agregadores
 // consistentes — restam pendentes só Barcelos (07/08, sem confirmação). AL: Campo Grande 01/06
