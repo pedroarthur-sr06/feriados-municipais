@@ -656,6 +656,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN sétima leva (mesma sessão): +6 promovidos. Guamaré teve os 3 candidatos pendentes
+// confirmados de uma vez por um calendário oficial de feriados municipais que lista
+// exaustivamente 5 feriados (20/01, 07/05, 15/08, 08/12, 12/12) — todos os 3 candidatos batem.
+// Santo Antônio 05/07 (emancipação política, distinta do padroeiro Santo Antônio 13/06 já
+// promovido antes); o candidato de 08/12 (N. Sra. da Conceição) segue pendente por falta de
+// fonte. São José do Campestre 23/12 (emancipação política, distinta do padroeiro São José
+// 19/03); o candidato de 01/06 (Festa de Reis) segue pendente — descrito como festa popular, sem
+// confirmação de que seja feriado municipal oficialmente decretado. Upanema 16/09 (encerramento
+// da Semana Cultural/Emancipação Política, 06 a 16/09); o candidato de 16/11 segue pendente por
+// falta de qualquer fonte.
 // RN sexta leva (mesma sessão): +7 promovidos. Jardim do Seridó 08/12 (padroeira N. Sra. da
 // Conceição, confirmada pela página de história da própria Prefeitura). Lagoa Nova 02/01
 // (emancipação de Currais Novos em 1964). Lajes teve os 2 candidatos restantes confirmados de
