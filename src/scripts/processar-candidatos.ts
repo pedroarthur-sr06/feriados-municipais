@@ -656,6 +656,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN décima leva (mesma sessão): +8 promovidos. Baraúna teve os 2 candidatos confirmados de uma
+// vez por agregadores consistentes (sem lei localizada — disclosure feita). Serra do Mel 13/05
+// confirmado por cobertura jornalística local detalhada da própria celebração oficial
+// (Sessão Solene + Missa). Lagoa Nova teve os 2 candidatos restantes confirmados de uma vez pela
+// própria página oficial "Feriados Municipais" da Prefeitura (tabela completa incluindo
+// nacionais/estaduais/municipais). Lajes 08/12 e Santo Antônio 08/12 (ambos N. Sra. da
+// Conceição) confirmados por fontes distintas (Arquidiocese de Natal para Lajes, iFeriados para
+// Santo Antônio). Upanema teve seu segundo feriado (16/11) confirmado por agregadores, distinto
+// do 16/09 já promovido. Restam pendentes ~19 candidatos de RN, concentrados em municípios sem
+// presença digital forte (Afonso Bezerra, Alto do Rodrigues, Campo Redondo, Carnaúba dos Dantas,
+// Florânia, Goianinha, Governador Dix-Sept Rosado 12/07, Jardim do Seridó 09/01+09/08, Pedro
+// Velho 06/29, Santana do Matos, São José do Campestre 01/06, São Tomé, Tenente Ananias,
+// Umarizal) — próxima tentativa deve buscar diretamente o Diário Oficial/Diário Municipal
+// (femurn/diariomunicipal.com.br) desses municípios, já que buscas genéricas se esgotaram.
 // RN nona leva (mesma sessão): +10 promovidos, 1 rejeitado. Governador Dix-Sept Rosado 04/04
 // (emancipação, Lei nº 2.878/1963). Ipanguaçu teve os 2 candidatos confirmados por agregadores
 // consistentes (sem lei localizada — disclosure feita). Macau 08/12 confirmado pela própria
