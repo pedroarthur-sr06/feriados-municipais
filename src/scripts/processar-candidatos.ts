@@ -656,6 +656,18 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN décima primeira leva (mesma sessão, sem promoções, 2 rejeitados): Jardim do Seridó teve
+// seus 2 últimos candidatos pendentes (01/09, 08/09) REJEITADOS ao localizar o Decreto nº
+// 001/2026 da própria Prefeitura, que estabelece o calendário oficial completo de feriados e
+// pontos facultativos do município para 2026 — lista exaustivamente só 2 feriados não-nacionais
+// (14/05 aniversário, 13/06 padroeiro), sem nenhuma data de setembro. TJRN NÃO publica lista
+// exaustiva de feriados municipais por comarca como TJMS/TJMT/TJSE/TJES — a portaria conjunta do
+// TJRN apenas diz "não haverá expediente quando houver lei específica do município", sem listar
+// as leis — abordagem descartada para RN. Buscas individuais para Carnaúba dos Dantas, Santana do
+// Matos, São José do Campestre 01/06, Pedro Velho 29/06 e Tenente Ananias não encontraram fonte
+// suficiente. Restam pendentes ~19 candidatos de RN (Afonso Bezerra, Alto do Rodrigues, Campo
+// Redondo, Carnaúba dos Dantas, Florânia, Goianinha, Governador Dix-Sept Rosado 12/07, Pedro
+// Velho, Santana do Matos, São José do Campestre, São Tomé, Tenente Ananias, Umarizal).
 // Retomada de PI, segunda rodada (mesma sessão): +4 promovidos. São José do Piauí 12/12
 // confirmado por reportagem listando nominalmente as 77 cidades brasileiras com feriado nesta
 // data. Simões 20/08 confirmado pela Febraban. Simplício Mendes 30/06 e Bom Jesus 24/09
