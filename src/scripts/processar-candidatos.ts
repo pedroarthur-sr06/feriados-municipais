@@ -656,6 +656,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de PI (mesma sessão): +10 promovidos. Esperantina, José de Freitas e Oeiras (todos
+// 08/12, Nossa Senhora da Conceição) confirmados por múltiplos calendários municipais
+// consistentes ao longo de vários anos — padrão regional recorrente de padroeira no Piauí, já
+// visto antes nesta sessão. Piracuruca teve os 2 candidatos confirmados de uma vez (16/07,
+// 28/12 aniversário). Parnaíba 04/10 (São Francisco de Assis) confirmado por matéria
+// jornalística local detalhando a origem histórica do feriado (projeto de lei do vereador Yure
+// Gomes). São Pedro do Piauí 29/06 (padroeiro São Pedro, mesmo nome do município) confirmado por
+// decreto municipal específico no Diário Oficial das Prefeituras. Cocal 02/05 confirmado pela
+// Febraban. São Miguel do Tapuio 25/03 (emancipação, Decreto nº 52/1938) confirmado por
+// cobertura jornalística local. União 29/08 confirmado por agregadores, com disclosure. TJPI não
+// publica um PDF abrangente por comarca como TJSE/TJES/TJMG — tentativa registrada e descartada.
+// Restam pendentes ~20 candidatos de PI, muitos sem qualquer fonte localizada (Altos, Bom Jesus,
+// Buriti dos Lopes, Domingos Mourão, Fronteiras, Guadalupe, Jaicós, Luís Correia, Regeneração,
+// Santa Cruz do Piauí, Simplício Mendes, Simões, São João do Piauí, São José do Piauí, São Pedro
+// do Piauí 08/12, Uruçuí).
 // Segunda retomada de ES (mesma sessão): +18 promovidos, 2 rejeitados. Afonso Cláudio teve os 2
 // candidatos restantes confirmados de uma vez pelo Informativo de Feriados Municipais 2025 do
 // TJES (fonte institucional, mesmo padrão de confiabilidade das outras fontes de tribunal usadas
