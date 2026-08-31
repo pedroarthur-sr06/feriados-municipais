@@ -656,6 +656,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Limpeza de pendências pequenas (AM/AL/ES/MT/TO, mesma sessão): +1 promovido, 1 rejeitado.
+// Palmeirópolis/TO 27/11 (Nossa Senhora das Graças, padroeira — data coincide com o dia litúrgico
+// universal da santa). Gurupi/TO 27/09 REJEITADO: a Lei nº 039/2009 confirma que o "Dia do
+// Evangélico" municipal é em 30 de novembro, não 27 de setembro — um agregador aparentemente
+// confundiu com "último sábado de setembro" de outro ano/cidade. A maioria das pendências
+// pequenas restantes (Maravilha/AL, Barcelos/AM, Atílio Vivácqua/ES, Confresa/MT, Natividade/TO,
+// Fátima/TO, Colméia/TO, Quebrangulo/AL) seguem sem fonte suficiente após nova tentativa —
+// diminishing returns confirmado, momento de mudar de estado.
 // Retomada de PA (mesma sessão): +19 promovidos, 3 rejeitados. TJPA NÃO publica um PDF
 // abrangente por comarca como TJSE/TJES/TJMS/TJMT (testado e descartado) — pesquisa feita
 // município a município. Destaques: Benevides 30/03 é feriado histórico raro — "Libertação dos
