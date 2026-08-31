@@ -656,6 +656,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Retomada de PI, segunda rodada (mesma sessão): +4 promovidos. São José do Piauí 12/12
+// confirmado por reportagem listando nominalmente as 77 cidades brasileiras com feriado nesta
+// data. Simões 20/08 confirmado pela Febraban. Simplício Mendes 30/06 e Bom Jesus 24/09
+// confirmados por agregadores, com disclosure. TJPI confirmou (via aviso oficial) que Guadalupe
+// tem feriado do padroeiro em 12-13/12 (Lei Municipal nº 138/1986) — mas nenhum dos 3 candidatos
+// pendentes de Guadalupe (24/06, 25/08, 08/11) corresponde a essa data, então permanecem
+// pendentes. Restam pendentes ~16 candidatos de PI (Altos, Buriti dos Lopes, Domingos Mourão,
+// Fronteiras, Guadalupe, Jaicós, Luís Correia, Regeneração, Santa Cruz do Piauí, São João do
+// Piauí, São Pedro do Piauí 08/12, Uruçuí), a maioria sem fonte localizada mesmo após buscas
+// direcionadas repetidas.
 // NOTA (mesma sessão, sem promoções): reli o PDF completo do calendário TJSE 2026
 // (calendario-tjse-2026.pdf, técnica WebFetch-falha→Read-local já usada com sucesso nesta sessão)
 // e cruzei contra os 42 candidatos pendentes de SE (Aquidabã 01/11, Canhoba, Capela 01/06,
