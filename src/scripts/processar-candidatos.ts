@@ -656,6 +656,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// MS iniciado nesta sessão: 13 promovidos, 1 rejeitado, de 103 candidatos pendentes (revisados
+// os primeiros ~30). Melhor aproveitamento da sessão até agora — o dataset comunitário de MS tem
+// qualidade nitidamente superior: muitos candidatos já vêm auto-rotulados com nome específico do
+// santo/motivo (não apenas "Feriado Municipal" genérico), e TODOS os 6 candidatos testados
+// rotulados como "Aniversário"/"Aniversário da Cidade" (Água Clara, Bonito, Cassilândia,
+// Maracaju, Ponta Porã, Três Lagoas) foram CONFIRMADOS com fonte forte (prefeitura, câmara
+// municipal ou imprensa regional confirmando explicitamente \"é feriado municipal\") — ao
+// contrário do padrão usual de MT/PI/AL onde \"aniversário\" costuma ser rejeitado por não ser
+// feriado decretado. Lição: a confiabilidade da autodescrição do dataset varia MUITO por estado
+// — vale a pena testar 1-2 candidatos rotulados \"Aniversário\" logo no início de cada estado
+// novo para calibrar o quão bom é o dataset local antes de decidir a estratégia (aqui, valeu a
+// pena confiar mais rápido). Caso raro: Corumbá teve candidato com descrição tão detalhada
+// (\"fundação de Corumbá, ocorrida em 1.778 e por ordem do Capitão General Luiz de Albuquerque
+// de Mello Pereira e Cáceres\") que a própria descrição do dataset foi tratada como citação
+// primária o bastante para promover sem busca externa adicional — primeira vez nesta sessão que
+// isso acontece. Também REJEITADO: Corumbá \"Sexta-feira da Paixão\" (quinta instância de feriado
+// NACIONAL vazando pra fila municipal, mesmo com descrição detalhada do dataset). Restam
+// pendentes ~90 candidatos de MS, incluindo um grande cluster de 12/08 (N. Sra. da Conceição,
+// ~8 municípios) ainda não trabalhado.
 // PA retomado: 6 promovidos, 1 rejeitado, de 63 candidatos revisados (46 municípios). Rendeu
 // menos que MT/PI mas ainda positivo: Tucuruí 31/10 (Dia do Evangélico / Dia da Consciência
 // Evangélica, lei da Câmara Municipal, evento "Marcha para Jesus" com 40 mil+ pessoas), São
