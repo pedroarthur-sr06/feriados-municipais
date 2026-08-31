@@ -656,6 +656,24 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN segunda leva (mesma sessão): +6 promovidos, 1 rejeitado, de mais ~10 candidatos revisados.
+// Apodi teve os 3 candidatos restantes resolvidos de uma vez (tem 2 padroeiros distintos, São
+// João Batista 24/06 e N. Sra. da Conceição 08/12, mais a emancipação 23/03) — REJEITADO o
+// quarto candidato (02/05) com fonte que confirma explicitamente que uma lei recente rebaixou
+// essa data de feriado pleno para ponto facultativo (categoria nova de rejeição: "era feriado,
+// virou ponto facultativo", distinta de "nunca foi feriado" e de "foi extinto e substituído por
+// outra data" já vistas antes). Alexandria teve 2 dos 3 candidatos confirmados (28/05 memorial
+// pelo falecimento do Coronel Manoel Emídio de Souza, e 08/12 padroeira N. Sra. da Conceição) —
+// o terceiro (07/11) ficou pendente por informação contraditória nas fontes encontradas (uma
+// mesma busca listou 07/11 como um dos 3 feriados oficiais E como \"não é feriado, é só
+// aniversário\" ao mesmo tempo — quando a própria fonte se contradiz, mais seguro deixar
+// pendente do que escolher um lado). Santana do Matos: padroeira Sant'Ana confirmada em 26/07
+// (fim da festa de 16 a 26/07); os outros 2 candidatos (10/03, 06/08) ficaram pendentes — o de
+// 06/08 corresponde a uma data histórica real (reestabelecimento do município em 1855), mas sem
+// confirmação específica de que é o feriado municipal atual, então não promovido só pela
+// coincidência histórica. Guamaré: fontes contraditórias sobre qual data é a emancipação oficial
+// (07/05 vs 30/05) e o decreto municipal citado retornou 404 — todos os 3 candidatos ficaram
+// pendentes. Restam pendentes ~94 candidatos de RN.
 // RN (Rio Grande do Norte) iniciado nesta sessão: 9 promovidos, de ~15 candidatos revisados
 // (dos 109 pendentes). Tentativa de replicar a técnica de "PDF único cobrindo todo o estado"
 // (TJSE/SE, TJES/ES) falhou para RN e RJ: TJRN não tem um PDF equivalente facilmente localizável,
