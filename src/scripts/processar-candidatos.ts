@@ -656,6 +656,28 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// PA retomado: 6 promovidos, 1 rejeitado, de 63 candidatos revisados (46 municípios). Rendeu
+// menos que MT/PI mas ainda positivo: Tucuruí 31/10 (Dia do Evangélico / Dia da Consciência
+// Evangélica, lei da Câmara Municipal, evento "Marcha para Jesus" com 40 mil+ pessoas), São
+// Domingos do Capim 08/08 (padroeiro São Domingos de Gusmão, fim da novena de 4 a 8/08 — mesmo
+// padrão de Tomar do Geru/PI e Tomar do Geru/SE), Bragança 26/12 (padroeiro São Benedito, um dos
+// 4 feriados oficiais da cidade), Alenquer 06/01 (Reis Magos/Epifania, um dos 4 feriados
+// oficiais) e Almeirim 28/06 + 23/08 (padroeiro São Benedito e emancipação, ambos confirmados
+// juntos pela mesma busca — raro conseguir os 2 candidatos de um município de uma vez só nesta
+// rodada). REJEITADO: Alenquer 10/06 (aniversário, mas fonte nega explicitamente o status de
+// feriado — mesmo padrão já visto muitas vezes). ACHADO IMPORTANTE (sem promoção, registrado
+// para não repetir o erro): os 3 candidatos de Floresta do Araguaia vinham auto-rotulados no
+// dataset comunitário com nomes específicos (\"Dia da Criação da Colônia\" 19/04, \"Dia do
+// Evangélico\" 13/08, \"Dia da Padroeira - N. Sra. das Dores\" 15/09, esta última batendo com a
+// data universal da santa) — o que normalmente seria evidência boa o bastante para promover por
+// analogia ao padrão já usado com Querência/Vera/Nova Xavantina em MT. Mas uma busca específica
+// revelou uma fonte que afirma textualmente que Floresta do Araguaia \"não tem atualmente nenhum
+// feriado municipal\" e que o aniversário do município (21/04, não 19/04) \"ainda não é feriado
+// municipal por falta de lei\" — contradição direta com a autodescrição do dataset. Mantidos os
+// 3 candidatos PENDENTES em vez de promovidos por analogia, já que uma fonte específica que nega
+// pesa mais que a autodescrição genérica do dataset comunitário sozinha. Lição: autodescrição do
+// dataset é um bom sinal para buscar mais, mas não dispensa a checagem — mesmo quando o padrão
+// (nome do santo bate com a data universal) parece óbvio. Restam pendentes ~56 candidatos de PA.
 // MT retomado (rodada X): 11 promovidos, 4 rejeitados, 2 cadastros diretos, de 54 candidatos
 // revisados (34 municípios). Achado de maior impacto metodológico desta rodada: TERCEIRA e
 // QUARTA instância de "feriado que EXISTIU mas foi EXTINTO/REVOGADO por lei municipal posterior,
