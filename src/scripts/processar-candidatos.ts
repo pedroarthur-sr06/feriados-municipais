@@ -656,6 +656,32 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN oitava leva (mesma sessão): +14 promovidos, 1 cadastro direto, 1 rejeitado. Acari: página
+// oficial de feriados da Prefeitura lista só 1 feriado municipal (11/04, emancipação) — o outro
+// candidato pendente (15/08) foi REJEITADO por omissão dessa listagem exaustiva (mesmo padrão já
+// usado com sucesso em MS/ES/RN nesta sessão). Areia Branca e Ceará-Mirim tiveram os 2
+// candidatos restantes de cada um confirmados de uma vez por página oficial "Feriados
+// Municipais"/"História" da própria Prefeitura. Caraúbas 05/03 confirmado por 3 reportagens
+// jornalísticas independentes que listam nominalmente as ~7 cidades brasileiras com feriado
+// nesta data. Jucurutu 29/09 (padroeiro São Miguel Arcanjo, Diocese de Caicó). Pau dos Ferros
+// 04/09 (emancipação, confirmado por portaria do próprio IFRN local que menciona transferência
+// pontual do feriado). Nísia Floresta teve os 2 candidatos confirmados por agregadores
+// consistentes (sem lei específica localizada — disclosure feita na observação, mesmo padrão já
+// aceito para outros municípios nesta sessão quando não há candidato de emancipação/padroeiro
+// contraditório). São José de Mipibu 26/07 (padroeiros Santana e São Joaquim, Lei Municipal
+// 1115/2016 citada pela própria Prefeitura) — aproveitado para cadastrar direto também o
+// 16/10 (Emancipação Política) da mesma lei, sem candidato correspondente na fila. Monte Alegre
+// 31/10 (padroeira, legislação municipal no site da própria Prefeitura). Pedro Avelino 23/12
+// (emancipação política, amplamente noticiado pela própria Prefeitura). Touros 02/01 (Bom Jesus
+// dos Navegantes, citado na própria Lei Orgânica Municipal). NOTA IMPORTANTE: ao tentar verificar
+// São Tomé/RN 08/12, a URL saotome.rn.gov.br/feriado-municipal/ retornou conteúdo de um site de
+// apostas online (domínio aparentemente comprometido/sequestrado) — candidato mantido PENDENTE
+// por segurança, apesar de busca inicial sugerir confirmação; lição: sempre validar o conteúdo
+// real da página, nunca confiar cegamente no resumo de busca quando o link primário se mostra
+// suspeito. Alto do Rodrigues, Afonso Bezerra, Baraúna, Campo Redondo, Carnaúba dos Dantas,
+// Florânia, Goianinha e Umarizal seguem pendentes por falta de fonte suficiente. Restam
+// pendentes ~41 candidatos de RN.
+// RN sétima leva
 // RN sétima leva (mesma sessão): +6 promovidos. Guamaré teve os 3 candidatos pendentes
 // confirmados de uma vez por um calendário oficial de feriados municipais que lista
 // exaustivamente 5 feriados (20/01, 07/05, 15/08, 08/12, 12/12) — todos os 3 candidatos batem.
