@@ -656,6 +656,27 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// NOTA (mesma sessão, sem promoções): reli o PDF completo do calendário TJSE 2026
+// (calendario-tjse-2026.pdf, técnica WebFetch-falha→Read-local já usada com sucesso nesta sessão)
+// e cruzei contra os 42 candidatos pendentes de SE (Aquidabã 01/11, Canhoba, Capela 01/06,
+// Cristinápolis 24/06+29/06, Feira Nova, Itabaianinha 06/01, Itaporanga d'Ajuda 29/06, Japaratuba
+// 06/01, Japoatã 02/06+25/11, Laranjeiras 07/06, Macambira, Moita Bonita, Muribeca, Neópolis
+// 24/06, Nossa Senhora Aparecida, Nossa Senhora da Glória 06/01+26/11, Nossa Senhora de Lourdes,
+// Pacatuba 24/06+29/06, Pinhão (5 datas), Pirambu 29/06, Porto da Folha 20/08, Poço Redondo
+// 24/06+23/11, Poço Verde 24/06, Propriá 29/06, Riachão do Dantas 14/05, Salgado, Simão Dias
+// 05/04, Siriri, Tomar do Geru). RESULTADO: nenhuma correspondência exata — o calendário forense
+// do TJSE já teve suas correspondências extraídas nas levas anteriores desta sessão (36+1
+// promovidos); o que resta são datas ausentes do documento (Canhoba, Feira Nova, Macambira,
+// Moita Bonita, Muribeca, Nossa Senhora Aparecida, Nossa Senhora de Lourdes, Pinhão, Siriri, Tomar
+// do Geru não aparecem em NENHUMA comarca do documento) ou datas próximas mas não coincidentes
+// com o feriado real da comarca (ex.: N. Sra. da Glória tem "Festa dos Santos Reis" em 05/01, não
+// 06/01; Riachão do Dantas tem emancipação em 09/05, não 14/05) — padrão consistente com muitos
+// candidatos genéricos "São João" (24/06) e "São Pedro" (29/06) do dataset comunitário sem base
+// real. NENHUM candidato foi promovido ou rejeitado nesta consulta — todos permanecem pendentes,
+// já que a ausência de uma comarca neste calendário forense específico não prova que o município
+// não tenha feriado municipal por lei própria (só prova que o Judiciário não o observa). Lição:
+// este documento já foi "esgotado" para SE — não vale a pena reconsultá-lo para os candidatos
+// restantes; qualquer avanço futuro em SE precisará de pesquisa individual por município.
 // Limpeza de pendências pequenas (AM/AL/ES/MT/TO, mesma sessão): +1 promovido, 1 rejeitado.
 // Palmeirópolis/TO 27/11 (Nossa Senhora das Graças, padroeira — data coincide com o dia litúrgico
 // universal da santa). Gurupi/TO 27/09 REJEITADO: a Lei nº 039/2009 confirma que o "Dia do
