@@ -656,6 +656,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN quinta leva (mesma sessão): +6 promovidos, 1 rejeitado. Campo Redondo, Currais Novos e
+// Macau tiveram a maioria/todos os candidatos pendentes confirmados de uma vez. João Câmara: a
+// própria página oficial de feriados da Prefeitura lista só 2 feriados municipais (29/10
+// emancipação, 08/12 padroeira N. Sra. Mãe dos Homens) — o candidato de 29/06 não corresponde a
+// nenhum dos dois e foi REJEITADO com essa fonte que enumera exaustivamente os feriados reais
+// (mesmo padrão de rejeição por omissão de uma listagem oficial completa, já usado com sucesso
+// em MS/ES nesta sessão). Restam pendentes ~69 candidatos de RN.
 // RN quarta leva (retomada após pausa por limite de uso): +5 promovidos. Caicó 16/12
 // (Emancipação Política — na verdade a data da elevação de Vila Nova do Príncipe a Cidade do
 // Príncipe em 1868, não a emancipação original de 1788, mas é essa a data mantida como feriado
