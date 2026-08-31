@@ -656,6 +656,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN quarta leva (retomada após pausa por limite de uso): +5 promovidos. Caicó 16/12
+// (Emancipação Política — na verdade a data da elevação de Vila Nova do Príncipe a Cidade do
+// Príncipe em 1868, não a emancipação original de 1788, mas é essa a data mantida como feriado
+// municipal até hoje, confirmada pela própria prefeitura e pelo prefeito em entrevista). Mossoró
+// teve os 2 candidatos restantes confirmados: 30/09 é um feriado histórico raro — "Libertação
+// dos Escravizados", pois Mossoró aboliu a escravidão localmente em 1883, antes da Lei Áurea
+// nacional, e instituiu o feriado em 1913 — categoria distinta de emancipação política ou
+// padroeiro, mais parecida com efeméride cívica; 13/12 é a padroeira Santa Luzia. São Gonçalo do
+// Amarante teve os 2 candidatos pendentes confirmados de uma vez pela própria página oficial de
+// feriados da prefeitura (28/01 padroeiro São Gonçalo, instituído 1978; 11/12 emancipação
+// política, instituída 1990). Restam pendentes ~76 candidatos de RN.
 // RN terceira leva (mesma sessão): +12 promovidos, de mais ~15 candidatos revisados, focando em
 // municípios com 3 candidatos pendentes (mais eficiente pesquisar o conjunto todo de uma vez).
 // Nova Cruz (3 de 3) e Patu (3 de 3) resolvidos completamente com uma única busca cada — ambos
