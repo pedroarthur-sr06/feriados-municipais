@@ -656,6 +656,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN nona leva (mesma sessão): +10 promovidos, 1 rejeitado. Governador Dix-Sept Rosado 04/04
+// (emancipação, Lei nº 2.878/1963). Ipanguaçu teve os 2 candidatos confirmados por agregadores
+// consistentes (sem lei localizada — disclosure feita). Macau 08/12 confirmado pela própria
+// Arquidiocese de Natal (festa da padroeira). Martins teve os 2 candidatos confirmados de uma
+// vez (06/01 Santos Reis, 10/11 emancipação). Parelhas: duas buscas independentes convergiram
+// especificamente em "20/01 e 24/06 são os 2 únicos feriados municipais oficiais" — 24/06
+// promovido, e o candidato de 08/11 (aniversário) REJEITADO com a mesma fonte, que explicita que
+// o aniversário não é feriado oficial (padrão de rejeição por listagem exaustiva, agora também
+// via busca corroborada em vez de página oficial única). Alexandria 07/11 confirmado pela
+// Wikipédia citando o Decreto nº 10 de 7 de novembro de 1930. Pedro Velho 10/05 confirmado por
+// decreto municipal (nº 15/2023) no Diário Oficial do Município. São Miguel teve os 2 candidatos
+// confirmados de uma vez (29/09 padroeiro São Miguel Arcanjo, 11/12 aniversário). Restam
+// pendentes ~30 candidatos de RN (Afonso Bezerra, Alto do Rodrigues, Baraúna, Campo Redondo,
+// Carnaúba dos Dantas, Florânia, Goianinha, Governador Dix-Sept Rosado 12/07, Ipanguaçu já
+// resolvido, Jardim do Seridó 09/01+09/08, Lagoa Nova 06/24+10/04, Lajes 12/08, Pedro Velho
+// 06/29, Santana do Matos, Santo Antônio 12/08, Serra do Mel, São José do Campestre 01/06, São
+// Tomé, Tenente Ananias, Umarizal, Upanema 11/16).
 // RN oitava leva (mesma sessão): +14 promovidos, 1 cadastro direto, 1 rejeitado. Acari: página
 // oficial de feriados da Prefeitura lista só 1 feriado municipal (11/04, emancipação) — o outro
 // candidato pendente (15/08) foi REJEITADO por omissão dessa listagem exaustiva (mesmo padrão já
