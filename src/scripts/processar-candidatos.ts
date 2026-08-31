@@ -656,6 +656,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Terceira leva de PA (mesma sessão): +9 promovidos, 1 rejeitado. Juruti teve os 2 candidatos
+// confirmados de uma vez (09/04 aniversário da elevação a Vila em 1883, Lei Provincial nº 1.104;
+// 02/07 padroeira N. Sra. da Saúde, Lei Municipal nº 179/1998). São Félix do Xingu 10/04
+// (aniversário da instalação em 1962) confirmado por instituto acadêmico (IEX/UNIFESSPA). Uruará
+// teve os 2 candidatos confirmados de uma vez por reportagem local dedicada (13/05 padroeira,
+// 13/09 aniversário). Ourém, Rio Maria, Santa Maria do Pará e Irituia confirmados por
+// agregadores/reportagens, com disclosure quando o motivo específico não foi localizado. Tucumã
+// 13/05 REJEITADO: o feriado foi instituído pela Lei Municipal nº 259/2004 mas REVOGADO pela Lei
+// Municipal nº 441-A/2011 — não está mais vigente, novo caso do padrão "feriado revogado mas
+// candidato comunitário desatualizado" já visto antes nesta sessão (AL, MT). Restam pendentes
+// ~24 candidatos de PA, muitos sem fonte localizada mesmo após buscas direcionadas (Bragança,
+// Brasil Novo, Capitão Poço, Concórdia do Pará, Floresta do Araguaia, Igarapé-Açu, Medicilândia,
+// Mocajuba, Mãe do Rio, Ourilândia do Norte, Ponta de Pedras, Rurópolis, Soure 29/06, São
+// Domingos do Araguaia, São Domingos do Capim, Ulianópolis, Óbidos).
 // Segunda leva de MS (retomada, mesma sessão): +3 promovidos. Nova releitura do calendário do
 // TJMS (mesma fonte usada na leva anterior) confirmou mais 3 candidatos que não tinham aparecido
 // na extração anterior (o resumo do WebFetch é feito por um modelo pequeno com saída truncada,
