@@ -656,6 +656,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Segunda leva de MS (retomada, mesma sessão): +3 promovidos. Nova releitura do calendário do
+// TJMS (mesma fonte usada na leva anterior) confirmou mais 3 candidatos que não tinham aparecido
+// na extração anterior (o resumo do WebFetch é feito por um modelo pequeno com saída truncada,
+// então releituras direcionadas por lote de municípios trazem entradas novas): Água Clara 31/10
+// (Dia do Evangélico — 28/06 seguiu sem confirmação), Bandeirantes 20/06 (aniversário) e Rio
+// Brilhante 26/09 (aniversário). Restam pendentes ~19 candidatos de MS, principalmente em
+// municípios cuja comarca não teve holiday localizado no TJMS mesmo após releitura (Aral Moreira,
+// Bela Vista, Bodoquena, Caracol, Figueirão, Jateí, Ladário, Laguna Carapã, Novo Horizonte do
+// Sul, Paranhos 24/06, Porto Murtinho 15/06, Rochedo, Tacuru 20/01+13/05, Vicentina).
 // RN décima primeira leva (mesma sessão, sem promoções, 2 rejeitados): Jardim do Seridó teve
 // seus 2 últimos candidatos pendentes (01/09, 08/09) REJEITADOS ao localizar o Decreto nº
 // 001/2026 da própria Prefeitura, que estabelece o calendário oficial completo de feriados e
