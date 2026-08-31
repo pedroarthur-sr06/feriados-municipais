@@ -656,6 +656,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// INÍCIO DE MINAS GERAIS (MG) — mesma sessão. GRANDE ACHADO, o maior de toda a sessão em volume:
+// +533 promovidos de uma vez só. O TJMG publica o "Anexo Único da Portaria Conjunta da
+// Presidência nº 1.196, de 7 de maio de 2021" — "Feriados municipais das comarcas do Estado de
+// Minas Gerais" — um documento de 26 páginas cobrindo alfabeticamente de Abaeté a Visconde do Rio
+// Branco (praticamente todas as ~296 comarcas do estado), com 3 a 5 feriados municipais por
+// comarca cada. O documento é de 2021, mas as datas de padroeiro/aniversário/emancipação são
+// fixas e permanentes por lei municipal — não mudam ano a ano como Corpus Christi ou Paixão de
+// Cristo (que foram EXCLUÍDOS do cruzamento por serem específicos do calendário móvel de 2021,
+// já cobertos pelo motor nacional de qualquer forma). Processo: (1) transcrição manual de todo o
+// texto do PDF (lido via WebFetch-falha→Read-local, mesma técnica de SE/ES/MT/PA) para um objeto
+// JS comarca→[mes,dia,motivo] (script scratch-mg-comarcas.mjs, não versionado); (2) script de
+// cruzamento automático contra os 1337 candidatos pendentes de MG por nome de município + data
+// exata (scratch-mg-match.mjs); (3) geração automática das 533 decisões de promoção em lote
+// único (scratch-mg-gerar-decisoes.mjs), evitando digitação manual e o risco de reexecução
+// acidental já visto antes em PA. Restam pendentes ~804 candidatos de MG: ~703 em municípios sem
+// comarca própria no documento (provavelmente anexados à comarca de um município vizinho não
+// identificado nesta pesquisa) e o restante em datas que não coincidiram com o documento de 2021
+// (podem ter mudado desde então, ou o candidato do dataset comunitário está incorreto). Nenhuma
+// rejeição foi feita nesta leva — as não-correspondências foram deixadas pendentes, não
+// rejeitadas, já que a ausência no documento de 2021 não prova que a lei municipal não exista.
 // Terceira leva de PA (mesma sessão): +9 promovidos, 1 rejeitado. Juruti teve os 2 candidatos
 // confirmados de uma vez (09/04 aniversário da elevação a Vila em 1883, Lei Provincial nº 1.104;
 // 02/07 padroeira N. Sra. da Saúde, Lei Municipal nº 179/1998). São Félix do Xingu 10/04
