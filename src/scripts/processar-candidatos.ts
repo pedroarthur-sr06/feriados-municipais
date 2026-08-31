@@ -656,6 +656,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN terceira leva (mesma sessão): +12 promovidos, de mais ~15 candidatos revisados, focando em
+// municípios com 3 candidatos pendentes (mais eficiente pesquisar o conjunto todo de uma vez).
+// Nova Cruz (3 de 3) e Patu (3 de 3) resolvidos completamente com uma única busca cada — ambos
+// têm exatamente 3 feriados municipais bem documentados por fontes regionais/prefeitura. Touros
+// e Santa Cruz tiveram 2-3 de 3 candidatos confirmados. Nota de cautela registrada: para Santa
+// Cruz, duas fontes divergem sobre a data exata da emancipação (30/11 vs 11/12) — usei 30/11 por
+// bater exatamente com o candidato pendente e ter confirmação regional específica, mas a
+// divergência fica registrada caso surja evidência mais forte depois. Restam pendentes ~81
+// candidatos de RN.
 // RN segunda leva (mesma sessão): +6 promovidos, 1 rejeitado, de mais ~10 candidatos revisados.
 // Apodi teve os 3 candidatos restantes resolvidos de uma vez (tem 2 padroeiros distintos, São
 // João Batista 24/06 e N. Sra. da Conceição 08/12, mais a emancipação 23/03) — REJEITADO o
