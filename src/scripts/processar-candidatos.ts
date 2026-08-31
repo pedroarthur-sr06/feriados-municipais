@@ -656,6 +656,30 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// SE quinta rodada: 4 promovidos, 2 rejeitados, 2 cadastros diretos, de 48 candidatos revisados
+// (36 municípios). Retomando os dois grandes clusters (06/24 São João Batista e 06/29 São Pedro)
+// cujas listas nomeadas usadas antes tinham zero overlap: confirmação por paróquia individual
+// (Arquidiocese de Aracaju tem página própria por paróquia, muito útil) rendeu só 1 caso claro
+// no cluster de 06/24 (Areia Branca) e 0 no de 06/29 — a maioria dos municípios pesquisados
+// tinha padroeiro CONFIRMADO mas de outro santo (Moita Bonita: N. Sra. da Conceição; Salgado:
+// sem info; Poço Verde: São Sebastião, já promovido em outra data; Itaporanga d'Ajuda: N. Sra.
+// d'Ajuda, já promovida em outra data; Nossa Senhora de Lourdes: já promovida em 11/02; Pinhão:
+// São José, 19/03, não bate com nenhum dos 5 candidatos do município) — confirma que esses
+// clusters de SE são mais resistentes que os de outros estados, provavelmente porque municípios
+// pequenos do interior sergipano têm padroeiros menos padronizados que se pensava. Tomar do Geru
+// 09/08 foi a exceção boa: padroeira N. Sra. do Socorro com festa de 30/08 a 08/09, culminando
+// exatamente na data do candidato (achado usando o padrão "fim da novena = data do feriado", já
+// visto em Tomar do Geru/PI). Dois REJEITADOS com fonte que nega explicitamente: Aracaju Corpus
+// Christi (segunda instância nesta sessão de feriado NACIONAL vazando pra fila municipal, mesmo
+// padrão de Parnaíba/PI) e Pirambu 08/08 ("Dia do Pirambuense" — reportagem específica diz
+// textualmente que a proposta é reconhecer como marco cultural, "não como mais um feriado", e
+// que até 2011 a cidade tratava erroneamente essa data como emancipação política). Dois
+// CADASTROS DIRETOS: Japoatã 21/11 (padroeira) e 23/11 (emancipação), ambos confirmados pelo
+// Calendário Judicial do TJSE e por matéria da Assembleia Legislativa de SE, mas sem candidato
+// correspondente na fila (os 2 candidatos pendentes de Japoatã, 02/06 e 25/11, são datas
+// diferentes sem confirmação). São Domingos 07/04 e Feira Nova 14/08 (memorial de ex-prefeito,
+// mesma categoria rara de Amarante/PI e Cocal/PI) completam o lote. Restam pendentes ~42
+// candidatos de SE, incluindo a maior parte dos clusters de 06/24 e 06/29 ainda sem confirmação.
 // PI quarta rodada: 12 promovidos, 5 rejeitados, de 47 candidatos revisados (32 municípios) —
 // maior lote de rejeições justificadas desta sessão. Achados principais: (1) cluster de 10
 // candidatos de 08/12 (Nossa Senhora da Conceição): a lista nomeada da CNBB Regional Nordeste 4
