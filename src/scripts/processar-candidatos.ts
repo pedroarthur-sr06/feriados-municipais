@@ -656,6 +656,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// Segunda retomada de ES (mesma sessão): +18 promovidos, 2 rejeitados. Afonso Cláudio teve os 2
+// candidatos restantes confirmados de uma vez pelo Informativo de Feriados Municipais 2025 do
+// TJES (fonte institucional, mesmo padrão de confiabilidade das outras fontes de tribunal usadas
+// nesta sessão). Iúna teve os 2 candidatos confirmados por lei municipal específica (nº
+// 1.831/2002) citada pela própria Câmara Municipal. Jerônimo Monteiro teve os 2 candidatos
+// confirmados pela página oficial de feriados municipais do TJES. Irupi (São João Batista, Lei
+// 047/94), Ponto Belo (São João, Lei 50/98) e Sooretama (aniversário, Lei Municipal 412/2005 +
+// Lei Estadual 4.892/1994) confirmados com lei específica citada por fonte institucional
+// (câmaras municipais). São Roque do Canaã teve os 2 candidatos confirmados por pesquisa sobre
+// sua história (plebiscito de emancipação 25/06/1995 + fundação da paróquia 16/08/1953). Vila
+// Pavão 29/06 (São Pedro) confirmado repetidamente por várias matérias da própria Câmara
+// Municipal ao longo dos anos. Pinheiros, Fundão e Vila Valério tiveram candidatos confirmados
+// por agregadores/decreto municipal, com disclosure quando o motivo específico não foi
+// localizado. Duas rejeições por listagem oficial exaustiva: Iconha 08/12 (busca específica
+// confirma que NÃO é feriado municipal ali) e Dores do Rio Preto 14/09 (a página oficial do
+// TJES lista exaustivamente 4 feriados da comarca — 07/04, 08/06, 29/08, 15/09 — sem incluir
+// 14/09; a data correta do feriado de N. Sra. das Dores é 15/09). Restam pendentes apenas Alto
+// Rio Novo (31/10), Brejetuba (15/06) e Pedro Canário (26/12), sem fonte localizada — ES fica
+// com pool de candidatos praticamente esgotado (~3 pendentes).
 // Retomada de TO (mesma sessão): +6 promovidos. Almas teve 2 candidatos confirmados de uma vez
 // (18/05, 10/12), mas o de 17/05 ficou pendente por não constar na mesma listagem específica.
 // Arraias 20/01 (São Sebastião) confirmado pela própria notícia do TJTO sobre a portaria da
