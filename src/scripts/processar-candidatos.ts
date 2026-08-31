@@ -656,6 +656,19 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// RN (Rio Grande do Norte) iniciado nesta sessão: 9 promovidos, de ~15 candidatos revisados
+// (dos 109 pendentes). Tentativa de replicar a técnica de "PDF único cobrindo todo o estado"
+// (TJSE/SE, TJES/ES) falhou para RN e RJ: TJRN não tem um PDF equivalente facilmente localizável,
+// e o domínio tjrj.jus.br bloqueou o WebFetch por certificado SSL inválido, mesmo com múltiplos
+// PDFs por núcleo regional disponíveis (10+ núcleos, mais trabalhoso de qualquer forma). Retomado
+// com pesquisa individual padrão. Achado: já existia no banco (de sessão anterior a esta janela
+// visível) o feriado ESTADUAL \"Mártires de Cunhaú e Uruaçu\" (03/10, Lei Estadual nº 8.913/2006)
+// — mas Canguaretama/RN (onde ocorreu o massacre de 1645 na Capela de N. Sra. das Candeias) tem
+// um feriado MUNICIPAL distinto na data real do morticínio (16/07), comemorando o evento
+// histórico local separadamente da data simbólica estadual — caso raro de um evento histórico
+// gerar dois feriados diferentes (estadual E municipal) em datas diferentes. Canguaretama tinha
+// todos os 5 candidatos pendentes já auto-rotulados no dataset comunitário com nome específico,
+// aproveitados de uma vez. Restam pendentes ~100 candidatos de RN.
 // ES terceira leva (mesma sessão): +54 promovidos, de todos os 78 candidatos restantes
 // revisados de uma vez. MAIOR LOTE DE PROMOÇÕES DE UMA ÚNICA RODADA EM TODA A SESSÃO (supera o
 // lote de 44 de MS). Achado: o TJES publica um PDF único "Feriados Municipais" cobrindo TODOS os
