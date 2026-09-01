@@ -770,6 +770,28 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // muito (de 0 a ~26 conforme o estado) e não há como prever de antemão qual documento tem
 // mais "sobras" sem reler.
 //
+// INÍCIO DE GOIÁS (GO) — mesma sessão. MAIOR ACHADO DE QUALIDADE DA SESSÃO: a
+// Corregedoria-Geral de Justiça do TJGO mantém uma página própria (não um PDF estático)
+// "Feriados Municipais nas Comarcas" — tabela HTML paginada (34 páginas de 10, expandida via
+// combobox "Mostrar Todos" para uma única página com ~280 linhas), cobrindo ~125 dos 246
+// municípios de Goiás, com o diferencial de trazer a CITAÇÃO DA LEI/DECRETO MUNICIPAL
+// específica em coluna própria ("LEI DA CRIAÇÃO") para quase toda entrada — um padrão de
+// evidência mais forte que a maioria dos documentos já usados nesta sessão (citação
+// específica de norma direto na fonte oficial do TJ, não um agregador). Acessada via
+// mcp__Claude_Browser (WebFetch deu 403 na página, comportamento diferente de PDF).
+// Entradas com data relativa/móvel sem regra exprimível no schema atual (ex.: "última
+// segunda-feira de julho", "Domingo de Pentecostes", "2ª ou 3ª segunda-feira de maio") foram
+// excluídas do cruzamento — ficam para uma pesquisa futura caso o schema ganhe suporte a
+// datas relativas a dia da semana. Resultado em duas etapas: (1) 205 promovidos cruzando
+// contra os 330 candidatos pendentes de GO por município normalizado + data exata; (2) 91
+// cadastrados diretamente (`criar_direto`) para entradas do documento sem candidato
+// correspondente no dataset comunitário (a maioria por GO ter poucos candidatos comunitários
+// de origem — só 9 feriados curados existiam antes desta leva). Total: +296 feriados
+// municipais de GO em uma única leva, de 9 para 305 — GO passa a ser o 3º estado com mais
+// feriados curados no banco. Resta a maior parte dos ~125 candidatos pendentes de GO (os
+// ~120 municípios não cobertos por esta tabela da Corregedoria) para pesquisa individual
+// futura.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
