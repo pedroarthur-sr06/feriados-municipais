@@ -656,6 +656,24 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// INÍCIO DA BAHIA (BA) — mesma sessão. Segundo grande achado de documento-jackpot, logo após
+// MG: +401 promovidos de uma vez só. O TJBA publica anualmente o "Decreto Judiciário nº 09"
+// (2026: de 07/01/2026, Diário da Justiça Eletrônico nº 3.959) com ANEXO listando as datas de
+// suspensão do expediente forense por feriado municipal em 193 comarcas do estado — mas, ao
+// contrário do documento do TJMG, este lista APENAS as datas, sem motivo (padroeiro/aniversário/
+// etc.). Processo: (1) localização do PDF real via tentativa de padrão de URL (o ID do arquivo é
+// sequencial ao dos decretos vizinhos nº 07/08, mesmo Diário); leitura via WebFetch-falha→
+// Read-local; (2) transcrição para objeto JS comarca→[[mes,dia],...] (scratch-ba-comarcas.mjs,
+// não versionado); (3) cruzamento automático contra os 868 candidatos pendentes de BA por nome
+// de município (normalizado, maiúsculas/acentos) + data exata; (4) geração das decisões usando o
+// próprio campo descricao_original do candidato como nome quando disponível (muitos candidatos
+// da BA já vinham com motivo detalhado no dataset comunitário — ex.: "Dia de Santo Antônio",
+// "Emancipação Política do Município de Caetité"), com "Feriado Municipal" + disclosure quando
+// ausente. Restam pendentes ~467 candidatos de BA: ~358 em municípios sem comarca própria no
+// documento (comarca compartilhada com município vizinho, não mapeada aqui) e o restante em
+// datas que não coincidiram com o anexo de 2026 (o dataset comunitário pode estar desatualizado
+// ou o feriado pode ter sido alterado). Nenhuma rejeição foi feita — não-correspondências ficaram
+// pendentes, não rejeitadas.
 // INÍCIO DE MINAS GERAIS (MG) — mesma sessão. GRANDE ACHADO, o maior de toda a sessão em volume:
 // +533 promovidos de uma vez só. O TJMG publica o "Anexo Único da Portaria Conjunta da
 // Presidência nº 1.196, de 7 de maio de 2021" — "Feriados municipais das comarcas do Estado de
