@@ -753,6 +753,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // commitada. Resta a maior parte dos ~722 candidatos pendentes de MG sem correspondência
 // possível neste documento (municípios que não são sede de comarca própria).
 //
+// RELEITURA DOS DEMAIS DOCUMENTOS-JACKPOT (PR/SP/BA/RS) — mesma sessão, aplicando a mesma
+// técnica de releitura completa + cruzamento rigoroso que funcionou para MG. Resultado:
+// PR (Decreto Judiciário TJPR nº 621/2025) — releitura completa (333 entradas, 162
+// municípios), 0 matches novos: o cruzamento original já tinha capturado tudo corretamente.
+// BA (Decreto Judiciário TJBA nº 09/2026) — releitura completa (573 entradas, 193 comarcas),
+// 0 matches novos: idem. SP (Provimento CSM nº 2.813/2025) — releitura completa (698 datas,
+// 320 municípios), 2 matches novos, ambos por hífen: "Embu-Guaçu" no dataset de candidatos
+// vs. "EMBU GUAÇU" no documento do TJSP. RS (TJRS, "Feriados Municipais nas Comarcas do RS")
+// — releitura completa (439 entradas, 169 comarcas + sub-comarcas de Pelotas), 2 matches
+// novos: Sant'Ana do Livramento 30/07 (aniversário) e São Luiz Gonzaga 03/06 (dia do
+// município — coincide em 2021 com a data de Corpus Christi daquele ano no documento, mas é
+// uma entrada distinta e o candidato de 2026 não coincide com Corpus Christi 2026, que cai
+// em 04/06). Total: 4 novos promovidos nesta releitura combinada. Confirma o padrão: a
+// técnica vale a pena revisitar em cada documento-jackpot já usado, mas o rendimento varia
+// muito (de 0 a ~26 conforme o estado) e não há como prever de antemão qual documento tem
+// mais "sobras" sem reler.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
