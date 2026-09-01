@@ -736,6 +736,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // do banco (já deduplicado pelo próprio upsert), corrige isso automaticamente: o total de
 // entradas cai em ~154 mesmo antes de somar as novas promoções desta leva.
 //
+// TERCEIRA LEVA DE MINAS GERAIS (MG) — mesma sessão, mesmo documento já usado na leva
+// original (Anexo Único da Portaria Conjunta da Presidência do TJMG nº 1.196/2021), mas com
+// releitura completa e cruzamento mais rigoroso: transcrição integral das 26 páginas do PDF
+// (as 296 comarcas, ~1262 linhas de feriado) para um arquivo de texto, parseado
+// programaticamente e cruzado contra TODOS os 748 candidatos pendentes de MG por nome de
+// município normalizado (sem acento/hífen/espaço) + data exata — não apenas por comarca como
+// no cruzamento automático original. Isso recuperou 26 candidatos que o script original
+// perdeu, por dois motivos identificados: (1) nomes com hífen/grafia alternativa não bateram
+// no cruzamento anterior (ex.: "Abre-Campo" vs "Abre Campo", "Entre-Rios de Minas" vs
+// "Entre Rios de Minas", "São João del-Rei" vs "São João del Rei", "Teófilo Otôni" vs
+// "Teófilo Otoni" no dataset de candidatos); (2) comarcas com múltiplos feriados na mesma
+// leva tiveram alguma entrada intermediária pulada por um bug não diagnosticado do script
+// original (ex.: Grão Mogol tinha 3 candidatos batendo com o documento, mas só 2 foram
+// promovidos na leva original). Nenhuma pesquisa nova — mesma fonte primária já citada e
+// commitada. Resta a maior parte dos ~722 candidatos pendentes de MG sem correspondência
+// possível neste documento (municípios que não são sede de comarca própria).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
