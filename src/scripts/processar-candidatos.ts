@@ -829,6 +829,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // nenhuma das duas técnicas usadas neste projeto conseguiu ler o conteúdo. Fica para uma
 // tentativa futura com outra abordagem de acesso.
 //
+// INÍCIO DO RIO DE JANEIRO (RJ) — mesma sessão, terceira técnica de acesso testada com
+// sucesso: `curl -k` (bypass de verificação de certificado) contorna o problema de TLS que
+// bloqueava WebFetch e o navegador. Baixados os 10 PDFs "Comarcas do Nº Núcleo Regional" da
+// Corregedoria Geral de Justiça do TJRJ (núcleos 2 a 11 — o 1º Núcleo é só a Capital/cidade
+// do Rio, sem lista de feriados municipais própria nesse formato), cobrindo as ~90 comarcas
+// do interior fluminense, cada um com 1 a ~12 municípios, motivo (padroeiro/emancipação/
+// aniversário) e datas — mas SEM citação de lei/decreto na maioria dos núcleos mais antigos
+// (documentos de 2006-2014; só o 4º núcleo, atualizado em 2024, cita a Lei Estadual do LODJ
+// artigo por artigo). Peculiaridade: o 10º núcleo lista 2 municípios por linha de comarca
+// (ex.: "Santo Antônio de Pádua (Aperibé)"), tratados como entradas separadas. Descartados:
+// a linha "Volta Redonda... (Não é feriado)" (o próprio documento marca como não-feriado) e
+// datas móveis/relativas a localidades específicas dentro do município (Barra de São João em
+// Casimiro de Abreu, Bacaxá em Saquarema) por ambiguidade sobre se vinculam o município
+// inteiro. Correção de nome: "Levy Gasparian" no documento → "Comendador Levy Gasparian" no
+// IBGE. Resultado: 94 promovidos contra os 114 candidatos pendentes de RJ; 39 cadastrados
+// diretamente (`criar_direto`). Total: +133 feriados municipais de RJ.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
