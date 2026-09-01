@@ -808,6 +808,27 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // restante dos candidatos de PE nos ~33 municípios não cobertos pela página do TJPE, para
 // pesquisa individual futura.
 //
+// INÍCIO DE SANTA CATARINA (SC) — mesma sessão. O TJSC também mantém uma planilha própria
+// ("Comarcas / Feriados locais", tjsc.jus.br/documents/...), no mesmo padrão de página/
+// documento dinâmico já visto em GO e PE (WebFetch caiu no fallback de leitura local, mesma
+// técnica). Particularidade desta planilha: a coluna é por COMARCA, não por município — várias
+// comarcas agregam mais de um município (ex.: a comarca de "Garopaba" lista também os
+// feriados de Paulo Lopes; "Ascurra" lista Apiúna; "Ipumirim" lista Arabutã e Lindóia do Sul;
+// "Chapecó" lista o padroeiro de Caxambu do Sul). Cruzamento cuidadoso: cada linha foi
+// reatribuída ao município correto via extração do padrão "Município de X" no próprio texto
+// do motivo, caindo para o nome da comarca apenas quando a linha não menciona outro
+// município explicitamente — todos os 114 municípios extraídos bateram exatamente com o
+// cadastro do IBGE, sem nenhuma correção manual de nome necessária. Resultado: 148 promovidos
+// contra os 422 candidatos pendentes de SC; 47 cadastrados diretamente (`criar_direto`) sem
+// candidato correspondente no dataset comunitário. Total: +195 feriados municipais de SC.
+//
+// Tentativa de RJ (TJRJ mantém PDFs por Núcleo Regional, ~8 documentos cobrindo todas as
+// comarcas do estado, URLs já localizadas) ficou bloqueada tecnicamente nesta sessão: o
+// domínio tjrj.jus.br tem um certificado TLS que o WebFetch rejeita ("unable to verify the
+// first certificate") e o navegador força download do PDF em vez de renderizar a página —
+// nenhuma das duas técnicas usadas neste projeto conseguiu ler o conteúdo. Fica para uma
+// tentativa futura com outra abordagem de acesso.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
