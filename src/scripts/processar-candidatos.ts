@@ -656,6 +656,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // data).
 const DECISOES2: Decisao[] = [
 ];
+// INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
+// logo após MG e BA: +213 promovidos de uma vez só. O TJRS publica "Feriados Municipais nas
+// Comarcas do RS" (dados atualizados até junho/2021) — documento de 12 páginas cobrindo
+// alfabeticamente de Agudo a Viamão, com motivo detalhado por data (ao contrário do TJBA, mas
+// como o TJMG). Contém também sub-comarcas de Pelotas (Turuçu, Morro Redondo, Capão do Leão,
+// Arroio do Padre) listadas com seus próprios feriados. Excluídos do cruzamento: "C. Christi"/
+// "Corpus Christi" (móvel, data específica de 2021, já coberto pelo motor nacional). "N. Sra.
+// dos Navegantes" (02/02) foi MANTIDO no cruzamento por ser data fixa, mesmo aparecendo em quase
+// toda comarca costeira/geral do RS — tratado como feriado municipal genuíno por comarca, não
+// como feriado estadual único (distinto do caso da N. Sra. da Penha em ES, que tinha base legal
+// estadual explícita). "Dia da Reforma" (31/10) é feriado protestante regional legítimo, comum
+// no RS por herança de imigração alemã/luterana — distinto do "Dia do Evangélico" nacional-
+// padrão visto em outros estados. Processo idêntico ao de MG/BA: transcrição→cruzamento
+// automático→geração de decisões. Restam pendentes ~385 candidatos de RS: ~342 em municípios sem
+// comarca própria no documento e o restante em datas não coincidentes. Nenhuma rejeição feita.
 // INÍCIO DA BAHIA (BA) — mesma sessão. Segundo grande achado de documento-jackpot, logo após
 // MG: +401 promovidos de uma vez só. O TJBA publica anualmente o "Decreto Judiciário nº 09"
 // (2026: de 07/01/2026, Diário da Justiça Eletrônico nº 3.959) com ANEXO listando as datas de
