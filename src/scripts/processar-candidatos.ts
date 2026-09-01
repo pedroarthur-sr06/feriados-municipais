@@ -699,6 +699,43 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // candidatos ainda pendentes (municípios que não são sede de comarca, ou com data que não bateu
 // exatamente com o documento) para pesquisa individual futura.
 //
+// SEGUNDA LEVA DE MINAS GERAIS (MG) — mesma sessão, pivô para pesquisa individual
+// item a item (opção escolhida pelo usuário) após os documentos-jackpot de MG/BA/RS/PR/SP
+// se esgotarem para os grandes estados restantes. Rendimento inicial da pesquisa
+// individual foi baixo, mas revelou um SEGUNDO achado de padrão "lei de emancipação em
+// massa": 53 candidatos de MG, todos datados de 01/03 (ano 2026, ou seja 1º de março),
+// espalhados sem relação aparente entre si. Rastreado até a Lei estadual (MG) nº 2.764,
+// de 30/12/1962 ("Divisão Administrativa do Estado de Minas Gerais"), que criou ~200+
+// municípios simultaneamente (marcados "(x)" no próprio "Anexo nº 1" da lei, uma listagem
+// numerada de 722 municípios/distritos), todos instalados uniformemente em 1º de março de
+// 1963 pelo Decreto estadual nº 6.839, de 11/01/1963 ("Dispõe sobre a instalação dos
+// municípios criados pela Lei nº 2.764/1962"). Texto integral da Lei 2.764/1962 (Anexo nº 1)
+// lido diretamente, cruzando cada um dos 53 candidatos contra a marcação "(x)" de município
+// criado por ela. Corroborado por 3 buscas independentes em municípios específicos deste
+// mesmo lote (Araçaí, Buritizeiro, Ijaci), cada uma confirmando "instalado/emancipado em
+// 01-03-1963" via fonte histórica/oficial. Mesmo padrão já visto para o Tocantins (Lei
+// Estadual nº 2.125/1958, que criou Xambioá, Almas, etc. simultaneamente) — mostra que,
+// mesmo em modo de pesquisa individual, datas repetidas entre candidatos da mesma UF podem
+// indicar uma lei de emancipação em massa ainda não identificada como "documento-jackpot".
+//
+// Nesta mesma leva, uma mini-pesquisa individual anterior sobre 3 candidatos pendentes de
+// MG: Abadia dos Dourados 14/08 (Festa de Nossa Senhora da Abadia, promovido — 2 fontes
+// concordam na data correta de 14/08 e no motivo, embora o número exato da lei municipal de
+// 2017 divirja entre elas: 1.668 ou 1.672/2017), Abadia dos Dourados 15/08 (rejeitado —
+// duplicata com data incorreta do candidato acima) e Bambuí 08/12 (rejeitado — Nossa Senhora
+// da Conceição deixou de ser feriado municipal, substituída por 27/11/Nossa Senhora das
+// Graças, sem candidato correspondente no dataset para promover em seu lugar).
+//
+// Efeito colateral corretivo descoberto ao regenerar o seed após esta leva: o arquivo
+// `seed-feriados-curados.ts` carregava ~154 linhas duplicadas de São Paulo (mesmo
+// nome+abrangência+UF+código IBGE em mais de uma linha, herdadas de uma aplicação duplicada
+// na leva anterior de SP que passou despercebida pela checagem de duplicidade daquele
+// momento). Como o script `seed:feriados-curados` faz upsert (casa por
+// nome+abrangência+uf+codigoIbge, não por id), essas duplicatas nunca inflaram o total real
+// do banco — mas infestavam o arquivo versionado. A regeneração desta leva, feita a partir
+// do banco (já deduplicado pelo próprio upsert), corrige isso automaticamente: o total de
+// entradas cai em ~154 mesmo antes de somar as novas promoções desta leva.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
