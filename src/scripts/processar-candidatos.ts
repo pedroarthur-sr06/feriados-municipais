@@ -674,6 +674,31 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // candidatos ainda pendentes (municípios que não são sede de comarca, fora do escopo do
 // decreto) para pesquisa individual futura.
 //
+// INÍCIO DE SÃO PAULO (SP) — mesma sessão. Quinto grande achado de documento-jackpot, o maior
+// em volume absoluto: +480 promovidos de uma vez só, na maior pendência do sistema (1084 antes
+// deste lote). O TJSP publica anualmente, junto com o Provimento CSM que trata da suspensão do
+// expediente forense, uma "RELAÇÃO DE FERIADOS MUNICIPAIS" aprovada pelo Conselho Superior da
+// Magistratura — para 2026, é o Provimento CSM nº 2.813/2025 (sessão de 24/11/2025, publicado no
+// Diário Eletrônico da Justiça de SP, Ano XVIII, Edição 4334, disponibilizado em 25/11/2025).
+// Cobre ~319 comarcas do Estado. Obtido via WebSearch -> link direto do PDF completo (cópia
+// hospedada pela ASSETJ, associação de servidores do TJSP, pois o link direto do e-SAJ não
+// respondeu ao fetch) -> WebFetch falhou a conversão -> Read direto no caminho local salvo pelo
+// erro do WebFetch, mesma técnica já validada. Documento traz SÓ a data por município, sem
+// motivo — diferente de MG/RS (com motivo) e mais parecido com BA. Nome do feriado promovido
+// usa o `descricao_original` do candidato quando disponível (raramente presente e útil nesse
+// dataset para SP), caindo para "Feriado Municipal" na maioria dos casos — desvantagem
+// documentada explicitamente na observação de cada entrada.
+//
+// Regra de exclusão importante desta leva (além da já usual Sexta-Feira Santa/Corpus Christi,
+// que são festas móveis já computadas nacionalmente): o documento do TJSP também lista Finados
+// (02/11) e 20/11 em quase toda comarca — mas AMBAS já são feriados NACIONAIS computados pelo
+// motor (Finados desde a Lei 662/1949; 20/11, Dia Nacional de Zumbi e da Consciência Negra,
+// desde a Lei federal nº 14.759/2023 — ver src/motor/feriados-nacionais.ts:59-64). Promover
+// essas datas como municipal seria redundante com o que a consulta já mostra via camada
+// nacional, então foram excluídas do cruzamento assim como as festas móveis. SP fica com ~604
+// candidatos ainda pendentes (municípios que não são sede de comarca, ou com data que não bateu
+// exatamente com o documento) para pesquisa individual futura.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
