@@ -792,6 +792,22 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // ~120 municípios não cobertos por esta tabela da Corregedoria) para pesquisa individual
 // futura.
 //
+// INÍCIO DE PERNAMBUCO (PE) — mesma sessão. MAIOR ACHADO EM VOLUME DA SESSÃO: o TJPE mantém
+// uma página HTML dedicada "Feriados Oficiais nas Comarcas de Pernambuco" (não PDF —
+// portal.tjpe.jus.br, atualizada em 14/01/2026), cobrindo 151 dos ~184 municípios do estado,
+// 2 a 6 feriados cada, com motivo descrito por extenso (sem citação de lei/decreto, ao
+// contrário de GO). Acessada via mcp__Claude_Browser (mesmo padrão do achado de GO — páginas
+// HTML de tribunais tendem a bloquear WebFetch com 403, mas funcionam via navegador real).
+// Duas correções de nome de município aplicadas antes do cruzamento: "Belém de São
+// Francisco" no documento → "Belém do São Francisco" no IBGE; "São Caetano" do documento não
+// tem correspondente no IBGE (não é município independente) e ficou de fora. Resultado em
+// duas etapas, igual à técnica de GO: (1) 291 promovidos cruzando contra os 336 candidatos
+// pendentes de PE por município normalizado + data exata; (2) 121 cadastrados diretamente
+// (`criar_direto`) para entradas do documento sem candidato correspondente no dataset
+// comunitário. Total: +412 feriados municipais de PE em uma única leva. Resta pendente o
+// restante dos candidatos de PE nos ~33 municípios não cobertos pela página do TJPE, para
+// pesquisa individual futura.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
