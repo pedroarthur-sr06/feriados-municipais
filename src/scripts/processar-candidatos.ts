@@ -654,6 +654,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (ou equivalente) ser de fato aberto e conferido linha a linha. Restam pendentes ~46
 // candidatos de SE (~47 contando Pedra Mole, que segue sem fonte para 21/11 ou qualquer outra
 // data).
+//
+// INÍCIO DO PARANÁ (PR) — mesma sessão. Quarto grande achado de documento-jackpot, logo após
+// MG, BA e RS: +264 promovidos de uma vez só. O TJPR publica o Decreto Judiciário nº 621/2025
+// - P-SEP (SEI nº 0064955-90.2025.8.16.6000), assinado pela Desembargadora Lidia Maejima em
+// 18/11/2025, cujo Art. 4º "consolida o calendário de feriados locais dos municípios sedes das
+// Comarcas do Estado no ano de 2026" — já para o ano corrente, diferente dos documentos de MG
+// (2021), BA e RS (2021), que exigiram assumir recorrência anual. Obtido via WebFetch (falhou a
+// conversão do PDF, "FlateDecode"/stream binário) -> Read direto no caminho local salvo pelo erro
+// do WebFetch, técnica já validada nesta sessão para TJMG/TJBA/TJRS. Documento organizado por
+// mês -> dia -> lista de municípios com motivo (formato diferente de MG/BA/RS, que eram por
+// comarca) — cobre 161 municípios-sede de comarca. Cruzado contra os 645 candidatos pendentes de
+// PR: 264 tinham data exata batendo com o documento (mês+dia). Nome do feriado usa o motivo do
+// decreto quando disponível (ex. "Dia do Padroeiro do Município", "Emancipação Política do
+// Município"); caiu para o `descricao_original` do candidato só quando o decreto não trazia
+// motivo. Excluídas entradas de Corpus Christi/Sexta-feira Santa (Paixão de Cristo) do
+// cruzamento — são instâncias de festa móvel específicas de 2026, já cobertas nacionalmente
+// pelo motor (ponto_facultativo/nacional), não feriado municipal distinto. PR fica com ~381
+// candidatos ainda pendentes (municípios que não são sede de comarca, fora do escopo do
+// decreto) para pesquisa individual futura.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
