@@ -1174,6 +1174,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // QUARTA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. De Pedrão a
 // Santanópolis (~18 municípios), mesmo método. 48 promovidos + 6 criados diretamente.
 //
+// QUINTA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. Retomei a
+// varredura alfabética a partir de Santo Amaro (ordem alfabética completa de todos os 417
+// municípios baianos, não só os que tinham candidato do dataset comunitário) e voltei ao início
+// (Abaíra em diante) para cobrir os ~93 municípios da BA que ainda não tinham nenhum dado
+// municipal. Taxa de acerto muito mais baixa que as levas anteriores (~3%, contra ~60-80% das
+// levas 1-4) — a maioria destes municípios pequenos simplesmente não tem feriado municipal
+// documentado no agregador, e a própria página confirma isso explicitamente ("não encontramos
+// nenhum feriado municipal em [X]"). Isso é um resultado válido, não uma falha: o
+// status_municipal desses municípios continua nao_verificado corretamente, sem fabricar dado.
+// De 35 municípios varridos (Abaíra a Itaguaçu da Bahia), só 1 teve resultado: Cabaceiras do
+// Paraguaçu, com 3 datas — 14/03, 13/06 (aniversário) e 29/08 — nenhuma com candidato
+// correspondente no dataset comunitário (criadas diretamente). Dado o rendimento muito baixo,
+// pausei a varredura alfabética da BA aqui para reportar status ao usuário antes de continuar
+// gastando fetches nos ~57 municípios baianos restantes.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
