@@ -981,6 +981,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 340 pares extraídos, cruzados contra o que já existe em feriados — 65 eram genuinamente
 // novos, cadastrados via criar_direto com o motivo exato do documento como nome.
 //
+// SANTA CATARINA (SC) — RELEITURA + CORREÇÃO DE OMISSÃO — mesma sessão. Rebusquei a mesma
+// planilha oficial "Comarcas / Feriados locais" do TJSC já usada na leva original de SC, para
+// conferir se havia algo novo. Reprocessamento completo (204 pares, incluindo atribuição
+// correta de sub-municípios dentro de comarcas — Apiúna/Ascurra, Paulo Lopes/Garopaba,
+// Arabutã e Lindóia do Sul/Ipumirim, Caxambu do Sul/Chapecó) achou só 1 "novo" candidato, que
+// na verdade era um FALSO POSITIVO do parser: um bug de regex atribuiu por engano a data de
+// emancipação de São José do Cedro (27/07) ao município de São José (grande Florianópolis) —
+// descartado sem cadastrar nada (a linha já estava corretamente coberta sob o código IBGE
+// certo, só o parser leu errado o nome do município na extração desta vez; não indica perda de
+// dado real). Investigação revelou, por outro lado, um problema REAL: ao transcrever o texto
+// do documento na leva original, os blocos de 4 comarcas com formato de data não-fixa
+// (movéis, calculadas a partir da Páscoa, não "DD/MM") foram integralmente OMITIDOS por
+// engano durante a transcrição — Timbó e Pomerode ("segunda-feira após a Páscoa" = pascoa+1),
+// Modelo ("Corpus Christi, independente do dia" = pascoa+60, mais 2 datas fixas que também
+// ficaram de fora por estarem no mesmo bloco omitido) e o padroeiro de Paulo Lopes/Garopaba
+// ("segunda sexta-feira após Corpus Christi" = pascoa+68, calculado a partir do fato de que a
+// Páscoa cai sempre num domingo, logo Corpus Christi é sempre quinta-feira). Timbó, Pomerode e
+// Modelo estavam com ZERO feriados cadastrados neste banco por causa dessa omissão. Recuperado
+// via criar_direto, citando a mesma fonte já usada (a planilha do TJSC).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
