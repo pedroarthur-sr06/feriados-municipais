@@ -857,6 +857,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // entradas ao todo. Resultado: 121 promovidos contra os 196 candidatos pendentes de PB; 60
 // cadastrados diretamente (`criar_direto`). Total: +181 feriados municipais de PB.
 //
+// ATUALIZAÇÃO DE RIO GRANDE DO SUL (RS) — mesma sessão. Ao verificar a página do TJRS que
+// hospeda o documento já usado (tjrs.jus.br/.../feriados/), descobri que existe uma versão
+// "Feriados Municipais nas Comarcas do RS" datada de julho/2026 — mais recente que a de 2021
+// usada na leva original e na releitura anterior desta sessão. Comparação mostrou diferenças
+// reais além da mera atualização das datas móveis (Corpus Christi 04/06 em vez de 03/06):
+// algumas comarcas ganharam datas novas não presentes na versão de 2021 (ex.: Candelária
+// "07 de julho, Dia do Mun.", Santana do Livramento "02 de fevereiro, Dia de Iemanjá"), sinal
+// de que o documento é mantido vivo pelo TJRS, não uma cópia estática. Reprocessamento
+// completo com exclusão ampliada de festas móveis (Sexta-feira Santa/da Paixão, além de
+// Corpus Christi/Finados/Consciência Negra já excluídos antes). Sete entradas de sub-comarcas
+// de Pelotas (Turuçu, Morro Redondo, Arroio do Padre) vieram sem motivo nomeado no documento
+// (só a data, sem parênteses) — usado o fallback "Feriado Municipal" em vez de inventar um
+// motivo. Três comarcas não bateram por abreviação não expandida ("Sta./Sto." → "Santa/
+// Santo") e foram corrigidas antes do cruzamento. Resultado: 15 promovidos contra os 383
+// candidatos pendentes de RS; 63 cadastrados diretamente (`criar_direto`). Total: +78
+// feriados municipais de RS.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
