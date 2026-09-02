@@ -1049,6 +1049,22 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // administrativo, não feriado municipal em si — mesmo critério já usado noutras levas).
 // 20 pares no total, 17 genuinamente novos, cadastrados via criar_direto.
 //
+// MATO GROSSO (MT) — DOCUMENTO-JACKPOT — mesma sessão. Depois de confirmar que PA (Pará) não
+// tem documento consolidado (só um widget de calendário em JS sem texto extraível, e o
+// Provimento geral do estado nem cobre feriados municipais) e que AM (Amazonas) só lista o
+// aniversário da capital (Manaus) sem anexo municipal por comarca, achei a Portaria TJMT/CGJ
+// n. 190/2025-GAB-CGJ, cujo Anexo II ("Feriados das Comarcas no ano de 2026") cobre 79 das ~142
+// comarcas do estado — um documento já bastante completo, então a maior parte das entradas já
+// estava cadastrada de uma leva anterior desta sessão (só 43 de 178 pares eram novas). Nomes de
+// comarca no PDF vinham com quebra de coluna colada sem espaço (ex.: "ALTOGARÇAS",
+// "NOVACANAÃDONORTE") — o parser normaliza removendo TODOS os caracteres não-alfanuméricos
+// (não só acentos) antes de comparar contra o nome oficial do IBGE, resolvendo isso sem
+// precisar de alias manual por município. Excluídas datas coincidentes com feriados nacionais
+// fixos (ex.: 12/10 Nossa Senhora Aparecida, já coberta pela camada nacional em vários
+// municípios do documento) e a linha "Ponto facultativo" sem nome de Vila Bela da Santíssima
+// Trindade (mantida só a "Dia da Dança do Congo", feriado pleno por lei municipal citada no
+// próprio documento). 43 novos, cadastrados via criar_direto.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
