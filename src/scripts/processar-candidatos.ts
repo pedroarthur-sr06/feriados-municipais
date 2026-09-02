@@ -1015,6 +1015,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 116 pares extraídos, 49 genuinamente novos, cadastrados via criar_direto com o motivo exato
 // do documento como nome.
 //
+// RONDÔNIA (RO) — DOCUMENTO-JACKPOT ATUALIZADO — mesma sessão. Achei o Ato n. 2579/2025-GP do
+// TJRO (alterado pelo Ato n. 2942/2025), cujo Anexo Único é uma tabela mês a mês muito mais
+// detalhada que a fonte original usada na leva de RO — cada linha já vem com âmbito
+// (Nacional/Estadual/Municipal/Ponto Facultativo) e cita a lei/decreto municipal quando
+// disponível, com "somente na respectiva comarca ou Fórum Digital" explícito no §2º do art.
+// 1º. Transcrevi manualmente as 45 linhas de âmbito "Municipal" (formato tabular, não texto
+// corrido, então preferi codificar cada linha como dado estruturado — comarca(s), data,
+// motivo — a escrever um parser de texto livre) e expandi as linhas com múltiplos municípios
+// (ex.: "Nossa Senhora Auxiliadora, padroeira dos Municípios de Porto Velho, Vilhena e Alto
+// Paraíso") em uma entrada por município. Uma linha ("Criação do Município de Guajará-Mirim,
+// Decreto Municipal 14.630/2022") vem explicitamente rotulada como "Ponto facultativo /
+// Municipal" no documento — diferente de um feriado pleno, só vincula servidor público
+// municipal — cadastrada com tipoChave="ponto_facultativo" em vez de "municipal", respeitando
+// a distinção do próprio documento-fonte. 61 pares extraídos, 28 genuinamente novos.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
