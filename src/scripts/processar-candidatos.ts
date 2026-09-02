@@ -891,6 +891,43 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // no próprio arquivo. Recuperado via wipe + reseed a partir do seed já commitado (que estava
 // correto; só o banco pós-reseed é que perdia dados) antes de regenerar qualquer coisa.
 //
+// AUDITORIA E REPARO DE PERDAS HISTÓRICAS (BA/SP) — mesma sessão, logo após corrigir o bug do
+// upsert acima. Suspeita: se o bug existia há tempo, pode ter apagado dados de levas ANTERIORES
+// a esta sessão também, não só a de RS. Construí uma auditoria comparando
+// candidatos_nao_verificados (status='promovido', que não é afetado pelo bug — só a tabela
+// feriados é) contra a tabela feriados real, casando por codigo_ibge+mes+dia e excluindo com
+// cuidado os falsos-positivos de feriados móveis armazenados via regraCalculo (Corpus Christi
+// etc., que não têm mes/dia fixos). Resultado: 360 candidatos promovidos sem feriado
+// correspondente — concentrados quase todos em BA (~192) e SP (~154), exatamente os dois
+// estados cujos documentos-fonte (Decreto Judiciário TJBA nº 09/2026 e Provimento CSM TJSP nº
+// 2.813/2025) não nomeiam o motivo do feriado, forçando uso pesado do nome de fallback
+// "Feriado Municipal" repetido em múltiplas datas do mesmo município — exatamente o padrão de
+// colisão que o bug explorava. Re-busquei e reli os dois documentos-fonte por completo (mesmo
+// texto já usado nas levas originais, conferido) e escrevi um parser dedicado para cada um
+// (BA: "N. COMARCA data // data // data."; SP: "MUNICÍPIO - data, data e data", ignorando
+// Sexta-Feira Santa/Corpus Christi/Finados/Carnaval que são nacionais ou móveis computados).
+// Cruzei cada par (município, data) extraído contra o que já existe em feriados; para os que
+// faltavam, verifiquei se a data também não coincidia com um feriado NACIONAL fixo ou com o
+// feriado ESTADUAL já cadastrado daquela UF (02/07 Independência da Bahia; 09/07 Revolução
+// Constitucionalista de SP) — essas duas categorias já são cobertas automaticamente pelas
+// camadas superiores e não precisam de linha municipal própria. O restante foi reinserido via
+// criar_direto citando a MESMA fonte já cadastrada (sem duplicar a linha em `fontes`, já que o
+// upsert por descricao a reaproveita) — 323 em BA e 205 em SP, um total maior que os 360
+// originalmente estimados porque a auditoria por candidatos não enxerga entradas que nunca
+// tiveram candidato (ex.: cadastradas via criar_direto na leva original e perdidas do mesmo
+// jeito, sem deixar rastro na fila de candidatos). Rodada seguinte de conferência achou mais 5
+// municípios (1 em BA, 4 em SP) com ZERO feriados cadastrados porque o parser automático não
+// reconheceu a grafia do documento contra o nome oficial do IBGE (Maragojipe/Maragogipe, Ipaúçu/
+// Ipaussu, Moji Guaçu/Mogi Guaçu, Santa Rosa do Viterbo/Santa Rosa de Viterbo, Santana do
+// Parnaíba/Santana de Parnaíba) — adicionados manualmente (9 entradas). Total do reparo: +337
+// feriados municipais recuperados (323+205+9 menos duplicatas incidentais). Auditoria repetida
+// ao final: de 360 faltando para 13 — os 13 restantes são de outros estados/levas anteriores a
+// esta sessão (ES, GO, MG×3, MS×2, PB, PE, RN, RO, TO) e exigem investigação por arqueologia de
+// git (achar o commit original de cada um) em vez de reconstrução por um documento-fonte único
+// já identificado — ficam para uma leva futura. Lição gravada: a linha "Total processado: N" do
+// script de seed é só a contagem do array/loop, NÃO confirma que N linhas existem de fato na
+// tabela — sempre conferir com SELECT COUNT(*) e/ou esta auditoria depois de qualquer reseed.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
