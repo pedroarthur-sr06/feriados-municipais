@@ -1145,6 +1145,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Dumont/MG, Magé/RJ, Parnaíba/PI — 4/4 confirmados, 11/11 no total das duas rodadas). 77
 // promovidos com o mesmo disclosure de padrão+amostra já combinado com o usuário.
 //
+// AGREGADOR calendario.online PARA MUNICÍPIOS SEM MOTIVO NO CANDIDATO — mesma sessão. Para os
+// ~1.154 municípios com zero feriado cadastrado e candidato só "Feriado Municipal" (sem nome,
+// sem lei), sem um motivo pra buscar não dava pra pesquisar individualmente do jeito normal.
+// Descobri que o agregador calendario.online tem página própria por município
+// (calendario.online/feriados-<slug>-<uf>.html, slug = nome sem acento com hífen) que muitas
+// vezes já traz o NOME do feriado que o dataset comunitário não tinha (ex.: "Festa de São
+// João" em vez de "Feriado Municipal" genérico) — testei em ~50 municípios da Bahia e a data
+// bateu exatamente com o candidato em quase todos os casos, às vezes revelando datas extras
+// que nem estavam no dataset comunitário (usadas via criar_direto). Um caso (Campo Alegre de
+// Lourdes/BA) a própria página disse explicitamente "não encontramos nenhum feriado municipal"
+// — não promovido, candidato deixado pendente corretamente. 89 promovidos (candidato já
+// existia, data bateu) + 13 criados diretamente (achados só no agregador, sem candidato
+// correspondente). Fonte é um agregador de terceiros, não a lei primária — registrado
+// explicitamente na observação de cada entrada.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
