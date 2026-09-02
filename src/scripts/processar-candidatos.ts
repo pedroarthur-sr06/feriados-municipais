@@ -1168,6 +1168,9 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // nesta região da Bahia). 58 promovidos + 5 criados diretamente (achados sem candidato
 // correspondente). Mesmo disclosure de fonte de agregador de terceiros em cada observação.
 //
+// TERCEIRA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. De Malhada
+// a Pedro Alexandre (~18 municípios), mesmo método. 30 promovidos + 7 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
