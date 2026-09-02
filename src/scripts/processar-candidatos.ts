@@ -1076,6 +1076,37 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // servidor público municipal, diferente de "Feriado municipal" pleno. AC tem só 22 municípios;
 // o documento cobre virtualmente todos. 34 novos, cadastrados via criar_direto.
 //
+// PROCESSAMENTO DA FILA DE CANDIDATOS DE MA/PI/TO/CE/RN/PA/AM/AL — mesma sessão. Esses 8
+// estados não têm documento-jackpot (TJ delega a comunicação de feriado municipal comarca por
+// comarca, sem anexo consolidado — confirmado individualmente para cada um). Em vez de desistir,
+// filtrei a fila de candidatos pendentes desses estados (1.273 no total) por citação de "Lei"
+// no próprio texto do candidato — só 54 tinham citação específica de norma. Desses, classifiquei
+// programaticamente: descartei os que colidiam com feriado NACIONAL (fixo ou móvel — Sexta-feira
+// Santa, Carnaval, Cinzas) ou com feriado ESTADUAL já cadastrado para a UF (achado interessante:
+// vários candidatos municipais de capitais nordestinas citavam leis municipais para datas que já
+// são feriado ESTADUAL naquele estado, ex. São José 19/03 no Ceará, Nossa Senhora da Conceição
+// 08/12 em AL/AM/MA/PA/PI — a lei municipal existe mas é redundante, a camada estadual já cobre
+// automaticamente). Depois, corroborei via busca na web os candidatos das capitais (maior valor
+// para o produto): confirmação direta encontrada para vários (Manaus, Fortaleza parcial, São
+// Luís parcial, Teresina, Natal, Palmas), e nesse processo achei DUAS contradições importantes
+// que abortaram a promoção: (1) Corpus Christi em São Luís e Teresina são PONTO FACULTATIVO, não
+// feriado pleno, ao contrário do que o candidato sugeria — não promovido; (2) o "Aniversário de
+// Belém" (12/01) NÃO é feriado municipal atualmente segundo fonte independente, apesar do
+// candidato citar uma lei de 1967 — a lei pode ter sido revogada ou nunca ter virado feriado de
+// fato; não promovido, fica pendente até achar fonte primária. Também descartado um candidato de
+// Maracaçumé/MA que citava "Projeto de Lei" (não é lei aprovada, é só uma proposta). Resultado:
+// 22 promovidos com evidência sólida (citação específica, corroborada onde possível). ERRO
+// DETECTADO E CORRIGIDO NO PROCESSO: a primeira rodada de aplicação gerou 7 duplicatas, porque o
+// script de classificação não checou se o candidato já tinha sido promovido em pesquisa
+// individual ANTERIOR desta mesma sessão (Corpus Christi de Maceió, Aniversário de Quixadá,
+// Natividade de N. Senhora em São Luís, Aniversário de Teresina, Dia de Santos Reis em Natal,
+// Aniversário de Palmas e Dia do Evangélico em Palmas já estavam cadastrados com pesquisa mais
+// detalhada desde 27/08/2026) — as 7 entradas novas e as 7 fontes órfãs resultantes foram
+// apagadas manualmente, mantendo as entradas originais (mais bem pesquisadas). Lição: sempre
+// checar contra a tabela `feriados` existente antes de gerar decisões de "promover", não só
+// contra feriados nacionais/estaduais — o padrão usado em todo o resto da sessão para
+// `criar_direto` (checar `existentes`) deveria ter sido aplicado aqui também.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
