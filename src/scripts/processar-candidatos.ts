@@ -1160,6 +1160,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // correspondente). Fonte é um agregador de terceiros, não a lei primária — registrado
 // explicitamente na observação de cada entrada.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. Continuei a
+// mesma varredura alfabética de municípios da Bahia com zero cobertura e candidato genérico,
+// de Brejolândia a Maiquinique (~30 municípios). Mesmo padrão de alta taxa de acerto — a maior
+// parte das datas bateu exatamente com o candidato do dataset comunitário, e o agregador
+// frequentemente revelou o nome do feriado (Festa de São João em 24/06 é extremamente comum
+// nesta região da Bahia). 58 promovidos + 5 criados diretamente (achados sem candidato
+// correspondente). Mesmo disclosure de fonte de agregador de terceiros em cada observação.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
