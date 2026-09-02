@@ -1171,6 +1171,9 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // TERCEIRA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. De Malhada
 // a Pedro Alexandre (~18 municípios), mesmo método. 30 promovidos + 7 criados diretamente.
 //
+// QUARTA LEVA DO AGREGADOR calendario.online (continuação da BA) — mesma sessão. De Pedrão a
+// Santanópolis (~18 municípios), mesmo método. 48 promovidos + 6 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
