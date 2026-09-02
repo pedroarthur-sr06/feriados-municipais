@@ -928,6 +928,28 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // script de seed é só a contagem do array/loop, NÃO confirma que N linhas existem de fato na
 // tabela — sempre conferir com SELECT COUNT(*) e/ou esta auditoria depois de qualquer reseed.
 //
+// ARQUEOLOGIA DE GIT NOS 13 CANDIDATOS RESTANTES (ES/GO/MG/MS/PB/PE/RN/RO/TO) — mesma sessão,
+// completando a auditoria BA/SP acima. Para cada um dos 13 candidatos promovidos sem feriado
+// correspondente, usei `git log -S"codigoIbge: <código>," -- seed-feriados-curados.ts` para
+// achar os commits que alteraram a contagem de ocorrências daquele código, e `git show
+// <commit>:arquivo | grep -B/-A` para ler o texto histórico completo da entrada. Resultado:
+// 7 eram perdas REAIS do mesmo bug de colisão do upsert (nome genérico repetido em datas
+// diferentes do mesmo município) — recuperadas abaixo com o nome/fonte/observação ORIGINAIS
+// tal como existiam no commit onde a entrada foi vista pela última vez (não reconstruídas de
+// memória): Senador Canedo/GO (24/05, "Padroeira"), Juti/MS (13/12), Piancó/PB (13/06,
+// "Padroeiro"), Limoeiro/PE (06/04, "Dia da Emancipação Política"), Baraúna/RN (27/11),
+// Almas/TO (18/05), Pinheiros/ES (31/10). Os outros 6 eram FALSOS POSITIVOS da auditoria, não
+// perdas: em 4 casos (Jacinto/MG, Minas Novas/MG, Vazante/MG, Monte Negro/RO) o candidato
+// original trazia uma data com pequeno erro (1 dia de diferença, ou uma data móvel calculada
+// para o ano/regra errados) que já tinha sido CORRIGIDA na promoção original — o feriado
+// certo já existe no banco, só não bate com o campo `data` literal do candidato. Em 1 caso
+// (Sete Quedas/MS, 15/08) não encontrei NENHUM registro histórico da data em nenhum commit —
+// o candidato foi marcado "promovido" sem nunca ter sido de fato promovido (bug de marcação
+// anterior a esta sessão, não relacionado ao upsert); revertido o status para "pendente" em
+// vez de fabricar uma entrada sem fonte (candidato 12417). Embu-Guaçu/SP (16202, 19/06) também
+// não é perda: já coberto por dado de outra fonte já cadastrada. Auditoria final: 0 perdas
+// reais restantes (só os 5 falsos positivos esperados, todos explicados acima).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,

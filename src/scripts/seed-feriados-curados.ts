@@ -3856,7 +3856,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -3894,7 +3894,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -3932,7 +3932,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -3951,7 +3951,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4008,7 +4008,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4046,7 +4046,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4065,7 +4065,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4084,7 +4084,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4103,7 +4103,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4141,7 +4141,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4160,7 +4160,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4179,7 +4179,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4255,7 +4255,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4274,7 +4274,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4293,7 +4293,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4350,7 +4350,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4369,7 +4369,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4388,7 +4388,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4426,7 +4426,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4445,7 +4445,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4483,7 +4483,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4502,7 +4502,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4521,7 +4521,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4578,7 +4578,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4597,7 +4597,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4616,7 +4616,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4635,7 +4635,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4749,7 +4749,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4787,7 +4787,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4806,7 +4806,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4825,7 +4825,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4844,7 +4844,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4863,7 +4863,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4901,7 +4901,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4920,7 +4920,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -4939,7 +4939,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5034,7 +5034,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5110,7 +5110,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5129,7 +5129,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5148,7 +5148,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5186,7 +5186,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5224,7 +5224,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5243,7 +5243,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5262,7 +5262,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5300,7 +5300,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5319,7 +5319,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5357,7 +5357,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5376,7 +5376,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5414,7 +5414,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5471,7 +5471,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5490,7 +5490,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5528,7 +5528,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5547,7 +5547,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5585,7 +5585,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5604,7 +5604,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5642,7 +5642,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5661,7 +5661,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5680,7 +5680,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5737,7 +5737,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5756,7 +5756,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5775,7 +5775,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5813,7 +5813,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5832,7 +5832,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5870,7 +5870,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5908,7 +5908,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5927,7 +5927,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5946,7 +5946,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -5984,7 +5984,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6003,7 +6003,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6022,7 +6022,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6041,7 +6041,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6079,7 +6079,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6136,7 +6136,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6174,7 +6174,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6193,7 +6193,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6212,7 +6212,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6231,7 +6231,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6345,7 +6345,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6364,7 +6364,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6383,7 +6383,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6421,7 +6421,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6440,7 +6440,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6478,7 +6478,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6497,7 +6497,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6516,7 +6516,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6554,7 +6554,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6573,7 +6573,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6592,7 +6592,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6630,7 +6630,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6668,7 +6668,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6687,7 +6687,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6725,7 +6725,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6744,7 +6744,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6763,7 +6763,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6820,7 +6820,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6858,7 +6858,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6877,7 +6877,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6915,7 +6915,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6953,7 +6953,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -6972,7 +6972,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7010,7 +7010,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7162,7 +7162,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7181,7 +7181,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7219,7 +7219,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7238,7 +7238,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7276,7 +7276,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7295,7 +7295,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7314,7 +7314,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7352,7 +7352,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7409,7 +7409,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7428,7 +7428,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7485,7 +7485,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7523,7 +7523,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7542,7 +7542,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7599,7 +7599,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7618,7 +7618,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7656,7 +7656,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7675,7 +7675,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7713,7 +7713,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7732,7 +7732,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7751,7 +7751,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7789,7 +7789,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7808,7 +7808,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7846,7 +7846,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7884,7 +7884,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7903,7 +7903,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7941,7 +7941,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -7979,7 +7979,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8017,7 +8017,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8036,7 +8036,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8055,7 +8055,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8074,7 +8074,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8207,7 +8207,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8226,7 +8226,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8264,7 +8264,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8302,7 +8302,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8321,7 +8321,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8340,7 +8340,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8378,7 +8378,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8397,7 +8397,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8435,7 +8435,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8454,7 +8454,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8511,7 +8511,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8549,7 +8549,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8587,7 +8587,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8625,7 +8625,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8644,7 +8644,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8663,7 +8663,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8701,7 +8701,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8720,7 +8720,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8739,7 +8739,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8777,7 +8777,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8834,7 +8834,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8872,7 +8872,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -8910,7 +8910,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9024,7 +9024,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9043,7 +9043,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9062,7 +9062,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9081,7 +9081,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9119,7 +9119,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9157,7 +9157,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9233,7 +9233,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9252,7 +9252,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9271,7 +9271,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9309,7 +9309,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9347,7 +9347,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9385,7 +9385,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9404,7 +9404,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9423,7 +9423,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9461,7 +9461,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9499,7 +9499,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9518,7 +9518,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9537,7 +9537,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9556,7 +9556,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9594,7 +9594,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9632,7 +9632,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9651,7 +9651,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9670,7 +9670,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9708,7 +9708,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9727,7 +9727,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9765,7 +9765,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9803,7 +9803,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9822,7 +9822,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9841,7 +9841,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9879,7 +9879,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9898,7 +9898,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9917,7 +9917,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9955,7 +9955,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -9993,7 +9993,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10050,7 +10050,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10069,7 +10069,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10088,7 +10088,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10107,7 +10107,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10126,7 +10126,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10164,7 +10164,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10202,7 +10202,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10221,7 +10221,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10259,7 +10259,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10278,7 +10278,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10297,7 +10297,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10335,7 +10335,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10354,7 +10354,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10373,7 +10373,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10430,7 +10430,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10449,7 +10449,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10468,7 +10468,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10506,7 +10506,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10544,7 +10544,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10563,7 +10563,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10601,7 +10601,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10620,7 +10620,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10639,7 +10639,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10677,7 +10677,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10696,7 +10696,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10715,7 +10715,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10810,7 +10810,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10829,7 +10829,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10867,7 +10867,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10886,7 +10886,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10905,7 +10905,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10924,7 +10924,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -10962,7 +10962,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11000,7 +11000,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11038,7 +11038,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11076,7 +11076,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11095,7 +11095,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11114,7 +11114,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11152,7 +11152,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11190,7 +11190,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11228,7 +11228,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11247,7 +11247,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11266,7 +11266,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11285,7 +11285,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11323,7 +11323,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11342,7 +11342,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11380,7 +11380,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11399,7 +11399,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11437,7 +11437,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11475,7 +11475,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11513,7 +11513,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11532,7 +11532,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11551,7 +11551,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11608,7 +11608,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11703,7 +11703,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11722,7 +11722,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11779,7 +11779,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11798,7 +11798,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11817,7 +11817,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11836,7 +11836,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11893,7 +11893,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11912,7 +11912,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11931,7 +11931,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11950,7 +11950,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -11988,7 +11988,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12026,7 +12026,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12045,7 +12045,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12083,7 +12083,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12102,7 +12102,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12121,7 +12121,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12159,7 +12159,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12178,7 +12178,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12197,7 +12197,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12216,7 +12216,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12254,7 +12254,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12273,7 +12273,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12311,7 +12311,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12349,7 +12349,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12368,7 +12368,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12406,7 +12406,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12425,7 +12425,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12444,7 +12444,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12463,7 +12463,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12577,7 +12577,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12615,7 +12615,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12653,7 +12653,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12691,7 +12691,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12710,7 +12710,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12748,7 +12748,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12767,7 +12767,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12786,7 +12786,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12824,7 +12824,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12843,7 +12843,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12938,7 +12938,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12957,7 +12957,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -12995,7 +12995,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13014,7 +13014,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13033,7 +13033,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13052,7 +13052,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13071,7 +13071,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13109,7 +13109,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13128,7 +13128,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13166,7 +13166,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13204,7 +13204,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13223,7 +13223,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13261,7 +13261,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13280,7 +13280,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13318,7 +13318,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13337,7 +13337,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13356,7 +13356,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13470,7 +13470,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13489,7 +13489,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13527,7 +13527,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13565,7 +13565,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13584,7 +13584,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13622,7 +13622,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13641,7 +13641,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13679,7 +13679,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13717,7 +13717,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13755,7 +13755,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13774,7 +13774,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13831,7 +13831,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13888,7 +13888,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13907,7 +13907,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13926,7 +13926,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -13945,7 +13945,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14002,7 +14002,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14021,7 +14021,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14040,7 +14040,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14078,7 +14078,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14097,7 +14097,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14135,7 +14135,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14230,7 +14230,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14249,7 +14249,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -14268,7 +14268,7 @@ const FERIADOS = [
       descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959",
       url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf",
       tipo: "decreto",
-      dataPublicacao: "2026-01-08",
+      dataPublicacao: "2026-01-07",
     },
   },
   {
@@ -17936,6 +17936,25 @@ const FERIADOS = [
       url: "https://www.tjes.jus.br/wp-content/uploads/feriados-municipais-2025.pdf",
       tipo: "outro",
       dataPublicacao: "2025-02-04",
+    },
+  },
+  {
+    uf: "ES",
+    codigoIbge: 3204104,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Feriado Municipal",
+    mes: 10,
+    dia: 31,
+    regraCalculo: null,
+    autor: "Claude (pesquisa assistida)",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Pinheiros/ES tem feriado municipal em 31 de outubro — confirmado por decreto municipal (localizado no portal da Prefeitura) e por múltiplos agregadores; sem motivo específico localizado; disclosure feita. Entrada existia no commit 29c25b2 e foi perdida pelo bug de upsert do seed (colidia com a entrada de 27/12, mesmo nome \"Feriado Municipal\", corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Prefeitura Municipal de Pinheiros/ES — decreto de feriados municipais (portal oficial); corroborado por agregadores regionais",
+      url: "https://www.pinheiros.es.gov.br/uploads/documento/20260414154713-decreto-feriados-no-municipio-de-pinheiros.pdf",
+      tipo: "decreto",
+      dataPublicacao: null,
     },
   },
   {
@@ -24203,6 +24222,25 @@ const FERIADOS = [
     observacao: "São Simão/GO tem feriado municipal em 14/11 (Emancipação), com citacao especifica de norma (Lei 138/2006) listada pela Corregedoria-Geral de Justica do TJGO na pagina oficial \"Feriados Municipais nas Comarcas\" (atualizacao de 14/08/2026). Texto original da norma nao lido; padrao combinado com o usuario (citacao especifica de lei/decreto por fonte oficial do TJ e suficiente).",
     fonte: {
       descricao: "São Simão/GO - Lei 138/2006 - feriado municipal de Emancipação, conforme \"Feriados Municipais nas Comarcas\" (Corregedoria-Geral de Justica do TJGO)",
+      url: "https://www.tjgo.jus.br/index.php/corregedoria-menusuperior/feriados",
+      tipo: "lei",
+      dataPublicacao: null,
+    },
+  },
+  {
+    uf: "GO",
+    codigoIbge: 5220454,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Padroeira",
+    mes: 5,
+    dia: 24,
+    regraCalculo: null,
+    autor: "pedro.arthur",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Senador Canedo/GO tem feriado municipal em 24/05 (Padroeira), com citacao especifica de norma (Lei 77/1990) listada pela Corregedoria-Geral de Justica do TJGO na pagina oficial \"Feriados Municipais nas Comarcas\". Entrada existia no commit ac5f437 e foi perdida pelo bug de upsert do seed (colidia com a entrada de 01/06, mesmo nome \"Padroeira\", corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Senador Canedo/GO - Lei 77/1990 - feriado municipal de Padroeira, conforme \"Feriados Municipais nas Comarcas\" (Corregedoria-Geral de Justica do TJGO)",
       url: "https://www.tjgo.jus.br/index.php/corregedoria-menusuperior/feriados",
       tipo: "lei",
       dataPublicacao: null,
@@ -39130,6 +39168,25 @@ const FERIADOS = [
     abrangencia: "municipio",
     nome: "Feriado Municipal",
     mes: 12,
+    dia: 13,
+    regraCalculo: null,
+    autor: "Claude (pesquisa assistida)",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): 13 de dezembro consta como feriado municipal oficial de Juti/MS no registro institucional do Tribunal de Justiça de Mato Grosso do Sul — motivo específico não encontrado, mas a existência do feriado está institucionalmente confirmada. Entrada existia no commit 28d75dc e foi perdida pelo bug de upsert do seed (colidia com a entrada de 14/12, mesmo nome \"Feriado Municipal\", corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Tribunal de Justiça de Mato Grosso do Sul (TJMS) — listagem institucional de feriados",
+      url: "https://www5.tjms.jus.br/institucional/feriados/",
+      tipo: "outro",
+      dataPublicacao: null,
+    },
+  },
+  {
+    uf: "MS",
+    codigoIbge: 5005152,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Feriado Municipal",
+    mes: 12,
     dia: 14,
     regraCalculo: null,
     autor: "Claude (pesquisa assistida)",
@@ -48363,6 +48420,25 @@ const FERIADOS = [
     tipoChave: "municipal",
     abrangencia: "municipio",
     nome: "Padroeiro",
+    mes: 6,
+    dia: 13,
+    regraCalculo: null,
+    autor: "pedro.arthur",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Piancó/PB tem feriado municipal em 13/06 (Padroeiro), com citacao especifica de lei municipal (372/1975) publicada no Diario da Justica Eletronico do TJPB (Atos da Diretoria Especial, 08/05/2015, \"Feriados nas Comarcas do Poder Judiciario do Estado da Paraiba\"). Entrada existia no commit 810e098 e foi perdida pelo bug de upsert do seed (colidia com outras entradas de Piancó, corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Piancó/PB - Lei Municipal no 372/1975 - feriado de Padroeiro, conforme \"Feriados nas Comarcas do Poder Judiciario do Estado da Paraiba\" (Diretoria Especial do TJPB, DJe 08/05/2015)",
+      url: "https://corregedoria.tjpb.jus.br/wp-content/uploads/2015/05/Feriados-nas-comarcas.pdf",
+      tipo: "lei",
+      dataPublicacao: "2015-05-08",
+    },
+  },
+  {
+    uf: "PB",
+    codigoIbge: 2511301,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Padroeiro",
     mes: 10,
     dia: 7,
     regraCalculo: null,
@@ -54677,6 +54753,25 @@ const FERIADOS = [
     autor: "pedro.arthur",
     dataVerificacao: "2026-09-01",
     observacao: "Limoeiro/PE tem feriado municipal em 26/01 (Dia do Padroeiro São Sebastião), confirmado pela pagina oficial \"Feriados Oficiais nas Comarcas de Pernambuco\" do TJPE. Cadastro direto (nao havia candidato correspondente no dataset comunitario). Texto original da lei/decreto municipal nao lido.",
+    fonte: {
+      descricao: "Tribunal de Justica de Pernambuco (TJPE) - \"Feriados Oficiais nas Comarcas de Pernambuco\" (portal.tjpe.jus.br), atualizado em 14/01/2026",
+      url: "https://portal.tjpe.jus.br/servicos/consulta/feriados/feriados-oficiais-nas-comarca-de-pernambuco",
+      tipo: "outro",
+      dataPublicacao: "2026-01-14",
+    },
+  },
+  {
+    uf: "PE",
+    codigoIbge: 2608909,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Dia da Emancipação Política",
+    mes: 4,
+    dia: 6,
+    regraCalculo: null,
+    autor: "pedro.arthur",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Limoeiro/PE tem feriado municipal em 06/04 (Dia da Emancipação Política), confirmado pela pagina oficial \"Feriados Oficiais nas Comarcas de Pernambuco\" do TJPE. Entrada existia no commit ac5f437 e foi perdida pelo bug de upsert do seed (colidia com a entrada homônima de 27/07, corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
     fonte: {
       descricao: "Tribunal de Justica de Pernambuco (TJPE) - \"Feriados Oficiais nas Comarcas de Pernambuco\" (portal.tjpe.jus.br), atualizado em 14/01/2026",
       url: "https://portal.tjpe.jus.br/servicos/consulta/feriados/feriados-oficiais-nas-comarca-de-pernambuco",
@@ -70146,6 +70241,25 @@ const FERIADOS = [
     fonte: {
       descricao: "Portal oficial da Prefeitura de Areia Branca/RN — \"Feriados Municipais\"",
       url: "https://areiabranca.rn.gov.br/municipio/feriados-municipais",
+      tipo: "outro",
+      dataPublicacao: null,
+    },
+  },
+  {
+    uf: "RN",
+    codigoIbge: 2401453,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Feriado Municipal",
+    mes: 11,
+    dia: 27,
+    regraCalculo: null,
+    autor: "Claude (pesquisa assistida)",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Baraúna/RN tem feriado municipal em 27 de novembro — confirmado por múltiplos calendários municipais consistentes, sem lei específica localizada nas fontes consultadas; disclosure feita conforme padrão do projeto. Entrada existia no commit dafc76b e foi perdida pelo bug de upsert do seed (colidia com a entrada de 15/12, mesmo nome \"Feriado Municipal\", corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Busca corroborada por múltiplos calendários de feriados municipais de Baraúna/RN",
+      url: null,
       tipo: "outro",
       dataPublicacao: null,
     },
@@ -97753,6 +97867,25 @@ const FERIADOS = [
     fonte: {
       descricao: "Comunicado oficial da Câmara Municipal de Aliança do Tocantins — feriado municipal de São João Batista, padroeiro da cidade, em 24 de junho (celebração de 2026 transferida pontualmente para 26/06 pela Portaria nº 037/2026)",
       url: "https://www.aliancadotocantins.to.leg.br/institucional/noticias/informativo",
+      tipo: "outro",
+      dataPublicacao: null,
+    },
+  },
+  {
+    uf: "TO",
+    codigoIbge: 1700400,
+    tipoChave: "municipal",
+    abrangencia: "municipio",
+    nome: "Feriado Municipal",
+    mes: 5,
+    dia: 18,
+    regraCalculo: null,
+    autor: "Claude (pesquisa assistida)",
+    dataVerificacao: "2026-09-02",
+    observacao: "REPARO (arqueologia de git): Almas/TO tem feriado municipal em 18 de maio — confirmado por busca que lista os 3 feriados municipais de Almas (18/05, 14/11, 10/12); sem motivo específico localizado; disclosure feita. O candidato de 17/05 (data próxima, mas distinta) NÃO foi confirmado pela mesma busca e permanece pendente. Entrada existia no commit f3cd177 e foi perdida pelo bug de upsert do seed (colidia com a entrada de 10/12, mesmo nome \"Feriado Municipal\", corrigido nesta sessão) — recuperada via git log -S no arquivo de seed, não por memória.",
+    fonte: {
+      descricao: "Busca corroborada por calendários de feriados municipais de Almas/TO",
+      url: null,
       tipo: "outro",
       dataPublicacao: null,
     },
