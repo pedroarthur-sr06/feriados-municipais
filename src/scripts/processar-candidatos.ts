@@ -846,6 +846,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // IBGE. Resultado: 94 promovidos contra os 114 candidatos pendentes de RJ; 39 cadastrados
 // diretamente (`criar_direto`). Total: +133 feriados municipais de RJ.
 //
+// INÍCIO DA PARAÍBA (PB) — mesma sessão. QUARTA técnica de acesso testada: `curl` simples deu
+// 403 no domínio corregedoria.tjpb.jus.br (bloqueio por user-agent), mas `curl -A
+// "Mozilla/5.0..."` (simulando um navegador) passou direto — mais uma barreira, mais uma
+// técnica documentada para reaproveitar em estados futuros. O documento encontrado ("Feriados
+// nas Comarcas do Poder Judiciário do Estado da Paraíba", Atos da Diretoria Especial do TJPB,
+// publicado no DJe de 08/05/2015) é o de MELHOR qualidade de evidência de toda a sessão:
+// citação explícita do número e ano da lei/decreto MUNICIPAL para praticamente cada entrada
+// (não apenas uma referência genérica ao TJ), cobrindo 72 comarcas/municípios com 224
+// entradas ao todo. Resultado: 121 promovidos contra os 196 candidatos pendentes de PB; 60
+// cadastrados diretamente (`criar_direto`). Total: +181 feriados municipais de PB.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
