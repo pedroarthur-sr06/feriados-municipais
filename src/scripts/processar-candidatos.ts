@@ -970,6 +970,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // foram cadastradas via criar_direto, com o motivo exato do documento como nome (nunca o
 // fallback genérico "Feriado Municipal", já que este documento sempre nomeia o motivo).
 //
+// PARANÁ (PR) — DOCUMENTO-JACKPOT — mesma sessão, continuando a busca eficiente por
+// documentos-jackpot em estados de coverage mediana. Achei o Decreto Judiciário TJPR nº
+// 621/2025, de 18/11/2025, cujo art. 4º consolida o calendário de feriados locais dos
+// municípios-sede das comarcas do estado para 2026 — só que o formato é MUITO diferente dos
+// outros documentos usados nesta sessão: organizado por MÊS e depois por DIA (não por
+// comarca), com múltiplos municípios agrupados na mesma linha quando compartilham a data
+// ("dia 20: Altônia (Dia do Padroeiro do Município), Andirá (...), ..."). Escrevi um parser
+// dedicado para esse formato (cabeçalho de mês + linhas "dia N: Município (motivo), ...").
+// 340 pares extraídos, cruzados contra o que já existe em feriados — 65 eram genuinamente
+// novos, cadastrados via criar_direto com o motivo exato do documento como nome.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
