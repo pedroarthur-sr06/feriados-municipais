@@ -950,6 +950,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // não é perda: já coberto por dado de outra fonte já cadastrada. Auditoria final: 0 perdas
 // reais restantes (só os 5 falsos positivos esperados, todos explicados acima).
 //
+// MINAS GERAIS (MG) — DOCUMENTO-JACKPOT ATUALIZADO 2026 — mesma sessão, continuando o trabalho
+// de cobertura eficiente. A leva original de MG usava a Portaria Conjunta TJMG nº 1.196/2021
+// (dados de 2021). Busquei se havia algo mais recente e achei a Portaria Conjunta da
+// Presidência nº 1.798/PR/2026 ("Consolida o calendário de feriados nas comarcas do Estado de
+// Minas Gerais para o ano de 2026"), publicada em 13/04/2026 — só que essa portaria foi
+// alterada DUAS VEZES depois (Portarias Conjuntas nº 1.814/2026 e nº 1.828/2026), cada uma
+// substituindo o Anexo Único inteiro. O PDF mostra as três versões em sequência (as duas
+// primeiras tachadas/revogadas, a terceira e última — a que vale — sem tachado, terminando sem
+// nenhuma nota de "nova redação" posterior). Usei só essa versão final (pós-1.828/2026).
+// Documento cobre ~230 comarcas (município-sede) em ordem alfabética de Abaeté a Visconde do
+// Rio Branco, cada uma com Paixão de Cristo + Corpus Christi (ambos já cobertos pela camada
+// nacional/ponto facultativo nacional, excluídos) mais de 1 a 4 feriados nomeados (padroeiro,
+// aniversário/emancipação, etc.). Escrevi um parser dedicado (linha sem "I -"/"II -"/etc. no
+// início = nome da comarca; linhas numeradas = data + motivo) e cruzei contra o que já existe
+// em feriados — a maioria das 693 entradas já estava cadastrada de levas anteriores (a
+// Portaria 2021 e outras pesquisas pontuais), mas 121 eram genuinamente novas (datas ou
+// municípios ainda não cobertos, ou motivos mais específicos que os já cadastrados). Essas 121
+// foram cadastradas via criar_direto, com o motivo exato do documento como nome (nunca o
+// fallback genérico "Feriado Municipal", já que este documento sempre nomeia o motivo).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
