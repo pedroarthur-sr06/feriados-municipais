@@ -1065,6 +1065,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Trindade (mantida só a "Dia da Dança do Congo", feriado pleno por lei municipal citada no
 // próprio documento). 43 novos, cadastrados via criar_direto.
 //
+// ACRE (AC) — DOCUMENTO-JACKPOT — mesma sessão. Depois de descartar PI (Provimento nº 59/2025
+// da Presidência não traz anexo com feriados por município, só delega "à lei municipal" e pede
+// que os Juízes de Comarca comuniquem individualmente) achei o Calendário 2026 do TJAC
+// (Portaria nº 6.569/2025) como página HTML (não PDF), mês a mês, com o nome do feriado,
+// classificação (nacional/estadual/municipal/regimental/ponto facultativo) E a lei ou decreto
+// municipal específico de cada um — o documento mais detalhado juridicamente encontrado nesta
+// sessão. Excluídas explicitamente as linhas "Ponto Facultativo Municipal" (ex.: Marcha para
+// Jesus em Senador Guiomard, aniversário de Sena Madureira) — são discretionárias, só vinculam
+// servidor público municipal, diferente de "Feriado municipal" pleno. AC tem só 22 municípios;
+// o documento cobre virtualmente todos. 34 novos, cadastrados via criar_direto.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
