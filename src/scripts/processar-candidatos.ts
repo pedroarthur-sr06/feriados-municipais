@@ -1038,6 +1038,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Estado pequeno mas com ganho proporcional grande: cobertura municipal do AP praticamente
 // dobra com esta leva.
 //
+// RORAIMA (RR) — DOCUMENTO-JACKPOT — mesma sessão. Portaria TJRR/PR nº 1.558/2025 publica o
+// "Calendário de Feriados e Pontos Facultativos do TJRR" para 2026 como página HTML (não PDF)
+// com tabela DATA/DESCRIÇÃO/COMARCA, cobrindo tanto a capital (Boa Vista) quanto os municípios
+// do interior — 15 municípios no total, RR é um dos menores estados. Lido via browser
+// (get_page_text) para pegar o texto literal da tabela em vez de confiar no resumo do
+// WebFetch, que havia colapsado por engano duas linhas distintas ("Caroebe" e "Iracema") numa
+// só ("Caroebe/Iracema") — o texto original deixa claro que são datas e municípios separados.
+// Excluídas as linhas "Ponto Facultativo referente ao feriado do dia X" (dia de ponte
+// administrativo, não feriado municipal em si — mesmo critério já usado noutras levas).
+// 20 pares no total, 17 genuinamente novos, cadastrados via criar_direto.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
