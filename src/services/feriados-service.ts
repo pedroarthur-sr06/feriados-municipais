@@ -25,19 +25,41 @@ export interface DataYmd {
   dia: number;
 }
 
-/** Busca municípios por nome (autocomplete). Prioriza nomes que começam com o termo. */
+/**
+ * Busca municípios por nome (autocomplete). Prioriza nomes que começam com o
+ * termo. Tenta primeiro um LIKE direto no SQLite (rápido, cobre o caso comum
+ * de quem já digita com acento, como o autocomplete sugere); se não achar
+ * nada, cai para um filtro em memória ignorando acentos (ex.: "Vitoria" ou
+ * "Sao Paulo" sem acento) — a tabela de municípios é pequena (~5.570 linhas),
+ * então percorrer tudo em JS é barato e evita duplicar índice/coluna
+ * normalizada só para isso.
+ */
 export function buscarMunicipios(termoBusca: string, limite = 10): MunicipioResumo[] {
   const termo = termoBusca.trim();
   if (termo.length < 2) return [];
+
   const contains = `%${termo}%`;
   const comecaCom = `${termo}%`;
-  return db
+  const resultadoDireto = db
     .select({ codigoIbge: municipios.codigoIbge, nome: municipios.nome, uf: municipios.uf })
     .from(municipios)
     .where(sql`${municipios.nome} LIKE ${contains} COLLATE NOCASE`)
     .orderBy(sql`CASE WHEN ${municipios.nome} LIKE ${comecaCom} COLLATE NOCASE THEN 0 ELSE 1 END`, municipios.nome)
     .limit(limite)
     .all();
+  if (resultadoDireto.length > 0) return resultadoDireto;
+
+  const termoNormalizado = normalizarNomeMunicipio(termo);
+  const todos = db.select({ codigoIbge: municipios.codigoIbge, nome: municipios.nome, uf: municipios.uf }).from(municipios).all();
+  return todos
+    .filter((m) => normalizarNomeMunicipio(m.nome).includes(termoNormalizado))
+    .sort((a, b) => {
+      const aComeca = normalizarNomeMunicipio(a.nome).startsWith(termoNormalizado) ? 0 : 1;
+      const bComeca = normalizarNomeMunicipio(b.nome).startsWith(termoNormalizado) ? 0 : 1;
+      if (aComeca !== bComeca) return aComeca - bComeca;
+      return a.nome.localeCompare(b.nome, "pt-BR");
+    })
+    .slice(0, limite);
 }
 
 export function buscarMunicipioPorCodigo(codigoIbge: number): MunicipioResumo | undefined {
