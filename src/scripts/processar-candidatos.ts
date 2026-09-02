@@ -1126,6 +1126,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de acerto da amostra — different (mais fraco) do padrão de evidência usado no resto da
 // sessão, registrado explicitamente por decisão do usuário para este lote. 289 promovidos.
 //
+// SEGUNDA RODADA DE CANDIDATOS NOMEADOS (mesmo padrão de evidência aprovado pelo usuário) —
+// mesma sessão. Ampliei o filtro da leva anterior: desta vez incluindo candidatos nomeados em
+// municípios que já tinham ALGUMA cobertura (não só os com zero feriado), cruzando contra
+// feriados/estaduais/nacionais já existentes para achar só os genuinamente novos. De 1.185
+// candidatos nomeados no total, só 87 sobraram depois do filtro de redundância — confirma de
+// novo que a leva anterior e as levas de documento-jackpot já cobriram quase tudo. Descartei
+// mais 10 por problemas específicos encontrados nesta checagem: 3 com regra "enésima
+// segunda-feira do mês" (Confresa/MT, Maringá/PR, Goioerê/PR — mesma limitação de schema já
+// documentada, só suporta pascoa±N), 1 redundante com aniversário já cadastrado por outra
+// regra (Campo Mourão/PR), 3 com data de Corpus Christi claramente errada — 19/06 em vez do
+// 04/06 correto (Embu-Guaçu/SP, Ubiratã/PR, Camboriú/SC — mesmo padrão de erro sistemático já
+// visto no dataset comunitário), 1 com data inconsistente com a própria regra descrita
+// (Presidente Lucena/RS, "39 dias após a Páscoa" não bate com pascoa+39 nem +40), 1 com regra
+// "primeira sexta-feira de março" não representável (Telêmaco Borba/PR), 1 já deliberadamente
+// deixado pendente antes por histórico legislativo confuso (Gurupi/TO, "Dia do Evangélico" no
+// último sábado de setembro). Verifiquei mais 4 individualmente (Juazeiro do Norte/CE, Santos
+// Dumont/MG, Magé/RJ, Parnaíba/PI — 4/4 confirmados, 11/11 no total das duas rodadas). 77
+// promovidos com o mesmo disclosure de padrão+amostra já combinado com o usuário.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
