@@ -1030,6 +1030,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // municipal — cadastrada com tipoChave="ponto_facultativo" em vez de "municipal", respeitando
 // a distinção do próprio documento-fonte. 61 pares extraídos, 28 genuinamente novos.
 //
+// AMAPÁ (AP) — DOCUMENTO-JACKPOT, PRIMEIRA LEVA DO ESTADO — mesma sessão. Portaria TJAP n.
+// 75661/2025-GP divulga feriados municipais nas comarcas do Amapá para 2026, cobrindo as 12
+// comarcas do estado (AP tem só 16 municípios). Extraída via WebFetch direto do visualizador
+// SIG do TJAP (sig.tjap.jus.br) — não precisou de fallback local, o conteúdo veio legível na
+// primeira tentativa. 27 pares no total, 19 genuinamente novos, cadastrados via criar_direto.
+// Estado pequeno mas com ganho proporcional grande: cobertura municipal do AP praticamente
+// dobra com esta leva.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
