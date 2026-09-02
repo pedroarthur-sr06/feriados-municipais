@@ -1001,6 +1001,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Modelo estavam com ZERO feriados cadastrados neste banco por causa dessa omissão. Recuperado
 // via criar_direto, citando a mesma fonte já usada (a planilha do TJSC).
 //
+// SERGIPE (SE) — DOCUMENTO-JACKPOT — mesma sessão, continuando a busca eficiente. MA, PI, TO e
+// CE foram investigados e descartados nesta rodada — nenhum publica um documento único
+// consolidando feriados municipais por comarca (cada comarca comunica separadamente, ou o
+// TJ explicitamente delega à legislação municipal sem anexo consolidado, caso do TJCE). SE,
+// por outro lado, tem: o "Calendário 2026 — Comarcas de Aracaju e do Interior do Estado e
+// respectivos Distritos" do TJSE, formato de calendário mês a mês com uma linha por
+// data/município ("DD/MM – Município (motivo)"), incluindo também os feriados/pontos
+// facultativos nacionais e estaduais misturados na mesma lista (sem parênteses de município —
+// filtrados automaticamente pelo parser por não baterem contra nenhum município do IBGE de
+// SE). Excluí também 08/07 "Emancipação Política de Sergipe", que é o feriado ESTADUAL (Data
+// Magna) já cadastrado com abrangencia=uf, cobrindo automaticamente todos os municípios.
+// 116 pares extraídos, 49 genuinamente novos, cadastrados via criar_direto com o motivo exato
+// do documento como nome.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
