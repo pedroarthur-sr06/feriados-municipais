@@ -874,6 +874,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // candidatos pendentes de RS; 63 cadastrados diretamente (`criar_direto`). Total: +78
 // feriados municipais de RS.
 //
+// CORREÇÃO PONTUAL DE BAHIA (BA) + BUG REAL ENCONTRADO NO UPSERT DO SEED — mesma sessão. Ao
+// checar se a página tjba.jus.br/portal/feriados-municipais/ tinha algo além do Decreto
+// Judiciário nº 09/2026 já usado, achei o Decreto Judiciário nº 144, de 19/02/2026, que altera
+// o anexo do nº 09/2026 especificamente para incluir 27 de abril como feriado municipal na
+// Comarca de Sapeaçu — 1 promovido (candidato já existente no dataset comunitário para essa
+// data exata). Ao verificar a reprodutibilidade (wipe + reseed), o total ficou 6 abaixo do
+// esperado — investigação revelou um BUG REAL no upsert de `seed-feriados-curados.ts`: o match
+// usava só nome+abrangencia+uf+codigoIbge, sem mes/dia/regraCalculo, então dois feriados
+// DIFERENTES do MESMO município com o mesmo nome genérico de fallback ("Feriado Municipal",
+// usado quando o documento-fonte não nomeia o motivo) colidiam no upsert — a cada reseed, a
+// entrada mais recente sobrescrevia a mais antiga, perdendo a data anterior silenciosamente.
+// Afetava Arroio do Padre, Morro Redondo e Turuçu (sub-comarcas de Pelotas, RS) e Santo
+// Augusto (RS) — 6 entradas perdidas nesta sessão antes de serem detectadas. Corrigido
+// incluindo mes/dia/regraCalculo (null-safe) na condição de match do upsert — ver comentário
+// no próprio arquivo. Recuperado via wipe + reseed a partir do seed já commitado (que estava
+// correto; só o banco pós-reseed é que perdia dados) antes de regenerar qualquer coisa.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,

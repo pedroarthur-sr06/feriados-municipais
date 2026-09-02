@@ -2,7 +2,8 @@
  * Seed de feriados ESTADUAIS/MUNICIPAIS curados manualmente, com fonte
  * primária verificada — ao contrário de seed-candidatos.ts (que só importa
  * pistas não confirmadas), estas linhas entram direto em `feriados` porque
- * a fonte foi checada. Idempotente (upsert por nome+abrangencia+uf+codigoIbge).
+ * a fonte foi checada. Idempotente (upsert por nome+abrangencia+uf+codigoIbge
+ * +mes+dia+regraCalculo).
  *
  * Cada novo feriado real deve vir com fonte PRIMÁRIA (não um blog agregador)
  * — ver a regra inegociável em CLAUDE.md. Padrão de evidência aceito: uma
@@ -428,6 +429,7 @@ const FERIADOS = [
   { nome: "Dia de São Gonçalo, padroeiro da cidade", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929305, mes: 1, dia: 10, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "São Gonçalo dos Campos/BA tem feriado municipal em 10/01 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado.", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
   { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929305, mes: 9, dia: 30, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "São Gonçalo dos Campos/BA tem feriado municipal em 30/09 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado (motivo específico não localizado na fonte; disclosure feita).", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
   { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929503, mes: 6, dia: 24, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "São Sebastião do Passé/BA tem feriado municipal em 24/06 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado (motivo específico não localizado na fonte; disclosure feita).", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
+  { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929602, mes: 4, dia: 27, regraCalculo: null, autor: "pedro.arthur", dataVerificacao: "2026-09-02", observacao: "Sapeaçu/BA tem feriado municipal em 27/04, incluído pelo Decreto Judiciário nº 144, de 19/02/2026, do TJBA, que altera o anexo do Decreto Judiciário nº 09/2026 (já usado na leva original de BA) especificamente para incluir esta data na Comarca de Sapeaçu. Texto original da lei municipal não lido.", fonte: { descricao: "Sapeaçu/BA - Decreto Judiciário (TJBA) nº 144, de 19/02/2026 - altera o anexo do Decreto Judiciário nº 09/2026 para incluir 27 de abril como feriado municipal na Comarca de Sapeaçu", url: "https://www.tjba.jus.br/portal/wp-content/uploads/2026/02/DJE-ADM-3985.pmd_.pdf", tipo: "decreto", dataPublicacao: "2026-02-19" } },
   { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929800, mes: 9, dia: 8, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "Saúde/BA tem feriado municipal em 08/09 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado (motivo específico não localizado na fonte; disclosure feita).", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
   { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2929909, mes: 12, dia: 8, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "Seabra/BA tem feriado municipal em 08/12 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado (motivo específico não localizado na fonte; disclosure feita).", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
   { nome: "Feriado Municipal", tipoChave: "municipal", abrangencia: "municipio", uf: "BA", codigoIbge: 2930105, mes: 6, dia: 24, regraCalculo: null, autor: "Claude (pesquisa assistida)", dataVerificacao: "2026-08-31", observacao: "Senhor do Bonfim/BA tem feriado municipal em 24/06 — confirmado pelo Anexo do Decreto Judiciário TJBA nº 09/2026, que lista exaustivamente as datas de suspensão do expediente forense por feriado municipal em 193 comarcas do estado (motivo específico não localizado na fonte; disclosure feita).", fonte: { descricao: "Tribunal de Justiça da Bahia (TJBA) — Anexo do Decreto Judiciário nº 09, de 07 de janeiro de 2026 (\"Disponibiliza a relação dos feriados municipais nas Comarcas do Estado da Bahia\"), publicado no Diário da Justiça Eletrônico nº 3.959", url: "https://www7.tjba.jus.br/secao/arquivo/9/41225/DECRETO%20JUDICIARIO%20N%2009%20DE%2007%20DE%20JANEIRO%20DE%202026.pdf", tipo: "decreto", dataPublicacao: "2026-01-07" } },
@@ -4728,15 +4730,33 @@ function main() {
       console.log(`  fonte criada: "${f.fonte.descricao.slice(0, 60)}..."`);
     }
 
-    // Match por nome+abrangencia+uf+codigoIbge (null-safe) — sem incluir
-    // codigoIbge o upsert colidiria entre municípios diferentes com o
-    // mesmo nome de feriado (ex.: dois municípios de RO com "Dia de São
-    // João").
+    // Match por nome+abrangencia+uf+codigoIbge+mes+dia+regraCalculo (null-safe)
+    // — sem incluir codigoIbge o upsert colidiria entre municípios diferentes
+    // com o mesmo nome de feriado (ex.: dois municípios de RO com "Dia de São
+    // João"). Sem incluir mes/dia/regraCalculo, o upsert colide entre feriados
+    // DIFERENTES do MESMO município que compartilham um nome genérico de
+    // fallback (ex.: duas datas de "Feriado Municipal" na mesma cidade,
+    // usadas quando o documento-fonte não nomeia o motivo) — bug real
+    // detectado nesta sessão: a segunda entrada sobrescrevia a primeira a
+    // cada reseed, perdendo a data mais antiga silenciosamente.
     const condicaoCodigo = f.codigoIbge === null ? isNull(feriados.codigoIbge) : eq(feriados.codigoIbge, f.codigoIbge);
+    const condicaoMes = f.mes === null ? isNull(feriados.mes) : eq(feriados.mes, f.mes);
+    const condicaoDia = f.dia === null ? isNull(feriados.dia) : eq(feriados.dia, f.dia);
+    const condicaoRegra = f.regraCalculo === null ? isNull(feriados.regraCalculo) : eq(feriados.regraCalculo, f.regraCalculo);
     const existente = db
       .select()
       .from(feriados)
-      .where(and(eq(feriados.nome, f.nome), eq(feriados.abrangencia, f.abrangencia), eq(feriados.uf, f.uf), condicaoCodigo))
+      .where(
+        and(
+          eq(feriados.nome, f.nome),
+          eq(feriados.abrangencia, f.abrangencia),
+          eq(feriados.uf, f.uf),
+          condicaoCodigo,
+          condicaoMes,
+          condicaoDia,
+          condicaoRegra,
+        ),
+      )
       .get();
 
     const valores = {
