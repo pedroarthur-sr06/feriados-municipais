@@ -1107,6 +1107,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // contra feriados nacionais/estaduais — o padrão usado em todo o resto da sessão para
 // `criar_direto` (checar `existentes`) deveria ter sido aplicado aqui também.
 //
+// MUDANÇA DE PADRÃO DE EVIDÊNCIA PARA A FILA SEM CITAÇÃO DE LEI — mesma sessão. Depois de
+// esgotar a fila "com citação de lei" (achado: já 100% coberta nacionalmente, ver nota
+// anterior), sobravam ~8.000 candidatos "data + Feriado Municipal" sem nenhuma citação. Fui
+// atrás dos que tinham nome ESPECÍFICO (não genérico) em municípios com ZERO feriado municipal
+// cadastrado — 303 candidatos, 289 depois de excluir os redundantes com feriado nacional/
+// estadual (13 de São José/CE, já coberto pela camada estadual do Ceará). Composição: 108 "Dia
+// de Santo Antônio" (13/06), 78 "São José" (19/03), resto aniversário/emancipação/padroeiro.
+// Verifiquei uma amostra de 7 via busca individual (Abaré/BA, Aporá/BA, Caxias/MA,
+// Chapadinha/MA, Crato/CE, Goiás/GO, Icapuí/CE) — 7/7 confirmados, incluindo reportagens que
+// documentam Santo Antônio e São José como padroeiro/feriado municipal em centenas de
+// municípios brasileiros (CNN Brasil: "19 de março é feriado em mais de 200 municípios";
+// matérias similares para 13/06). PERGUNTEI AO USUÁRIO como proceder com os ~280 restantes
+// (sem verificação individual, só o padrão + amostra) — decisão do usuário: promover em lote
+// com ressalva explícita. Os 7 verificados individualmente têm observação citando a fonte
+// específica; os outros 282 têm observação padrão disclosing claramente que aquele item
+// específico NÃO foi verificado contra fonte primária, só o padrão nacional documentado + taxa
+// de acerto da amostra — different (mais fraco) do padrão de evidência usado no resto da
+// sessão, registrado explicitamente por decisão do usuário para este lote. 289 promovidos.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
