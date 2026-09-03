@@ -1347,6 +1347,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // dois lotes; Santa Rita d'Oeste, Santa Clara d'Oeste e São João do Pau d'Alho sem resultado no
 // agregador). Taxa de acerto muito alta (~94%). 52 promovidos + 5 criados diretamente.
 //
+// SEXTA LEVA DO AGREGADOR calendario.online EM SP — mesma sessão. De Tapiraí a Óleo (~18
+// municípios) — esgota o pool de municípios-com-candidato-pendente do SP (restam só Alumínio,
+// Aparecida d'Oeste, Dobrada, Santa Albertina, Santa Clara d'Oeste, Santa Rita d'Oeste e São
+// João do Pau d'Alho, já confirmados sem resultado usável no agregador — Santa Albertina tinha
+// só 20/11, já coberto pelo cálculo nacional, então não conta como cobertura municipal real).
+// Taxa de acerto de 100%. 32 promovidos + 4 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
