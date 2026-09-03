@@ -1288,6 +1288,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // De Abatiá a Godoy Moreira (~38 municípios, dois lotes). 60 promovidos + 12 criados
 // diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online EM PR — mesma sessão. Continuação da
+// varredura por municípios-com-candidato-pendente, de Guapirama a Manfrinópolis (~36
+// municípios, dois lotes; Barra do Jacaré e Diamante D'Oeste já confirmados sem resultado antes,
+// Lupionópolis novo caso sem resultado). Taxa de acerto altíssima (~97%). Mantido o mesmo
+// PR_EXCLUIR de 12/19 (Emancipação Política do PR, revogada — ver leva anterior); Lunardelli
+// tinha aniversário citado como coincidindo com 19/12 no texto do agregador, não promovido por
+// consistência com essa exclusão. 52 promovidos + 7 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
