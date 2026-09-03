@@ -1302,6 +1302,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // acerto altíssima (~94%). Mesmo PR_EXCLUIR de 12/19 mantido. 55 promovidos + 9 criados
 // diretamente.
 //
+// QUARTA LEVA DO AGREGADOR calendario.online EM PR — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Pérola d'Oeste a São Sebastião da Amoreira (~35
+// municípios, dois lotes; Pérola d'Oeste, Santa Izabel do Oeste, São Jorge d'Oeste e São Jorge
+// do Patrocínio sem resultado no agregador). Taxa de acerto alta (~86%). Mesmo PR_EXCLUIR de
+// 12/19 mantido — São Carlos do Ivaí teve especificamente 15/12 promovido (data distinta,
+// municipal de fato) mas não 19/12. 51 promovidos + 13 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
