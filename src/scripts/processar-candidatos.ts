@@ -1208,6 +1208,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // pascoa+N), já visto antes em outros municípios; não promovida. 61 promovidos + 6 criados
 // diretamente.
 //
+// TERCEIRA LEVA DO AGREGADOR calendario.online EM MG — mesma sessão. Continuação da
+// varredura por municípios-com-candidato-pendente, de Dores do Turvo a Itabirinha (~30
+// municípios, dois lotes). Taxa de acerto continua alta (só Iraí de Minas sem resultado no
+// agregador). 57 promovidos + 8 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
