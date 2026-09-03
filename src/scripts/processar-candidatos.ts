@@ -1271,6 +1271,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // longa sem candidato e sem dado no agregador (mesmo padrão de baixo rendimento visto no fim da
 // BA, leva 5).
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM PR — mesma sessão. Com MG e RS esgotados
+// (pool de candidato-pendente), o usuário escolheu pivotar para outro estado grande; PR tem mais
+// municípios sem cobertura e maior pool de candidato-pendente que SC (156 vs 86), então comecei
+// por ele. Mesmo método: varredura alfabética dos municípios SEM cobertura municipal que TÊM
+// candidato pendente no dataset comunitário. Taxa de acerto altíssima (~95%).
+//
+// ACHADO IMPORTANTE: o agregador lista 19/12 ('Emancipação Política do Paraná') como feriado
+// ESTADUAL em toda página de município do PR — mas essa data foi REVOGADA como feriado civil
+// pela Lei estadual 18.384/2014 (que revogou a Lei 4.658/1962). Hoje 19/12 é só PONTO FACULTATIVO
+// para o funcionalismo estadual, não feriado. Confirmado via busca (Gazeta do Povo, LegisWeb,
+// Assembleia Legislativa do PR). NÃO cadastrado como feriado estadual do PR nesta sessão —
+// excluído explicitamente do cross-reference (constante PR_EXCLUIR) para nunca ser promovido
+// por engano caso apareça em algum candidato do dataset comunitário.
+//
+// De Abatiá a Godoy Moreira (~38 municípios, dois lotes). 60 promovidos + 12 criados
+// diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
