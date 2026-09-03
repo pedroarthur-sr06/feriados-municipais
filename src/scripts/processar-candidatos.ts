@@ -1255,6 +1255,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de 100% em ambos. MG: 28 promovidos + 0 criados diretamente. RS: 20 promovidos + 6 criados
 // diretamente.
 //
+// NONA LEVA EM MG + SÉTIMA LEVA EM RS DO AGREGADOR calendario.online — mesma sessão.
+// MG: de Serrania a São João Batista do Glória (~13 municípios). RS: de Três Palmeiras a Áurea
+// (~16 municípios) — esgota o pool de municípios-com-candidato-pendente do RS (restam só
+// Chiapetta, Picada Café e Sertão, já confirmados sem resultado no agregador). Taxa de acerto
+// de 100% em ambos. MG: 28 promovidos + 2 criados diretamente. RS: 25 promovidos + 1 criado
+// diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
