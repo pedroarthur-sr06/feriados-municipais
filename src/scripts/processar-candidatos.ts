@@ -1228,6 +1228,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // colonização alemã/italiana do RS. De Ajuricaba a David Canabarro (~40 municípios, dois
 // lotes). 54 promovidos + 19 criados diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online EM RS — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Dois Lajeados a Maximiliano de Almeida (~38
+// municípios, dois lotes). Taxa de acerto de 100% neste par de lotes. 60 promovidos + 10
+// criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
