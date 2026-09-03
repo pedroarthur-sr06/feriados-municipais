@@ -1338,6 +1338,10 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // só o que está na tabela (16/06), por consistência com o método de sempre priorizar a data
 // formalmente listada. 61 promovidos + 3 criados diretamente.
 //
+// QUARTA LEVA DO AGREGADOR calendario.online EM SP — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Nova Europa a Ribeirão Branco (~34 municípios, dois
+// lotes). Taxa de acerto de 100% em ambos os lotes. 57 promovidos + 7 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
