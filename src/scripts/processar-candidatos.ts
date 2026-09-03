@@ -1189,6 +1189,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // pausei a varredura alfabética da BA aqui para reportar status ao usuário antes de continuar
 // gastando fetches nos ~57 municípios baianos restantes.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM MINAS GERAIS (MG) — mesma sessão. Depois
+// do 'check-in' de status com o usuário, priorizei MG e RS por terem mais municípios em termos
+// absolutos. Segui o método já validado nas levas da BA: varredura alfabética dos municípios
+// SEM cobertura municipal que TÊM ao menos um candidato pendente no dataset comunitário (sinal
+// de que provavelmente existe dado documentável, ao contrário da varredura alfabética pura que
+// deu rendimento baixo no fim da BA). Taxa de acerto voltou a ser alta (~95%), confirmando a
+// hipótese. Dois lotes: de Alagoa a Bela Vista de Minas, depois de Bom Jardim de Minas a
+// Careaçu (~31 municípios no total). 68 promovidos + 3 criados diretamente. Mesmo disclosure de
+// fonte de agregador de terceiros em cada observação.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
