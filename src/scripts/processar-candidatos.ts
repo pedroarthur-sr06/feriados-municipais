@@ -1408,6 +1408,30 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 74 promovidos + 8 criados diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online EM SC — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Maracajá a Águas Mornas (~89 municípios, quatro
+// lotes) — esgota o pool de municípios-com-candidato-pendente do SC (restam só Antônio Carlos,
+// Benedito Novo, Governador Celso Ramos, Grão-Pará e Presidente Castello Branco, todos já
+// confirmados sem resultado no agregador, mesma frase-padrão "não encontramos nenhum feriado
+// municipal"). Taxa de acerto muito alta (~95%).
+//
+// Vários casos de "sempre priorizar a data formalmente listada": Rancho Queimado (só 22/08
+// está na tabela, aniversário 08/11 citado só no texto introdutório, não promovido), Rio dos
+// Cedros (só 08/12 na tabela, aniversário 19/12 fora da tabela, não promovido), São José do
+// Cerrito (só 29/06 na tabela, aniversário 07/12 fora da tabela, não promovido), Vargeão (a
+// própria página esclarece que 21/04 é o feriado NACIONAL de Tiradentes coincidindo com o
+// aniversário local, não um feriado municipal à parte — não promovido). Vidal Ramos 17/02
+// ("Carnaval, Aniversário de Vidal Ramos") e Piratuba 18/02 (leva anterior) coincidem com datas
+// móveis nacionais 2026 (Carnaval terça/Quarta de Cinzas) — filtrados automaticamente. Mesmo
+// padrão de 12/08 (Nossa Senhora da Conceição) e 10/31 (Reforma Protestante) mantido. Novo
+// padrão observado (não verificado por busca, só registrado): 25/07 aparece repetido em vários
+// municípios do oeste/meio-oeste catarinense — promovido pelo mesmo critério de padrão
+// cross-município já combinado com o usuário, mas sem confirmação do significado religioso
+// específico da data (pode ser São Tiago Apóstolo, cuja festa é 25/07, mas isso não foi
+// verificado nesta leva).
+//
+// 81 promovidos + 8 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
