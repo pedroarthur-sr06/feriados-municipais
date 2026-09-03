@@ -1249,6 +1249,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Sertão sem resultado no agregador). Taxa de acerto muito alta em ambos. MG: 30 promovidos + 4
 // criados diretamente. RS: 19 promovidos + 3 criados diretamente.
 //
+// OITAVA LEVA EM MG + SEXTA LEVA EM RS DO AGREGADOR calendario.online — mesma sessão.
+// MG: de Salto da Divisa a Serra dos Aimorés (~14 municípios). RS: de Passo Fundo (capital
+// regional, só 1 feriado municipal encontrado) a Três Arroios (~14 municípios). Taxa de acerto
+// de 100% em ambos. MG: 28 promovidos + 0 criados diretamente. RS: 20 promovidos + 6 criados
+// diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
