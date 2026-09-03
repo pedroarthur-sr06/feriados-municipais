@@ -1375,6 +1375,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 75 promovidos + 49 criados diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online NO MARANHÃO (MA) — mesma sessão. Continuação da
+// varredura por municípios-com-candidato-pendente, de Mirador a Vitória do Mearim (~49
+// municípios, dois lotes) — esgota o pool de municípios-com-candidato-pendente do MA. Taxa de
+// acerto quase total (só Olho d'Água das Cunhãs sem resultado no agregador, confirmado
+// explicitamente "não encontramos nenhum feriado municipal"). Mesmo padrão de 28/08 = Santo
+// Agostinho mantido com o mesmo disclosure da leva anterior. São Luís Gonzaga do Maranhão
+// listava 20/11 como "feriado municipal" — já coberto pelo cálculo nacional (Dia Nacional de
+// Zumbi e da Consciência Negra, Lei 14.759/2023), filtrado automaticamente pelo
+// cross-reference. São Vicente Ferrer listava "05/04 — Páscoa" (domingo de Páscoa) como uma das
+// datas decretadas — NÃO processado nesta leva: schema suporta regraCalculo "pascoa+0", mas
+// ficou de fora do fluxo padrão (que só lida com mes/dia fixos) por prudência, já que Domingo de
+// Páscoa como feriado municipal decretado é um padrão atípico nunca visto antes nesta sessão;
+// revisar manualmente depois se valer a pena. 98 promovidos + 52 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
