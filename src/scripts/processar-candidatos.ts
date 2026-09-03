@@ -1309,6 +1309,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // 12/19 mantido — São Carlos do Ivaí teve especificamente 15/12 promovido (data distinta,
 // municipal de fato) mas não 19/12. 51 promovidos + 13 criados diretamente.
 //
+// QUINTA LEVA DO AGREGADOR calendario.online EM PR — mesma sessão. De São Tomé a Vitorino
+// (~12 municípios) — esgota o pool de municípios-com-candidato-pendente do PR (restam só Barra
+// do Jacaré, Diamante D'Oeste, Lupionópolis, Mariluz, Porto Amazonas, Pérola d'Oeste, Santa
+// Izabel do Oeste, São Jorge d'Oeste, São Jorge do Patrocínio, Tapejara e Tapira, já confirmados
+// sem resultado no agregador). Taxa de acerto de ~83%. 17 promovidos + 1 criado diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
