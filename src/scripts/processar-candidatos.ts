@@ -1460,6 +1460,23 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 28 promovidos + 8 criados diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM GOIÁS (GO) — mesma sessão. Com o pool do CE
+// esgotado, GO tinha o maior pool intocado (42 municípios). Mesmo método: varredura alfabética
+// dos municípios sem cobertura municipal que têm candidato pendente no dataset comunitário. De
+// Aloândia a Vicentinópolis (~42 municípios, dois lotes; São João d'Aliança sem resultado no
+// agregador). Taxa de acerto muito alta (~98%).
+//
+// Padrão regional muito forte em GO: 14/05 e 14/11 aparecem repetidos como data de emancipação
+// em dezenas de municípios — mesma onda de criação simultânea de municípios já vista em outros
+// estados (RO, AM, TO, MT, PA, MA). Santa Rita do Araguaia e Chapadão do Céu listavam 20/11
+// (Consciência Negra) como "feriado municipal" — já coberto pelo cálculo nacional, filtrado
+// automaticamente pelo cross-reference (Santa Rita do Araguaia ficou sem nenhuma outra data,
+// continua nao_verificado). Mairipotaba: a data formalmente na tabela é 13/11 (não 12/11,
+// citado só como texto de aniversário) — promovido apenas 13/11, por consistência com o método
+// de sempre priorizar a data formalmente listada.
+//
+// 80 promovidos + 7 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
