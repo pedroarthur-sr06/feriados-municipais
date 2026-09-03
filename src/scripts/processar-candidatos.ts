@@ -1342,6 +1342,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // por municípios-com-candidato-pendente, de Nova Europa a Ribeirão Branco (~34 municípios, dois
 // lotes). Taxa de acerto de 100% em ambos os lotes. 57 promovidos + 7 criados diretamente.
 //
+// QUINTA LEVA DO AGREGADOR calendario.online EM SP — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Ribeirão Corrente a Tapiratiba (~34 municípios,
+// dois lotes; Santa Rita d'Oeste, Santa Clara d'Oeste e São João do Pau d'Alho sem resultado no
+// agregador). Taxa de acerto muito alta (~94%). 52 promovidos + 5 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
