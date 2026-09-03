@@ -1325,6 +1325,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // necessidade de tratamento especial. De Alfredo Marcondes a Cruzália (~38 municípios, dois
 // lotes; Aparecida d'Oeste sem resultado no agregador). 68 promovidos + 6 criados diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online EM SP — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Cássia dos Coqueiros a Itapura (~55 municípios, dois
+// lotes; Dobrada sem resultado no agregador). Taxa de acerto muito alta (~98%). 73 promovidos +
+// 3 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
