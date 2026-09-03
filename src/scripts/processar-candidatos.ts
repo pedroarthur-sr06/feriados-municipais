@@ -1262,6 +1262,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // de 100% em ambos. MG: 28 promovidos + 2 criados diretamente. RS: 25 promovidos + 1 criado
 // diretamente.
 //
+// DÉCIMA LEVA EM MG DO AGREGADOR calendario.online — mesma sessão. De São João da Mata a Água
+// Comprida (~22 municípios, dois lotes) — esgota o pool de municípios-com-candidato-pendente do
+// MG (restam só Barão do Monte Alto, Cachoeira da Prata, Carneirinho, Conceição dos Ouros,
+// Delfinópolis, Iraí de Minas e Jampruca, já confirmados sem resultado no agregador). Taxa de
+// acerto de 100%. 47 promovidos + 2 criados diretamente. Com essa leva, tanto MG quanto RS têm
+// o pool de candidatos-com-dado-provável esgotado — o que resta em ambos os estados é a cauda
+// longa sem candidato e sem dado no agregador (mesmo padrão de baixo rendimento visto no fim da
+// BA, leva 5).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
