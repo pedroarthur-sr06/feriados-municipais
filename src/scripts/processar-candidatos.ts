@@ -1244,6 +1244,11 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // (~13 municípios, Picada Café sem resultado no agregador). Taxa de acerto muito alta em ambos.
 // MG: 23 promovidos + 4 criados diretamente. RS: 24 promovidos + 2 criados diretamente.
 //
+// SÉTIMA LEVA EM MG + QUINTA LEVA EM RS DO AGREGADOR calendario.online — mesma sessão.
+// MG: de Piraúba a Rubim (~14 municípios). RS: de Roque Gonzales a Sinimbu (~13 municípios,
+// Sertão sem resultado no agregador). Taxa de acerto muito alta em ambos. MG: 30 promovidos + 4
+// criados diretamente. RS: 19 promovidos + 3 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
