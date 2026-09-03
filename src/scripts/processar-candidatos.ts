@@ -1220,6 +1220,14 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Carneirinho: aniversário 27/04 mas feriado observado listado em 28/04 'porque 27 cai numa
 // segunda-feira') — não promovida. 58 promovidos + 5 criados diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM RS — mesma sessão. Depois de 4 levas em MG
+// (45,6% -> 59,6%), pivotei para o RS conforme pedido do usuário. Mesmo método: varredura
+// alfabética dos municípios SEM cobertura municipal que TÊM candidato pendente no dataset
+// comunitário. Taxa de acerto altíssima (~95%) — o padrão de santo padroeiro (Nossa Senhora
+// dos Navegantes, São Cristóvão, Dia do Colono e Motorista) é muito comum nos municípios de
+// colonização alemã/italiana do RS. De Ajuricaba a David Canabarro (~40 municípios, dois
+// lotes). 54 promovidos + 19 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
