@@ -1389,6 +1389,25 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Páscoa como feriado municipal decretado é um padrão atípico nunca visto antes nesta sessão;
 // revisar manualmente depois se valer a pena. 98 promovidos + 52 criados diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM SANTA CATARINA (SC) — mesma sessão. Com o
+// pool de município-com-candidato-pendente do MA esgotado, verifiquei os pools nacionais e SC
+// tinha o maior pool intocado (86 municípios). Mesmo método: varredura alfabética dos
+// municípios sem cobertura municipal que têm candidato pendente no dataset comunitário. De
+// Abdon Batista a Major Vieira (~38 municípios, dois lotes; Antônio Carlos, Benedito Novo,
+// Governador Celso Ramos e Grão-Pará sem resultado no agregador — todos com a mesma frase
+// padrão "não encontramos nenhum feriado municipal"). Taxa de acerto muito alta (~89%).
+//
+// Padrão religioso/regional recorrente em SC (colonização alemã/italiana): 12/08 (Nossa
+// Senhora da Conceição) e 10/31 (Dia da Reforma Protestante) aparecem repetidos em vários
+// municípios — mesmo tratamento já dado a outros padrões de santo/data religiosa repetida
+// (Santo Antônio, São João, Santo Agostinho no MA). Guarujá do Sul: página cita 18/12 como
+// aniversário "decretado como feriado municipal" mas o próprio texto diz que essa data "não
+// aparece na tabela principal de 2026" — não promovido, por consistência com o método de
+// sempre priorizar a data formalmente listada. Ibicaré 01/05 (coincide com Dia do Trabalhador)
+// filtrado automaticamente pelo cross-reference por já ser feriado nacional.
+//
+// 74 promovidos + 8 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
