@@ -1432,6 +1432,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 81 promovidos + 8 criados diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online NO CEARÁ (CE) — mesma sessão. Com o pool do SC
+// esgotado, CE tinha o maior pool intocado (51 municípios). Mesmo método: varredura alfabética
+// dos municípios sem cobertura municipal que têm candidato pendente no dataset comunitário. De
+// Alto Santo a Morrinhos (~29 municípios, dois lotes; Itapajé sem resultado no agregador). Taxa
+// de acerto muito alta (~97%).
+//
+// Padrão observado (não verificado por busca): 10/04 (possivelmente São Francisco de Assis)
+// repetido em Brejo Santo, Canindé e Ipu. Casos de "sempre priorizar a data formalmente
+// listada": Guaiúba (17/03 citado como aniversário decretado, mas fora da tabela detalhada, não
+// promovido) e Morrinhos (06/11 aniversário citado só como comemoração, não na tabela oficial,
+// não promovido).
+//
+// 46 promovidos + 13 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
