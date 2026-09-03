@@ -1446,6 +1446,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 46 promovidos + 13 criados diretamente.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online NO CE — mesma sessão. De Mucambo a Várzea Alegre
+// (~19 municípios, um lote) — esgota o pool de municípios-com-candidato-pendente do CE (resta
+// só Itapajé, já confirmado sem resultado no agregador). Taxa de acerto de 100%.
+//
+// Casos de "sempre priorizar a data formalmente listada": Piquet Carneiro (só 12/07 está na
+// tabela; a página cita 15/07 como aniversário mas o próprio texto diz que a data marcada na
+// tabela é 12/07 — promovido só 12/07) e Tamboril (só 22/01 na tabela; 04/10 aniversário citado
+// como não constando na tabela oficial, não promovido). Potengi listava "05/04 — Páscoa,
+// Feriado Municipal" (Domingo de Páscoa) como uma das datas decretadas — mesmo padrão já visto
+// em São Vicente Ferrer/MA (leva 2 do MA); não processado por prudência, mesma razão registrada
+// lá (schema suporta pascoa+0, mas fica fora do fluxo padrão que só lida com mes/dia fixos).
+//
+// 28 promovidos + 8 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
