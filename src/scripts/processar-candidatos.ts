@@ -1315,6 +1315,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Izabel do Oeste, São Jorge d'Oeste, São Jorge do Patrocínio, Tapejara e Tapira, já confirmados
 // sem resultado no agregador). Taxa de acerto de ~83%. 17 promovidos + 1 criado diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online EM SP — mesma sessão. Com PR praticamente
+// esgotado, pivotei para SP a pedido do usuário ('continue para qual falta mais') — SP tem o
+// maior volume absoluto de municípios sem cobertura (258) entre todos os estados. Mesmo método:
+// varredura alfabética dos municípios SEM cobertura municipal que TÊM candidato pendente no
+// dataset comunitário. Taxa de acerto altíssima (~97%). Nota: SP trata 'Dia Nacional de Zumbi e
+// da Consciência Negra' (20/11) como feriado municipal decretado em muitas cidades — já coberto
+// pelo cálculo nacional (Lei 14.759/2023), filtrado automaticamente pelo cross-reference sem
+// necessidade de tratamento especial. De Alfredo Marcondes a Cruzália (~38 municípios, dois
+// lotes; Aparecida d'Oeste sem resultado no agregador). 68 promovidos + 6 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
