@@ -1199,6 +1199,15 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // Careaçu (~31 municípios no total). 68 promovidos + 3 criados diretamente. Mesmo disclosure de
 // fonte de agregador de terceiros em cada observação.
 //
+// SEGUNDA LEVA DO AGREGADOR calendario.online EM MG — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Carmo da Cachoeira a Dores de Campos (~36
+// municípios, dois lotes). Taxa de acerto continua alta (só 1 município sem resultado no
+// agregador: Conceição dos Ouros). Excluída 1 data de Carneirinho (aniversário 27/04, mas o
+// agregador lista o feriado observado em 28/04 'porque 27 cai numa segunda-feira') — mesmo
+// padrão de regra de deslocamento de dia não representável no schema (só datas fixas ou
+// pascoa+N), já visto antes em outros municípios; não promovida. 61 promovidos + 6 criados
+// diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
