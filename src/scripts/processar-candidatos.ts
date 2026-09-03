@@ -1296,6 +1296,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // tinha aniversário citado como coincidindo com 19/12 no texto do agregador, não promovido por
 // consistência com essa exclusão. 52 promovidos + 7 criados diretamente.
 //
+// TERCEIRA LEVA DO AGREGADOR calendario.online EM PR — mesma sessão. Continuação da
+// varredura por municípios-com-candidato-pendente, de Maria Helena a Presidente Castelo Branco
+// (~34 municípios, dois lotes; Mariluz e Porto Amazonas sem resultado no agregador). Taxa de
+// acerto altíssima (~94%). Mesmo PR_EXCLUIR de 12/19 mantido. 55 promovidos + 9 criados
+// diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
