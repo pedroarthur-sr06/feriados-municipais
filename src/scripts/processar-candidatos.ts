@@ -1354,6 +1354,27 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // só 20/11, já coberto pelo cálculo nacional, então não conta como cobertura municipal real).
 // Taxa de acerto de 100%. 32 promovidos + 4 criados diretamente.
 //
+// PRIMEIRA LEVA DO AGREGADOR calendario.online NO MARANHÃO (MA) — mesma sessão. Com SP
+// esgotado, usuário escolheu entre MA (89 pendentes, 13,8% cobertura) e SC (86 pendentes, 47,1%
+// cobertura); optei por MA pelo potencial de ganho maior. Mesmo método: varredura alfabética
+// dos municípios SEM cobertura municipal que TÊM candidato pendente no dataset comunitário. De
+// Alcântara a Matões (~40 municípios, dois lotes). Taxa de acerto de 100% — todos os municípios
+// varridos tinham dado no agregador.
+//
+// ACHADO: 28/08 aparece como "Feriado Municipal" genérico em ~38 dos ~40 municípios varridos
+// (só Barreirinhas em parte, Grajaú, Igarapé Grande e Imperatriz não têm essa data). Antes de
+// promover em massa, investiguei se era artefato do agregador (mesma data aplicada
+// indiscriminadamente a todo município da UF, como já visto no cluster de 08/12 do MA para
+// feriado ESTADUAL) — três buscas: (1) confirmado que é decreto INDEPENDENTE por município, não
+// um bug do agregador — matéria do em.com.br cita Fortaleza dos Nogueiras com legislação própria
+// para a data; (2) não encontrei lei estadual de criação simultânea de municípios datada 28/08
+// que explicasse uma origem comum; (3) confirmado que 28/08 é o Dia de Santo Agostinho no
+// calendário litúrgico católico — mesmo padrão já aprovado com o usuário para datas de
+// padroeiro/santo repetidas em múltiplos municípios (Santo Antônio 13/06, São João 24/06, São
+// José 19/03). Promovido com esse disclosure explícito em cada entrada com 28/08.
+//
+// 75 promovidos + 49 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
