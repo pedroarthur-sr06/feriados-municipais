@@ -1213,6 +1213,13 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // municípios, dois lotes). Taxa de acerto continua alta (só Iraí de Minas sem resultado no
 // agregador). 57 promovidos + 8 criados diretamente.
 //
+// QUARTA LEVA DO AGREGADOR calendario.online EM MG — mesma sessão. Continuação da varredura
+// por municípios-com-candidato-pendente, de Itacarambi a Matipó (~28 municípios, dois lotes).
+// Taxa de acerto de 100% neste par de lotes (todos os municípios varridos tinham algum dado no
+// agregador). Excluída 1 data de Jampruca (mesmo padrão de deslocamento de dia já visto em
+// Carneirinho: aniversário 27/04 mas feriado observado listado em 28/04 'porque 27 cai numa
+// segunda-feira') — não promovida. 58 promovidos + 5 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
