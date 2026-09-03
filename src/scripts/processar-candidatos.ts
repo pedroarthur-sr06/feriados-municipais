@@ -1233,6 +1233,12 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 // municípios, dois lotes). Taxa de acerto de 100% neste par de lotes. 60 promovidos + 10
 // criados diretamente.
 //
+// QUINTA LEVA EM MG + TERCEIRA LEVA EM RS DO AGREGADOR calendario.online — mesma sessão.
+// Continuando ambos os estados em paralelo conforme pedido do usuário ('segue para completar').
+// MG: de Matutina a Novo Oriente de Minas (~13 municípios). RS: de Maçambará a Paraí (~20
+// municípios). Taxa de acerto 100% em ambos. MG: 27 promovidos + 4 criados diretamente. RS: 30
+// promovidos + 10 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
