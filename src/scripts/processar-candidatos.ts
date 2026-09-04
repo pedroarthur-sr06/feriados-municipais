@@ -1643,6 +1643,16 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 8 criados diretamente.
 //
+// VARREDURA ALFABÉTICA PURA DO AMAZONAS (AM) — mesma sessão. Estado pequeno o bastante (27
+// municípios sem cobertura) para varrer inteiro num só lote. Taxa de acerto de ~26% (7 de 27
+// municípios testados) — a melhor desta fase de varredura pura depois do RS, bem acima da
+// média geral. Municípios com resultado: Beruri, Envira, Ipixuna, Jutaí, Manaquiri, Santa
+// Isabel do Rio Negro.
+//
+// AM AGORA TOTALMENTE ESGOTADO por varredura alfabética.
+//
+// 9 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
