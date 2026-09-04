@@ -1551,6 +1551,18 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 65 criados diretamente.
 //
+// VARREDURA ALFABÉTICA PURA EM MG E RS — mesma sessão. Testei MG (0/20, Aguanil a Berizal —
+// outro estado "seco" como o PI, pausado) e RS (produtivo: colonização alemã/italiana rende
+// muitos "Dia do Colono" 25/07, santo padroeiro e "Feriado Municipal" genérico). De Almirante
+// Tamandaré do Sul a Forquetinha (~44 municípios, dois lotes) — taxa de acerto de ~52%, de
+// longe a melhor desta fase de varredura pura. Municípios com resultado: Alto Alegre, Alto
+// Feliz, Arambaré, Araricá, Barra do Guarita, Barra do Quaraí, Benjamin Constant do Sul, Boa
+// Vista das Missões, Boa Vista do Cadeado, Boa Vista do Incra, Boa Vista do Sul, Bom Progresso,
+// Bozano, Caiçara, Camargo, Campos Borges, Caraá, Caseiros, Cerrito, Chuí, Coqueiros do Sul,
+// Coronel Pilar, Derrubadas, Dois Irmãos das Missões.
+//
+// 43 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
