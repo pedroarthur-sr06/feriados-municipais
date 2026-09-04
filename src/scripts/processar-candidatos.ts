@@ -1497,6 +1497,30 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 74 promovidos + 20 criados diretamente.
 //
+// LEVA FINAL DE FECHAMENTO DO POOL NACIONAL — mesma sessão. Após a leva "cauda" consolidada,
+// levantei todos os municípios do Brasil ainda sem cobertura municipal com candidato pendente
+// (57 no total) e cruzei com os nomes já citados como "sem resultado no agregador" em notas de
+// levas anteriores desta sessão inteira (BA, CE, MA, MG, PA, PR, RN, SC, SP) — restaram só 13
+// municípios genuinamente nunca tentados: Girau do Ponciano e Murici (AL), Aral Moreira,
+// Caracol, Ladário e Novo Horizonte do Sul (MS), Jangada (MT), Altos, Domingos Mourão, Elesbão
+// Veloso e Piripiri (PI), Araguatins e Natividade (TO). Com isso, o POOL NACIONAL de
+// "município sem cobertura + candidato pendente" está esgotado nesta sessão — o que resta em
+// cada estado (57 municípios) já foi todo verificado no agregador ao menos uma vez, com ou sem
+// resultado.
+//
+// Achado novo: 08/12 (Nossa Senhora da Conceição) também é feriado ESTADUAL pleno em Alagoas e
+// no Piauí (terceiro e quarto estado com esse padrão nesta sessão, depois de MA e PA) — Girau do
+// Ponciano, Murici, Altos e Domingos Mourão tinham 08/12 no agregador, todos filtrados
+// automaticamente. Natividade/TO: 15/08 (Senhor do Bonfim) também é estadual do TO — filtrado;
+// mantido só 14/08 (mesmo nome, provavelmente vigília + dia principal, ambos no agregador, só
+// um deles redundante com o estadual). Caracol/MS 01/05 coincide com o feriado nacional do
+// Trabalho, filtrado. Murici/AL e Domingos Mourão/PI: aniversário citado só em texto
+// introdutório, fora da tabela formal — não promovido, por consistência com o método de sempre
+// priorizar a data formalmente listada. Altos/PI: 12/10 é o próprio feriado nacional (Nossa
+// Senhora Aparecida), não uma data municipal distinta — nada a promover além do já coberto.
+//
+// 8 promovidos + 4 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
