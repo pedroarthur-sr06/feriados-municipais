@@ -1477,6 +1477,26 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 80 promovidos + 7 criados diretamente.
 //
+// LEVA "CAUDA" CONSOLIDADA DO AGREGADOR calendario.online — mesma sessão. Após GO, todos os
+// pools de município-com-candidato-pendente restantes eram pequenos (≤15) — em vez de abrir
+// mais um estado grande, varri de uma vez os municípios pendentes de BA (14, retomando a
+// varredura alfabética pausada na leva 5 — desta vez pelas letras S-W, nunca antes tentadas
+// nesta sessão, com taxa de acerto de 100%), PA (10, primeira vez no estado), SE (6, primeira
+// vez), RN (5, primeira vez), PB (5, primeira vez), PE (5, primeira vez), mais 2 municípios
+// isolados que não tinham sido explicitamente confirmados sem resultado em levas anteriores
+// (São João da Mata/MG e Águas de São Pedro/SP). Confirmado sem resultado no agregador:
+// Ulianópolis/PA, Tenente Ananias/RN, São Caitano/PE. Águas de São Pedro/SP não rendeu nada
+// (só 20/11, já nacional; 25/07 aniversário citado fora da tabela formal). PR, MG e SC já
+// estavam com o pool inteiro confirmado sem resultado em levas anteriores desta sessão — não
+// revarridos.
+//
+// Achado novo: 08/12 (Nossa Senhora da Conceição) é feriado ESTADUAL pleno no Pará também
+// (mesmo padrão já visto no Maranhão) — Mocajuba e Salinópolis tinham 08/12 no agregador,
+// filtrado automaticamente por já estar coberto pelo estadual do PA. Alagoa Grande/PB: 26/07
+// coincide com o estadual "Homenagem a João Pessoa" do PB, também filtrado automaticamente.
+//
+// 74 promovidos + 20 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
