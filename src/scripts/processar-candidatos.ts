@@ -1588,6 +1588,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 15 criados diretamente. BAHIA ESGOTADA (varredura alfabética completa, ambas as fases).
 //
+// CONCLUSÃO DA VARREDURA ALFABÉTICA PURA EM RN E TO — mesma sessão. Usuário pediu para
+// continuar buscando 100% (esclarecido que 100% de COBERTURA não é alcançável honestamente —
+// muitos municípios genuinamente não têm feriado municipal documentado em lugar nenhum; o que
+// é alcançável é 100% de municípios VERIFICADOS, mesmo que a verificação confirme "sem
+// feriado"). Terminei o restante de RN (108 municípios, ~47 novos testados: só Tangará e Tibau
+// do Sul com resultado, ~4%) e TO inteiro (93 municípios novos testados: Babaçulândia,
+// Goiatins, Nova Olinda, Paranã, Paraíso do Tocantins com resultado, ~5%). Tibau do Sul citava
+// 03/04 como aniversário decretado, mas o próprio agregador classifica essa data como feriado
+// NACIONAL (Sexta-feira Santa) na tabela, não municipal — não promovido.
+//
+// RN E TO AGORA TOTALMENTE ESGOTADOS por varredura alfabética (todo município sem candidato
+// prévio já foi verificado no agregador, com ou sem resultado).
+//
+// 17 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
