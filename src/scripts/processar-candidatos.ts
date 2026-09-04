@@ -1632,6 +1632,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 24 criados diretamente.
 //
+// VARREDURA ALFABÉTICA PURA DE ALAGOAS (AL) — mesma sessão. Estado inteiro (45 municípios sem
+// cobertura, dois lotes; Girau do Ponciano e Murici já confirmados com 08/12 coberto pelo
+// estadual em leva anterior, não revarridos). Taxa de acerto ~14% (6 de 43 municípios
+// testados). Porto Real do Colégio: 12/08 já coberto pelo estadual do AL, filtrado
+// automaticamente. Municípios com resultado: Estrela de Alagoas, Joaquim Gomes, Ouro
+// Branco, Pariconha, Porto Real do Colégio.
+//
+// AL AGORA TOTALMENTE ESGOTADO por varredura alfabética.
+//
+// 8 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
