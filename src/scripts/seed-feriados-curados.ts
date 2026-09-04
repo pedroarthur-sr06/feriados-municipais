@@ -21235,7 +21235,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Alto Santo é feriado municipal em Alto Santo/CE em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21273,7 +21273,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Aquiraz é feriado municipal em Aquiraz/CE em 13/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21292,7 +21292,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aquiraz/CE em 15/08, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21463,7 +21463,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Banabuiú é feriado municipal em Banabuiú/CE em 25/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21482,7 +21482,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Banabuiú/CE em 13/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21615,7 +21615,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Boa Viagem/CE em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21634,7 +21634,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Brejo Santo é feriado municipal em Brejo Santo/CE em 26/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21653,7 +21653,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Brejo Santo/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21691,7 +21691,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Campos Sales é feriado municipal em Campos Sales/CE em 29/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21710,7 +21710,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Canindé é feriado municipal em Canindé/CE em 29/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21729,7 +21729,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Canindé/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21748,7 +21748,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Capistrano/CE em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21767,7 +21767,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Capistrano/CE em 22/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21843,7 +21843,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Carnaubal é feriado municipal em Carnaubal/CE em 22/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21862,7 +21862,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Carnaubal/CE em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21976,7 +21976,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Cedro/CE em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -21995,7 +21995,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cedro é feriado municipal em Cedro/CE em 21/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22033,7 +22033,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Crateús é feriado municipal em Crateús/CE em 06/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22318,7 +22318,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Nossa Senhora da Saúde é feriado municipal em Frecheirinha/CE em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22356,7 +22356,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Granja/CE em 02/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22375,7 +22375,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Guaiúba/CE em 14/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22432,7 +22432,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Horizonte é feriado municipal em Horizonte/CE em 06/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22451,7 +22451,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Horizonte/CE em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22508,7 +22508,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Icó/CE em 02/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22527,7 +22527,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Icó é feriado municipal em Icó/CE em 25/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22546,7 +22546,7 @@ const FERIADOS = [
     dia: 18,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Icó/CE em 18/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22641,7 +22641,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ipu é feriado municipal em Ipu/CE em 26/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22660,7 +22660,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ipu/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22717,7 +22717,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Irauçuba é feriado municipal em Irauçuba/CE em 20/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22736,7 +22736,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Irauçuba/CE em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22774,7 +22774,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "São Sebastião é feriado municipal em Itapipoca/CE em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22793,7 +22793,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Itapipoca é feriado municipal em Itapipoca/CE em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22812,7 +22812,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Nossa Senhora das Mercês é feriado municipal em Itapipoca/CE em 24/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22926,7 +22926,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaguaribara/CE em 10/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22945,7 +22945,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaguaribara/CE em 30/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22964,7 +22964,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaguaribara/CE em 25/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -22983,7 +22983,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaguaribe/CE em 02/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23002,7 +23002,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaguaribe/CE em 12/08, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23059,7 +23059,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Jijoca de Jericoacoara é feriado municipal em Jijoca de Jericoacoara/CE em 06/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23078,7 +23078,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jijoca de Jericoacoara/CE em 13/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23173,7 +23173,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Nossa Senhora do Carmo é feriado municipal em Jucás/CE em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23192,7 +23192,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Jucás é feriado municipal em Jucás/CE em 17/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23211,7 +23211,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Lavras da Mangabeira é feriado municipal em Lavras da Mangabeira/CE em 20/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23249,7 +23249,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Madalena é feriado municipal em Madalena/CE em 12/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23268,7 +23268,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Madalena/CE em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23306,7 +23306,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Maranguape/CE em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23325,7 +23325,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Maranguape/CE em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23344,7 +23344,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Maranguape é feriado municipal em Maranguape/CE em 17/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23420,7 +23420,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Milhã é feriado municipal em Milhã/CE em 05/02, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23439,7 +23439,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Milhã/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23458,7 +23458,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Milhã/CE em 08/12, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23477,7 +23477,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Missão Velha é feriado municipal em Missão Velha/CE em 11/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23515,7 +23515,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monsenhor Tabosa/CE em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23534,7 +23534,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monsenhor Tabosa/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23553,7 +23553,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Monsenhor Tabosa é feriado municipal em Monsenhor Tabosa/CE em 22/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23572,7 +23572,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monsenhor Tabosa/CE em 13/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23591,7 +23591,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Morada Nova/CE em 11/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23610,7 +23610,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Morada Nova é feriado municipal em Morada Nova/CE em 02/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23629,7 +23629,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Morrinhos/CE em 06/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23648,7 +23648,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Mucambo é feriado municipal em Mucambo/CE em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23781,7 +23781,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palmácia/CE em 23/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23800,7 +23800,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palmácia/CE em 06/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23819,7 +23819,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palmácia/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23838,7 +23838,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palmácia/CE em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23876,7 +23876,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Paraipaba é feriado municipal em Paraipaba/CE em 05/02, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23933,7 +23933,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pereiro é feriado municipal em Pereiro/CE em 30/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23952,7 +23952,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pereiro/CE em 27/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -23971,7 +23971,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Piquet Carneiro/CE em 12/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24009,7 +24009,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Potengi é feriado municipal em Potengi/CE em 04/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24161,7 +24161,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Russas é feriado municipal em Russas/CE em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24180,7 +24180,7 @@ const FERIADOS = [
     dia: 7,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Russas/CE em 07/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24199,7 +24199,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Russas/CE em 27/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24218,7 +24218,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Saboeiro/CE em 02/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24237,7 +24237,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Saboeiro/CE em 03/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24256,7 +24256,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Salitre é feriado municipal em Salitre/CE em 30/06, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24275,7 +24275,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Salitre/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24351,7 +24351,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Benedito/CE em 13/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24370,7 +24370,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Benedito é feriado municipal em São Benedito/CE em 25/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24389,7 +24389,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Gonçalo do Amarante é feriado municipal em São Gonçalo do Amarante/CE em 27/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24408,7 +24408,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Senador Pompeu é feriado municipal em Senador Pompeu/CE em 03/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24427,7 +24427,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Senador Pompeu/CE em 15/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24503,7 +24503,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tamboril/CE em 22/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24522,7 +24522,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Tauá é feriado municipal em Tauá/CE em 03/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24541,7 +24541,7 @@ const FERIADOS = [
     dia: 7,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tauá/CE em 07/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24598,7 +24598,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Trairi é feriado municipal em Trairi/CE em 22/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24636,7 +24636,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ubajara é feriado municipal em Ubajara/CE em 24/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24655,7 +24655,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ubajara/CE em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24674,7 +24674,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ubajara/CE em 31/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24693,7 +24693,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Umirim é feriado municipal em Umirim/CE em 05/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24712,7 +24712,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Umirim/CE em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24731,7 +24731,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Umirim/CE em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24750,7 +24750,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Uruburetama/CE em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24769,7 +24769,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Uruburetama é feriado municipal em Uruburetama/CE em 01/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24826,7 +24826,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Várzea Alegre/CE em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ce.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -24845,7 +24845,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Várzea Alegre é feriado municipal em Várzea Alegre/CE em 10/10, achado no agregador calendario.online (calendario.online/feriados-...-ce.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28227,7 +28227,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aloândia/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28246,7 +28246,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Aloândia é feriado municipal em Aloândia/GO em 17/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28512,7 +28512,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aporé/GO em 28/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28531,7 +28531,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Aporé é feriado municipal em Aporé/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28626,7 +28626,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Araguapaz é feriado municipal em Araguapaz/GO em 14/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28645,7 +28645,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Araguapaz/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28664,7 +28664,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Arenópolis é feriado municipal em Arenópolis/GO em 14/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28683,7 +28683,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arenópolis/GO em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28835,7 +28835,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bom Jardim de Goiás/GO em 20/01, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28854,7 +28854,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Bom Jardim de Goiás/GO em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28873,7 +28873,7 @@ const FERIADOS = [
     dia: 18,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bom Jardim de Goiás é feriado municipal em Bom Jardim de Goiás/GO em 18/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28930,7 +28930,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Britânia/GO em 25/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -28949,7 +28949,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Britânia é feriado municipal em Britânia/GO em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29006,7 +29006,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Santa Rosa de Lima é feriado municipal em Cabeceiras/GO em 23/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29025,7 +29025,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Emancipação de Cabeceiras é feriado municipal em Cabeceiras/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29044,7 +29044,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Dia do Evangélico é feriado municipal em Cabeceiras/GO em 30/11, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29329,7 +29329,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Caldazinha/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29348,7 +29348,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Caldazinha é feriado municipal em Caldazinha/GO em 29/04, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29367,7 +29367,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Caldazinha/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29386,7 +29386,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Campestre de Goiás/GO em 31/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29405,7 +29405,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Campestre de Goiás é feriado municipal em Campestre de Goiás/GO em 29/10, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29462,7 +29462,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Campo Alegre de Goiás/GO em 22/08, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29481,7 +29481,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Campo Alegre de Goiás/GO em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29500,7 +29500,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Campo Alegre de Goiás é feriado municipal em Campo Alegre de Goiás/GO em 12/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29614,7 +29614,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Castelândia é feriado municipal em Castelândia/GO em 16/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29633,7 +29633,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Castelândia/GO em 16/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29880,7 +29880,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cezarina é feriado municipal em Cezarina/GO em 14/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29899,7 +29899,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cezarina/GO em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29918,7 +29918,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Chapadão do Céu é feriado municipal em Chapadão do Céu/GO em 21/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -29937,7 +29937,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Chapadão do Céu/GO em 22/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30108,7 +30108,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Córrego do Ouro é feriado municipal em Córrego do Ouro/GO em 24/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30317,7 +30317,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cristianópolis é feriado municipal em Cristianópolis/GO em 23/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30469,7 +30469,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Damianópolis/GO em 30/04, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30488,7 +30488,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Damianópolis é feriado municipal em Damianópolis/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30526,7 +30526,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Diorama é feriado municipal em Diorama/GO em 17/12, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30545,7 +30545,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Doverlândia é feriado municipal em Doverlândia/GO em 14/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30564,7 +30564,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Doverlândia/GO em 29/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30944,7 +30944,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Divinópolis de Goiás/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30963,7 +30963,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Divinópolis de Goiás/GO em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -30982,7 +30982,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Divinópolis de Goiás/GO em 10/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31001,7 +31001,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Divinópolis de Goiás é feriado municipal em Divinópolis de Goiás/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31400,7 +31400,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Gouvelândia é feriado municipal em Gouvelândia/GO em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31419,7 +31419,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Gouvelândia/GO em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31495,7 +31495,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Hidrolina/GO em 24/10, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31514,7 +31514,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Hidrolina é feriado municipal em Hidrolina/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31590,7 +31590,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Indiara/GO em 01/02, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31609,7 +31609,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Indiara/GO em 22/04, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -31628,7 +31628,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Indiara é feriado municipal em Indiara/GO em 14/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32046,7 +32046,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Itarumã/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32065,7 +32065,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Itarumã é feriado municipal em Itarumã/GO em 21/07, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32084,7 +32084,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Itarumã/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32578,7 +32578,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Mairipotaba/GO em 13/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32597,7 +32597,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Mambaí é feriado municipal em Mambaí/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32616,7 +32616,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Mambaí/GO em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32692,7 +32692,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Matrinchã é feriado municipal em Matrinchã/GO em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32711,7 +32711,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matrinchã/GO em 13/12, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -32996,7 +32996,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Mundo Novo é feriado municipal em Mundo Novo/GO em 10/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33015,7 +33015,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Mundo Novo/GO em 22/08, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33148,7 +33148,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Aurora/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33167,7 +33167,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Aurora/GO em 13/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33186,7 +33186,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Aurora/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33205,7 +33205,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Nova Aurora é feriado municipal em Nova Aurora/GO em 13/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33262,7 +33262,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Nova Glória é feriado municipal em Nova Glória/GO em 10/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33281,7 +33281,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Glória/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33300,7 +33300,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Glória/GO em 27/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33319,7 +33319,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Veneza/GO em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33338,7 +33338,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Nova Veneza é feriado municipal em Nova Veneza/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33414,7 +33414,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Novo Planalto é feriado municipal em Novo Planalto/GO em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33433,7 +33433,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Novo Planalto/GO em 02/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33452,7 +33452,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Novo Planalto/GO em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33471,7 +33471,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Novo Planalto/GO em 02/07, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -33490,7 +33490,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Novo Planalto/GO em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34079,7 +34079,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Portelândia é feriado municipal em Portelândia/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34307,7 +34307,7 @@ const FERIADOS = [
     dia: 18,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Rianápolis é feriado municipal em Rianápolis/GO em 18/12, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34326,7 +34326,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rio Quente/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34345,7 +34345,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Rio Quente é feriado municipal em Rio Quente/GO em 11/05, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34573,7 +34573,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Fé de Goiás é feriado municipal em Santa Fé de Goiás/GO em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34649,7 +34649,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Rosa de Goiás/GO em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34668,7 +34668,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Rosa de Goiás é feriado municipal em Santa Rosa de Goiás/GO em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34858,7 +34858,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Francisco de Goiás é feriado municipal em São Francisco de Goiás/GO em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34877,7 +34877,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Francisco de Goiás/GO em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-go.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34972,7 +34972,7 @@ const FERIADOS = [
     dia: 9,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Miguel do Passa Quatro é feriado municipal em São Miguel do Passa Quatro/GO em 09/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -34991,7 +34991,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Miguel do Passa Quatro/GO em 29/09, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35276,7 +35276,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Turvelândia é feriado municipal em Turvelândia/GO em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35295,7 +35295,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Turvelândia/GO em 05/08, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35580,7 +35580,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vicentinópolis/GO em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35599,7 +35599,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Vicentinópolis é feriado municipal em Vicentinópolis/GO em 10/06, confirmado no agregador calendario.online (calendario.online/feriados-...-go.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35656,7 +35656,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Açailândia é feriado municipal em Açailândia/MA em 06/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35675,7 +35675,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Açailândia/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35694,7 +35694,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Açailândia/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35713,7 +35713,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alcântara/MA em 05/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35732,7 +35732,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alcântara/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35751,7 +35751,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Alcântara é feriado municipal em Alcântara/MA em 22/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35770,7 +35770,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Aldeias Altas é feriado municipal em Aldeias Altas/MA em 11/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35789,7 +35789,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Aldeias Altas/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35808,7 +35808,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aldeias Altas/MA em 22/07, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35827,7 +35827,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aldeias Altas/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35865,7 +35865,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Alto Parnaíba é feriado municipal em Alto Parnaíba/MA em 19/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35884,7 +35884,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alto Parnaíba/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35903,7 +35903,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alto Parnaíba/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35922,7 +35922,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Amarante do Maranhão/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35941,7 +35941,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Amarante do Maranhão/MA em 19/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35960,7 +35960,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Amarante do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35979,7 +35979,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Amarante do Maranhão é feriado municipal em Amarante do Maranhão/MA em 21/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -35998,7 +35998,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Araioses/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36017,7 +36017,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Araioses é feriado municipal em Araioses/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36036,7 +36036,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Araioses/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36055,7 +36055,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Arame é feriado municipal em Arame/MA em 17/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36074,7 +36074,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arame/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36093,7 +36093,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arame/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36112,7 +36112,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Arari é feriado municipal em Arari/MA em 27/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36131,7 +36131,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arari/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36150,7 +36150,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arari/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36169,7 +36169,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arari/MA em 14/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36188,7 +36188,7 @@ const FERIADOS = [
     dia: 17,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bacabal é feriado municipal em Bacabal/MA em 17/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36207,7 +36207,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bacabal/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36226,7 +36226,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bacabal/MA em 01/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36302,7 +36302,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bacuri é feriado municipal em Bacuri/MA em 02/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36321,7 +36321,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bacuri/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36378,7 +36378,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Barra do Corda é feriado municipal em Barra do Corda/MA em 03/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36397,7 +36397,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Barra do Corda/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36416,7 +36416,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Barreirinhas/MA em 30/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36435,7 +36435,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Barreirinhas/MA em 14/06, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36454,7 +36454,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Barreirinhas/MA em 22/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36492,7 +36492,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bom Jardim é feriado municipal em Bom Jardim/MA em 14/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36511,7 +36511,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "São Pedro é feriado municipal em Bom Jardim/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36530,7 +36530,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bom Jardim/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36549,7 +36549,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bom Jardim/MA em 30/11, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36587,7 +36587,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Buriti/MA em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36606,7 +36606,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Buriti/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36625,7 +36625,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Buriti é feriado municipal em Buriti/MA em 06/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36644,7 +36644,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Buriti/MA em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36720,7 +36720,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cândido Mendes é feriado municipal em Cândido Mendes/MA em 02/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36739,7 +36739,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cândido Mendes/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36758,7 +36758,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cândido Mendes/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36777,7 +36777,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cantanhede/MA em 22/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36796,7 +36796,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cantanhede/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36815,7 +36815,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cantanhede é feriado municipal em Cantanhede/MA em 24/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36834,7 +36834,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Carolina é feriado municipal em Carolina/MA em 08/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36853,7 +36853,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Carolina/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36872,7 +36872,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Carolina/MA em 19/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36891,7 +36891,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Carutapera/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36910,7 +36910,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Carutapera/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -36986,7 +36986,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Codó/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37005,7 +37005,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Codó é feriado municipal em Codó/MA em 16/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37024,7 +37024,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Codó/MA em 10/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37043,7 +37043,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Codó/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37062,7 +37062,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Coelho Neto/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37081,7 +37081,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Coelho Neto/MA em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37100,7 +37100,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Coelho Neto/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37119,7 +37119,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Colinas é feriado municipal em Colinas/MA em 10/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37138,7 +37138,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Colinas/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37157,7 +37157,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Coroatá é feriado municipal em Coroatá/MA em 08/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37176,7 +37176,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Coroatá/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37195,7 +37195,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Coroatá/MA em 21/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37214,7 +37214,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Cururupu/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37233,7 +37233,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cururupu/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37252,7 +37252,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cururupu/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37271,7 +37271,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cururupu é feriado municipal em Cururupu/MA em 03/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37309,7 +37309,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Dom Pedro/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37328,7 +37328,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Dom Pedro/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37347,7 +37347,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Dom Pedro/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37366,7 +37366,7 @@ const FERIADOS = [
     dia: 9,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Dom Pedro é feriado municipal em Dom Pedro/MA em 09/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37404,7 +37404,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Esperantinópolis é feriado municipal em Esperantinópolis/MA em 27/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37423,7 +37423,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Esperantinópolis/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37442,7 +37442,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Esperantinópolis/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37461,7 +37461,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Esperantinópolis/MA em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37480,7 +37480,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Estreito/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37499,7 +37499,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Estreito é feriado municipal em Estreito/MA em 12/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37518,7 +37518,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Estreito/MA em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37537,7 +37537,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Estreito/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37575,7 +37575,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Fortaleza dos Nogueiras/MA em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37594,7 +37594,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Fortaleza dos Nogueiras/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37613,7 +37613,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Fortaleza dos Nogueiras é feriado municipal em Fortaleza dos Nogueiras/MA em 31/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37632,7 +37632,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Gonçalves Dias/MA em 31/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37651,7 +37651,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Gonçalves Dias/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37670,7 +37670,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Gonçalves Dias é feriado municipal em Gonçalves Dias/MA em 31/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37689,7 +37689,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Archer/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37708,7 +37708,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Archer/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37727,7 +37727,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Archer/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37746,7 +37746,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Archer/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37765,7 +37765,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Governador Eugênio Barros é feriado municipal em Governador Eugênio Barros/MA em 11/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37784,7 +37784,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Eugênio Barros/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37803,7 +37803,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Governador Eugênio Barros/MA em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37860,7 +37860,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Grajaú é feriado municipal em Grajaú/MA em 29/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37879,7 +37879,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Senhor do Bonfim é feriado municipal em Grajaú/MA em 14/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37917,7 +37917,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Icatu/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37936,7 +37936,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Icatu/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37955,7 +37955,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Icatu é feriado municipal em Icatu/MA em 26/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37974,7 +37974,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Igarapé Grande é feriado municipal em Igarapé Grande/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -37993,7 +37993,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Igarapé Grande/MA em 02/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38012,7 +38012,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Igarapé Grande/MA em 11/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38031,7 +38031,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Imperatriz é feriado municipal em Imperatriz/MA em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38050,7 +38050,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Santa Teresa D'Ávila é feriado municipal em Imperatriz/MA em 15/10, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38069,7 +38069,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Itapecuru Mirim é feriado municipal em Itapecuru Mirim/MA em 21/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38088,7 +38088,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Itapecuru Mirim/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38107,7 +38107,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Itapecuru Mirim/MA em 15/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38126,7 +38126,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Itapecuru Mirim/MA em 30/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38164,7 +38164,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em João Lisboa/MA em 30/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38183,7 +38183,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em João Lisboa/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38202,7 +38202,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em João Lisboa/MA em 22/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38240,7 +38240,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Lima Campos é feriado municipal em Lima Campos/MA em 15/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38259,7 +38259,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Lima Campos/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38278,7 +38278,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Lima Campos/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38297,7 +38297,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Lima Campos/MA em 30/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38316,7 +38316,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Loreto é feriado municipal em Loreto/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38335,7 +38335,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Loreto/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38392,7 +38392,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matinha/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38411,7 +38411,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matinha/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38430,7 +38430,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matões/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38449,7 +38449,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matões/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38468,7 +38468,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Mirador é feriado municipal em Mirador/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38487,7 +38487,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Mirador/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38506,7 +38506,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Mirador/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38525,7 +38525,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Miranda do Norte é feriado municipal em Miranda do Norte/MA em 15/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38544,7 +38544,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Miranda do Norte/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38563,7 +38563,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Miranda do Norte/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38582,7 +38582,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Monção é feriado municipal em Monção/MA em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38601,7 +38601,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monção/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38620,7 +38620,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Montes Altos/MA em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38639,7 +38639,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Montes Altos/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38658,7 +38658,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Montes Altos é feriado municipal em Montes Altos/MA em 22/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38696,7 +38696,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Paço do Lumiar é feriado municipal em Paço do Lumiar/MA em 14/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38715,7 +38715,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Paço do Lumiar/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38734,7 +38734,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Paço do Lumiar/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38753,7 +38753,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Dia de Reis é feriado municipal em Paraibano/MA em 06/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38772,7 +38772,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Paraibano/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38791,7 +38791,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Paraibano/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38810,7 +38810,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Parnarama é feriado municipal em Parnarama/MA em 10/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38829,7 +38829,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Parnarama/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38848,7 +38848,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Parnarama/MA em 27/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38867,7 +38867,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Passagem Franca/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38886,7 +38886,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Passagem Franca é feriado municipal em Passagem Franca/MA em 08/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38905,7 +38905,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Passagem Franca/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38924,7 +38924,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Paulo Ramos é feriado municipal em Paulo Ramos/MA em 20/01, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38943,7 +38943,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Fal. Venâncio G. Rodrigues é feriado municipal em Paulo Ramos/MA em 21/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38962,7 +38962,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Fal. Francisco T. S. Ferreira é feriado municipal em Paulo Ramos/MA em 13/06, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -38981,7 +38981,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Fal. Francisco E. Silva é feriado municipal em Paulo Ramos/MA em 21/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39000,7 +39000,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pedreiras é feriado municipal em Pedreiras/MA em 27/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39019,7 +39019,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Penalva é feriado municipal em Penalva/MA em 10/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39038,7 +39038,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Penalva/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39057,7 +39057,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Peritoró/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39076,7 +39076,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Peritoró é feriado municipal em Peritoró/MA em 22/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39095,7 +39095,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pinheiro/MA em 24/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39114,7 +39114,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pinheiro/MA em 31/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39133,7 +39133,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pinheiro/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39152,7 +39152,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pinheiro é feriado municipal em Pinheiro/MA em 03/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39171,7 +39171,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pio XII/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39190,7 +39190,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pio XII/MA em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39209,7 +39209,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pio XII/MA em 11/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39228,7 +39228,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pio XII é feriado municipal em Pio XII/MA em 19/11, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39247,7 +39247,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Poção de Pedras é feriado municipal em Poção de Pedras/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39266,7 +39266,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Poção de Pedras/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39285,7 +39285,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Poção de Pedras/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39304,7 +39304,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Porto Franco/MA em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39323,7 +39323,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Porto Franco/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39342,7 +39342,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Presidente Dutra/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39361,7 +39361,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Presidente Dutra é feriado municipal em Presidente Dutra/MA em 28/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39380,7 +39380,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Presidente Dutra/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39399,7 +39399,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Riachão é feriado municipal em Riachão/MA em 29/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39418,7 +39418,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Riachão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39437,7 +39437,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Riachão/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39456,7 +39456,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Rosário é feriado municipal em Rosário/MA em 06/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39475,7 +39475,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rosário/MA em 31/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39494,7 +39494,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rosário/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39513,7 +39513,7 @@ const FERIADOS = [
     dia: 18,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Helena/MA em 18/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39532,7 +39532,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Helena/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39551,7 +39551,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Helena é feriado municipal em Santa Helena/MA em 30/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39570,7 +39570,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Inês/MA em 21/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39589,7 +39589,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Inês é feriado municipal em Santa Inês/MA em 14/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39608,7 +39608,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Inês/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39627,7 +39627,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Luzia é feriado municipal em Santa Luzia/MA em 26/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39646,7 +39646,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39665,7 +39665,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39684,7 +39684,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia/MA em 13/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39703,7 +39703,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia do Paruá/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39722,7 +39722,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia do Paruá/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39741,7 +39741,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia do Paruá/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39760,7 +39760,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Luzia do Paruá/MA em 13/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39779,7 +39779,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Quitéria do Maranhão/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39798,7 +39798,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Quitéria do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39817,7 +39817,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Quitéria do Maranhão/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39836,7 +39836,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Rita/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39855,7 +39855,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Rita/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39874,7 +39874,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Rita é feriado municipal em Santa Rita/MA em 02/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39912,7 +39912,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Benedito do Rio Preto/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39931,7 +39931,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Benedito do Rio Preto/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39950,7 +39950,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Bento é feriado municipal em São Bento/MA em 30/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39969,7 +39969,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bento/MA em 16/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -39988,7 +39988,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bento/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40007,7 +40007,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Bernardo é feriado municipal em São Bernardo/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40026,7 +40026,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bernardo/MA em 20/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40045,7 +40045,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bernardo/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40064,7 +40064,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Domingos do Maranhão/MA em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40083,7 +40083,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Domingos do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40102,7 +40102,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Domingos do Maranhão é feriado municipal em São Domingos do Maranhão/MA em 24/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40121,7 +40121,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Francisco do Maranhão é feriado municipal em São Francisco do Maranhão/MA em 10/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40140,7 +40140,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Francisco do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40159,7 +40159,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Francisco do Maranhão/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40178,7 +40178,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São João Batista é feriado municipal em São João Batista/MA em 14/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40197,7 +40197,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "São João Batista é feriado municipal em São João Batista/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40216,7 +40216,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João Batista/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40235,7 +40235,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João Batista/MA em 27/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40254,7 +40254,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em São João do Carú/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40273,7 +40273,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João do Carú/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40292,7 +40292,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São João do Carú é feriado municipal em São João do Carú/MA em 10/11, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40311,7 +40311,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em São João do Paraíso/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40330,7 +40330,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João do Paraíso/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40349,7 +40349,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João do Paraíso/MA em 01/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40368,7 +40368,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São João do Paraíso é feriado municipal em São João do Paraíso/MA em 10/11, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40387,7 +40387,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São João dos Patos é feriado municipal em São João dos Patos/MA em 12/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40406,7 +40406,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em São João dos Patos/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40425,7 +40425,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João dos Patos/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40444,7 +40444,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João dos Patos/MA em 04/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40577,7 +40577,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Luís Gonzaga do Maranhão é feriado municipal em São Luís Gonzaga do Maranhão/MA em 12/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40596,7 +40596,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Luís Gonzaga do Maranhão/MA em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40615,7 +40615,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Luís Gonzaga do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40634,7 +40634,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Mateus do Maranhão/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40653,7 +40653,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Mateus do Maranhão/MA em 21/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40672,7 +40672,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Mateus do Maranhão/MA em 13/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40691,7 +40691,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Mateus do Maranhão é feriado municipal em São Mateus do Maranhão/MA em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40710,7 +40710,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Raimundo das Mangabeiras é feriado municipal em São Raimundo das Mangabeiras/MA em 10/02, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40729,7 +40729,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Raimundo das Mangabeiras/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40748,7 +40748,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Raimundo das Mangabeiras/MA em 30/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40767,7 +40767,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Raimundo das Mangabeiras/MA em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40786,7 +40786,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Vicente Ferrer/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40805,7 +40805,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Vicente Ferrer é feriado municipal em São Vicente Ferrer/MA em 27/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40862,7 +40862,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Sítio Novo/MA em 15/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40881,7 +40881,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Sítio Novo/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40900,7 +40900,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Sítio Novo é feriado municipal em Sítio Novo/MA em 15/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40919,7 +40919,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tasso Fragoso/MA em 16/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40938,7 +40938,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tasso Fragoso/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40957,7 +40957,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Tasso Fragoso é feriado municipal em Tasso Fragoso/MA em 19/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40976,7 +40976,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Timbiras/MA em 22/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -40995,7 +40995,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Timbiras/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41014,7 +41014,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Timbiras/MA em 22/10, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41147,7 +41147,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tuntum/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41166,7 +41166,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tuntum/MA em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41185,7 +41185,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Tuntum é feriado municipal em Tuntum/MA em 12/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41204,7 +41204,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Turiaçu é feriado municipal em Turiaçu/MA em 11/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41223,7 +41223,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Turiaçu/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41242,7 +41242,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Turiaçu/MA em 03/12, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41261,7 +41261,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Tutóia é feriado municipal em Tutóia/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41280,7 +41280,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tutóia/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41299,7 +41299,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tutóia/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41318,7 +41318,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vargem Grande/MA em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41337,7 +41337,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Vargem Grande é feriado municipal em Vargem Grande/MA em 29/03, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41356,7 +41356,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vargem Grande/MA em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41375,7 +41375,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vargem Grande/MA em 22/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41394,7 +41394,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vargem Grande/MA em 31/08, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41413,7 +41413,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Viana é feriado municipal em Viana/MA em 08/07, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41432,7 +41432,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Viana/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41451,7 +41451,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Viana/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41489,7 +41489,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Vitória do Mearim é feriado municipal em Vitória do Mearim/MA em 19/04, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41508,7 +41508,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Vitória do Mearim/MA em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41527,7 +41527,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitória do Mearim/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41546,7 +41546,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitória do Mearim/MA em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41565,7 +41565,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitorino Freire/MA em 13/05, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41584,7 +41584,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitorino Freire/MA em 22/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41603,7 +41603,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitorino Freire/MA em 28/08, achado no agregador calendario.online (calendario.online/feriados-...-ma.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei. 28/08 é o Dia de Santo Agostinho no calendário litúrgico católico — data repetida em dezenas de municípios maranhenses (confirmado por busca que não é artefato do agregador, e sim decreto independente por município; padrão já aprovado com o usuário para padroeiro/santo do dia).",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -41622,7 +41622,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Vitorino Freire é feriado municipal em Vitorino Freire/MA em 25/09, confirmado no agregador calendario.online (calendario.online/feriados-...-ma.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -123968,7 +123968,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Abdon Batista é feriado municipal em Abdon Batista/SC em 26/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -123987,7 +123987,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Abdon Batista/SC em 21/11, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124006,7 +124006,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Abdon Batista/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124082,7 +124082,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Agrolândia é feriado municipal em Agrolândia/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124101,7 +124101,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Agrolândia/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124120,7 +124120,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Agronômica/SC em 26/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124139,7 +124139,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Agronômica/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124158,7 +124158,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Água Doce é feriado municipal em Água Doce/SC em 25/07, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124177,7 +124177,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Água Doce/SC em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124196,7 +124196,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Águas de Chapecó/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124215,7 +124215,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Águas de Chapecó é feriado municipal em Águas de Chapecó/SC em 14/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124234,7 +124234,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Águas Mornas/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124253,7 +124253,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Águas Mornas é feriado municipal em Águas Mornas/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124272,7 +124272,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alfredo Wagner/SC em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124291,7 +124291,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Alfredo Wagner/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124386,7 +124386,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Angelina/SC em 11/02, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124405,7 +124405,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Angelina/SC em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124424,7 +124424,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Angelina/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124443,7 +124443,7 @@ const FERIADOS = [
     dia: 7,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Angelina é feriado municipal em Angelina/SC em 07/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124462,7 +124462,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Angelina/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124500,7 +124500,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Anitápolis/SC em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124519,7 +124519,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Anitápolis/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124538,7 +124538,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Anitápolis/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124557,7 +124557,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Anitápolis é feriado municipal em Anitápolis/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124785,7 +124785,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Arroio Trinta/SC em 12/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124804,7 +124804,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Arroio Trinta é feriado municipal em Arroio Trinta/SC em 15/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124861,7 +124861,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Aurora é feriado municipal em Aurora/SC em 06/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -124880,7 +124880,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Aurora/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125070,7 +125070,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bombinhas/SC em 02/02, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125089,7 +125089,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bombinhas é feriado municipal em Bombinhas/SC em 15/03, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125108,7 +125108,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bom Jardim da Serra/SC em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125127,7 +125127,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Bom Jardim da Serra é feriado municipal em Bom Jardim da Serra/SC em 05/03, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125146,7 +125146,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Bom Jardim da Serra/SC em 27/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125279,7 +125279,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Braço do Trombudo é feriado municipal em Braço do Trombudo/SC em 26/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125298,7 +125298,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Braço do Trombudo/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125355,7 +125355,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Caibi é feriado municipal em Caibi/SC em 06/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125374,7 +125374,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Caibi/SC em 08/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125393,7 +125393,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Caibi/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125754,7 +125754,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Celso Ramos/SC em 25/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125773,7 +125773,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Celso Ramos/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125792,7 +125792,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cerro Negro é feriado municipal em Cerro Negro/SC em 26/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125830,7 +125830,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Cocal do Sul/SC em 08/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -125849,7 +125849,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Cocal do Sul é feriado municipal em Cocal do Sul/SC em 26/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126229,7 +126229,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Erval Velho/SC em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126248,7 +126248,7 @@ const FERIADOS = [
     dia: 18,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Erval Velho é feriado municipal em Erval Velho/SC em 18/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126267,7 +126267,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Faxinal dos Guedes é feriado municipal em Faxinal dos Guedes/SC em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126438,7 +126438,7 @@ const FERIADOS = [
     dia: 7,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Galvão é feriado municipal em Galvão/SC em 07/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126457,7 +126457,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Galvão/SC em 29/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126571,7 +126571,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Gravatal é feriado municipal em Gravatal/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126609,7 +126609,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Guaraciaba/SC em 26/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126628,7 +126628,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Guaraciaba/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126647,7 +126647,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Guaraciaba é feriado municipal em Guaraciaba/SC em 01/10, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126685,7 +126685,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Guarujá do Sul/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126723,7 +126723,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ibicaré/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -126818,7 +126818,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ilhota é feriado municipal em Ilhota/SC em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127008,7 +127008,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ipira/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127027,7 +127027,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ipira é feriado municipal em Ipira/SC em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127046,7 +127046,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ipira/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127065,7 +127065,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Iporã do Oeste é feriado municipal em Iporã do Oeste/SC em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127084,7 +127084,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Iporã do Oeste/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127122,7 +127122,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Iraceminha é feriado municipal em Iraceminha/SC em 26/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127141,7 +127141,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Iraceminha/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127160,7 +127160,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Iraceminha/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127179,7 +127179,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "São João é feriado municipal em Irani/SC em 24/06, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127198,7 +127198,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Irani é feriado municipal em Irani/SC em 11/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127217,7 +127217,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Dia do Caboclo é feriado municipal em Irani/SC em 22/10, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127236,7 +127236,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Irineópolis/SC em 28/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127255,7 +127255,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Irineópolis/SC em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127635,7 +127635,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jaborá/SC em 16/08, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127654,7 +127654,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Jaborá é feriado municipal em Jaborá/SC em 11/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127673,7 +127673,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Jacinto Machado é feriado municipal em Jacinto Machado/SC em 23/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127692,7 +127692,7 @@ const FERIADOS = [
     dia: 3,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Jacinto Machado/SC em 03/10, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127882,7 +127882,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em José Boiteux/SC em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127901,7 +127901,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de José Boiteux é feriado municipal em José Boiteux/SC em 26/04, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -127920,7 +127920,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em José Boiteux/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128034,7 +128034,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Laurentino é feriado municipal em Laurentino/SC em 12/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128148,7 +128148,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Leoberto Leal/SC em 25/07, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128167,7 +128167,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Leoberto Leal/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128186,7 +128186,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Leoberto Leal é feriado municipal em Leoberto Leal/SC em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128262,7 +128262,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Lontras/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128281,7 +128281,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Lontras é feriado municipal em Lontras/SC em 31/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128338,7 +128338,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Gercino/SC em 05/02, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128357,7 +128357,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Gercino/SC em 11/02, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128376,7 +128376,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Gercino/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128395,7 +128395,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Gercino/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128414,7 +128414,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Major Gercino é feriado municipal em Major Gercino/SC em 28/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128433,7 +128433,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Vieira/SC em 19/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128452,7 +128452,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Major Vieira/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128471,7 +128471,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Maracajá é feriado municipal em Maracajá/SC em 12/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128490,7 +128490,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Maracajá/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128509,7 +128509,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Maracajá/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128566,7 +128566,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Marema/SC em 26/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128585,7 +128585,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Marema é feriado municipal em Marema/SC em 11/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128604,7 +128604,7 @@ const FERIADOS = [
     dia: 11,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Massaranduba é feriado municipal em Massaranduba/SC em 11/11, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128623,7 +128623,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Matos Costa é feriado municipal em Matos Costa/SC em 23/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128642,7 +128642,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Matos Costa/SC em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128661,7 +128661,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Matos Costa/SC em 06/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128813,7 +128813,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Monte Castelo é feriado municipal em Monte Castelo/SC em 15/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128832,7 +128832,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monte Castelo/SC em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128851,7 +128851,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Monte Castelo/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128870,7 +128870,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Morro da Fumaça é feriado municipal em Morro da Fumaça/SC em 20/05, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128889,7 +128889,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Morro da Fumaça/SC em 16/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128946,7 +128946,7 @@ const FERIADOS = [
     dia: 13,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Erechim/SC em 13/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128965,7 +128965,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Erechim/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -128984,7 +128984,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Nova Erechim/SC em 25/11, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129003,7 +129003,7 @@ const FERIADOS = [
     dia: 28,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Nova Erechim é feriado municipal em Nova Erechim/SC em 28/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129060,7 +129060,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Nova Veneza é feriado municipal em Nova Veneza/SC em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129117,7 +129117,7 @@ const FERIADOS = [
     dia: 2,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ouro/SC em 02/02, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129136,7 +129136,7 @@ const FERIADOS = [
     dia: 7,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ouro é feriado municipal em Ouro/SC em 07/04, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129193,7 +129193,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palma Sola/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129212,7 +129212,7 @@ const FERIADOS = [
     dia: 27,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Palma Sola/SC em 27/11, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129231,7 +129231,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Palma Sola é feriado municipal em Palma Sola/SC em 30/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129459,7 +129459,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Passos Maia é feriado municipal em Passos Maia/SC em 12/12, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129535,7 +129535,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pedras Grandes/SC em 29/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129554,7 +129554,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pedras Grandes é feriado municipal em Pedras Grandes/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129725,7 +129725,7 @@ const FERIADOS = [
     dia: 6,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Petrolândia/SC em 06/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129744,7 +129744,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Petrolândia é feriado municipal em Petrolândia/SC em 16/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129763,7 +129763,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Petrolândia/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129839,7 +129839,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pinheiro Preto é feriado municipal em Pinheiro Preto/SC em 19/05, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129858,7 +129858,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pinheiro Preto/SC em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129896,7 +129896,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Ponte Alta/SC em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -129915,7 +129915,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Ponte Alta é feriado municipal em Ponte Alta/SC em 20/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130048,7 +130048,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Pouso Redondo é feriado municipal em Pouso Redondo/SC em 23/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130067,7 +130067,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Pouso Redondo/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130086,7 +130086,7 @@ const FERIADOS = [
     dia: 20,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal - São Sebastião é feriado municipal em Praia Grande/SC em 20/01, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130105,7 +130105,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Praia Grande é feriado municipal em Praia Grande/SC em 19/07, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130162,7 +130162,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Presidente Nereu/SC em 15/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130181,7 +130181,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Presidente Nereu/SC em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130219,7 +130219,7 @@ const FERIADOS = [
     dia: 22,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rancho Queimado/SC em 22/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130314,7 +130314,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rio dos Cedros/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130352,7 +130352,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rio Fortuna/SC em 25/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130371,7 +130371,7 @@ const FERIADOS = [
     dia: 21,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Rio Fortuna é feriado municipal em Rio Fortuna/SC em 21/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130390,7 +130390,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Rio Fortuna/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130466,7 +130466,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Riqueza/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130485,7 +130485,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Riqueza é feriado municipal em Riqueza/SC em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130523,7 +130523,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Romelândia/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130542,7 +130542,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Romelândia é feriado municipal em Romelândia/SC em 23/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130561,7 +130561,7 @@ const FERIADOS = [
     dia: 31,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Romelândia/SC em 31/10, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130580,7 +130580,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Romelândia/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130599,7 +130599,7 @@ const FERIADOS = [
     dia: 19,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Salete/SC em 19/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130618,7 +130618,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Salete é feriado municipal em Salete/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130637,7 +130637,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Salto Veloso é feriado municipal em Salto Veloso/SC em 15/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130694,7 +130694,7 @@ const FERIADOS = [
     dia: 10,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Santa Rosa de Lima é feriado municipal em Santa Rosa de Lima/SC em 10/05, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130713,7 +130713,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Rosa de Lima/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130732,7 +130732,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Santa Rosa de Lima/SC em 30/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130865,7 +130865,7 @@ const FERIADOS = [
     dia: 5,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bonifácio/SC em 05/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130884,7 +130884,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Bonifácio/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -130903,7 +130903,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Bonifácio é feriado municipal em São Bonifácio/SC em 29/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131036,7 +131036,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São João do Oeste/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131055,7 +131055,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São João do Oeste é feriado municipal em São João do Oeste/SC em 12/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131207,7 +131207,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São José do Cerrito/SC em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131245,7 +131245,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Ludgero/SC em 26/03, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131264,7 +131264,7 @@ const FERIADOS = [
     dia: 12,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Ludgero é feriado municipal em São Ludgero/SC em 12/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131283,7 +131283,7 @@ const FERIADOS = [
     dia: 14,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de São Martinho é feriado municipal em São Martinho/SC em 14/11, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131302,7 +131302,7 @@ const FERIADOS = [
     dia: 8,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em São Martinho/SC em 08/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131359,7 +131359,7 @@ const FERIADOS = [
     dia: 30,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Saudades é feriado municipal em Saudades/SC em 30/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131416,7 +131416,7 @@ const FERIADOS = [
     dia: 4,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Santa Bárbara é feriado municipal em Siderópolis/SC em 04/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131435,7 +131435,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Emancipação de Siderópolis é feriado municipal em Siderópolis/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131606,7 +131606,7 @@ const FERIADOS = [
     dia: 16,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Timbé do Sul/SC em 16/08, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131625,7 +131625,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Timbé do Sul é feriado municipal em Timbé do Sul/SC em 23/09, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131682,7 +131682,7 @@ const FERIADOS = [
     dia: 23,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Três Barras é feriado municipal em Três Barras/SC em 23/01, achado no agregador calendario.online (calendario.online/feriados-...-sc.html), sem candidato correspondente no dataset comunitário. Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131701,7 +131701,7 @@ const FERIADOS = [
     dia: 24,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Festa de São João é feriado municipal em Três Barras/SC em 24/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131815,7 +131815,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Tunápolis é feriado municipal em Tunápolis/SC em 26/04, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -131834,7 +131834,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Tunápolis/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132005,7 +132005,7 @@ const FERIADOS = [
     dia: 1,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Urupema é feriado municipal em Urupema/SC em 01/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132024,7 +132024,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Urupema/SC em 26/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132081,7 +132081,7 @@ const FERIADOS = [
     dia: 29,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vargeão/SC em 29/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132195,7 +132195,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Vitor Meireles/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132214,7 +132214,7 @@ const FERIADOS = [
     dia: 15,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Aniversário de Witmarsum é feriado municipal em Witmarsum/SC em 15/06, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132233,7 +132233,7 @@ const FERIADOS = [
     dia: 25,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Witmarsum/SC em 25/07, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
@@ -132252,7 +132252,7 @@ const FERIADOS = [
     dia: 26,
     regraCalculo: null,
     autor: "pedro.arthur",
-    dataVerificacao: "2026-09-03",
+    dataVerificacao: "2026-09-04",
     observacao: "Feriado Municipal é feriado municipal em Witmarsum/SC em 26/12, confirmado no agregador calendario.online (calendario.online/feriados-...-sc.html). Data bate exatamente com o candidato do dataset comunitário (fonte independente adicional). Texto original de lei/decreto municipal não lido diretamente — nem sempre o agregador cita a lei.",
     fonte: {
       descricao: "Agregador calendario.online — lista de feriados municipais por cidade, cross-referenciada com data do candidato do dataset comunitário (quando existente)",
