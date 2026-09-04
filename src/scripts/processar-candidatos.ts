@@ -1603,6 +1603,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 17 criados diretamente.
 //
+// CONCLUSÃO DA VARREDURA ALFABÉTICA PURA DE SC — mesma sessão. SC tem colonização
+// alemã/italiana parecida com o RS, então priorizei o estado inteiro (77 municípios sem
+// cobertura, quatro lotes; Antônio Carlos, Benedito Novo, Governador Celso Ramos, Grão-Pará,
+// Piratuba, Presidente Castello Branco e Vidal Ramos já confirmados sem resultado em levas
+// anteriores desta sessão, não revarridos). Taxa de acerto final ~17% (12 de 70 municípios
+// testados) — bem menor que o RS (~33%), mas ainda acima da média das varreduras puras deste
+// bloco (MG, PI, RN, TO). Municípios com resultado: Balneário Barra do Sul, Balneário Rincão,
+// Campo Alegre, Corupá, Ipuaçu, Monte Carlo, Nova Itaberaba, Schroeder, São Cristóvão do Sul,
+// São João do Sul, Treze Tílias.
+//
+// SC AGORA TOTALMENTE ESGOTADO por varredura alfabética.
+//
+// 20 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
