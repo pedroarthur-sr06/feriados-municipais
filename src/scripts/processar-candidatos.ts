@@ -1521,6 +1521,36 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 8 promovidos + 4 criados diretamente.
 //
+// INÍCIO DA VARREDURA ALFABÉTICA PURA (SEM CANDIDATO-GUIA) — mesma sessão. Com o pool nacional
+// de município-com-candidato-pendente esgotado, o usuário pediu para continuar "até o limite,
+// para ter algo bem completo" — mudei para varredura alfabética pura (sem pista prévia do
+// dataset comunitário) nos estados com mais municípios sem cobertura. Taxa de acerto MUITO mais
+// baixa que o método anterior, como esperado (mesmo padrão já visto no fim da BA, leva 5):
+// PI: 0/40 municípios testados (Acauã a Capitão Gervásio Oliveira) — zero resultado, sinal muito
+// forte de que a maioria das cidades pequenas do PI genuinamente não tem feriado municipal
+// documentado no agregador. Pausado — não vale a pena continuar o PI por enquanto.
+// RN: 5/68 municípios testados (~7%) — Campo Grande, Cruzeta, Extremoz, Janduís, Jardim de
+// Piranhas.
+// TO: 2/10 municípios testados (~20%, amostra pequena) — Alvorada, Araguacema.
+// PB: varredura completa dos 129 municípios sem cobertura do estado — taxa de acerto muito mais
+// alta que RN/TO/PI (~25%) graças a um achado forte: 28/08 (Santo Agostinho, mesmo padrão do
+// Maranhão) aparece em pelo menos 20 municípios paraibanos. 27 municípios com resultado:
+// Barra de São Miguel, Bom Sucesso, Cachoeira dos Índios, Camalaú, Catingueira, Congo, Diamante,
+// Emas, Frei Martinho, Ibiara, Imaculada, Juripiranga, Juru, Lagoa, Lastro, Livramento,
+// Mataraca, Montadas, Monte Horebe, Nova Floresta, Nova Olinda, Ouro Velho, Pedra Branca, Pedra
+// Lavrada, Pilõezinhos, Pitimbu, Quixaba, Salgadinho, Santa Helena, Santa Teresinha, Santana de
+// Mangueira, Serra Grande, São José de Caiana, São José do Sabugi, São José dos Cordeiros, São
+// João do Tigre, São Sebastião do Umbuzeiro, Várzea.
+//
+// Como não há candidato prévio para nenhum destes municípios (a varredura é alfabética pura,
+// não filtrada por candidato pendente), todas as promoções desta leva em diante são
+// criar_direto — não há candidatoId para casar. Mesmos critérios já estabelecidos mantidos:
+// sempre priorizar a data formalmente listada na tabela do agregador quando o texto introdutório
+// cita uma data extra ambígua; filtrar automaticamente coincidências com feriados nacionais/
+// estaduais.
+//
+// 65 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
