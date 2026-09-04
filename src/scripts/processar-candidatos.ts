@@ -1577,6 +1577,17 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 47 criados diretamente.
 //
+// RETOMADA E CONCLUSÃO DA VARREDURA ALFABÉTICA PURA DA BAHIA — mesma sessão. A leva 5 (fim da
+// sessão anterior) tinha parado em "Itaguaçu da Bahia" com rendimento baixo (~3%). Retomei
+// exatamente daí e terminei o restante dos 78 municípios sem cobertura do estado (de Itamari a
+// Érico Cardoso, três lotes). Taxa de acerto final ~11% (5 de 44 municípios testados nesta
+// retomada) — confirma que a BA está com o pool alfabético genuinamente esgotado: os
+// municípios sem candidato prévio e sem cobertura na BA majoritariamente não têm mesmo feriado
+// municipal documentado no agregador. Municípios com resultado: Itatim, Paratinga, Quixabeira,
+// Rafael Jambeiro, São Gabriel.
+//
+// 15 criados diretamente. BAHIA ESGOTADA (varredura alfabética completa, ambas as fases).
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
