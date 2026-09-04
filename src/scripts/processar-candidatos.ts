@@ -1653,6 +1653,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 9 criados diretamente.
 //
+// VARREDURA ALFABÉTICA PURA DO PARÁ (PA) — mesma sessão. Estado inteiro (60 municípios sem
+// cobertura, quatro lotes; Ulianópolis já confirmado sem resultado em leva anterior, não
+// revarrido). Taxa de acerto ~19% (11 de 59 municípios testados). Confirma de novo o padrão de
+// 08/12 (Nossa Senhora da Conceição) como feriado ESTADUAL pleno do PA (já descoberto em leva
+// anterior) — Abaetetuba, Nova Ipixuna, Tailândia e Tracuateua tinham 08/12 no agregador,
+// todos filtrados automaticamente. Nova Ipixuna também tinha 20/11 (Consciência Negra), também
+// filtrado por já ser nacional. Municípios com resultado: Abaetetuba, Aurora do Pará, Eldorado
+// do Carajás, Goianésia do Pará, Gurupá, Nova Ipixuna, Prainha, São Sebastião da Boa Vista,
+// Tailândia, Tracuateua, Trairão, Água Azul do Norte.
+//
+// PA AGORA TOTALMENTE ESGOTADO por varredura alfabética.
+//
+// 21 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
