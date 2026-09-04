@@ -1563,6 +1563,20 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 43 criados diretamente.
 //
+// CONCLUSÃO DA VARREDURA ALFABÉTICA PURA DO RS — mesma sessão. Terminei o restante dos 115
+// municípios do RS ainda sem cobertura (de Garruchos a Vitória das Missões, quatro lotes),
+// esgotando o estado inteiro por varredura alfabética pura. Taxa de acerto final ~30-33% —
+// bem acima de MG/PI/PB/RN/TO, confirmando que o RS é o estado com melhor retorno para este
+// método (colonização alemã/italiana produz muitos "Dia do Colono", santo padroeiro e
+// "Feriado Municipal" genérico documentados por município, mesmo em cidades minúsculas).
+// Municípios com resultado nesta conclusão: Garruchos, Gentil, Itacurubi, Jaboticaba, Jari,
+// Linha Nova, Maratá, Mariana Pimentel, Novo Tiradentes, Passa Sete, Pinhal, Pontão, Quevedos,
+// Riozinho, Santo Antônio do Planalto, Sentinela do Sul, São Martinho da Serra, Taquaruçu do
+// Sul, Tiradentes do Sul, Tunas, Ubiretama, Vale Real, Vista Alegre do Prata, Vitória das
+// Missões.
+//
+// 47 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
