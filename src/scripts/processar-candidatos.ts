@@ -1617,6 +1617,21 @@ type Decisao = DecisaoPromover | DecisaoRejeitar | DecisaoCriarDireto;
 //
 // 20 criados diretamente.
 //
+// CONCLUSÃO DA VARREDURA ALFABÉTICA PURA DO MARANHÃO — mesma sessão. MA já tinha o padrão
+// forte de 28/08 (Santo Agostinho) confirmado nas levas candidato-guiadas anteriores, então
+// varri o restante dos 99 municípios sem cobertura do estado inteiro (cinco lotes). Taxa de
+// acerto ~15% (15 de 99 municípios testados), puxada quase toda pelo 28/08, que se confirma
+// como o padrão mais forte e consistente de toda a fase de varredura alfabética pura desta
+// sessão (já visto também em PB e agora reforçado no MA). Pastos Bons tinha 28/07 no
+// agregador, mas essa data já é o próprio feriado ESTADUAL do MA (Adesão à Independência),
+// filtrado automaticamente. Municípios com resultado: Anajatuba, Apicum-Açu, Axixá, Cajari,
+// Fortuna, Godofredo Viana, Guimarães, Lago Verde, Mata Roma, Mirinzal, Pastos Bons,
+// Pindaré-Mirim, Presidente Sarney, Urbano Santos.
+//
+// MA AGORA TOTALMENTE ESGOTADO por varredura alfabética.
+//
+// 24 criados diretamente.
+//
 const DECISOES2: Decisao[] = [
 ];
 // INÍCIO DO RIO GRANDE DO SUL (RS) — mesma sessão. Terceiro grande achado de documento-jackpot,
