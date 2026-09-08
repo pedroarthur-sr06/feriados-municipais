@@ -1,5 +1,8 @@
+<%
+  const atual = typeof paginaAtual !== "undefined" ? paginaAtual : "";
+%>
 <nav class="nav-principal">
-  <a href="/">Consulta</a>
-  <a href="/lote">Operação em lote</a>
-  <a href="/admin">Administração</a>
+  <a href="/" class="<%= atual === 'consulta' ? 'ativo' : '' %>">Consulta</a>
+  <a href="/lote" class="<%= atual === 'lote' ? 'ativo' : '' %>">Operação em lote</a>
+  <a href="/admin" class="<%= atual === 'administracao' ? 'ativo' : '' %>">Administração</a>
 </nav>

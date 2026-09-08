@@ -21,7 +21,10 @@
                 const qtd = celula.resultado ? celula.resultado.ocorrencias.length : 0;
                 const titulo = qtd > 0 ? celula.resultado.ocorrencias.map(function(o){ return o.nome; }).join(" + ") : "";
               %>
-              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
+              <%
+                const destacado = typeof dataDestaque !== "undefined" && celula.data === dataDestaque;
+              %>
+              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %><%= destacado ? ' dia-consultado' : '' %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
                 <%= celula.dia %>
                 <% if (qtd > 1) { %><span class="marcador-multiplo">+<%= qtd %></span><% } %>
               </td>

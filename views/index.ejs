@@ -3,7 +3,7 @@
   <header class="topo">
     <h1>Feriados Municipais</h1>
     <p class="subtitulo">No dia X, no município Y/UF, houve feriado ou ponto facultativo? Sempre com a fonte.</p>
-    <%- include('partials/nav') %>
+    <%- include('partials/nav', { paginaAtual: 'consulta' }) %>
   </header>
 
   <main>
@@ -50,7 +50,15 @@
     </form>
 
     <section id="resultado" aria-live="polite">
-      <p class="dica">Busque um município e escolha uma data para começar.</p>
+      <div class="estado-vazio">
+        <svg aria-hidden="true" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        <p class="dica">Busque um município e escolha uma data para começar.</p>
+      </div>
     </section>
   </main>
 

@@ -39,7 +39,7 @@
   <header class="topo">
     <h1><%= feriado ? "Editar feriado" : "Novo feriado curado" %></h1>
     <p class="subtitulo">Toda fonte precisa ser primária (lei, decreto, Diário Oficial) — nunca um blog agregador.</p>
-    <%- include('partials/nav') %>
+    <%- include('partials/nav', { paginaAtual: 'administracao' }) %>
   </header>
 
   <main>

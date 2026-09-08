@@ -6,7 +6,7 @@
 
 <%- include('partials/legenda') %>
 
-<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas }) %>
+<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas, dataDestaque: resultado.data }) %>
 
 <% if (resultado.ocorrencias.length === 0) { %>
   <p class="sem-ocorrencias">
