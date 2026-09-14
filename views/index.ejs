@@ -74,27 +74,30 @@
         </form>
 
         <section id="resultado" aria-live="polite">
-          <div class="estado-base">
-            <p class="estado-base-frase">
-              Nenhum feriado entra nesta base sem a norma que o cria. Onde ninguém
-              conferiu ainda, a resposta é <strong>não verificado</strong> — nunca
-              <span class="riscado">dia útil</span>.
+          <div class="apresentacao">
+            <p class="apresentacao-abertura">
+              Feriado municipal não tem lista nacional: cada cidade cria o seu por lei
+              própria. Aqui a resposta vem com a norma que a sustenta.
             </p>
-            <div class="estado-base-numeros">
-              <div class="base-item">
-                <span class="base-valor"><%= base.feriados.toLocaleString('pt-BR') %></span>
-                <span class="base-rotulo">feriados com fonte citada</span>
-              </div>
-              <div class="base-item">
-                <span class="base-valor"><%= base.municipiosCurados.toLocaleString('pt-BR') %></span>
-                <span class="base-rotulo">municípios conferidos, de <%= base.municipiosTotal.toLocaleString('pt-BR') %></span>
-              </div>
-              <div class="base-item">
-                <span class="base-valor lacuna"><%= base.municipiosSemCuradoria.toLocaleString('pt-BR') %></span>
-                <span class="base-rotulo">ainda sem curadoria municipal</span>
-              </div>
-            </div>
-            <p class="estado-base-rodape">Busque um município e escolha uma data para começar.</p>
+            <ul class="apresentacao-itens">
+              <li>
+                <strong>A norma junto da resposta.</strong>
+                Lei, decreto ou Diário Oficial citado em cada feriado, com quem conferiu
+                e em que data — pronto para anexar ao fechamento.
+              </li>
+              <li>
+                <strong>Feriado e ponto facultativo não são a mesma coisa.</strong>
+                Carnaval e Corpus Christi entram como ponto facultativo, que vincula só
+                quem decretou. É a distinção que muda a folha e que as listas públicas
+                costumam tratar como feriado pleno.
+              </li>
+              <li>
+                <strong>As três camadas aparecem juntas.</strong>
+                Nacional, estadual e municipal convivem no mesmo dia quando coincidem —
+                nenhuma esconde a outra, e o cálculo vale para anos passados e futuros.
+              </li>
+            </ul>
+            <p class="apresentacao-acao">Busque um município e escolha uma data para começar.</p>
           </div>
         </section>
       </main>

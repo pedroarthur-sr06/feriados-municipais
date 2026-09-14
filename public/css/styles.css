@@ -722,24 +722,30 @@ footer.rodape {
 }
 footer.rodape p { margin: 0; max-width: 90ch; }
 
-/* ===== Estado da base: o que existe e, sobretudo, o que falta ==========
-   Números vindos do banco, nunca escritos na view. Se a curadoria avança,
-   a frase avança junto — e a lacuna continua dita em voz alta. */
+/* ===== Apresentação: o que a ferramenta garante =========================
+   O estado inicial afirma o método, não mede a base. Contagem de cobertura
+   na abertura promete um rigor que a curadoria por agregador não tem — e a
+   ressalva de "não verificado" tem lugar certo: dentro da resposta. */
 
-.estado-base { margin-top: 22px; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--superficie); }
-.estado-base-frase {
-  margin: 0; padding: 22px 24px 18px;
-  font-size: 19px; font-weight: 500; line-height: 1.42; letter-spacing: -0.015em;
-  color: var(--texto); max-width: 46ch;
+.apresentacao { margin-top: 24px; max-width: 760px; }
+.apresentacao-abertura {
+  margin: 0 0 22px;
+  font-size: 21px; font-weight: 500; line-height: 1.42; letter-spacing: -0.02em;
+  color: var(--texto); max-width: 34em;
 }
-.estado-base-numeros { display: flex; flex-wrap: wrap; gap: 1px; background: var(--linha); border-top: 1px solid var(--linha); }
-.base-item { flex: 1 1 150px; background: var(--superficie); padding: 14px 24px 16px; }
-.base-valor { display: block; font-size: 23px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.2; }
-.base-valor.lacuna { color: var(--nao-verificado); }
-.base-rotulo { display: block; margin-top: 2px; font-size: 12.5px; color: var(--texto-suave); }
-.riscado { text-decoration: line-through; text-decoration-thickness: 1.5px; color: var(--texto-fraco); }
-.estado-base-frase strong { font-weight: 600; color: var(--nao-verificado); }
-.estado-base-rodape { margin: 0; padding: 14px 24px 16px; border-top: 1px solid var(--linha); font-size: 13px; color: var(--texto-suave); }
+.apresentacao-itens {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 1px;
+  background: var(--linha); border: 1px solid var(--linha); border-radius: var(--raio);
+  overflow: hidden;
+}
+.apresentacao-itens li {
+  background: var(--superficie);
+  padding: 16px 20px;
+  font-size: 14.5px; line-height: 1.6; color: var(--texto-suave);
+}
+.apresentacao-itens strong { display: block; font-weight: 600; color: var(--texto); margin-bottom: 2px; }
+.apresentacao-acao { margin: 18px 0 0; font-size: 13.5px; color: var(--texto-fraco); }
 
 /* ===== Veredito: a resposta em palavras ==================================
    O trabalho do usuário é "houve feriado neste dia, e com que fonte?". A

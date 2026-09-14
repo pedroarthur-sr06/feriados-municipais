@@ -41,10 +41,14 @@ que sustenta → o mês como contexto**.
 5. **Ausência de prova é conteúdo.** Em município não verificado não existe
    bloco de prova para mostrar — e a tela deixa isso visível em vez de
    preencher o espaço.
-6. **Número na tela vem do banco, nunca da mão.** O estado inicial da Consulta
-   diz o tamanho da base e o tamanho da lacuna (`estatisticas-service.ts`,
-   cache de 5 min). Se a curadoria avança, a frase avança junto — e a lacuna
-   continua dita em voz alta, em vermelho, do lado dos números bons.
+6. **A abertura afirma o método; a ressalva mora na resposta.** O estado
+   inicial da Consulta diz o que a ferramenta garante — norma citada, feriado
+   distinguido de ponto facultativo, camadas convivendo. Não há contador de
+   cobertura ali: medir a base na abertura promete um rigor que a curadoria
+   por agregador não tem, e abrir pela lacuna descredibiliza a ferramenta
+   antes de ela responder qualquer coisa. O "não verificado" continua
+   intacto onde é obrigatório — no veredito daquela consulta específica,
+   junto da frase que proíbe tratar o dia como útil.
 
 ### Tipografia
 
