@@ -11,6 +11,7 @@ import {
   consultarPeriodoPorMunicipio,
   type DataYmd,
 } from "../services/feriados-service.js";
+import { estatisticasDaBase } from "../services/estatisticas-service.js";
 import { montarGradeCalendario } from "../web/calendario.js";
 import type { ResultadoConsultaDia } from "../motor/resolver.js";
 
@@ -42,7 +43,7 @@ const CACHE_CURTO = "private, max-age=120";
 
 export default async function rotasWeb(app: FastifyInstance) {
   app.get("/", async (_req, reply) => {
-    return reply.view("index.ejs", { titulo: "Feriados Municipais" });
+    return reply.view("index.ejs", { titulo: "Feriados Municipais", base: estatisticasDaBase() });
   });
 
   app.get("/municipios/busca", async (req, reply) => {

@@ -41,18 +41,35 @@ que sustenta → o mês como contexto**.
 5. **Ausência de prova é conteúdo.** Em município não verificado não existe
    bloco de prova para mostrar — e a tela deixa isso visível em vez de
    preencher o espaço.
+6. **Número na tela vem do banco, nunca da mão.** O estado inicial da Consulta
+   diz o tamanho da base e o tamanho da lacuna (`estatisticas-service.ts`,
+   cache de 5 min). Se a curadoria avança, a frase avança junto — e a lacuna
+   continua dita em voz alta, em vermelho, do lado dos números bons.
 
 ### Tipografia
 
-| Papel | Família | Por quê |
-|---|---|---|
-| Veredito, nomes de norma, títulos | **Spectral** 500/600 | Serifa de baixo contraste feita para tela. O conteúdo *é* texto de lei, então a lei recebe a face literária |
-| Interface: rótulos, tabelas, navegação | **Archivo** 400/500/600 | Grotesca de formulário, sólida em corpo pequeno |
-| Código | mono do sistema | Só onde o conteúdo é literalmente código (`pascoa+60`, caminho de arquivo) |
+**Geist**, família única, usada com convicção — e **Geist Mono** só para código.
+
+Geist é a grotesca geométrica desenhada para ferramenta de desenvolvedor: é o
+que dá o ar técnico e atual que a ferramenta pede, sem cair em Inter, Roboto ou
+Space Grotesk, que aparecem em qualquer página gerada. A distinção entre
+veredito, título e corpo vem de **escala e peso**, não de trocar de tipo:
+
+| Papel | Tamanho / peso |
+|---|---|
+| Veredito | 44px / 600, tracking −0.035em |
+| Título de página | 30px / 600, tracking −0.03em |
+| Nome de norma | 20px / 600, tracking −0.02em |
+| Corpo das provas | 14.5px / 400, entrelinha 1.62 |
+| Rótulos de interface | 12.5px / 600 |
+
+O tracking negativo nos corpos grandes é o que faz uma grotesca parecer atual;
+sem ele, Geist fica genérica.
 
 **Não há monoespaçada para dados.** O problema real era alinhar números em
 coluna, e `font-variant-numeric: tabular-nums` no `body` resolve isso sem a
-fantasia de editor de código.
+fantasia de editor de código. Geist Mono aparece só onde o conteúdo é
+literalmente código (`pascoa+60`, caminho de arquivo).
 
 ### Paleta
 

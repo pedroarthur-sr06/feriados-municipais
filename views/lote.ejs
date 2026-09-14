@@ -7,7 +7,7 @@
       <header class="pagina-topo">
         <div class="pagina-topo-texto">
           <h1>Operação em lote</h1>
-          <p class="subtitulo">Envie uma planilha com postos e datas e baixe de volta com a classificação preenchida.</p>
+          <p class="subtitulo">Conferir 400 datas uma a uma no Google leva a tarde. Aqui leva um upload: cada linha da sua planilha volta classificada, com a fonte legal e o aviso de município não conferido.</p>
         </div>
       </header>
 
@@ -35,7 +35,7 @@
                   <span class="dica" x-show="!nomeArquivo">.csv ou .xlsx</span>
                 </span>
               </div>
-              <p class="ajuda-campo">Limite: 20.000 linhas / 10&nbsp;MB por envio.</p>
+              <p class="ajuda-campo">Até 20.000 linhas por envio. O arquivo volta no mesmo formato que entrou, com cinco colunas a mais.</p>
             </div>
 
             <button type="submit" class="botao-primario">
@@ -48,15 +48,15 @@
           </form>
 
           <section class="cartao cartao-discreto">
-            <h2 class="cartao-titulo">Formato esperado</h2>
-            <p>CSV ou XLSX com as colunas:</p>
+            <h2 class="cartao-titulo">O que entra e o que volta</h2>
+            <p>Uma linha por posto e data. CSV ou XLSX com as colunas:</p>
             <ul class="lista-colunas">
               <li><code>posto</code></li>
               <li><code>municipio</code></li>
               <li><code>uf</code></li>
               <li><code>data</code> <span class="dica">AAAA-MM-DD ou DD/MM/AAAA</span></li>
             </ul>
-            <p>O arquivo baixado volta com as mesmas colunas mais:</p>
+            <p>O mesmo arquivo desce de volta com estas cinco a mais:</p>
             <ul class="lista-colunas">
               <li><code>classificacao</code></li>
               <li><code>tipos</code></li>
