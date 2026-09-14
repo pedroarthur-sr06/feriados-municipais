@@ -7,24 +7,23 @@
   <table class="calendario">
     <thead>
       <tr>
-        <% NOMES_DIA_SEMANA.forEach(function (n) { %><th scope="col"><%= n %></th><% }); %>
+        <% NOMES_DIA_SEMANA.forEach(function (n, i) { %><th scope="col" class="<%= (i === 0 || i === 6) ? 'fim-de-semana' : '' %>"><%= n %></th><% }); %>
       </tr>
     </thead>
     <tbody>
       <% semanas.forEach(function (semana) { %>
         <tr>
-          <% semana.forEach(function (celula) { %>
+          <% semana.forEach(function (celula, i) { %>
+            <% const fds = (i === 0 || i === 6) ? ' fim-de-semana' : ''; %>
             <% if (celula.dia === null) { %>
-              <td class="vazia"></td>
+              <td class="vazia<%= fds %>"></td>
             <% } else { %>
               <%
                 const qtd = celula.resultado ? celula.resultado.ocorrencias.length : 0;
                 const titulo = qtd > 0 ? celula.resultado.ocorrencias.map(function(o){ return o.nome; }).join(" + ") : "";
-              %>
-              <%
                 const destacado = typeof dataDestaque !== "undefined" && celula.data === dataDestaque;
               %>
-              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %><%= destacado ? ' dia-consultado' : '' %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
+              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %><%= destacado ? ' dia-consultado' : '' %><%= fds %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
                 <%= celula.dia %>
                 <% if (qtd > 1) { %><span class="marcador-multiplo">+<%= qtd %></span><% } %>
               </td>

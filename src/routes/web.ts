@@ -50,7 +50,9 @@ export default async function rotasWeb(app: FastifyInstance) {
     const termo = query.municipioTexto ?? "";
     const municipios = buscarMunicipios(termo, 10);
     reply.header("Cache-Control", CACHE_CURTO);
-    return reply.view("partials/municipios-lista.ejs", { municipios });
+    // `termo` vai junto só para a view decidir se mostra "nenhum encontrado":
+    // o hx-trigger inclui `focus`, então o campo vazio também chega aqui.
+    return reply.view("partials/municipios-lista.ejs", { municipios, termo });
   });
 
   app.get("/consulta", async (req, reply) => {

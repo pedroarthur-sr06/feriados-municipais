@@ -1,8 +1,21 @@
-<h2><%= municipio.nome %>/<%= municipio.uf %> — <%= dataInicioTexto %> a <%= dataFimTexto %></h2>
+<div class="resultado-topo">
+  <h2><%= municipio.nome %>/<%= municipio.uf %></h2>
+  <span class="resultado-data"><%= dataInicioTexto %> → <%= dataFimTexto %></span>
+</div>
 
 <div class="exportar-links">
-  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">⬇ Exportar CSV</a>
-  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">⬇ Exportar PDF</a>
+  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">
+    <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 4v12M7 12l5 5 5-5M5 20h14"></path>
+    </svg>
+    Exportar CSV
+  </a>
+  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">
+    <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 4v12M7 12l5 5 5-5M5 20h14"></path>
+    </svg>
+    Exportar PDF
+  </a>
 </div>
 
 <%- include('partials/aviso-nao-verificado', { statusMunicipal: statusMunicipal }) %>
@@ -16,7 +29,8 @@
 </div>
 
 <p class="resumo-periodo">
-  <strong><%= diasComOcorrencia.length %></strong> dia(s) não útil(eis) classificado(s) em <%= dias.length %> dia(s) do período.
+  <strong><%= diasComOcorrencia.length %></strong> dia(s) não útil(eis) classificado(s) em
+  <strong><%= dias.length %></strong> dia(s) do período.
 </p>
 
 <% if (diasComOcorrencia.length === 0) { %>

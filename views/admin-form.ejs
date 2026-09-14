@@ -36,148 +36,189 @@
 %>
 <%- include('partials/head', { titulo: typeof titulo !== "undefined" ? titulo : "Feriado — Administração" }) %>
 <body>
-  <header class="topo">
-    <h1><%= feriado ? "Editar feriado" : "Novo feriado curado" %></h1>
-    <p class="subtitulo">Toda fonte precisa ser primária (lei, decreto, Diário Oficial) — nunca um blog agregador.</p>
+  <div class="app">
     <%- include('partials/nav', { paginaAtual: 'administracao' }) %>
-  </header>
 
-  <main>
-    <p><a class="botao-link" href="/admin">← voltar</a></p>
-
-    <% if (typeof erro !== "undefined" && erro) { %>
-      <div class="erro" role="alert" style="margin-bottom: 1rem;"><%= erro %></div>
-    <% } %>
-
-    <form method="post" action="<%= acaoForm %>" class="formulario-admin" x-data="{ abrangencia: '<%= v.abrangencia %>', modoData: '<%= v.modoData %>' }">
-      <div class="campo">
-        <label for="nome">Nome do feriado</label>
-        <input type="text" id="nome" name="nome" value="<%= v.nome %>" required />
-      </div>
-
-      <div class="linha-campos">
-        <div class="campo">
-          <label for="tipoChave">Tipo</label>
-          <select id="tipoChave" name="tipoChave" required>
-            <option value="estadual" <%= v.tipoChave === "estadual" ? "selected" : "" %>>Estadual</option>
-            <option value="municipal" <%= v.tipoChave === "municipal" ? "selected" : "" %>>Municipal</option>
-            <option value="ponto_facultativo" <%= v.tipoChave === "ponto_facultativo" ? "selected" : "" %>>Ponto facultativo</option>
-          </select>
+    <div class="area">
+      <header class="pagina-topo">
+        <div class="pagina-topo-texto">
+          <a class="voltar" href="/admin">
+            <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H6M12 6l-6 6 6 6"></path>
+            </svg>
+            Administração
+          </a>
+          <h1><%= feriado ? "Editar feriado" : "Novo feriado curado" %></h1>
+          <p class="subtitulo">Toda fonte precisa ser primária (lei, decreto, Diário Oficial) — nunca um blog agregador.</p>
         </div>
-        <div class="campo">
-          <label for="uf">UF</label>
-          <select id="uf" name="uf" required>
-            <option value="">—</option>
-            <% ufs.forEach(function (uf) { %>
-              <option value="<%= uf %>" <%= v.uf === uf ? "selected" : "" %>><%= uf %></option>
-            <% }); %>
-          </select>
-        </div>
-      </div>
+      </header>
 
-      <fieldset>
-        <legend>Abrangência</legend>
-        <div class="opcoes-modo">
-          <label><input type="radio" name="abrangencia" value="uf" x-model="abrangencia" <%= v.abrangencia === "uf" ? "checked" : "" %> /> Estado inteiro (UF)</label>
-          <label><input type="radio" name="abrangencia" value="municipio" x-model="abrangencia" <%= v.abrangencia === "municipio" ? "checked" : "" %> /> Um município específico</label>
-        </div>
-        <div class="campo" x-show="abrangencia === 'municipio'" x-cloak>
-          <label for="municipio-busca">Município</label>
-          <input type="text" id="municipio-busca" autocomplete="off" placeholder="Digite o nome do município..."
-                 value="<%= v.municipioNome %>"
-                 hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
-                 hx-target="#lista-municipios" hx-swap="innerHTML" />
-          <input type="hidden" id="codigoIbge" name="codigoIbge" value="<%= v.codigoIbge %>" />
-          <div id="lista-municipios" class="lista-sugestoes"></div>
-          <p class="ajuda-campo">A UF do município selecionado precisa bater com a UF escolhida acima.</p>
-        </div>
-      </fieldset>
+      <main>
+        <% if (typeof erro !== "undefined" && erro) { %>
+          <div class="erro" role="alert"><%= erro %></div>
+        <% } %>
 
-      <fieldset>
-        <legend>Data</legend>
-        <div class="opcoes-modo">
-          <label><input type="radio" name="modoData" value="fixa" x-model="modoData" <%= v.modoData === "fixa" ? "checked" : "" %> /> Data fixa</label>
-          <label><input type="radio" name="modoData" value="regra" x-model="modoData" <%= v.modoData === "regra" ? "checked" : "" %> /> Regra baseada na Páscoa</label>
-        </div>
-        <div class="linha-campos" x-show="modoData === 'fixa'" x-cloak>
-          <div class="campo">
-            <label for="dia">Dia</label>
-            <input type="number" id="dia" name="dia" min="1" max="31" value="<%= v.dia %>" />
+        <form method="post" action="<%= acaoForm %>" class="formulario-admin"
+              x-data="{ abrangencia: '<%= v.abrangencia %>', modoData: '<%= v.modoData %>' }">
+          <section class="cartao">
+            <h2 class="cartao-titulo">Identificação</h2>
+            <div class="campo">
+              <label for="nome">Nome do feriado</label>
+              <input type="text" id="nome" name="nome" value="<%= v.nome %>" required />
+            </div>
+
+            <div class="linha-campos">
+              <div class="campo">
+                <label for="tipoChave">Tipo</label>
+                <select id="tipoChave" name="tipoChave" required>
+                  <option value="estadual" <%= v.tipoChave === "estadual" ? "selected" : "" %>>Estadual</option>
+                  <option value="municipal" <%= v.tipoChave === "municipal" ? "selected" : "" %>>Municipal</option>
+                  <option value="ponto_facultativo" <%= v.tipoChave === "ponto_facultativo" ? "selected" : "" %>>Ponto facultativo</option>
+                </select>
+              </div>
+              <div class="campo">
+                <label for="uf">UF</label>
+                <select id="uf" name="uf" required>
+                  <option value="">—</option>
+                  <% ufs.forEach(function (uf) { %>
+                    <option value="<%= uf %>" <%= v.uf === uf ? "selected" : "" %>><%= uf %></option>
+                  <% }); %>
+                </select>
+              </div>
+            </div>
+
+            <div class="campo">
+              <span class="rotulo">Abrangência</span>
+              <div class="segmentos" role="group" aria-label="Abrangência">
+                <label class="segmento">
+                  <input type="radio" name="abrangencia" value="uf" x-model="abrangencia" <%= v.abrangencia === "uf" ? "checked" : "" %> />
+                  <span>Estado inteiro (UF)</span>
+                </label>
+                <label class="segmento">
+                  <input type="radio" name="abrangencia" value="municipio" x-model="abrangencia" <%= v.abrangencia === "municipio" ? "checked" : "" %> />
+                  <span>Um município específico</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="campo" x-show="abrangencia === 'municipio'" x-cloak>
+              <label for="municipio-busca">Município</label>
+              <div class="entrada-com-icone">
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <path d="m20 20-3.6-3.6"></path>
+                </svg>
+                <input type="text" id="municipio-busca" autocomplete="off" placeholder="Digite o nome do município..."
+                       value="<%= v.municipioNome %>"
+                       hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
+                       hx-target="#lista-municipios" hx-swap="innerHTML" />
+              </div>
+              <input type="hidden" id="codigoIbge" name="codigoIbge" value="<%= v.codigoIbge %>" />
+              <div id="lista-municipios" class="lista-sugestoes"></div>
+              <p class="ajuda-campo">A UF do município selecionado precisa bater com a UF escolhida acima.</p>
+            </div>
+          </section>
+
+          <section class="cartao">
+            <h2 class="cartao-titulo">Data</h2>
+            <div class="campo">
+              <div class="segmentos" role="group" aria-label="Modo de data">
+                <label class="segmento">
+                  <input type="radio" name="modoData" value="fixa" x-model="modoData" <%= v.modoData === "fixa" ? "checked" : "" %> />
+                  <span>Data fixa</span>
+                </label>
+                <label class="segmento">
+                  <input type="radio" name="modoData" value="regra" x-model="modoData" <%= v.modoData === "regra" ? "checked" : "" %> />
+                  <span>Regra baseada na Páscoa</span>
+                </label>
+              </div>
+            </div>
+            <div class="linha-campos" x-show="modoData === 'fixa'" x-cloak>
+              <div class="campo">
+                <label for="dia">Dia</label>
+                <input type="number" id="dia" name="dia" min="1" max="31" value="<%= v.dia %>" />
+              </div>
+              <div class="campo">
+                <label for="mes">Mês</label>
+                <input type="number" id="mes" name="mes" min="1" max="12" value="<%= v.mes %>" />
+              </div>
+            </div>
+            <div class="campo" x-show="modoData === 'regra'" x-cloak>
+              <label for="regraCalculo">Regra</label>
+              <input type="text" id="regraCalculo" name="regraCalculo" value="<%= v.regraCalculo %>" placeholder="pascoa+60" />
+              <p class="ajuda-campo">Ex.: <code>pascoa</code>, <code>pascoa+60</code> (Corpus Christi), <code>pascoa-47</code> (Carnaval).</p>
+            </div>
+
+            <div class="linha-campos">
+              <div class="campo">
+                <label for="anoInicio">Válido a partir do ano</label>
+                <input type="number" id="anoInicio" name="anoInicio" value="<%= v.anoInicio %>" placeholder="opcional" />
+              </div>
+              <div class="campo">
+                <label for="anoFim">Válido até o ano</label>
+                <input type="number" id="anoFim" name="anoFim" value="<%= v.anoFim %>" placeholder="opcional" />
+              </div>
+            </div>
+          </section>
+
+          <section class="cartao cartao-destaque">
+            <h2 class="cartao-titulo">
+              Fonte
+              <span class="chip chip-obrigatorio">obrigatória — sempre primária</span>
+            </h2>
+            <div class="campo">
+              <label for="fonteDescricao">Descrição da fonte</label>
+              <textarea id="fonteDescricao" name="fonteDescricao" required placeholder="Ex.: Lei Municipal nº 123, de 01/01/2000, art. 1º"><%= v.fonteDescricao %></textarea>
+            </div>
+            <div class="linha-campos">
+              <div class="campo">
+                <label for="fonteTipo">Tipo de fonte</label>
+                <select id="fonteTipo" name="fonteTipo" required>
+                  <% tiposFonte.forEach(function (t) { %>
+                    <option value="<%= t %>" <%= v.fonteTipo === t ? "selected" : "" %>><%= t %></option>
+                  <% }); %>
+                </select>
+              </div>
+              <div class="campo">
+                <label for="fonteDataPublicacao">Data da norma</label>
+                <input type="date" id="fonteDataPublicacao" name="fonteDataPublicacao" value="<%= v.fonteDataPublicacao %>" />
+              </div>
+            </div>
+            <div class="campo">
+              <label for="fonteUrl">URL da fonte</label>
+              <input type="text" id="fonteUrl" name="fonteUrl" value="<%= v.fonteUrl %>" placeholder="https://..." />
+              <p class="ajuda-campo">Opcional, mas fortemente recomendado.</p>
+            </div>
+          </section>
+
+          <section class="cartao">
+            <h2 class="cartao-titulo">Auditoria</h2>
+            <div class="linha-campos">
+              <div class="campo">
+                <label for="autor">Autor (quem está confirmando)</label>
+                <input type="text" id="autor" name="autor" value="<%= v.autor %>" required placeholder="seu nome ou e-mail" />
+              </div>
+              <div class="campo">
+                <label for="dataVerificacao">Data da verificação</label>
+                <input type="date" id="dataVerificacao" name="dataVerificacao" value="<%= v.dataVerificacao %>" required />
+              </div>
+            </div>
+            <div class="campo">
+              <label for="observacao">Observação</label>
+              <textarea id="observacao" name="observacao"><%= v.observacao %></textarea>
+            </div>
+          </section>
+
+          <div class="barra-acoes">
+            <a class="botao-secundario" href="/admin">Cancelar</a>
+            <button type="submit" class="botao-primario"><%= feriado ? "Salvar alterações" : "Cadastrar feriado" %></button>
           </div>
-          <div class="campo">
-            <label for="mes">Mês</label>
-            <input type="number" id="mes" name="mes" min="1" max="12" value="<%= v.mes %>" />
-          </div>
-        </div>
-        <div class="campo" x-show="modoData === 'regra'" x-cloak>
-          <label for="regraCalculo">Regra (ex.: "pascoa", "pascoa+60", "pascoa-47")</label>
-          <input type="text" id="regraCalculo" name="regraCalculo" value="<%= v.regraCalculo %>" placeholder="pascoa+60" />
-        </div>
-      </fieldset>
+        </form>
+      </main>
 
-      <fieldset>
-        <legend>Vigência (opcional)</legend>
-        <div class="linha-campos">
-          <div class="campo">
-            <label for="anoInicio">Válido a partir do ano</label>
-            <input type="number" id="anoInicio" name="anoInicio" value="<%= v.anoInicio %>" placeholder="deixe vazio se sempre valeu" />
-          </div>
-          <div class="campo">
-            <label for="anoFim">Válido até o ano</label>
-            <input type="number" id="anoFim" name="anoFim" value="<%= v.anoFim %>" placeholder="deixe vazio se ainda vale" />
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Fonte (obrigatória — sempre primária)</legend>
-        <div class="campo">
-          <label for="fonteDescricao">Descrição da fonte</label>
-          <textarea id="fonteDescricao" name="fonteDescricao" required placeholder="Ex.: Lei Municipal nº 123, de 01/01/2000, art. 1º"><%= v.fonteDescricao %></textarea>
-        </div>
-        <div class="linha-campos">
-          <div class="campo">
-            <label for="fonteTipo">Tipo de fonte</label>
-            <select id="fonteTipo" name="fonteTipo" required>
-              <% tiposFonte.forEach(function (t) { %>
-                <option value="<%= t %>" <%= v.fonteTipo === t ? "selected" : "" %>><%= t %></option>
-              <% }); %>
-            </select>
-          </div>
-          <div class="campo">
-            <label for="fonteDataPublicacao">Data da norma (opcional)</label>
-            <input type="date" id="fonteDataPublicacao" name="fonteDataPublicacao" value="<%= v.fonteDataPublicacao %>" />
-          </div>
-        </div>
-        <div class="campo">
-          <label for="fonteUrl">URL da fonte (opcional, mas recomendado)</label>
-          <input type="text" id="fonteUrl" name="fonteUrl" value="<%= v.fonteUrl %>" placeholder="https://..." />
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Auditoria</legend>
-        <div class="linha-campos">
-          <div class="campo">
-            <label for="autor">Autor (quem está confirmando)</label>
-            <input type="text" id="autor" name="autor" value="<%= v.autor %>" required placeholder="seu nome ou e-mail" />
-          </div>
-          <div class="campo">
-            <label for="dataVerificacao">Data da verificação</label>
-            <input type="date" id="dataVerificacao" name="dataVerificacao" value="<%= v.dataVerificacao %>" required />
-          </div>
-        </div>
-        <div class="campo">
-          <label for="observacao">Observação (opcional)</label>
-          <textarea id="observacao" name="observacao"><%= v.observacao %></textarea>
-        </div>
-      </fieldset>
-
-      <button type="submit"><%= feriado ? "Salvar alterações" : "Cadastrar feriado" %></button>
-    </form>
-  </main>
-
-  <%- include('partials/foot') %>
+      <%- include('partials/foot') %>
+    </div>
+  </div>
 
   <script>
     function selecionarMunicipio(codigoIbge, nome, uf) {

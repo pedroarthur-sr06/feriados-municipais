@@ -1,6 +1,8 @@
-<h2><%= municipio.nome %>/<%= municipio.uf %> — <%= resultado.data.split("-").reverse().join("/") %>
+<div class="resultado-topo">
+  <h2><%= municipio.nome %>/<%= municipio.uf %></h2>
+  <span class="resultado-data"><%= resultado.data.split("-").reverse().join("/") %></span>
   <small>(<%= resultado.diaSemana %>)</small>
-</h2>
+</div>
 
 <%- include('partials/aviso-nao-verificado', { statusMunicipal: resultado.statusMunicipal }) %>
 
@@ -11,7 +13,7 @@
 <% if (resultado.ocorrencias.length === 0) { %>
   <p class="sem-ocorrencias">
     <% if (resultado.statusMunicipal === "verificado") { %>
-      Dia útil confirmado — nenhum feriado nacional, estadual ou municipal nesta data.
+      <strong>Dia útil confirmado</strong> — nenhum feriado nacional, estadual ou municipal nesta data.
     <% } else { %>
       Nenhum feriado nacional ou estadual nesta data. Feriados municipais não verificados (ver aviso acima).
     <% } %>

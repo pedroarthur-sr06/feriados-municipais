@@ -1,34 +1,75 @@
 <%- include('partials/head', { titulo: typeof titulo !== "undefined" ? titulo : "Operação em lote" }) %>
 <body>
-  <header class="topo">
-    <h1>Operação em lote</h1>
-    <p class="subtitulo">Envie uma planilha com postos e datas e baixe de volta com a classificação preenchida.</p>
+  <div class="app">
     <%- include('partials/nav', { paginaAtual: 'lote' }) %>
-  </header>
 
-  <main>
-    <div class="instrucoes">
-      <strong>Formato esperado</strong> — CSV ou XLSX com as colunas
-      <code>posto</code>, <code>municipio</code>, <code>uf</code>, <code>data</code>
-      (data em <code>AAAA-MM-DD</code> ou <code>DD/MM/AAAA</code>). O arquivo baixado tem as mesmas colunas mais
-      <code>classificacao</code>, <code>tipos</code>, <code>fonte</code>, <code>status_municipal</code> e
-      <code>erro</code> (preenchida quando o município não é encontrado ou a data é inválida).
+    <div class="area">
+      <header class="pagina-topo">
+        <div class="pagina-topo-texto">
+          <h1>Operação em lote</h1>
+          <p class="subtitulo">Envie uma planilha com postos e datas e baixe de volta com a classificação preenchida.</p>
+        </div>
+      </header>
+
+      <main>
+        <div class="painel-duplo">
+          <form action="/lote/processar" method="post" enctype="multipart/form-data" class="cartao"
+                x-data="{ nomeArquivo: '' }">
+            <h2 class="cartao-titulo">Enviar planilha</h2>
+
+            <% if (typeof erro !== "undefined" && erro) { %>
+              <div class="erro" role="alert"><%= erro %></div>
+            <% } %>
+
+            <div class="campo">
+              <label for="arquivo">Arquivo</label>
+              <div class="zona-arquivo" :class="nomeArquivo && 'com-arquivo'">
+                <input type="file" id="arquivo" name="arquivo" accept=".csv,.xlsx" required class="entrada-arquivo"
+                       @change="nomeArquivo = $event.target.files.length ? $event.target.files[0].name : ''" />
+                <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 16V4M8 8l4-4 4 4"></path>
+                  <path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"></path>
+                </svg>
+                <span class="zona-arquivo-texto">
+                  <span x-text="nomeArquivo || 'Escolher arquivo'">Escolher arquivo</span>
+                  <span class="dica" x-show="!nomeArquivo">.csv ou .xlsx</span>
+                </span>
+              </div>
+              <p class="ajuda-campo">Limite: 20.000 linhas / 10&nbsp;MB por envio.</p>
+            </div>
+
+            <button type="submit" class="botao-primario">
+              <span>Processar e baixar</span>
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 4v12M7 12l5 5 5-5"></path>
+                <path d="M5 20h14"></path>
+              </svg>
+            </button>
+          </form>
+
+          <section class="cartao cartao-discreto">
+            <h2 class="cartao-titulo">Formato esperado</h2>
+            <p>CSV ou XLSX com as colunas:</p>
+            <ul class="lista-colunas">
+              <li><code>posto</code></li>
+              <li><code>municipio</code></li>
+              <li><code>uf</code></li>
+              <li><code>data</code> <span class="dica">AAAA-MM-DD ou DD/MM/AAAA</span></li>
+            </ul>
+            <p>O arquivo baixado volta com as mesmas colunas mais:</p>
+            <ul class="lista-colunas">
+              <li><code>classificacao</code></li>
+              <li><code>tipos</code></li>
+              <li><code>fonte</code></li>
+              <li><code>status_municipal</code></li>
+              <li><code>erro</code> <span class="dica">quando o município não é encontrado ou a data é inválida</span></li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <%- include('partials/foot') %>
     </div>
-
-    <% if (typeof erro !== "undefined" && erro) { %>
-      <div class="erro" role="alert" style="margin-bottom: 1rem;"><%= erro %></div>
-    <% } %>
-
-    <form action="/lote/processar" method="post" enctype="multipart/form-data" class="formulario-admin" style="max-width: 480px;">
-      <div class="campo">
-        <label for="arquivo">Arquivo (.csv ou .xlsx)</label>
-        <input type="file" id="arquivo" name="arquivo" accept=".csv,.xlsx" required />
-      </div>
-      <p class="ajuda-campo">Limite: 20.000 linhas / 10&nbsp;MB por envio.</p>
-      <button type="submit">Processar e baixar</button>
-    </form>
-  </main>
-
-  <%- include('partials/foot') %>
+  </div>
 </body>
 </html>

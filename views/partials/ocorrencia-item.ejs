@@ -8,15 +8,26 @@
 %>
 <article class="ocorrencia camada-<%= o.camada %>">
   <div class="ocorrencia-cabecalho">
-    <span class="ocorrencia-nome"><%= o.nome %></span>
-    <span class="badge camada-<%= o.camada %>"><%= ROTULOS_CAMADA[o.camada] %></span>
+    <div class="ocorrencia-titulo">
+      <span class="ponto-camada" aria-hidden="true"></span>
+      <span class="ocorrencia-nome"><%= o.nome %></span>
+    </div>
+    <div class="ocorrencia-meta">
+      <span class="ocorrencia-data"><%= o.data.split("-").reverse().join("/") %></span>
+      <span class="badge camada-<%= o.camada %>"><%= ROTULOS_CAMADA[o.camada] %></span>
+    </div>
   </div>
-  <p class="ocorrencia-data"><%= o.data.split("-").reverse().join("/") %></p>
   <p class="ocorrencia-fonte">
-    <strong>Fonte:</strong> <%= o.baseLegal %>
-    <% if (o.fonteUrl) { %> — <a href="<%= o.fonteUrl %>" target="_blank" rel="noopener noreferrer">ver fonte</a><% } %>
+    <strong>Fonte</strong>
+    <%= o.baseLegal %><% if (o.fonteUrl) { %>
+      <a href="<%= o.fonteUrl %>" target="_blank" rel="noopener noreferrer">ver fonte</a><% } %>
   </p>
   <% if (o.dataVerificacao) { %>
-    <p class="ocorrencia-verificacao">Última verificação: <%= o.dataVerificacao.split("-").reverse().join("/") %></p>
+    <p class="ocorrencia-verificacao">
+      <svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m4 12.5 5 5L20 6.5"></path>
+      </svg>
+      Última verificação: <%= o.dataVerificacao.split("-").reverse().join("/") %>
+    </p>
   <% } %>
 </article>

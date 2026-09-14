@@ -1,82 +1,94 @@
 <%- include('partials/head', { titulo: typeof titulo !== "undefined" ? titulo : "Candidatos — Administração" }) %>
 <body>
-  <header class="topo">
-    <h1>Candidatos não verificados</h1>
-    <p class="subtitulo">
-      Leads importadas de dataset comunitário — nunca aparecem para quem consulta até alguém confirmar a fonte
-      primária e promover para feriado curado.
-    </p>
+  <div class="app">
     <%- include('partials/nav', { paginaAtual: 'administracao' }) %>
-  </header>
 
-  <main>
-    <p><a class="botao-link" href="/admin">← voltar</a></p>
+    <div class="area">
+      <header class="pagina-topo">
+        <div class="pagina-topo-texto">
+          <a class="voltar" href="/admin">
+            <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H6M12 6l-6 6 6 6"></path>
+            </svg>
+            Administração
+          </a>
+          <h1>Candidatos não verificados</h1>
+          <p class="subtitulo">
+            Leads importadas de dataset comunitário — nunca aparecem para quem consulta até alguém confirmar a fonte
+            primária e promover para feriado curado.
+          </p>
+        </div>
+      </header>
 
-    <form method="get" action="/admin/candidatos" class="filtros">
-      <div class="campo">
-        <label for="uf">UF</label>
-        <select id="uf" name="uf" onchange="this.form.submit()">
-          <option value="">Todas</option>
-          <% ufs.forEach(function (uf) { %>
-            <option value="<%= uf %>" <%= ufSelecionada === uf ? "selected" : "" %>><%= uf %></option>
-          <% }); %>
-        </select>
-      </div>
-    </form>
+      <main>
+        <div class="barra-filtros">
+          <form method="get" action="/admin/candidatos" class="filtros">
+            <div class="campo">
+              <label for="uf">UF</label>
+              <select id="uf" name="uf" onchange="this.form.submit()">
+                <option value="">Todas</option>
+                <% ufs.forEach(function (uf) { %>
+                  <option value="<%= uf %>" <%= ufSelecionada === uf ? "selected" : "" %>><%= uf %></option>
+                <% }); %>
+              </select>
+            </div>
+          </form>
+          <p class="contagem"><strong><%= total %></strong> candidato(s) pendente(s)<%= ufSelecionada ? " em " + ufSelecionada : "" %></p>
+        </div>
 
-    <p><%= total %> candidato(s) pendente(s)<%= ufSelecionada ? " em " + ufSelecionada : "" %>.</p>
+        <div class="tabela-wrap">
+          <table class="tabela-dados">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Tipo sugerido</th>
+                <th>Local</th>
+                <th>Data (ano de referência)</th>
+                <th>Descrição original</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% candidatos.forEach(function (c) { %>
+                <tr>
+                  <td class="celula-forte"><%= c.nome %></td>
+                  <td><span class="chip chip-<%= c.tipoSugerido %>"><%= c.tipoSugerido === 'ponto_facultativo' ? 'facultativo' : c.tipoSugerido %></span></td>
+                  <td><%= c.municipioNome ? c.municipioNome + '/' + c.uf : c.uf %></td>
+                  <td class="dado"><%= c.data.split('-').reverse().join('/') %></td>
+                  <td title="<%= c.descricaoOriginal || '' %>">
+                    <%= c.descricaoOriginal ? (c.descricaoOriginal.length > 60 ? c.descricaoOriginal.slice(0,60) + '…' : c.descricaoOriginal) : '—' %>
+                  </td>
+                  <td class="acoes">
+                    <a class="botao-link" href="/admin/feriados/novo?candidatoId=<%= c.id %>">Revisar e promover</a>
+                    <form method="post" action="/admin/candidatos/<%= c.id %>/rejeitar" onsubmit="return confirm('Rejeitar este candidato?');">
+                      <button type="submit" class="botao-perigo">Rejeitar</button>
+                    </form>
+                  </td>
+                </tr>
+              <% }); %>
+              <% if (candidatos.length === 0) { %>
+                <tr><td colspan="6" class="sem-resultado">Nenhum candidato pendente<%= ufSelecionada ? " nesta UF" : "" %>.</td></tr>
+              <% } %>
+            </tbody>
+          </table>
+        </div>
 
-    <div class="tabela-wrap">
-      <table class="tabela-dados">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Tipo sugerido</th>
-            <th>Local</th>
-            <th>Data (ano de referência)</th>
-            <th>Descrição original</th>
-            <th>Ações</th>
-          </tr>
-        </thead>
-        <tbody>
-          <% candidatos.forEach(function (c) { %>
-            <tr>
-              <td><%= c.nome %></td>
-              <td><%= c.tipoSugerido %></td>
-              <td><%= c.municipioNome ? c.municipioNome + '/' + c.uf : c.uf %></td>
-              <td><%= c.data.split('-').reverse().join('/') %></td>
-              <td title="<%= c.descricaoOriginal || '' %>">
-                <%= c.descricaoOriginal ? (c.descricaoOriginal.length > 60 ? c.descricaoOriginal.slice(0,60) + '…' : c.descricaoOriginal) : '—' %>
-              </td>
-              <td class="acoes">
-                <a class="botao-link" href="/admin/feriados/novo?candidatoId=<%= c.id %>">Revisar e promover</a>
-                <form method="post" action="/admin/candidatos/<%= c.id %>/rejeitar" onsubmit="return confirm('Rejeitar este candidato?');">
-                  <button type="submit" class="botao-perigo">Rejeitar</button>
-                </form>
-              </td>
-            </tr>
-          <% }); %>
-          <% if (candidatos.length === 0) { %>
-            <tr><td colspan="6" class="sem-resultado">Nenhum candidato pendente<%= ufSelecionada ? " nesta UF" : "" %>.</td></tr>
-          <% } %>
-        </tbody>
-      </table>
-    </div>
-
-    <% const totalPaginas = Math.max(1, Math.ceil(total / limite)); %>
-    <% if (totalPaginas > 1) { %>
-      <nav class="paginacao">
-        <% for (let p = 1; p <= totalPaginas; p++) { %>
-          <% if (p === pagina) { %>
-            <span class="atual"><%= p %></span>
-          <% } else { %>
-            <a href="/admin/candidatos?pagina=<%= p %><%= ufSelecionada ? '&uf=' + ufSelecionada : '' %>"><%= p %></a>
-          <% } %>
+        <% const totalPaginas = Math.max(1, Math.ceil(total / limite)); %>
+        <% if (totalPaginas > 1) { %>
+          <nav class="paginacao" aria-label="Paginação">
+            <% for (let p = 1; p <= totalPaginas; p++) { %>
+              <% if (p === pagina) { %>
+                <span class="atual" aria-current="page"><%= p %></span>
+              <% } else { %>
+                <a href="/admin/candidatos?pagina=<%= p %><%= ufSelecionada ? '&uf=' + ufSelecionada : '' %>"><%= p %></a>
+              <% } %>
+            <% } %>
+          </nav>
         <% } %>
-      </nav>
-    <% } %>
-  </main>
+      </main>
 
-  <%- include('partials/foot') %>
+      <%- include('partials/foot') %>
+    </div>
+  </div>
 </body>
 </html>

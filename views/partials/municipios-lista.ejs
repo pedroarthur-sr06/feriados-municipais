@@ -1,5 +1,8 @@
+<% const termoBusca = (typeof termo !== "undefined" && termo) ? termo.trim() : ""; %>
 <% if (municipios.length === 0) { %>
-  <p class="sem-resultado">Nenhum município encontrado.</p>
+  <% if (termoBusca.length > 0) { %>
+    <p class="sem-resultado">Nenhum município encontrado para “<%= termoBusca %>”.</p>
+  <% } %>
 <% } else { %>
   <ul class="sugestoes">
     <% municipios.forEach(function (m) { %>
