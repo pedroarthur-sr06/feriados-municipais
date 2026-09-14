@@ -7,26 +7,26 @@
 
 :root {
   /* Chrome — neutros quentes (cinza puro é o que dá cara de sistema antigo) */
-  --tinta: #16181d;
-  --tinta-2: #22252c;
-  --tinta-3: #343842;
-  --texto: #1b1d22;
-  --texto-suave: #5c6069;
+  --tinta: #1a2438;
+  --tinta-2: #263351;
+  --tinta-3: #3c4a6b;
+  --texto: #1f2633;
+  --texto-suave: #525b6b;
   /* #6b6f78 e não um cinza mais claro: 4.62:1 sobre o canvas, 5.04:1 sobre
      branco — o mínimo AA para texto pequeno (12–13px), que é onde este token
      é usado (metadados, ajuda de campo, rodapé). */
-  --texto-fraco: #6b6f78;
-  --canvas: #f6f5f3;
+  --texto-fraco: #5f6876; /* 4.70:1 sobre o papel #e9ebe9 — AA em 12px */
+  --canvas: #e9ebe9;
   --superficie: #ffffff;
-  --superficie-2: #faf9f7;
-  --linha: #e6e4e0;
-  --linha-forte: #d5d2cc;
+  --superficie-2: #f4f5f4;
+  --linha: #d7dbd7;
+  --linha-forte: #c3c8c3;
 
   /* Categorias — as únicas cores saturadas da interface */
   --nacional: #1c5fc4;
   --nacional-bg: #dbe8fa;
-  --estadual: #7038c4;
-  --estadual-bg: #e8dcfa;
+  --estadual: #5f2da8;
+  --estadual-bg: #e7dcf7;
   --municipal: #146b43; /* escurecido: 5.37:1 sobre o próprio fundo pálido */
   --municipal-bg: #d5efe0;
   --facultativo: #8a5406;
@@ -36,15 +36,19 @@
   --util: #8b8f98;
   --util-bg: #ffffff;
 
-  --raio-g: 14px;
-  --raio: 10px;
-  --raio-p: 8px;
-  --sombra: 0 1px 2px rgba(24, 22, 18, 0.05);
-  --sombra-alta: 0 12px 28px -12px rgba(24, 22, 18, 0.22), 0 2px 6px rgba(24, 22, 18, 0.06);
+  --raio-g: 8px;
+  --raio: 6px;
+  --raio-p: 5px;
+  --sombra: none;
+  --sombra-alta: 0 10px 26px -12px rgba(20, 28, 45, 0.28), 0 2px 5px rgba(20, 28, 45, 0.07);
 
-  --fonte-titulo: "Space Grotesk", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --fonte: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --fonte-dado: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* A serifa carrega o que é texto de lei (veredito, nome de norma); a
+     grotesca carrega a interface. Números alinham por tabular-nums, não por
+     fonte monoespaçada — mono só onde o conteúdo é literalmente código. */
+  --fonte-titulo: "Spectral", Georgia, "Times New Roman", serif;
+  --fonte: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fonte-dado: var(--fonte);
+  --fonte-codigo: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -58,6 +62,7 @@ html, body {
   font-family: var(--fonte);
   font-size: 15px;
   line-height: 1.5;
+  font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -100,8 +105,8 @@ a { color: var(--texto); }
 }
 .rail-marca svg { color: #fff; opacity: 0.92; flex-shrink: 0; }
 .rail-marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
-.rail-marca-texto strong { font-family: var(--fonte-titulo); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
-.rail-marca-texto span { font-size: 11px; color: rgba(255,255,255,0.5); letter-spacing: 0.04em; text-transform: uppercase; }
+.rail-marca-texto strong { font-family: var(--fonte-titulo); font-size: 17px; font-weight: 600; }
+.rail-marca-texto span { font-size: 12px; color: rgba(255,255,255,0.52); }
 
 .rail-nav { display: flex; flex-direction: column; gap: 2px; }
 .rail-item {
@@ -139,7 +144,7 @@ a { color: var(--texto); }
   padding: 36px 40px 22px;
   max-width: 1180px; width: 100%;
 }
-.pagina-topo h1 { margin: 0 0 5px; font-size: 27px; font-weight: 600; }
+.pagina-topo h1 { margin: 0 0 5px; font-size: 30px; font-weight: 600; letter-spacing: -0.005em; }
 .subtitulo { margin: 0; color: var(--texto-suave); font-size: 14px; max-width: 62ch; }
 .pagina-topo-texto { min-width: 0; }
 
@@ -165,10 +170,9 @@ main { padding: 0 40px 56px; max-width: 1180px; width: 100%; }
 .cartao + .cartao { margin-top: 16px; }
 .cartao-titulo {
   margin: 0 0 16px;
-  font-size: 13px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.07em;
-  color: var(--texto-suave);
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  font-family: var(--fonte-titulo); font-size: 18px; font-weight: 600;
+  color: var(--texto);
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
 }
 .cartao-discreto { background: var(--superficie-2); box-shadow: none; }
 .cartao-destaque { border-color: var(--linha-forte); }
@@ -182,11 +186,7 @@ main { padding: 0 40px 56px; max-width: 1180px; width: 100%; }
 .linha-campos > .campo { flex: 1 1 170px; margin-top: 0; }
 .linha-campos + .campo, .linha-campos + .linha-campos { margin-top: 14px; }
 
-label, .rotulo {
-  font-size: 11px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.07em;
-  color: var(--texto-suave);
-}
+label, .rotulo { font-size: 12.5px; font-weight: 600; color: var(--texto-suave); }
 
 input[type="text"], input[type="date"], input[type="number"], select, textarea {
   padding: 9px 11px;
@@ -216,7 +216,7 @@ input:focus, select:focus, textarea:focus {
 
 .ajuda-campo { margin: 2px 0 0; font-size: 12px; color: var(--texto-fraco); }
 .ajuda-campo code, .instrucoes code, .lista-colunas code, code {
-  font-family: var(--fonte-dado); font-size: 0.92em;
+  font-family: var(--fonte-codigo); font-size: 0.9em;
   background: var(--superficie-2); border: 1px solid var(--linha);
   padding: 1px 5px; border-radius: 5px;
 }
@@ -430,13 +430,6 @@ input:focus, select:focus, textarea:focus {
 
 /* ===== Resultado da consulta ============================================= */
 
-.resultado-topo {
-  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
-  margin: 26px 0 16px;
-}
-.resultado-topo h2 { margin: 0; font-size: 20px; font-weight: 600; }
-.resultado-data { font-family: var(--fonte-dado); font-size: 14px; color: var(--texto-suave); }
-.resultado-topo small { font-size: 13px; color: var(--texto-fraco); font-weight: 400; }
 
 .legenda {
   display: flex; flex-wrap: wrap; gap: 6px 8px;
@@ -468,11 +461,11 @@ input:focus, select:focus, textarea:focus {
 
 .calendario-wrap { margin-bottom: 24px; }
 .calendario-titulo {
-  margin: 0 0 8px;
-  font-family: var(--fonte-dado); font-size: 11px; font-weight: 500;
-  text-transform: uppercase; letter-spacing: 0.1em;
-  color: var(--texto-fraco);
+  margin: 0 0 9px;
+  font-family: var(--fonte-titulo); font-size: 17px; font-weight: 600;
+  color: var(--texto); text-transform: none;
 }
+.calendario-titulo::first-letter { text-transform: uppercase; }
 
 table.calendario {
   width: 100%;
@@ -486,11 +479,9 @@ table.calendario {
   box-shadow: var(--sombra);
 }
 table.calendario th {
-  font-family: var(--fonte-dado);
-  font-size: 10px; font-weight: 500;
-  letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 11.5px; font-weight: 600;
   color: var(--texto-fraco);
-  padding: 4px 0 6px;
+  padding: 2px 0 6px;
 }
 table.calendario td {
   position: relative;
@@ -509,16 +500,12 @@ table.calendario td.dia-municipal { background: var(--municipal-bg); color: var(
 table.calendario td.dia-ponto_facultativo { background: var(--facultativo-bg); color: var(--facultativo); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(138,84,6,0.24); }
 table.calendario td.dia-util { background: var(--util-bg); color: var(--texto-suave); box-shadow: inset 0 0 0 1px var(--linha); }
 table.calendario td.dia-nao_verificado {
-  background: repeating-linear-gradient(45deg, var(--nao-verificado-bg), var(--nao-verificado-bg) 5px, #fff 5px, #fff 10px);
+  background: repeating-linear-gradient(45deg, var(--nao-verificado-bg), var(--nao-verificado-bg) 4px, #fff 4px, #fff 9px);
   color: var(--nao-verificado);
   box-shadow: inset 0 0 0 1px rgba(184,40,28,0.2);
 }
-/* Redundância de sinal: não-verificado também carrega um "?" (não depende da cor) */
-table.calendario td.dia-nao_verificado::after {
-  content: "?";
-  position: absolute; top: 2px; right: 5px;
-  font-size: 9px; font-weight: 600; opacity: 0.7;
-}
+/* A hachura diagonal é a redundância de sinal (forma, não cor). O texto do
+   veredito já diz "Não verificado" uma vez — repetir em 31 células era ruído. */
 
 /* Fim de semana: orientação de leitura, sem usar cor semântica */
 table.calendario td.dia-util.fim-de-semana { background: #f1efec; box-shadow: inset 0 0 0 1px var(--linha); }
@@ -558,10 +545,9 @@ td .marcador-multiplo {
 
 .badge, .chip {
   display: inline-block;
-  font-size: 10.5px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  padding: 3px 9px;
-  border-radius: 999px;
+  font-size: 12px; font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 4px;
   white-space: nowrap;
 }
 .badge.camada-nacional, .chip-nacional { background: var(--nacional-bg); color: var(--nacional); }
@@ -578,11 +564,7 @@ td .marcador-multiplo {
   border-radius: 0 6px 6px 0;
   font-size: 13px; line-height: 1.55; color: var(--texto-suave);
 }
-.ocorrencia-fonte strong {
-  display: block;
-  font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em;
-  color: var(--texto-fraco); margin-bottom: 3px;
-}
+.ocorrencia-fonte strong { display: block; font-size: 13px; font-weight: 600; color: var(--texto-suave); margin-bottom: 3px; }
 .ocorrencia-fonte a { color: var(--texto); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 .ocorrencia-verificacao {
   display: flex; align-items: center; gap: 5px;
@@ -696,9 +678,8 @@ table.tabela-dados th, table.tabela-dados td {
 table.tabela-dados th {
   position: sticky; top: 0; z-index: 2;
   background: var(--superficie-2);
-  font-size: 10.5px; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.07em;
-  color: var(--texto-fraco);
+  font-size: 12.5px; font-weight: 600;
+  color: var(--texto-suave);
   white-space: nowrap;
 }
 table.tabela-dados tbody tr:last-child td { border-bottom: none; }
@@ -723,6 +704,8 @@ table.tabela-dados .acoes form { display: contents; }
 }
 .paginacao a:hover { border-color: var(--tinta-3); color: var(--texto); }
 .paginacao .atual { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+/* Buraco da janela de páginas: marcador, não destino — sem caixa nem borda. */
+.paginacao .reticencias { min-width: 0; padding: 5px 2px; border-color: transparent; background: none; color: var(--texto-fraco); }
 
 /* ===== Rodapé ============================================================ */
 
@@ -735,6 +718,73 @@ footer.rodape {
   font-size: 12px; line-height: 1.6;
 }
 footer.rodape p { margin: 0; max-width: 90ch; }
+
+/* ===== Veredito: a resposta em palavras ==================================
+   O trabalho do usuário é "houve feriado neste dia, e com que fonte?". A
+   resposta vem escrita, na cor da camada que a sustenta — decodificar uma
+   célula colorida contra uma legenda de seis itens não é responder. */
+
+.bloco-veredito { margin: 28px 0 0; }
+.linha-contexto { margin: 0 0 7px; font-size: 14px; font-weight: 500; color: var(--texto-suave); }
+.veredito {
+  font-family: var(--fonte-titulo);
+  font-size: 42px; font-weight: 600; line-height: 1.08; letter-spacing: -0.01em;
+  margin: 0;
+}
+.veredito.camada-nacional { color: var(--nacional); }
+.veredito.camada-estadual { color: var(--estadual); }
+.veredito.camada-municipal { color: var(--municipal); }
+.veredito.camada-ponto_facultativo { color: var(--facultativo); }
+.veredito.camada-util { color: var(--tinta-3); }
+.veredito.camada-nao_verificado { color: var(--nao-verificado); }
+.veredito-nota { margin: 12px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--texto-suave); max-width: 62ch; }
+
+/* ===== Provas: a norma com peso de documento, não de rodapé ============= */
+
+.lista-ocorrencias {
+  display: flex; flex-direction: column; gap: 1px;
+  background: var(--linha);
+  border: 1px solid var(--linha);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 760px;
+  margin: 26px 0 0;
+}
+.ocorrencia {
+  background: var(--superficie);
+  border: none; border-radius: 0; box-shadow: none;
+  padding: 20px 22px;
+}
+.ocorrencia-nome {
+  display: block;
+  font-family: var(--fonte-titulo); font-size: 21px; font-weight: 600;
+  line-height: 1.25; margin: 0 0 3px;
+}
+.ocorrencia-camada { margin: 0 0 14px; font-size: 13.5px; color: var(--texto-suave); }
+.ocorrencia-fonte {
+  margin: 0; padding: 0;
+  background: none; border: none; border-radius: 0;
+  font-size: 14.5px; line-height: 1.62; color: var(--texto-suave);
+  max-width: 70ch;
+}
+.ocorrencia-fonte a { color: var(--tinta); font-weight: 500; text-underline-offset: 3px; }
+.ocorrencia-verificacao {
+  display: flex; align-items: center; gap: 6px;
+  margin: 14px 0 0; padding-top: 12px;
+  border-top: 1px solid var(--linha);
+  font-size: 12.5px; color: var(--texto-fraco);
+}
+
+/* ===== Calendário: contexto do mês, não protagonista ==================== */
+
+.calendario-wrap { max-width: 484px; margin-top: 30px; }
+table.calendario { box-shadow: none; border-spacing: 3px; padding: 6px; }
+table.calendario td { height: 34px; font-size: 13px; }
+.calendarios-periodo { grid-template-columns: repeat(auto-fit, minmax(240px, 260px)); }
+.calendarios-periodo .calendario-wrap { max-width: none; margin-top: 0; }
+
+.legenda { font-size: 12px; gap: 5px 6px; margin: 12px 0 0; max-width: 484px; }
+.legenda-item { background: transparent; border-color: transparent; padding: 1px 6px 1px 0; }
 
 /* ===== Responsivo ======================================================== */
 
@@ -761,6 +811,8 @@ footer.rodape p { margin: 0; max-width: 90ch; }
 
 @media (max-width: 640px) {
   .pagina-topo h1 { font-size: 23px; }
+  .veredito { font-size: 32px; }
+  .lista-ocorrencias, .calendario-wrap, .legenda { max-width: none; }
   .busca-linha { gap: 14px; }
   .campo-municipio, .campo-data { max-width: none; width: 100%; }
   .campo-grupo { width: 100%; }

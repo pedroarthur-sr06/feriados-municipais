@@ -1,24 +1,21 @@
 <%
-  const ROTULOS_CAMADA = {
-    nacional: "Nacional",
-    estadual: "Estadual",
-    municipal: "Municipal",
-    ponto_facultativo: "Ponto facultativo",
+  const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
+                 "julho","agosto","setembro","outubro","novembro","dezembro"];
+  const porExtenso = (iso) => {
+    const [a, m, d] = iso.split("-");
+    return Number(d) + " de " + MESES[Number(m) - 1] + " de " + a;
+  };
+  const DESCRICAO_CAMADA = {
+    nacional: "Feriado nacional, vale em todo o país",
+    estadual: "Feriado estadual, vale para todos os municípios da UF",
+    municipal: "Feriado municipal",
+    ponto_facultativo: "Ponto facultativo, não é feriado — vincula só quem decretou",
   };
 %>
 <article class="ocorrencia camada-<%= o.camada %>">
-  <div class="ocorrencia-cabecalho">
-    <div class="ocorrencia-titulo">
-      <span class="ponto-camada" aria-hidden="true"></span>
-      <span class="ocorrencia-nome"><%= o.nome %></span>
-    </div>
-    <div class="ocorrencia-meta">
-      <span class="ocorrencia-data"><%= o.data.split("-").reverse().join("/") %></span>
-      <span class="badge camada-<%= o.camada %>"><%= ROTULOS_CAMADA[o.camada] %></span>
-    </div>
-  </div>
+  <strong class="ocorrencia-nome"><%= o.nome %></strong>
+  <p class="ocorrencia-camada"><%= DESCRICAO_CAMADA[o.camada] %> — <%= porExtenso(o.data) %></p>
   <p class="ocorrencia-fonte">
-    <strong>Fonte</strong>
     <%= o.baseLegal %><% if (o.fonteUrl) { %>
       <a href="<%= o.fonteUrl %>" target="_blank" rel="noopener noreferrer">ver fonte</a><% } %>
   </p>
@@ -27,7 +24,7 @@
       <svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
         <path d="m4 12.5 5 5L20 6.5"></path>
       </svg>
-      Última verificação: <%= o.dataVerificacao.split("-").reverse().join("/") %>
+      Conferido em <%= porExtenso(o.dataVerificacao) %>
     </p>
   <% } %>
 </article>

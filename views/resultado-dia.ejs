@@ -1,27 +1,13 @@
-<div class="resultado-topo">
-  <h2><%= municipio.nome %>/<%= municipio.uf %></h2>
-  <span class="resultado-data"><%= resultado.data.split("-").reverse().join("/") %></span>
-  <small>(<%= resultado.diaSemana %>)</small>
-</div>
+<%- include('partials/veredito', { resultado: resultado, municipio: municipio }) %>
 
-<%- include('partials/aviso-nao-verificado', { statusMunicipal: resultado.statusMunicipal }) %>
-
-<%- include('partials/legenda') %>
-
-<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas, dataDestaque: resultado.data }) %>
-
-<% if (resultado.ocorrencias.length === 0) { %>
-  <p class="sem-ocorrencias">
-    <% if (resultado.statusMunicipal === "verificado") { %>
-      <strong>Dia útil confirmado</strong> — nenhum feriado nacional, estadual ou municipal nesta data.
-    <% } else { %>
-      Nenhum feriado nacional ou estadual nesta data. Feriados municipais não verificados (ver aviso acima).
-    <% } %>
-  </p>
-<% } else { %>
+<% if (resultado.ocorrencias.length > 0) { %>
   <div class="lista-ocorrencias">
     <% resultado.ocorrencias.forEach(function (o) { %>
       <%- include('partials/ocorrencia-item', { o: o }) %>
     <% }); %>
   </div>
 <% } %>
+
+<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas, dataDestaque: resultado.data }) %>
+
+<%- include('partials/legenda') %>

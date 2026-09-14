@@ -1,41 +1,30 @@
-<div class="resultado-topo">
-  <h2><%= municipio.nome %>/<%= municipio.uf %></h2>
-  <span class="resultado-data"><%= dataInicioTexto %> → <%= dataFimTexto %></span>
-</div>
-
-<div class="exportar-links">
-  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">
-    <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 4v12M7 12l5 5 5-5M5 20h14"></path>
-    </svg>
-    Exportar CSV
-  </a>
-  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">
-    <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 4v12M7 12l5 5 5-5M5 20h14"></path>
-    </svg>
-    Exportar PDF
-  </a>
+<%
+  const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
+                 "julho","agosto","setembro","outubro","novembro","dezembro"];
+  const porExtenso = (iso) => {
+    const [a, m, d] = iso.split("-");
+    return Number(d) + " de " + MESES[Number(m) - 1] + " de " + a;
+  };
+  const qtd = diasComOcorrencia.length;
+%>
+<div class="bloco-veredito">
+  <p class="linha-contexto"><%= municipio.nome %>/<%= municipio.uf %>, de <%= porExtenso(dataInicioIso) %> a <%= porExtenso(dataFimIso) %></p>
+  <h2 class="veredito camada-<%= qtd > 0 ? 'estadual' : 'util' %>">
+    <%= qtd === 0 ? "Nenhum dia não útil" : (qtd === 1 ? "1 dia não útil" : qtd + " dias não úteis") %>
+  </h2>
+  <p class="veredito-nota">
+    Em <%= dias.length %> dias do período<%= qtd > 0 ? ", classificados abaixo com a fonte de cada um" : "" %>.
+  </p>
 </div>
 
 <%- include('partials/aviso-nao-verificado', { statusMunicipal: statusMunicipal }) %>
 
-<%- include('partials/legenda') %>
-
-<div class="calendarios-periodo">
-  <% calendarios.forEach(function (c) { %>
-    <%- include('partials/calendario', { ano: c.ano, mes: c.mes, semanas: c.semanas }) %>
-  <% }); %>
+<div class="exportar-links">
+  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar CSV</a>
+  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar PDF</a>
 </div>
 
-<p class="resumo-periodo">
-  <strong><%= diasComOcorrencia.length %></strong> dia(s) não útil(eis) classificado(s) em
-  <strong><%= dias.length %></strong> dia(s) do período.
-</p>
-
-<% if (diasComOcorrencia.length === 0) { %>
-  <p class="sem-ocorrencias">Nenhum feriado nacional, estadual ou municipal confirmado neste período.</p>
-<% } else { %>
+<% if (qtd > 0) { %>
   <div class="lista-ocorrencias">
     <% diasComOcorrencia.forEach(function (resultado) { %>
       <% resultado.ocorrencias.forEach(function (o) { %>
@@ -44,3 +33,11 @@
     <% }); %>
   </div>
 <% } %>
+
+<div class="calendarios-periodo">
+  <% calendarios.forEach(function (c) { %>
+    <%- include('partials/calendario', { ano: c.ano, mes: c.mes, semanas: c.semanas }) %>
+  <% }); %>
+</div>
+
+<%- include('partials/legenda') %>
