@@ -1,0 +1,15 @@
+/**
+ * Build de produção. Separado do tsconfig.json porque aquele inclui `tests`
+ * e usa rootDir "." — o que faz o compilador emitir em dist/src/, e não em
+ * dist/, quebrando o "npm start". Aqui só src entra, com rootDir "src",
+ * então dist/server.js existe de fato e os testes não vão para o pacote.
+ */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "sourceMap": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "tests"]
+}

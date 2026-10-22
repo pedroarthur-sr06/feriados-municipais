@@ -47,7 +47,7 @@ dependência exige binário externo (Chromium, etc.) além do próprio Node.
 ```bash
 npm install          # instala dependências (better-sqlite3 compila binário nativo — pode levar minutos na 1ª vez)
 npm run dev           # servidor em modo watch (tsx)
-npm run build         # compila TypeScript para dist/
+npm run build         # compila para dist/ (usa tsconfig.build.json: só src, sem os testes)
 npm start             # roda a build compilada
 npm test              # roda a suíte de testes (Vitest)
 npm run test:watch    # Vitest em modo watch

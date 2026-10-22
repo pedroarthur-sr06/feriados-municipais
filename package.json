@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
     "start": "node dist/server.js",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -20,7 +20,8 @@
     "seed:tipos-feriado": "tsx src/scripts/seed-tipos-feriado.ts",
     "seed:candidatos": "tsx src/scripts/seed-candidatos.ts",
     "seed:feriados-curados": "tsx src/scripts/seed-feriados-curados.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
   },
   "dependencies": {
     "@fastify/formbody": "^9.0.0",
