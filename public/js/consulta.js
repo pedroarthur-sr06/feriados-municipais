@@ -23,6 +23,7 @@
   const oculto = document.getElementById("codigoIbge");
   const lista = document.getElementById("lista-municipios");
   const confirmacao = document.getElementById("municipio-selecionado");
+  const ancora = document.getElementById("ancora-municipio");
   if (!form || !campo || !oculto || !lista) return;
 
   const SEM_MUNICIPIO = "Escolha um município na lista de sugestões.";
@@ -62,12 +63,16 @@
     oculto.value = botao.dataset.codigo;
     campo.value = nome + " / " + uf;
     if (confirmacao) confirmacao.textContent = "Selecionado: " + nome + "/" + uf;
+    if (ancora) ancora.classList.add("preenchida");
+    // A lacuna encolhe no nome escolhido: solta, ela deixaria um traço longo
+    // sobrando depois da palavra e a frase pararia de parecer uma frase.
+    campo.style.width = (campo.value.length + 1) + "ch";
     fecharLista();
     sincronizarValidade();
     // Escolhido o município, o passo seguinte é sempre a data — levar o foco
     // para lá poupa um clique em quem consulta dezenas de datas por dia.
     // offsetParent em vez de ler o style: quem esconde o campo é o x-show.
-    const datas = Array.from(form.querySelectorAll(".campo-data input"));
+    const datas = Array.from(form.querySelectorAll("input[type='date']"));
     const visivel = datas.find(function (i) { return i.offsetParent !== null; });
     if (visivel) visivel.focus();
   }
@@ -78,6 +83,8 @@
     if (oculto.value) {
       oculto.value = "";
       if (confirmacao) confirmacao.textContent = "";
+      if (ancora) ancora.classList.remove("preenchida");
+      campo.style.width = "";
     }
     sincronizarValidade();
   });

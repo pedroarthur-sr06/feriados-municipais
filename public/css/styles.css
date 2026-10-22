@@ -36,6 +36,14 @@
   --util: #8b8f98;
   --util-bg: #ffffff;
 
+  /* Mesmas categorias, clareadas para viverem sobre a tinta da laje do
+     veredito — as versões escuras não chegariam a 4.5:1 ali. */
+  --nacional-claro: #8fbcfb;
+  --estadual-claro: #cbb0f7;
+  --municipal-claro: #6ddba6;
+  --facultativo-claro: #f5c879;
+  --nao-verificado-claro: #ffa79c;
+
   --raio-g: 8px;
   --raio: 6px;
   --raio-p: 5px;
@@ -81,101 +89,62 @@ a { color: var(--texto); }
   * { transition: none !important; animation: none !important; }
 }
 
-/* ===== Shell de aplicação ================================================ */
+/* ===== Shell: barra no topo ============================================= */
 
-/* align-content: start impede o grid de esticar as linhas para preencher
-   100vh — sem isso, o rail-virado-barra no mobile ganha centenas de px vazios. */
-.app { display: grid; grid-template-columns: 236px minmax(0, 1fr); grid-template-rows: auto; align-content: start; min-height: 100vh; }
+/* Era uma coluna lateral de 236px. Com dois destinos no menu, ela gastava 20%
+   de uma tela de 1366px para mostrá-los — e era essa largura que faltava para
+   a prova e o calendário conviverem lado a lado na resposta. */
+.app { display: flex; flex-direction: column; min-height: 100vh; }
 
-.rail {
-  position: sticky;
-  top: 0;
-  align-self: start;
-  height: 100vh;
+.barra {
+  position: sticky; top: 0; z-index: 40;
+  display: flex; align-items: center; gap: 34px;
+  padding: 0 32px;
+  height: 58px;
   background: var(--tinta);
-  color: #e9e7e3;
-  padding: 22px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
+  color: #fff;
 }
 
-/* Só o símbolo da marca, ao lado do nome da aplicação. O wordmark "APOIO"
-   ocupa 12% da altura do arquivo: na escala de um rail ele só é legível se a
-   marca inteira virar um bloco alto, e aí a identidade da empresa passa a
-   gritar mais alto que a navegação, que é o trabalho desta coluna. O símbolo
-   sozinho carrega a marca e cabe numa linha. */
-.rail-marca {
-  display: flex; align-items: center; gap: 11px;
-  /* 10px, e não 8px, para a coluna da marca nascer na mesma vertical dos
-     ícones do menu (que têm 10px de recuo dentro do item). */
-  padding: 4px 10px;
-  color: #fff;
-  text-decoration: none;
-}
-/* Marca institucional. O arquivo é PNG preto sobre fundo transparente, então
-   entra como máscara pintada com currentColor, e não como <img>: fica branco
-   no rail escuro sem exigir uma segunda versão do arquivo, e acompanha a cor
-   do texto se a marca for reaproveitada sobre fundo claro. Trocar pelo .svg
-   oficial, se ele aparecer, é só mudar a URL. */
-/* O arquivo é PNG preto sobre transparente, então a marca entra como máscara
-   pintada com currentColor: fica branca aqui sem exigir uma segunda versão do
-   arquivo. A caixa tem a proporção da parte gráfica (148:117) e a máscara
-   fica ancorada no topo — é isso que recorta o wordmark para fora, sem
-   precisar de um segundo arquivo. Se aparecer o .svg oficial, troca a URL. */
-.rail-apoio {
+.barra-marca { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
+.barra-marca:focus-visible { outline-color: rgba(255,255,255,0.8); }
+/* PNG preto sobre transparente pintado por máscara: fica branco aqui sem uma
+   segunda versão do arquivo. A caixa tem a proporção da parte gráfica
+   (148:117) e a máscara é ancorada no topo, o que recorta o wordmark fora. */
+.barra-simbolo {
   flex-shrink: 0;
-  width: 30px; height: 24px;
+  width: 26px; height: 21px;
   background-color: currentColor;
   -webkit-mask: url("/img/apoio.png") top center / 100% auto no-repeat;
   mask: url("/img/apoio.png") top center / 100% auto no-repeat;
 }
-/* Em alto contraste a máscara some junto com o background-color; CanvasText
-   devolve a marca na cor que o sistema reservou para texto. */
-@media (forced-colors: active) {
-  .rail-apoio { background-color: CanvasText; }
+@media (forced-colors: active) { .barra-simbolo { background-color: CanvasText; } }
+.barra-marca-texto {
+  font-family: var(--fonte-titulo);
+  font-size: 15px; font-weight: 600; letter-spacing: -0.015em; white-space: nowrap;
 }
-.rail-marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
-.rail-marca-texto strong { font-family: var(--fonte-titulo); font-size: 17px; font-weight: 600; }
-.rail-marca-texto span { font-size: 12px; color: rgba(255,255,255,0.52); }
+.barra-marca-texto span { font-weight: 400; color: rgba(255,255,255,0.56); }
 
-.rail-nav { display: flex; flex-direction: column; gap: 2px; }
-.rail-item {
-  display: flex; align-items: center; gap: 10px;
-  padding: 9px 10px;
-  border-radius: var(--raio-p);
-  color: rgba(255,255,255,0.66);
+.barra-nav { display: flex; align-items: center; gap: 4px; }
+.barra-item {
+  padding: 7px 13px;
+  border-radius: 999px;
+  color: rgba(255,255,255,0.64);
   text-decoration: none;
-  font-size: 13.5px;
-  font-weight: 500;
+  font-size: 13.5px; font-weight: 500; white-space: nowrap;
   transition: background 0.12s ease, color 0.12s ease;
 }
-.rail-item svg { flex-shrink: 0; opacity: 0.8; }
-.rail-item:hover { background: var(--tinta-2); color: #fff; }
-.rail-item.ativo { background: var(--tinta-3); color: #fff; font-weight: 600; }
-.rail-item.ativo svg { opacity: 1; }
-.rail-item:focus-visible { outline-color: rgba(255,255,255,0.8); }
-/* O anel global é var(--tinta) — a própria cor do rail, invisível aqui. */
-.rail-marca:focus-visible { outline-color: rgba(255,255,255,0.8); }
+.barra-item:hover { background: var(--tinta-2); color: #fff; }
+.barra-item.ativo { background: #fff; color: var(--tinta); font-weight: 600; }
+.barra-item:focus-visible { outline-color: rgba(255,255,255,0.8); }
 
-.rail-nota {
-  margin: auto 0 0;
-  padding: 12px;
-  font-size: 11.5px;
-  line-height: 1.5;
-  color: rgba(255,255,255,0.5);
-  border-top: 1px solid rgba(255,255,255,0.1);
-}
-.rail-nota strong { color: rgba(255,255,255,0.82); font-weight: 600; }
-
-.area { display: flex; flex-direction: column; min-width: 0; }
+.area { display: flex; flex-direction: column; min-width: 0; align-items: center; flex: 1; }
 
 /* ===== Cabeçalho de página =============================================== */
 
 .pagina-topo {
   display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap;
-  padding: 36px 40px 22px;
-  max-width: 1180px; width: 100%;
+  padding: 40px 32px 22px;
+  max-width: 1120px; width: 100%;
 }
 .pagina-topo h1 { margin: 0 0 5px; font-size: 30px; font-weight: 600; letter-spacing: -0.03em; }
 .subtitulo { margin: 0; color: var(--texto-suave); font-size: 14px; max-width: 62ch; }
@@ -189,7 +158,7 @@ a { color: var(--texto); }
 }
 .voltar:hover { color: var(--texto); }
 
-main { padding: 0 40px 56px; max-width: 1180px; width: 100%; }
+main { padding: 0 32px 64px; max-width: 1120px; width: 100%; }
 
 /* ===== Cartões =========================================================== */
 
@@ -748,58 +717,26 @@ table.tabela-dados .acoes form { display: contents; }
 
 footer.rodape {
   margin-top: auto;
-  padding: 20px 40px 32px;
-  max-width: 1180px; width: 100%;
+  display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;
+  padding: 22px 32px 30px;
+  max-width: 1120px; width: 100%;
   border-top: 1px solid var(--linha);
   color: var(--texto-fraco);
   font-size: 12px; line-height: 1.6;
 }
-footer.rodape p { margin: 0; max-width: 90ch; }
-
-/* ===== Apresentação: o que a ferramenta garante =========================
-   O estado inicial afirma o método, não mede a base. Contagem de cobertura
-   na abertura promete um rigor que a curadoria por agregador não tem — e a
-   ressalva de "não verificado" tem lugar certo: dentro da resposta. */
-
-.apresentacao { margin-top: 24px; max-width: 760px; }
-.apresentacao-abertura {
-  margin: 0 0 22px;
-  font-size: 21px; font-weight: 500; line-height: 1.42; letter-spacing: -0.02em;
-  color: var(--texto); max-width: 34em;
+footer.rodape p { margin: 0; max-width: 78ch; }
+.rodape-marca { flex-shrink: 0; }
+/* Mesma imagem da barra, recortada no sentido oposto: máscara ancorada
+   embaixo mostra só o wordmark. Aqui ele tem largura e silêncio em volta
+   para ser lido — que é o que faltava com a marca inteira no topo. */
+.rodape-wordmark {
+  display: block;
+  width: 104px; height: 14px;
+  background-color: var(--texto-suave);
+  -webkit-mask: url("/img/apoio.png") bottom center / 100% auto no-repeat;
+  mask: url("/img/apoio.png") bottom center / 100% auto no-repeat;
 }
-.apresentacao-itens {
-  list-style: none; margin: 0; padding: 0;
-  display: flex; flex-direction: column; gap: 1px;
-  background: var(--linha); border: 1px solid var(--linha); border-radius: var(--raio);
-  overflow: hidden;
-}
-.apresentacao-itens li {
-  background: var(--superficie);
-  padding: 16px 20px;
-  font-size: 14.5px; line-height: 1.6; color: var(--texto-suave);
-}
-.apresentacao-itens strong { display: block; font-weight: 600; color: var(--texto); margin-bottom: 2px; }
-.apresentacao-acao { margin: 18px 0 0; font-size: 13.5px; color: var(--texto-fraco); }
-
-/* ===== Veredito: a resposta em palavras ==================================
-   O trabalho do usuário é "houve feriado neste dia, e com que fonte?". A
-   resposta vem escrita, na cor da camada que a sustenta — decodificar uma
-   célula colorida contra uma legenda de seis itens não é responder. */
-
-.bloco-veredito { margin: 28px 0 0; }
-.linha-contexto { margin: 0 0 7px; font-size: 14px; font-weight: 500; color: var(--texto-suave); }
-.veredito {
-  font-family: var(--fonte-titulo);
-  font-size: 44px; font-weight: 600; line-height: 1.06; letter-spacing: -0.035em;
-  margin: 0;
-}
-.veredito.camada-nacional { color: var(--nacional); }
-.veredito.camada-estadual { color: var(--estadual); }
-.veredito.camada-municipal { color: var(--municipal); }
-.veredito.camada-ponto_facultativo { color: var(--facultativo); }
-.veredito.camada-util { color: var(--tinta-3); }
-.veredito.camada-nao_verificado { color: var(--nao-verificado); }
-.veredito-nota { margin: 12px 0 0; font-size: 14.5px; line-height: 1.6; color: var(--texto-suave); max-width: 62ch; }
+@media (forced-colors: active) { .rodape-wordmark { background-color: CanvasText; } }
 
 /* ===== Provas: a norma com peso de documento, não de rodapé ============= */
 
@@ -848,32 +785,212 @@ table.calendario td { height: 34px; font-size: 13px; }
 .legenda { font-size: 12px; gap: 5px 6px; margin: 12px 0 0; max-width: 484px; }
 .legenda-item { background: transparent; border-color: transparent; padding: 1px 6px 1px 0; }
 
+
+/* ===== A pergunta é o controle ==========================================
+   O subtítulo desta tela sempre foi "No dia X, no município Y/UF, houve
+   feriado?". Em vez de descrever a pergunta acima de um formulário rotulado,
+   a frase virou o formulário e os campos viraram lacunas. É o único elemento
+   alto da interface — tudo em volta é quieto de propósito. */
+
+.pergunta { padding: 54px 0 46px; }
+
+.pergunta-modo { display: flex; gap: 4px; margin: 0 0 22px; }
+.modo-opcao { cursor: pointer; }
+.modo-opcao input { position: absolute; opacity: 0; width: 0; height: 0; }
+.modo-opcao span {
+  display: inline-block;
+  padding: 5px 13px;
+  border-radius: 999px;
+  font-size: 13px; font-weight: 500;
+  color: var(--texto-fraco);
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.modo-opcao:hover span { color: var(--texto); }
+.modo-opcao input:checked + span { background: var(--tinta); color: #fff; }
+.modo-opcao input:focus-visible + span { outline: 2px solid var(--tinta); outline-offset: 2px; }
+
+.pergunta-frase {
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-size: 37px; font-weight: 500; line-height: 1.5; letter-spacing: -0.03em;
+  color: var(--texto);
+}
+.trecho { display: inline; }
+/* O fecho em bloco: a frase quebra onde foi decidido que ela quebra, em duas
+   linhas estáveis, em vez de onde a largura da janela calhar. */
+.trecho-fecho { display: block; margin-top: 4px; }
+
+/* A lacuna: o campo não parece caixa de formulário, parece espaço a
+   preencher. Pontilhado enquanto vazio, traço cheio depois de respondido —
+   a frase vai ficando pronta conforme a pessoa escreve. */
+.lacuna { position: relative; display: inline-block; }
+.lacuna input {
+  font: inherit; letter-spacing: inherit; color: var(--tinta);
+  background: none;
+  border: none; border-bottom: 2px dashed var(--linha-forte);
+  border-radius: 0;
+  padding: 0 2px 2px;
+  transition: border-color 0.12s ease, width 0.15s ease;
+}
+.lacuna input::placeholder { color: var(--texto-fraco); font-weight: 400; }
+.lacuna input:hover { border-bottom-color: var(--texto-fraco); }
+.lacuna input:focus { border-bottom-color: var(--tinta); border-bottom-style: solid; }
+/* O traço fechando sozinho é indicador fraco demais para quem chega pelo
+   teclado; a lacuna em foco ganha caixa. Campo de texto casa com
+   :focus-visible também no clique, e aqui isso é bom: marca qual lacuna
+   está ativa no meio de uma frase longa. */
+.lacuna input:focus-visible { outline: 2px solid var(--tinta); outline-offset: 4px; border-radius: 3px; }
+.lacuna-municipio input { width: 11ch; min-width: 11ch; }
+.lacuna-municipio input:focus { width: 15ch; }
+/* Preenchida: traço cheio. A largura vem do script, medida no nome escolhido. */
+.lacuna.preenchida input { border-bottom-style: solid; border-bottom-color: var(--tinta); min-width: 0; }
+/* Data preenchida fecha o traço do mesmo jeito. Vazia e obrigatória ela é
+   :invalid, então o pontilhado marca exatamente o que falta responder. */
+.lacuna-data input:valid { border-bottom-style: solid; border-bottom-color: var(--tinta); }
+/* Largura amarrada ao conteúdo: solto, o campo de data nativo reserva folga
+   à direita e o ícone do calendário descola do "dd/mm/aaaa", parecendo
+   defeito. O ícone também encolhe — em 37px o padrão fica desproporcional. */
+.lacuna-data input { width: 7.4em; }
+.lacuna-data input::-webkit-calendar-picker-indicator { width: 15px; height: 15px; opacity: 0.4; cursor: pointer; }
+.lacuna-data input:hover::-webkit-calendar-picker-indicator { opacity: 0.75; }
+
+.botao-responder {
+  display: inline-flex; align-items: center; gap: 8px;
+  vertical-align: middle;
+  margin-left: 14px;
+  padding: 9px 20px;
+  border: none; border-radius: 999px;
+  background: var(--tinta); color: #fff;
+  font-family: var(--fonte); font-size: 14.5px; font-weight: 600; letter-spacing: 0;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.botao-responder:hover { background: var(--tinta-2); }
+
+/* A lista de sugestões ancora na lacuna, que é inline. */
+.lacuna .lista-sugestoes { position: static; }
+.lacuna .sugestoes {
+  top: calc(100% + 8px); left: 0; right: auto;
+  min-width: 300px;
+  font-size: 15px; letter-spacing: 0;
+}
+
+.rotulo-oculto {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* ===== Abertura: o que a ferramenta garante ============================= */
+
+.apresentacao-itens {
+  list-style: none; margin: 0; padding: 26px 0 0;
+  border-top: 1px solid var(--linha);
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 40px;
+}
+.apresentacao-itens li { font-size: 14px; line-height: 1.6; color: var(--texto-suave); max-width: 46ch; }
+.apresentacao-itens strong { display: block; color: var(--texto); font-weight: 600; margin-bottom: 3px; }
+
+/* ===== A resposta: veredito em laje de tinta ============================
+   A resposta e a prova dela ficam em superfícies diferentes de propósito: o
+   veredito sobre tinta, a norma sobre papel. A cor da camada continua
+   carregando significado, em versões claras — as escuras não passariam de
+   4.5:1 sobre a tinta. */
+
+.bloco-veredito {
+  margin: 0;
+  padding: 32px 34px 34px;
+  border-radius: var(--raio-g) var(--raio-g) 0 0;
+  background: var(--tinta);
+  color: #fff;
+}
+.linha-contexto { margin: 0 0 10px; font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,0.62); }
+.veredito {
+  font-family: var(--fonte-titulo);
+  font-size: 46px; font-weight: 600; line-height: 1.04; letter-spacing: -0.035em;
+  margin: 0;
+}
+.veredito.camada-nacional { color: var(--nacional-claro); }
+.veredito.camada-estadual { color: var(--estadual-claro); }
+.veredito.camada-municipal { color: var(--municipal-claro); }
+.veredito.camada-ponto_facultativo { color: var(--facultativo-claro); }
+.veredito.camada-util { color: rgba(255,255,255,0.88); }
+.veredito.camada-nao_verificado { color: var(--nao-verificado-claro); }
+.veredito-nota {
+  margin: 14px 0 0; max-width: 60ch;
+  font-size: 14.5px; line-height: 1.6; color: rgba(255,255,255,0.72);
+}
+
+/* Corpo da resposta: prova à esquerda, mês à direita. É a largura devolvida
+   pela barra no topo que torna isto possível. */
+.resposta-corpo {
+  display: grid; grid-template-columns: minmax(0, 1fr) 436px; gap: 0;
+  align-items: stretch;
+  border: 1px solid var(--linha); border-top: none;
+  border-radius: 0 0 var(--raio-g) var(--raio-g);
+  background: var(--superficie);
+  overflow: hidden;
+}
+.resposta-provas { padding: 0; min-width: 0; }
+.resposta-mes { padding: 24px; border-left: 1px solid var(--linha); background: var(--superficie-2); }
+.resposta-corpo .lista-ocorrencias { margin: 0; border: none; border-radius: 0; max-width: none; }
+.resposta-corpo .calendario-wrap { margin: 0 0 18px; max-width: none; }
+.resposta-corpo .legenda { margin: 0; max-width: none; }
+.sem-prova { margin: 0; padding: 26px 24px; font-size: 14px; color: var(--texto-suave); }
+
+/* Período: a laje é a mesma, mas os meses continuam empilhados — um período
+   pode cobrir o ano inteiro e não cabe numa coluna lateral. */
+.resposta-painel {
+  border: 1px solid var(--linha); border-top: none;
+  border-radius: 0 0 var(--raio-g) var(--raio-g);
+  background: var(--superficie);
+  overflow: hidden;
+}
+.exportar-links {
+  display: flex; gap: 10px; flex-wrap: wrap;
+  padding: 15px 22px;
+  background: var(--superficie-2);
+  border-bottom: 1px solid var(--linha);
+}
+.resposta-painel .lista-ocorrencias { margin: 0; border: none; border-radius: 0; max-width: none; }
+.calendarios-periodo { margin-top: 26px; }
+
 /* ===== Responsivo ======================================================== */
 
-@media (max-width: 980px) {
-  .app { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
-  .rail {
-    position: sticky; top: 0; z-index: 30;
-    height: auto;
-    flex-direction: row; align-items: center; gap: 14px;
-    padding: 10px 16px;
-    overflow-x: auto;
-  }
-  .rail-marca { padding: 0; }
-  .rail-marca-texto { display: none; }
-  .rail-nav { flex-direction: row; gap: 4px; }
-  .rail-item { padding: 7px 11px; font-size: 13px; white-space: nowrap; }
-  .rail-nota { display: none; }
+@media (max-width: 1040px) {
+  /* A coluna do mês deixa de caber ao lado da prova. */
+  .resposta-corpo { grid-template-columns: minmax(0, 1fr); }
+  .resposta-mes { border-left: none; border-top: 1px solid var(--linha); }
+}
 
-  .pagina-topo { padding: 24px 20px 16px; }
-  main { padding: 0 20px 40px; }
+@media (max-width: 980px) {
+  .barra { gap: 18px; padding: 0 20px; }
+  .pergunta { padding: 38px 0 32px; }
+  .pergunta-frase { font-size: 31px; max-width: none; }
+  .apresentacao-itens { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .bloco-veredito { padding: 26px 22px 28px; }
+  .veredito { font-size: 36px; }
+  .resposta-mes { padding: 20px 18px; }
+  .exportar-links { padding: 14px 22px; }
+
+  .pagina-topo { padding: 26px 20px 16px; }
+  main { padding: 0 20px 44px; }
   footer.rodape { padding: 18px 20px 28px; }
   .painel-duplo { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
   .pagina-topo h1 { font-size: 23px; }
-  .veredito { font-size: 32px; }
+  .veredito { font-size: 28px; }
+  /* A frase quebra em várias linhas; os campos não podem estourar a tela. */
+  .pergunta-frase { font-size: 25px; line-height: 1.4; }
+  .lacuna input { max-width: 100%; }
+  .lacuna-municipio input, .lacuna-municipio input:focus { width: 9ch; min-width: 9ch; }
+  .lacuna.preenchida input { min-width: 0; width: auto; max-width: 100%; }
+  .trecho-fecho { white-space: normal; }
+  .botao-responder { margin-left: 0; margin-top: 10px; }
+  .lacuna .sugestoes { min-width: 0; width: 78vw; }
+  .barra-marca-texto span { display: none; }
   .lista-ocorrencias, .calendario-wrap, .legenda { max-width: none; }
   .busca-linha { gap: 14px; }
   .campo-municipio, .campo-data { max-width: none; width: 100%; }
@@ -885,17 +1002,7 @@ table.calendario td { height: 34px; font-size: 13px; }
   .segmento { flex: 1; }
   .segmento span { text-align: center; }
   table.calendario td { height: 38px; font-size: 12px; }
-  /* Rail compacto: o rótulo some visualmente mas continua no leitor de tela
-     (display:none removeria o nome acessível do link). */
-  .rail-item span {
-    position: absolute; width: 1px; height: 1px;
-    padding: 0; margin: -1px; overflow: hidden;
-    clip-path: inset(50%); white-space: nowrap; border: 0;
-  }
-  .rail-item {
-    padding: 0;
-    min-width: 44px; min-height: 44px;
-    justify-content: center;
-  }
-  .rail-nav { gap: 4px; }
+  .rodape-marca { margin-top: 4px; }
+  /* Só dois destinos: os rótulos cabem por extenso mesmo em 375px. */
+  .barra-item { padding: 7px 10px; font-size: 12.5px; }
 }

@@ -19,20 +19,24 @@
 
 <%- include('partials/aviso-nao-verificado', { statusMunicipal: statusMunicipal }) %>
 
-<div class="exportar-links">
-  <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar CSV</a>
-  <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar PDF</a>
-</div>
-
-<% if (qtd > 0) { %>
-  <div class="lista-ocorrencias">
-    <% diasComOcorrencia.forEach(function (resultado) { %>
-      <% resultado.ocorrencias.forEach(function (o) { %>
-        <%- include('partials/ocorrencia-item', { o: o }) %>
-      <% }); %>
-    <% }); %>
+<%# Exportação e provas num painel só, continuando a laje do veredito: são
+    a mesma resposta, não três blocos soltos empilhados. %>
+<div class="resposta-painel">
+  <div class="exportar-links">
+    <a href="/exportar/csv?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar CSV</a>
+    <a href="/exportar/pdf?codigoIbge=<%= municipio.codigoIbge %>&dataInicio=<%= dataInicioIso %>&dataFim=<%= dataFimIso %>">Exportar PDF</a>
   </div>
-<% } %>
+
+  <% if (qtd > 0) { %>
+    <div class="lista-ocorrencias">
+      <% diasComOcorrencia.forEach(function (resultado) { %>
+        <% resultado.ocorrencias.forEach(function (o) { %>
+          <%- include('partials/ocorrencia-item', { o: o }) %>
+        <% }); %>
+      <% }); %>
+    </div>
+  <% } %>
+</div>
 
 <div class="calendarios-periodo">
   <% calendarios.forEach(function (c) { %>

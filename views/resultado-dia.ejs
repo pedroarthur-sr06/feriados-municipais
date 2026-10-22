@@ -1,13 +1,22 @@
-<%- include('partials/veredito', { resultado: resultado, municipio: municipio }) %>
+<%- include("partials/veredito", { resultado: resultado, municipio: municipio }) %>
 
-<% if (resultado.ocorrencias.length > 0) { %>
-  <div class="lista-ocorrencias">
-    <% resultado.ocorrencias.forEach(function (o) { %>
-      <%- include('partials/ocorrencia-item', { o: o }) %>
-    <% }); %>
+<%# Prova à esquerda, mês à direita: a largura que a barra no topo devolveu
+    é o que permite ler a norma sem perder o mês de vista. %>
+<div class="resposta-corpo">
+  <div class="resposta-provas">
+    <% if (resultado.ocorrencias.length > 0) { %>
+      <div class="lista-ocorrencias">
+        <% resultado.ocorrencias.forEach(function (o) { %>
+          <%- include("partials/ocorrencia-item", { o: o }) %>
+        <% }); %>
+      </div>
+    <% } else { %>
+      <p class="sem-prova">Nenhuma ocorrência nesta data — não há norma a citar.</p>
+    <% } %>
   </div>
-<% } %>
 
-<%- include('partials/calendario', { ano: ano, mes: mes, semanas: semanas, dataDestaque: resultado.data }) %>
-
-<%- include('partials/legenda') %>
+  <aside class="resposta-mes">
+    <%- include("partials/calendario", { ano: ano, mes: mes, semanas: semanas, dataDestaque: resultado.data }) %>
+    <%- include("partials/legenda") %>
+  </aside>
+</div>

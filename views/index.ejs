@@ -4,82 +4,83 @@
     <%- include('partials/nav', { paginaAtual: 'consulta' }) %>
 
     <div class="area">
-      <header class="pagina-topo">
-        <div class="pagina-topo-texto">
-          <h1>Consulta</h1>
-          <p class="subtitulo">No dia X, no município Y/UF, houve feriado ou ponto facultativo? Sempre com a fonte.</p>
-        </div>
-      </header>
-
       <main>
-        <form id="form-consulta" class="cartao busca" hx-get="/consulta" hx-target="#resultado" hx-indicator="#carregando"
+        <%#
+          A pergunta é o controle. O subtítulo desta tela sempre foi "No dia X,
+          no município Y/UF, houve feriado?" — então em vez de descrever a
+          pergunta acima de um formulário rotulado, a própria frase virou o
+          formulário, com os campos como lacunas a preencher. É o único
+          elemento alto da tela; todo o resto é quieto de propósito.
+        %>
+        <form id="form-consulta" class="pergunta" hx-get="/consulta" hx-target="#resultado" hx-indicator="#carregando"
               x-data="{ modo: 'dia' }">
-          <div class="campo campo-municipio">
-            <label for="municipio-busca">Município</label>
-            <div class="entrada-com-icone">
-              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="7"></circle>
-                <path d="m20 20-3.6-3.6"></path>
-              </svg>
-              <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off" required
-                     placeholder="Digite o nome do município..."
-                     role="combobox" aria-expanded="false" aria-controls="lista-municipios" aria-autocomplete="list"
-                     hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
-                     hx-target="#lista-municipios" hx-swap="innerHTML" />
-            </div>
-            <input type="hidden" id="codigoIbge" name="codigoIbge" />
-            <div id="lista-municipios" class="lista-sugestoes"></div>
-            <p id="municipio-selecionado" class="municipio-selecionado" aria-live="polite"></p>
+
+          <div class="pergunta-modo" role="group" aria-label="Tipo de consulta">
+            <label class="modo-opcao">
+              <input type="radio" name="modo" value="dia" x-model="modo" checked />
+              <span>um dia</span>
+            </label>
+            <label class="modo-opcao">
+              <input type="radio" name="modo" value="periodo" x-model="modo" />
+              <span>um período</span>
+            </label>
           </div>
 
-          <div class="busca-linha">
-            <div class="campo">
-              <span class="rotulo">Intervalo</span>
-              <div class="segmentos" role="group" aria-label="Modo de consulta">
-                <label class="segmento">
-                  <input type="radio" name="modo" value="dia" x-model="modo" checked />
-                  <span>Data única</span>
-                </label>
-                <label class="segmento">
-                  <input type="radio" name="modo" value="periodo" x-model="modo" />
-                  <span>Período</span>
-                </label>
-              </div>
-            </div>
-
-            <div class="campo campo-data" x-show="modo === 'dia'">
-              <label for="data">Data</label>
-              <input type="date" id="data" name="data" :required="modo === 'dia'" />
-            </div>
-
-            <div class="campo-grupo" x-show="modo === 'periodo'" x-cloak>
-              <div class="campo campo-data">
-                <label for="dataInicio">De</label>
-                <input type="date" id="dataInicio" name="dataInicio" :required="modo === 'periodo'" />
-              </div>
-              <div class="campo campo-data">
-                <label for="dataFim">Até</label>
-                <input type="date" id="dataFim" name="dataFim" :required="modo === 'periodo'" />
-              </div>
-            </div>
-
-            <div class="campo campo-acao">
-              <button type="submit" class="botao-primario">
-                Consultar
-              </button>
-              <span id="carregando" class="htmx-indicator" role="status">
-                <span class="fiandeira" aria-hidden="true"></span> Consultando…
+          <%# div e não p: o <div> da lista de sugestões, que precisa estar
+              ancorado na lacuna, fecharia um <p> antes da hora e jogaria o
+              fecho da frase para fora dela. %>
+          <div class="pergunta-frase">
+            <span x-show="modo === 'dia'" class="trecho">
+              No dia
+              <span class="lacuna lacuna-data">
+                <label class="rotulo-oculto" for="data">Data</label>
+                <input type="date" id="data" name="data" :required="modo === 'dia'" />
               </span>
-            </div>
+            </span>
+
+            <span x-show="modo === 'periodo'" x-cloak class="trecho">
+              De
+              <span class="lacuna lacuna-data">
+                <label class="rotulo-oculto" for="dataInicio">Data inicial</label>
+                <input type="date" id="dataInicio" name="dataInicio" :required="modo === 'periodo'" />
+              </span>
+              a
+              <span class="lacuna lacuna-data">
+                <label class="rotulo-oculto" for="dataFim">Data final</label>
+                <input type="date" id="dataFim" name="dataFim" :required="modo === 'periodo'" />
+              </span>
+            </span>
+
+            <span class="trecho">
+              em
+              <span class="lacuna lacuna-municipio" id="ancora-municipio">
+                <label class="rotulo-oculto" for="municipio-busca">Município</label>
+                <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off" required
+                       placeholder="município"
+                       role="combobox" aria-expanded="false" aria-controls="lista-municipios" aria-autocomplete="list"
+                       hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
+                       hx-target="#lista-municipios" hx-swap="innerHTML" />
+                <input type="hidden" id="codigoIbge" name="codigoIbge" />
+                <div id="lista-municipios" class="lista-sugestoes"></div>
+              </span>
+            </span>
+
+            <span class="trecho trecho-fecho">
+              houve feriado?
+              <button type="submit" class="botao-responder">
+                Responder
+                <span id="carregando" class="htmx-indicator" role="status">
+                  <span class="fiandeira" aria-hidden="true"></span>
+                </span>
+              </button>
+            </span>
           </div>
+
+          <p id="municipio-selecionado" class="rotulo-oculto" aria-live="polite"></p>
         </form>
 
         <section id="resultado" aria-live="polite">
           <div class="apresentacao">
-            <p class="apresentacao-abertura">
-              Feriado municipal não tem lista nacional: cada cidade cria o seu por lei
-              própria. Aqui a resposta vem com a norma que a sustenta.
-            </p>
             <ul class="apresentacao-itens">
               <li>
                 <strong>A norma junto da resposta.</strong>
@@ -97,8 +98,12 @@
                 Nacional, estadual e municipal convivem no mesmo dia quando coincidem —
                 nenhuma esconde a outra, e o cálculo vale para anos passados e futuros.
               </li>
+              <li>
+                <strong>Município sem curadoria responde “não verificado”.</strong>
+                Nunca “dia útil” por omissão: a ausência de prova aparece como ausência
+                de prova, e é isso que impede um erro de folha.
+              </li>
             </ul>
-            <p class="apresentacao-acao">Busque um município e escolha uma data para começar.</p>
           </div>
         </section>
       </main>

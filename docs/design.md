@@ -113,30 +113,72 @@ hachura diagonal (forma, não cor); o dia consultado leva anel de tinta,
 independente da categoria. Contraste auditado no navegador em todas as telas e
 nos dois modos do toggle — zero falhas AA.
 
-### Marca institucional no rail
+### A pergunta é o controle
 
-O topo do rail traz o **símbolo da Apoio** em branco, ao lado do nome da
-aplicação, numa linha só. O ícone de calendário que ocupava esse lugar saiu:
-duas marcas no topo competem, e um glifo genérico ao lado de uma marca real
-perde sempre.
+A terceira passada trocou a anatomia da tela de Consulta. O subtítulo sempre
+foi "No dia X, no município Y/UF, houve feriado ou ponto facultativo?" — e
+logo abaixo dele havia um cartão com campos rotulados que perguntavam a mesma
+coisa, de novo, em outra linguagem.
 
-**Só o símbolo, sem o wordmark.** O "APOIO" ocupa 12% da altura do arquivo da
-marca. Para ele ficar legível, a marca inteira precisa virar um bloco alto de
-~70px — e aí a identidade da empresa passa a gritar mais alto que a
-navegação, que é o trabalho desta coluna. A primeira tentativa foi assim e foi
-rejeitada na revisão. O símbolo sozinho carrega a marca e cabe numa linha.
+Agora a frase **é** o formulário:
 
-**A logo entra como máscara, não como `<img>`.** O arquivo
-(`public/img/apoio.png`) é preto sobre fundo transparente;
-`mask` + `background-color: currentColor` pinta de branco sem exigir uma
-segunda versão do arquivo. A caixa tem a proporção da parte gráfica (148:117)
-e a máscara fica ancorada no topo — é o que recorta o wordmark para fora, sem
-precisar de um segundo arquivo. Se aparecer o `.svg` oficial, trocar é mudar
-a URL.
+    No dia [08/12/2026] em [Campinas / SP]
+    houve feriado?  (Responder)
 
-A coluna da marca nasce na mesma vertical dos ícones do menu (24px da borda).
-O anel de foco do link da marca é branco: o anel global é `var(--tinta)`, a
-própria cor do rail, e sumiria ali.
+Os campos são lacunas, não caixas: fundo transparente, traço embaixo,
+pontilhado enquanto vazio e cheio depois de respondido. A frase vai ficando
+pronta conforme a pessoa preenche, e a lacuna do município encolhe no nome
+escolhido (largura medida no script) para não sobrar traço depois da palavra.
+
+Este é o único elemento alto da interface. Tudo em volta é quieto de
+propósito — é onde a ousadia foi gasta.
+
+Cuidados que isso exige e que não são óbvios:
+
+- O contêiner da frase é `<div>`, não `<p>`: o `<div>` da lista de
+  sugestões, que precisa ficar ancorado na lacuna, fecharia um parágrafo
+  antes da hora e jogaria o fecho da frase para fora dele.
+- O fecho ("houve feriado?") é `display: block`, então a frase quebra em
+  duas linhas estáveis, onde foi decidido, e não onde a janela calhar.
+- A lacuna em foco ganha caixa de foco. O traço fechando sozinho é indicador
+  fraco demais para quem chega pelo teclado.
+- O campo de data tem largura amarrada ao conteúdo (`7.4em`): solto, o
+  controle nativo reserva folga e o ícone do calendário descola do
+  "dd/mm/aaaa", parecendo defeito.
+
+### Shell: barra no topo, não coluna lateral
+
+A coluna lateral saiu. Com a Administração fora do menu sobraram dois
+destinos, e 236px — 20% de uma tela de 1366px — para mostrar dois links é um
+mau negócio. A largura devolvida é o que paga a mudança seguinte.
+
+### A resposta: veredito em laje de tinta
+
+O veredito ficou sobre tinta e a prova sobre papel. A divisão de superfície
+carrega a divisão de sentido: **a resposta** e **a evidência dela** são coisas
+diferentes, e a tela passou a dizer isso sem precisar de rótulo.
+
+Abaixo da laje, prova à esquerda e mês à direita, num painel só — é a largura
+que a barra no topo devolveu que torna isso possível. Em período, a laje é a
+mesma e os meses seguem empilhados: um período pode cobrir o ano inteiro.
+
+As categorias sobre a tinta usam versões clareadas (`--nacional-claro` e
+irmãs). As escuras não chegariam a 4.5:1 ali. Medido: 7.95 a 9.92:1 — folga
+de AAA nas cinco.
+
+### Marca institucional
+
+**Na barra, só o símbolo.** O wordmark "APOIO" ocupa 12% da altura do arquivo:
+para ser legível exige um bloco alto, e aí a identidade da empresa grita mais
+alto que a navegação. O símbolo sozinho carrega a marca e cabe numa linha.
+
+**No rodapé, o wordmark inteiro.** É onde marca de "operado por" vive, há
+largura sobrando e silêncio em volta — exatamente o que faltava no topo.
+
+As duas saem do mesmo arquivo (`public/img/apoio.png`, preto sobre
+transparente) por máscara CSS pintada com `background-color`: a barra recorta
+ancorando a máscara no topo, o rodapé ancorando embaixo. Nenhuma segunda
+versão do arquivo, e trocar pelo `.svg` oficial é mudar a URL.
 
 ### Autocomplete de município
 

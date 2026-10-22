@@ -1,33 +1,18 @@
 <%
   const atual = typeof paginaAtual !== "undefined" ? paginaAtual : "";
 %>
-<aside class="rail">
-  <a class="rail-marca" href="/">
-    <span class="rail-apoio" role="img" aria-label="Apoio"></span>
-    <span class="rail-marca-texto">
-      <strong>Feriados</strong>
-      <span>Municipais</span>
-    </span>
+<%# Barra no topo, não mais coluna lateral: sobraram dois destinos, e uma
+    coluna de 236px gastava 20% de uma tela de 1366px para mostrá-los. A
+    largura devolvida é o que deixa a prova e o calendário conviverem lado a
+    lado na resposta. %>
+<header class="barra">
+  <a class="barra-marca" href="/">
+    <span class="barra-simbolo" role="img" aria-label="Apoio"></span>
+    <span class="barra-marca-texto">Feriados <span>Municipais</span></span>
   </a>
 
-  <nav class="rail-nav" aria-label="Seções">
-    <a href="/" class="rail-item <%= atual === 'consulta' ? 'ativo' : '' %>" <%= atual === 'consulta' ? 'aria-current="page"' : '' %>>
-      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="7"></circle>
-        <path d="m20 20-3.6-3.6"></path>
-      </svg>
-      <span>Consulta</span>
-    </a>
-    <a href="/lote" class="rail-item <%= atual === 'lote' ? 'ativo' : '' %>" <%= atual === 'lote' ? 'aria-current="page"' : '' %>>
-      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="3" y="4" width="18" height="16" rx="2"></rect>
-        <path d="M3 9.5h18M9 9.5V20M15 9.5V20"></path>
-      </svg>
-      <span>Operação em lote</span>
-    </a>
+  <nav class="barra-nav" aria-label="Seções">
+    <a href="/" class="barra-item <%= atual === 'consulta' ? 'ativo' : '' %>" <%= atual === 'consulta' ? 'aria-current="page"' : '' %>>Consulta</a>
+    <a href="/lote" class="barra-item <%= atual === 'lote' ? 'ativo' : '' %>" <%= atual === 'lote' ? 'aria-current="page"' : '' %>>Operação em lote</a>
   </nav>
-
-  <p class="rail-nota">
-    Cada feriado aqui carrega a <strong>norma que o cria</strong>, quem conferiu e quando.
-  </p>
-</aside>
+</header>
