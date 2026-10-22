@@ -612,6 +612,25 @@ td .marcador-multiplo {
 .painel-duplo { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 16px; align-items: start; }
 .painel-duplo .cartao + .cartao { margin-top: 0; }
 
+/* O console do lote: mesma superfície da Consulta, com o subtítulo dentro
+   porque aqui ele explica o que a tela faz, não é enfeite de cabeçalho. */
+.console-topo-texto { max-width: 68ch; }
+.console-sub { margin: 7px 0 0; font-size: 13.5px; line-height: 1.6; color: rgba(255,255,255,0.68); }
+.console-lote .campo-arquivo { display: block; margin-bottom: 16px; }
+.console-lote .campo-arquivo label { display: block; margin-bottom: 7px; }
+.console-rodape { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.console-ajuda { margin: 0; max-width: 56ch; font-size: 12.5px; line-height: 1.55; color: rgba(255,255,255,0.58); }
+.erro-console {
+  margin: 0 0 16px;
+  background: rgba(255,167,156,0.12);
+  border-color: var(--nao-verificado-claro);
+  color: var(--nao-verificado-claro);
+}
+
+.referencia-lote { margin-top: 16px; }
+.referencia-colunas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 36px; }
+.referencia-colunas > div > p:first-child { margin-bottom: 2px; }
+
 /* O input cobre a zona inteira (clicável e focável pela validação do browser),
    mas quem aparece é a zona desenhada abaixo dele. */
 .zona-arquivo { position: relative; }
@@ -621,26 +640,27 @@ td .marcador-multiplo {
   opacity: 0; cursor: pointer;
   z-index: 1;
 }
+/* Sobre a tinta do console, o poço é o mesmo dos campos da Consulta; o
+   tracejado diz "solte o arquivo aqui" sem precisar de texto extra. */
 .zona-arquivo {
-  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px;
   padding: 30px 20px;
-  border: 1.5px dashed var(--linha-forte);
-  border-radius: var(--raio);
-  background: var(--superficie-2);
-  color: var(--texto-suave);
-  text-transform: none; letter-spacing: normal;
+  border: 1.5px dashed var(--poco-borda);
+  border-radius: 8px;
+  background: var(--poco);
   transition: border-color 0.12s ease, background 0.12s ease;
 }
-.zona-arquivo:hover { border-color: var(--tinta-3); background: #f5f3f0; }
-.zona-arquivo:focus-within { border-color: var(--tinta); border-style: solid; }
-.zona-arquivo.com-arquivo { border-style: solid; border-color: var(--municipal); background: var(--municipal-bg); }
-.zona-arquivo.com-arquivo svg, .zona-arquivo.com-arquivo .zona-arquivo-texto { color: var(--municipal); }
-.zona-arquivo svg { color: var(--texto-fraco); }
+.zona-arquivo:hover { border-color: rgba(255,255,255,0.4); }
+.zona-arquivo:focus-within { border-color: rgba(255,255,255,0.6); border-style: solid; }
+.zona-arquivo.com-arquivo { border-style: solid; border-color: var(--municipal-claro); background: rgba(109,219,166,0.1); }
+.zona-arquivo.com-arquivo svg, .zona-arquivo.com-arquivo .zona-arquivo-texto { color: var(--municipal-claro); }
+.zona-arquivo svg { color: rgba(255,255,255,0.45); }
 .zona-arquivo-texto {
-  font-size: 14px; font-weight: 600; color: var(--texto);
+  font-size: 14px; font-weight: 600; color: #fff;
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: center;
   text-align: center; word-break: break-all;
 }
+.zona-arquivo .dica { font-weight: 400; color: rgba(255,255,255,0.58); }
 
 .lista-colunas { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 8px 0 16px; padding: 0; font-size: 13px; }
 .lista-colunas li { display: inline-flex; align-items: center; gap: 6px; }
@@ -730,18 +750,22 @@ footer.rodape {
   font-size: 12px; line-height: 1.6;
 }
 footer.rodape p { margin: 0; max-width: 78ch; }
-.rodape-marca { flex-shrink: 0; }
-/* Mesma imagem da barra, recortada no sentido oposto: máscara ancorada
-   embaixo mostra só o wordmark. Aqui ele tem largura e silêncio em volta
-   para ser lido — que é o que faltava com a marca inteira no topo. */
-.rodape-wordmark {
+/* Duas marcas no rodapé: a Apoio (o sistema) e a Rede São Roque (quem o
+   opera). Aqui a da Apoio aparece inteira — símbolo e wordmark — porque há
+   largura e silêncio em volta, que é o que faltava no topo. */
+.rodape-marcas { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
+.marca-apoio {
   display: block;
-  width: 104px; height: 14px;
+  width: 46px; height: 50px;
   background-color: var(--texto-suave);
-  -webkit-mask: url("/img/apoio.png") bottom center / 100% auto no-repeat;
-  mask: url("/img/apoio.png") bottom center / 100% auto no-repeat;
+  -webkit-mask: url("/img/apoio.png") center / contain no-repeat;
+  mask: url("/img/apoio.png") center / contain no-repeat;
 }
-@media (forced-colors: active) { .rodape-wordmark { background-color: CanvasText; } }
+@media (forced-colors: active) { .marca-apoio { background-color: CanvasText; } }
+.rodape-divisa { width: 1px; height: 32px; background: var(--linha-forte); }
+/* A São Roque é a única marca colorida do rodapé, então entra como imagem e
+   não como máscara: a cor é parte dela. */
+.marca-sao-roque { display: block; width: 124px; height: auto; }
 
 /* ===== Provas: a norma com peso de documento, não de rodapé ============= */
 
@@ -988,6 +1012,8 @@ table.calendario td { height: 34px; font-size: 13px; }
 @media (max-width: 980px) {
   .barra { gap: 18px; padding: 0 20px; }
   .console { padding: 18px 18px 20px; }
+  .referencia-colunas { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .console-rodape { flex-direction: column; align-items: stretch; }
   .console-topo { margin-bottom: 16px; }
   .apresentacao-itens { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .bloco-veredito { padding: 26px 22px 28px; }
@@ -1025,7 +1051,7 @@ table.calendario td { height: 34px; font-size: 13px; }
   .segmento { flex: 1; }
   .segmento span { text-align: center; }
   table.calendario td { height: 38px; font-size: 12px; }
-  .rodape-marca { margin-top: 4px; }
+  .rodape-marcas { margin-top: 6px; gap: 14px; }
   /* Só dois destinos: os rótulos cabem por extenso mesmo em 375px. */
   .barra-item { padding: 7px 10px; font-size: 12.5px; }
 }

@@ -4,68 +4,70 @@
     <%- include('partials/nav', { paginaAtual: 'lote' }) %>
 
     <div class="area">
-      <header class="pagina-topo">
-        <div class="pagina-topo-texto">
-          <h1>Operação em lote</h1>
-          <p class="subtitulo">Conferir 400 datas uma a uma no Google leva a tarde. Aqui leva um upload: cada linha da sua planilha volta classificada, com a fonte legal e o aviso de município não conferido.</p>
-        </div>
-      </header>
-
       <main>
-        <div class="painel-duplo">
-          <form action="/lote/processar" method="post" enctype="multipart/form-data" class="cartao"
-                x-data="{ nomeArquivo: '' }">
-            <h2 class="cartao-titulo">Enviar planilha</h2>
-
-            <% if (typeof erro !== "undefined" && erro) { %>
-              <div class="erro" role="alert"><%= erro %></div>
-            <% } %>
-
-            <div class="campo">
-              <label for="arquivo">Arquivo</label>
-              <div class="zona-arquivo" :class="nomeArquivo && 'com-arquivo'">
-                <input type="file" id="arquivo" name="arquivo" accept=".csv,.xlsx" required class="entrada-arquivo"
-                       @change="nomeArquivo = $event.target.files.length ? $event.target.files[0].name : ''" />
-                <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 16V4M8 8l4-4 4 4"></path>
-                  <path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"></path>
-                </svg>
-                <span class="zona-arquivo-texto">
-                  <span x-text="nomeArquivo || 'Escolher arquivo'">Escolher arquivo</span>
-                  <span class="dica" x-show="!nomeArquivo">.csv ou .xlsx</span>
-                </span>
-              </div>
-              <p class="ajuda-campo">Até 20.000 linhas por envio. O arquivo volta no mesmo formato que entrou, com cinco colunas a mais.</p>
+        <%# Mesma anatomia da Consulta: console escuro onde se age, painel de
+            papel ao lado com a referência que se lê. %>
+        <form action="/lote/processar" method="post" enctype="multipart/form-data" class="console console-lote"
+              x-data="{ nomeArquivo: '' }">
+          <div class="console-topo">
+            <div class="console-topo-texto">
+              <h1 class="console-titulo">Operação em lote</h1>
+              <p class="console-sub">Conferir 400 datas uma a uma no Google leva a tarde. Aqui leva um upload: cada linha
+                da sua planilha volta classificada, com a fonte legal e o aviso de município não conferido.</p>
             </div>
+          </div>
 
-            <button type="submit" class="botao-primario">
-              <span>Processar e baixar</span>
-              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 4v12M7 12l5 5 5-5"></path>
-                <path d="M5 20h14"></path>
+          <% if (typeof erro !== "undefined" && erro) { %>
+            <div class="erro erro-console" role="alert"><%= erro %></div>
+          <% } %>
+
+          <div class="campo campo-arquivo">
+            <label for="arquivo">Planilha</label>
+            <div class="zona-arquivo" :class="nomeArquivo && 'com-arquivo'">
+              <input type="file" id="arquivo" name="arquivo" accept=".csv,.xlsx" required class="entrada-arquivo"
+                     @change="nomeArquivo = $event.target.files.length ? $event.target.files[0].name : ''" />
+              <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 16V4M8 8l4-4 4 4"></path>
+                <path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"></path>
               </svg>
-            </button>
-          </form>
+              <span class="zona-arquivo-texto">
+                <span x-text="nomeArquivo || 'Escolher arquivo'">Escolher arquivo</span>
+                <span class="dica" x-show="!nomeArquivo">.csv ou .xlsx</span>
+              </span>
+            </div>
+          </div>
 
-          <section class="cartao cartao-discreto">
-            <h2 class="cartao-titulo">O que entra e o que volta</h2>
-            <p>Uma linha por posto e data. CSV ou XLSX com as colunas:</p>
-            <ul class="lista-colunas">
-              <li><code>posto</code></li>
-              <li><code>municipio</code></li>
-              <li><code>uf</code></li>
-              <li><code>data</code> <span class="dica">AAAA-MM-DD ou DD/MM/AAAA</span></li>
-            </ul>
-            <p>O mesmo arquivo desce de volta com estas cinco a mais:</p>
-            <ul class="lista-colunas">
-              <li><code>classificacao</code></li>
-              <li><code>tipos</code></li>
-              <li><code>fonte</code></li>
-              <li><code>status_municipal</code></li>
-              <li><code>erro</code> <span class="dica">quando o município não é encontrado ou a data é inválida</span></li>
-            </ul>
-          </section>
-        </div>
+          <div class="console-rodape">
+            <p class="console-ajuda">Até 20.000 linhas por envio. O arquivo volta no mesmo formato que entrou, com cinco
+              colunas a mais.</p>
+            <button type="submit" class="botao-consultar">Processar e baixar</button>
+          </div>
+        </form>
+
+        <section class="cartao cartao-discreto referencia-lote">
+          <h2 class="cartao-titulo">O que entra e o que volta</h2>
+          <div class="referencia-colunas">
+            <div>
+              <p>Uma linha por posto e data. CSV ou XLSX com as colunas:</p>
+              <ul class="lista-colunas">
+                <li><code>posto</code></li>
+                <li><code>municipio</code></li>
+                <li><code>uf</code></li>
+                <li><code>data</code> <span class="dica">AAAA-MM-DD ou DD/MM/AAAA</span></li>
+              </ul>
+            </div>
+            <div>
+              <p>O mesmo arquivo desce de volta com estas cinco a mais:</p>
+              <ul class="lista-colunas">
+                <li><code>classificacao</code></li>
+                <li><code>tipos</code></li>
+                <li><code>fonte</code></li>
+                <li><code>status_municipal</code></li>
+                <li><code>erro</code> <span class="dica">quando o município não é encontrado ou a data é inválida</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
 
       <%- include('partials/foot') %>

@@ -1,11 +1,12 @@
   <footer class="rodape">
     <p>Todo feriado cadastrado tem fonte, autor e data de verificação registrados. Critérios de cadastro e catálogo de
       fontes em <code>docs/fontes-de-dados.md</code>.</p>
-    <%# Wordmark da Apoio: mesma imagem da barra, recortada pela máscara no
-        sentido oposto (ancorada embaixo) para mostrar só o texto. Aqui ele
-        tem largura e silêncio em volta para ser lido, que é o que faltava
-        quando a marca inteira estava no topo. %>
-    <p class="rodape-marca">
-      <span class="rodape-wordmark" role="img" aria-label="Apoio"></span>
-    </p>
+    <%# Duas marcas: a Apoio (o sistema) e a Rede São Roque (quem o opera).
+        A da Apoio sai do mesmo PNG da barra, por máscara — aqui inteira,
+        símbolo e wordmark, que é o que não cabia no topo. %>
+    <div class="rodape-marcas">
+      <span class="marca-apoio" role="img" aria-label="Apoio"></span>
+      <span class="rodape-divisa" aria-hidden="true"></span>
+      <img class="marca-sao-roque" src="/img/sao-roque.png" alt="Rede São Roque" width="124" height="41" />
+    </div>
   </footer>

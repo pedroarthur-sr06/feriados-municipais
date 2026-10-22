@@ -172,19 +172,37 @@ As categorias sobre a tinta usam versões clareadas (`--nacional-claro` e
 irmãs). As escuras não chegariam a 4.5:1 ali. Medido: 7.95 a 9.92:1 — folga
 de AAA nas cinco.
 
-### Marca institucional
+### Operação em lote: a mesma anatomia
 
-**Na barra, só o símbolo.** O wordmark "APOIO" ocupa 12% da altura do arquivo:
-para ser legível exige um bloco alto, e aí a identidade da empresa grita mais
-alto que a navegação. O símbolo sozinho carrega a marca e cabe numa linha.
+A tela de lote repete a divisão da Consulta — console escuro onde se age,
+papel ao lado com a referência que se lê. O título e o subtítulo moram dentro
+do console, não num cabeçalho de página acima: aqui eles explicam o que a
+tela faz, não enfeitam.
 
-**No rodapé, o wordmark inteiro.** É onde marca de "operado por" vive, há
-largura sobrando e silêncio em volta — exatamente o que faltava no topo.
+A zona de upload usa o mesmo poço dos campos da Consulta, com borda
+tracejada. Arquivo escolhido fecha a borda e troca a cor para o verde
+municipal clareado — confirmação por forma e cor, não só por texto.
 
-As duas saem do mesmo arquivo (`public/img/apoio.png`, preto sobre
-transparente) por máscara CSS pintada com `background-color`: a barra recorta
-ancorando a máscara no topo, o rodapé ancorando embaixo. Nenhuma segunda
-versão do arquivo, e trocar pelo `.svg` oficial é mudar a URL.
+### Marcas
+
+Três lugares, três papéis:
+
+| Onde | O quê | Por quê |
+|---|---|---|
+| Barra | Símbolo da Apoio | Cabe numa linha sem gritar mais alto que a navegação |
+| Rodapé | Apoio inteira + Rede São Roque | Há largura e silêncio; é onde marca de "operado por" vive |
+| Aba do navegador | Símbolo "S" da Rede São Roque | Colorido, reconhecível em 16px |
+
+A Apoio sai sempre do mesmo `public/img/apoio.png` (preto sobre
+transparente) por máscara CSS pintada com `background-color`: a barra
+recorta ancorando a máscara no topo (só o símbolo), o rodapé usa a marca
+inteira. Nenhuma segunda versão do arquivo.
+
+A Rede São Roque entra como `<img>`, e não como máscara, porque a cor é
+parte dela — é a única marca colorida do rodapé. O arquivo veio em RGB sobre
+branco; o fundo foi recortado por limiar e a imagem reduzida para 248px (2x
+do tamanho de exibição). O favicon é o símbolo "S" recortado do mesmo
+arquivo, centrado num quadrado transparente em 64px e 180px.
 
 ### Autocomplete de município
 
