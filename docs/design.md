@@ -112,3 +112,30 @@ veredito e na descrição de cada prova; "não verificado" no calendário usa
 hachura diagonal (forma, não cor); o dia consultado leva anel de tinta,
 independente da categoria. Contraste auditado no navegador em todas as telas e
 nos dois modos do toggle — zero falhas AA.
+
+### Marca institucional no rail
+
+O topo do rail traz a marca da **Apoio** em branco, e abaixo dela, separado
+por um fio, o nome da aplicação. O ícone de calendário que ocupava esse lugar
+saiu: duas marcas no topo competem, e um glifo genérico ao lado de uma marca
+real perde sempre. Uma marca só, e é a verdadeira.
+
+Três decisões que não são óbvias no CSS:
+
+- **A logo entra como máscara, não como `<img>`.** O arquivo
+  (`public/img/apoio.png`) é preto sobre fundo transparente;
+  `mask` + `background-color: currentColor` pinta de branco sem exigir uma
+  segunda versão do arquivo, e acompanha a cor do texto se a marca for
+  reaproveitada sobre fundo claro. Se um dia aparecer o `.svg` oficial,
+  trocar é mudar a URL.
+- **Empilhada, não lado a lado.** O wordmark "APOIO" ocupa 12% da altura do
+  arquivo. Numa linha horizontal do rail ele cairia para 5px de altura e
+  deixaria de ser palavra. Empilhar é o que devolve legibilidade a ele.
+- **No rail compacto, só o símbolo.** Em vez de um segundo arquivo, a máscara
+  é recortada: a parte gráfica ocupa os 117px de cima dos 160 do arquivo,
+  então uma caixa na proporção 148:117 com a máscara ancorada no topo mostra
+  o símbolo e deixa o wordmark de fora.
+
+A coluna da marca nasce na mesma vertical dos ícones do menu (24px da borda).
+O anel de foco do link da marca é branco: o anel global é `var(--tinta)`, a
+própria cor do rail, e sumiria ali.

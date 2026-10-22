@@ -100,13 +100,36 @@ a { color: var(--texto); }
   gap: 26px;
 }
 
+/* Marca institucional acima, nome da aplicação abaixo. Empilhado e não lado
+   a lado porque o wordmark "APOIO" ocupa só 12% da altura do arquivo: na
+   largura que sobra numa linha do rail ele fica com 5px de altura e deixa de
+   ser palavra. Empilhar é o que devolve legibilidade a ele. */
 .rail-marca {
-  display: flex; align-items: center; gap: 10px;
-  padding: 4px 8px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 13px;
+  /* 10px, e não 8px, para a coluna da marca nascer na mesma vertical dos
+     ícones do menu (que têm 10px de recuo dentro do item). */
+  padding: 4px 10px;
   color: #fff;
   text-decoration: none;
 }
-.rail-marca svg { color: #fff; opacity: 0.92; flex-shrink: 0; }
+/* Marca institucional. O arquivo é PNG preto sobre fundo transparente, então
+   entra como máscara pintada com currentColor, e não como <img>: fica branco
+   no rail escuro sem exigir uma segunda versão do arquivo, e acompanha a cor
+   do texto se a marca for reaproveitada sobre fundo claro. Trocar pelo .svg
+   oficial, se ele aparecer, é só mudar a URL. */
+.rail-apoio {
+  flex-shrink: 0;
+  width: 64px; height: 69px;
+  background-color: currentColor;
+  -webkit-mask: url("/img/apoio.png") center / contain no-repeat;
+  mask: url("/img/apoio.png") center / contain no-repeat;
+}
+/* Em alto contraste a máscara some junto com o background-color; CanvasText
+   devolve a marca na cor que o sistema reservou para texto. */
+@media (forced-colors: active) {
+  .rail-apoio { background-color: CanvasText; }
+}
+.rail-marca-fio { align-self: stretch; height: 1px; background: rgba(255,255,255,0.16); }
 .rail-marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
 .rail-marca-texto strong { font-family: var(--fonte-titulo); font-size: 17px; font-weight: 600; }
 .rail-marca-texto span { font-size: 12px; color: rgba(255,255,255,0.52); }
@@ -127,6 +150,8 @@ a { color: var(--texto); }
 .rail-item.ativo { background: var(--tinta-3); color: #fff; font-weight: 600; }
 .rail-item.ativo svg { opacity: 1; }
 .rail-item:focus-visible { outline-color: rgba(255,255,255,0.8); }
+/* O anel global é var(--tinta) — a própria cor do rail, invisível aqui. */
+.rail-marca:focus-visible { outline-color: rgba(255,255,255,0.8); }
 
 .rail-nota {
   margin: auto 0 0;
@@ -826,7 +851,12 @@ table.calendario td { height: 34px; font-size: 13px; }
     overflow-x: auto;
   }
   .rail-marca { padding: 0; }
-  .rail-marca-texto { display: none; }
+  .rail-marca-texto, .rail-marca-fio { display: none; }
+  .rail-apoio {
+    width: 38px; height: 30px;
+    -webkit-mask: url("/img/apoio.png") top center / 100% auto no-repeat;
+    mask: url("/img/apoio.png") top center / 100% auto no-repeat;
+  }
   .rail-nav { flex-direction: row; gap: 4px; }
   .rail-item { padding: 7px 11px; font-size: 13px; white-space: nowrap; }
   .rail-nota { display: none; }
