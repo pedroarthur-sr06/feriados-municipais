@@ -75,29 +75,66 @@ coluna, e `font-variant-numeric: tabular-nums` no `body` resolve isso sem a
 fantasia de editor de código. Geist Mono aparece só onde o conteúdo é
 literalmente código (`pascoa+60`, caminho de arquivo).
 
-### Paleta
+### Paleta: identidade da Rede São Roque
+
+A paleta veio pronta da empresa, já em uso em outro projeto. A regra que a
+governa é dela, não minha: **azul é ação, laranja é atenção, e verde,
+vermelho e cinza aparecem só como estado.**
+
+**Chrome**
 
 | Token | Valor | Uso |
 |---|---|---|
-| `--tinta` | `#1a2438` | Rail, botão primário, foco — azul-marinho de tinta, não um preto acinzentado |
-| `--tinta-2` / `--tinta-3` | `#263351` / `#3c4a6b` | Hover do rail; veredito neutro |
-| `--texto` | `#1f2633` | Texto principal |
-| `--texto-suave` | `#525b6b` | Texto secundário, corpo das provas |
-| `--texto-fraco` | `#5f6876` | Micro-texto (4.70:1 sobre o papel — AA em 12px) |
-| `--canvas` | `#e9ebe9` | Papel de pasta de processo, frio; o creme quente é o clichê nº 1 de página gerada |
-| `--superficie` | `#ffffff` | Provas, cartões, tabelas |
-| `--linha` | `#d7dbd7` | Hairlines |
+| `--azul` | `#004677` | Faixa do topo |
+| `--azul-escuro` / `--tinta` | `#00324F` | Console, laje do veredito |
+| `--azul-link` / `--tinta-3` | `#0A5A8F` | Links, botões discretos, segmento escolhido |
+| `--laranja` | `#FF9400` | Ação principal (Consultar, Processar, Novo feriado) |
+| `--laranja-luz` | `#FFA90F` | Hover da ação principal |
+| `--canvas` | `#F3F5F8` | Fundo da página |
+| `--superficie` / `--superficie-2` | `#FFFFFF` / `#F8FAFC` | Cartões / realce |
+| `--texto` / `--texto-suave` | `#10283D` / `#506477` | Texto principal / de apoio |
+| `--linha` / `--linha-forte` | `#E2E8EE` / `#CED7E0` | Divisórias / bordas de campo |
 
-Categorias — as únicas cores saturadas:
+Texto sobre o laranja é sempre o azul escuro — é o par que a identidade
+define, e dá 6.05:1.
 
-| Categoria | Traço | Fundo |
-|---|---|---|
-| Nacional | `#1c5fc4` | `#dbe8fa` |
-| Estadual | `#5f2da8` | `#e7dcf7` |
-| Municipal | `#146b43` | `#d5efe0` |
-| Ponto facultativo | `#8a5406` | `#f8e7c4` |
-| Não verificado | `#b8281c` | `#f9ddda` |
-| Dia útil confirmado | `#5f6876` | `#ffffff` |
+**Categorias de feriado**
+
+Os três estados da paleta encaixaram direto no domínio:
+
+| Categoria | Cheio | Fundo | Texto |
+|---|---|---|---|
+| Nacional | `#00324F` | `#D6E4F1` | `#00324F` |
+| Estadual | `#0A5A8F` | `#E6EEF4` | `#0A5A8F` |
+| Municipal | `#12A150` | `#E3F5EA` | `#0B6B3B` |
+| Ponto facultativo | `#FF9400` | `#FFF1DC` | `#A95600` |
+| Não verificado | `#E03A3A` | `#FDECEC` | `#A51F1F` |
+| Dia útil | `#A7B3BF` | `#F8FAFC` | `#4A5D6E` |
+
+O laranja no ponto facultativo é a tradução exata de "atenção": não é
+feriado pleno e o tratamento na folha é outro. Vermelho no não verificado e
+cinza no dia útil seguem o mesmo raciocínio.
+
+**Duas decisões que divergem da paleta, e por quê**
+
+1. **Tinta 3 (`#8798A8`) não é usada como texto.** A tabela da empresa a
+   reserva para "texto fraco e dicas", mas sobre o papel `#F3F5F8` ela dá
+   2.71:1 e reprova em AA justamente no tamanho onde seria usada. Fica como
+   cor de borda e ícone (`--tinta-fraca`); o texto fraco usa Tinta 2, com
+   5.61:1.
+2. **O fundo do nacional é `#D6E4F1`, derivado, e não o Azul claro
+   `#E6EEF4`.** Com o valor da paleta, a célula de feriado nacional no
+   calendário empatava com a do dia útil e um feriado passava por dia comum.
+   O Azul claro original ficou no estadual.
+
+A tensão que sobra, declarada: azul é cor de ação **e** é a cor das camadas
+nacional e estadual. O que separa os dois usos é o contexto — ação vive no
+chrome (faixa e botões), categoria vive em pílula dentro do conteúdo, sempre
+com o rótulo escrito junto.
+
+Contrastes medidos no navegador, todos AA ou melhor: categorias sobre a laje
+6.27 a 8.05; texto de categoria sobre o próprio fundo 4.70 a 11.41; faixa
+9.80; link 6.69; ação principal 6.05.
 
 ### Forma
 

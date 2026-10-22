@@ -1,59 +1,85 @@
 /* =========================================================================
-   Feriados Municipais — sistema visual "Painel de conformidade".
+   Feriados Municipais — paleta da marca Rede São Roque.
    Direção, paleta e princípios documentados em docs/design.md.
-   Regra de ouro: o chrome é tinta/neutro; cor saturada só onde ela significa
-   uma categoria de feriado.
+   Regra de ouro, herdada da identidade da empresa: azul é ação, laranja é
+   atenção, e verde/vermelho/cinza aparecem só como estado.
    ========================================================================= */
 
 :root {
-  /* Chrome — neutros quentes (cinza puro é o que dá cara de sistema antigo) */
-  --tinta: #1a2438;
-  --tinta-2: #263351;
-  --tinta-3: #3c4a6b;
-  --texto: #1f2633;
-  --texto-suave: #525b6b;
-  /* #6b6f78 e não um cinza mais claro: 4.62:1 sobre o canvas, 5.04:1 sobre
-     branco — o mínimo AA para texto pequeno (12–13px), que é onde este token
-     é usado (metadados, ajuda de campo, rodapé). */
-  --texto-fraco: #5f6876; /* 4.70:1 sobre o papel #e9ebe9 — AA em 12px */
-  --canvas: #e9ebe9;
-  --superficie: #ffffff;
-  --superficie-2: #f4f5f4;
-  --linha: #d7dbd7;
-  --linha-forte: #c3c8c3;
+  /* ----- Marca Rede São Roque -------------------------------------------
+     Azul é ação, laranja é atenção, e verde/vermelho/cinza só aparecem como
+     estado. Valores vindos da identidade da empresa. */
+  --azul: #004677;          /* faixa do topo, ações de conteúdo */
+  --azul-escuro: #00324F;   /* superfície do console, títulos */
+  --azul-claro: #E6EEF4;
+  --azul-link: #0A5A8F;
+  --laranja: #FF9400;       /* ação principal */
+  --laranja-luz: #FFA90F;   /* hover da ação principal */
+  --laranja-claro: #FFF1DC;
+  --laranja-escuro: #A95600; /* laranja legível sobre fundo claro */
 
-  /* Categorias — as únicas cores saturadas da interface */
-  --nacional: #1c5fc4;
-  --nacional-bg: #dbe8fa;
-  --estadual: #5f2da8;
-  --estadual-bg: #e7dcf7;
-  --municipal: #146b43; /* escurecido: 5.37:1 sobre o próprio fundo pálido */
-  --municipal-bg: #d5efe0;
-  --facultativo: #8a5406;
-  --facultativo-bg: #f8e7c4;
-  --nao-verificado: #b8281c;
-  --nao-verificado-bg: #f9ddda;
-  --util: #8b8f98;
-  --util-bg: #ffffff;
+  /* ----- Chrome ---------------------------------------------------------
+     Nomes antigos mantidos (--tinta e irmãos) para não rebatizar centenas de
+     usos; os valores é que passaram a ser os da marca. */
+  --tinta: #00324F;
+  --tinta-2: #004677;
+  --tinta-3: #0A5A8F;
+  --texto: #10283D;
+  --texto-suave: #506477;
+  /* A paleta da empresa reserva Tinta 3 (#8798A8) para "texto fraco e
+     dicas", mas sobre o papel #F3F5F8 isso dá 2.8:1 e não passa em AA para
+     texto pequeno, que é exatamente onde este token é usado. Fica como cor
+     de borda e ícone; o texto fraco usa Tinta 2, que dá 6.0:1. */
+  --texto-fraco: #506477;
+  --tinta-fraca: #8798A8;   /* Tinta 3 da paleta: ícones e bordas, não texto */
+  --canvas: #F3F5F8;        /* Papel */
+  --superficie: #FFFFFF;
+  --superficie-2: #F8FAFC;  /* Realce */
+  --linha: #E2E8EE;
+  --linha-forte: #CED7E0;
 
-  /* Mesmas categorias, clareadas para viverem sobre a tinta da laje do
-     veredito — as versões escuras não chegariam a 4.5:1 ali. */
-  /* Poço dos campos sobre o console escuro — é o degrau de luminosidade que
-     faz um input parecer input sem precisar de borda forte. */
-  --poco: #10182a;
-  --poco-borda: #2f3a52;
+  /* ----- Categorias de feriado ------------------------------------------
+     Os três estados da paleta encaixam direto: laranja é o ponto facultativo
+     (atenção: não é feriado pleno), vermelho é o não verificado e cinza é o
+     dia útil. Feriado municipal fica no verde "pronto".
 
-  --nacional-claro: #8fbcfb;
-  --estadual-claro: #cbb0f7;
-  --municipal-claro: #6ddba6;
-  --facultativo-claro: #f5c879;
-  --nao-verificado-claro: #ffa79c;
+     Nacional e estadual ficam nos dois azuis da marca. É a única tensão
+     desta aplicação, porque azul também é a cor de ação — o que separa os
+     dois usos é o contexto: ação vive no chrome (faixa e botões), categoria
+     vive em pílula dentro do conteúdo, sempre com o rótulo escrito junto. */
+  --nacional: #00324F;
+  --nacional-bg: #D6E4F1;  /* derivado: o azul claro da paleta empatava com o dia útil */
+  --estadual: #0A5A8F;
+  --estadual-bg: #E6EEF4;  /* Azul claro da paleta */
+  --municipal: #0B6B3B;     /* texto do estado "pronto" */
+  --municipal-bg: #E3F5EA;
+  --facultativo: #A95600;   /* texto do estado "precisa de você" */
+  --facultativo-bg: #FFF1DC;
+  --nao-verificado: #A51F1F;
+  --nao-verificado-bg: #FDECEC;
+  --util: #4A5D6E;          /* texto do estado "fora da planilha" */
+  --util-bg: #F8FAFC;       /* Realce: quase branco, para não competir com categoria */
+  --fim-de-semana-bg: #EDF1F5; /* o cinza de estado da paleta */
+
+  /* Poço dos campos sobre o console: um degrau abaixo do azul escuro — é ele
+     que faz um input parecer input sem precisar de borda forte. */
+  --poco: #002238;
+  --poco-borda: #1C4D70;
+
+  /* As mesmas categorias clareadas, para viverem sobre o azul escuro da laje
+     do veredito; as versões de texto escuro não chegariam a 4.5:1 ali. */
+  --nacional-claro: #8FC4EC;
+  --estadual-claro: #7FD4F5;
+  --municipal-claro: #5BD897;
+  --facultativo-claro: #FFB84D;
+  --nao-verificado-claro: #FF9B9B;
+  --util-claro: #A7B3BF;
 
   --raio-g: 8px;
   --raio: 6px;
   --raio-p: 5px;
   --sombra: none;
-  --sombra-alta: 0 10px 26px -12px rgba(20, 28, 45, 0.28), 0 2px 5px rgba(20, 28, 45, 0.07);
+  --sombra-alta: 0 10px 26px -12px rgba(16, 40, 61, 0.26), 0 2px 5px rgba(16, 40, 61, 0.07);
 
   /* Uma família só, usada com convicção: Geist é grotesca geométrica
      desenhada para ferramenta técnica. A distinção entre veredito, título e
@@ -106,7 +132,7 @@ a { color: var(--texto); }
   display: flex; align-items: center; gap: 34px;
   padding: 0 32px;
   height: 58px;
-  background: var(--tinta);
+  background: var(--azul);
   color: #fff;
 }
 
@@ -138,7 +164,7 @@ a { color: var(--texto); }
   font-size: 13.5px; font-weight: 500; white-space: nowrap;
   transition: background 0.12s ease, color 0.12s ease;
 }
-.barra-item:hover { background: var(--tinta-2); color: #fff; }
+.barra-item:hover { background: rgba(255,255,255,0.14); color: #fff; }
 .barra-item.ativo { background: #fff; color: var(--tinta); font-weight: 600; }
 .barra-item:focus-visible { outline-color: rgba(255,255,255,0.8); }
 
@@ -209,7 +235,7 @@ input[type="text"], input[type="date"], input[type="number"], select, textarea {
 input[type="date"], input[type="number"] { font-family: var(--fonte-dado); font-size: 13px; }
 textarea { min-height: 76px; resize: vertical; }
 input::placeholder, textarea::placeholder { color: var(--texto-fraco); }
-input:hover, select:hover, textarea:hover { border-color: #bbb7b0; }
+input:hover, select:hover, textarea:hover { border-color: var(--tinta-fraca); }
 input:focus, select:focus, textarea:focus {
   outline: none;
   border-color: var(--tinta);
@@ -266,11 +292,12 @@ input:focus, select:focus, textarea:focus {
 
 /* ===== Botões ============================================================ */
 
+/* Botão principal da paleta da empresa: laranja com o azul escuro por cima. */
 .botao-primario {
   display: inline-flex; align-items: center; gap: 8px;
-  background: var(--tinta);
-  color: #fff;
-  border: 1px solid var(--tinta);
+  background: var(--laranja);
+  color: var(--azul-escuro);
+  border: 1px solid var(--laranja);
   border-radius: var(--raio-p);
   padding: 10px 18px;
   font-family: inherit; font-size: 14px; font-weight: 600;
@@ -278,9 +305,9 @@ input:focus, select:focus, textarea:focus {
   cursor: pointer;
   transition: background 0.12s ease, transform 0.12s ease;
 }
-.botao-primario:hover { background: var(--tinta-2); transform: translateY(-1px); }
+.botao-primario:hover { background: var(--laranja-luz); border-color: var(--laranja-luz); transform: translateY(-1px); }
 .botao-primario:active { transform: none; }
-.botao-primario svg { opacity: 0.75; }
+.botao-primario svg { opacity: 0.8; }
 
 .botao-secundario {
   display: inline-flex; align-items: center; gap: 6px;
@@ -298,7 +325,7 @@ input:focus, select:focus, textarea:focus {
 .botao-perigo {
   background: var(--superficie);
   color: var(--nao-verificado);
-  border: 1px solid #e9c9c5;
+  border: 1px solid #F3C9C9;
   border-radius: var(--raio-p);
   padding: 5px 11px;
   font-family: inherit; font-size: 12.5px; font-weight: 600;
@@ -308,13 +335,13 @@ input:focus, select:focus, textarea:focus {
 .botao-perigo:hover { background: var(--nao-verificado-bg); }
 
 .botao-link {
-  color: var(--texto); text-decoration: none;
+  color: var(--azul-link); text-decoration: none;
   font-size: 12.5px; font-weight: 600;
   border-bottom: 1px solid var(--linha-forte);
   padding-bottom: 1px;
   transition: border-color 0.12s ease;
 }
-.botao-link:hover { border-bottom-color: var(--tinta); }
+.botao-link:hover { border-bottom-color: var(--azul-link); }
 
 .barra-acoes { display: flex; gap: 10px; align-items: center; margin-top: 18px; }
 
@@ -371,12 +398,17 @@ input:focus, select:focus, textarea:focus {
 
 /* ===== Estados: carregando / vazio / erro ================================ */
 
-.htmx-indicator {
-  display: inline-flex; align-items: center; gap: 7px;
-  opacity: 0; font-size: 13px; color: var(--texto-suave);
-  transition: opacity 0.15s ease;
-}
-.htmx-request .htmx-indicator, .htmx-indicator.htmx-request { opacity: 1; }
+/* O indicador some do fluxo quando ocioso. Com opacity: 0 ele continuava
+   ocupando 13px mais 8px de gap dentro do botão — espaço invisível empurrando
+   o rótulo para a esquerda, que era o "texto desproporcional ao botão". */
+.htmx-indicator { display: none; align-items: center; gap: 7px; font-size: 13px; color: var(--texto-suave); }
+.htmx-request .htmx-indicator, .htmx-indicator.htmx-request { display: inline-flex; }
+
+/* Dentro do botão o indicador é absoluto e o rótulo apaga: carregando, o
+   botão não muda de largura. */
+.botao-consultar { position: relative; }
+.botao-consultar .htmx-indicator { position: absolute; inset: 0; justify-content: center; }
+.botao-consultar.htmx-request, form.htmx-request .botao-consultar { color: transparent; }
 .fiandeira {
   width: 13px; height: 13px;
   border: 2px solid var(--linha-forte);
@@ -407,8 +439,8 @@ input:focus, select:focus, textarea:focus {
 .erro {
   display: flex; align-items: flex-start; gap: 10px;
   background: var(--nao-verificado-bg);
-  border: 1px solid #edc3be;
-  color: #8a1e15;
+  border: 1px solid #F3C9C9;
+  color: var(--nao-verificado);
   border-radius: var(--raio);
   padding: 12px 14px;
   font-size: 14px;
@@ -418,8 +450,8 @@ input:focus, select:focus, textarea:focus {
 .aviso {
   display: flex; gap: 11px; align-items: flex-start;
   background: var(--nao-verificado-bg);
-  border: 1px solid #edc3be;
-  color: #8a1e15;
+  border: 1px solid #F3C9C9;
+  color: var(--nao-verificado);
   border-radius: var(--raio);
   padding: 14px 16px;
   margin: 0 0 18px;
@@ -505,21 +537,21 @@ table.calendario td {
 }
 table.calendario td.vazia { background: transparent; }
 
-table.calendario td.dia-nacional { background: var(--nacional-bg); color: var(--nacional); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(28,95,196,0.24); }
-table.calendario td.dia-estadual { background: var(--estadual-bg); color: var(--estadual); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(112,56,196,0.24); }
-table.calendario td.dia-municipal { background: var(--municipal-bg); color: var(--municipal); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(23,122,77,0.24); }
-table.calendario td.dia-ponto_facultativo { background: var(--facultativo-bg); color: var(--facultativo); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(138,84,6,0.24); }
+table.calendario td.dia-nacional { background: var(--nacional-bg); color: var(--nacional); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(0,50,79,0.22); }
+table.calendario td.dia-estadual { background: var(--estadual-bg); color: var(--estadual); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(10,90,143,0.26); }
+table.calendario td.dia-municipal { background: var(--municipal-bg); color: var(--municipal); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(18,161,80,0.35); }
+table.calendario td.dia-ponto_facultativo { background: var(--facultativo-bg); color: var(--facultativo); font-weight: 600; box-shadow: inset 0 0 0 1px rgba(255,148,0,0.45); }
 table.calendario td.dia-util { background: var(--util-bg); color: var(--texto-suave); box-shadow: inset 0 0 0 1px var(--linha); }
 table.calendario td.dia-nao_verificado {
   background: repeating-linear-gradient(45deg, var(--nao-verificado-bg), var(--nao-verificado-bg) 4px, #fff 4px, #fff 9px);
   color: var(--nao-verificado);
-  box-shadow: inset 0 0 0 1px rgba(184,40,28,0.2);
+  box-shadow: inset 0 0 0 1px rgba(224,58,58,0.3);
 }
 /* A hachura diagonal é a redundância de sinal (forma, não cor). O texto do
    veredito já diz "Não verificado" uma vez — repetir em 31 células era ruído. */
 
 /* Fim de semana: orientação de leitura, sem usar cor semântica */
-table.calendario td.dia-util.fim-de-semana { background: #f1efec; box-shadow: inset 0 0 0 1px var(--linha); }
+table.calendario td.dia-util.fim-de-semana { background: var(--fim-de-semana-bg); box-shadow: inset 0 0 0 1px var(--linha); }
 
 /* Dia consultado: anel de tinta POR CIMA da cor da categoria (a categoria não se perde) */
 table.calendario td.dia-consultado { box-shadow: inset 0 0 0 2px var(--tinta); font-weight: 600; }
@@ -576,7 +608,7 @@ td .marcador-multiplo {
   font-size: 13px; line-height: 1.55; color: var(--texto-suave);
 }
 .ocorrencia-fonte strong { display: block; font-size: 13px; font-weight: 600; color: var(--texto-suave); margin-bottom: 3px; }
-.ocorrencia-fonte a { color: var(--texto); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.ocorrencia-fonte a { color: var(--azul-link); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 .ocorrencia-verificacao {
   display: flex; align-items: center; gap: 5px;
   margin: 8px 0 0;
@@ -599,7 +631,7 @@ td .marcador-multiplo {
 .exportar-links a {
   display: inline-flex; align-items: center; gap: 6px;
   font-size: 13px; font-weight: 600;
-  color: var(--texto); text-decoration: none;
+  color: var(--azul-link); text-decoration: none;
   border: 1px solid var(--linha-forte); border-radius: var(--raio-p);
   padding: 7px 13px;
   background: var(--superficie);
@@ -902,15 +934,15 @@ table.calendario td { height: 34px; font-size: 13px; }
 .campo-data input:hover::-webkit-calendar-picker-indicator { opacity: 0.9; }
 
 .botao-consultar {
-  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  height: 42px; padding: 0 24px;
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 42px; padding: 0 20px; min-width: 128px;
   border: none; border-radius: 8px;
-  background: #fff; color: var(--tinta);
+  background: var(--laranja); color: var(--azul-escuro);
   font-family: var(--fonte); font-size: 14.5px; font-weight: 600;
   cursor: pointer;
   transition: background 0.12s ease;
 }
-.botao-consultar:hover { background: #e4e8ef; }
+.botao-consultar:hover { background: var(--laranja-luz); }
 .botao-consultar:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
 /* A lista de sugestões desce do poço do município. */
@@ -960,7 +992,7 @@ table.calendario td { height: 34px; font-size: 13px; }
 .veredito.camada-estadual { color: var(--estadual-claro); }
 .veredito.camada-municipal { color: var(--municipal-claro); }
 .veredito.camada-ponto_facultativo { color: var(--facultativo-claro); }
-.veredito.camada-util { color: rgba(255,255,255,0.88); }
+.veredito.camada-util { color: var(--util-claro); }
 .veredito.camada-nao_verificado { color: var(--nao-verificado-claro); }
 .veredito-nota {
   margin: 14px 0 0; max-width: 60ch;
