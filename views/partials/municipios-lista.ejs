@@ -4,11 +4,15 @@
     <p class="sem-resultado">Nenhum município encontrado para “<%= termoBusca %>”.</p>
   <% } %>
 <% } else { %>
-  <ul class="sugestoes">
-    <% municipios.forEach(function (m) { %>
-      <li>
-        <button type="button"
-          onclick="selecionarMunicipio(<%= m.codigoIbge %>, '<%- m.nome.replace(/'/g, "\\'") %>', '<%= m.uf %>')">
+  <%# role=listbox/option e data-* em vez de onclick: o clique e o teclado são
+      tratados em public/js/consulta.js, e os dados saem escapados pelo EJS —
+      nomes com apóstrofo ("Santa Bárbara d'Oeste") deixam de depender de
+      escape manual dentro de uma string JavaScript. %>
+  <ul class="sugestoes" role="listbox" aria-label="Municípios encontrados">
+    <% municipios.forEach(function (m, i) { %>
+      <li role="presentation">
+        <button type="button" role="option" id="municipio-opcao-<%= i %>" aria-selected="false"
+          data-codigo="<%= m.codigoIbge %>" data-nome="<%= m.nome %>" data-uf="<%= m.uf %>">
           <%= m.nome %> <span class="uf">/ <%= m.uf %></span>
         </button>
       </li>

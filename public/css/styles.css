@@ -100,12 +100,13 @@ a { color: var(--texto); }
   gap: 26px;
 }
 
-/* Marca institucional acima, nome da aplicação abaixo. Empilhado e não lado
-   a lado porque o wordmark "APOIO" ocupa só 12% da altura do arquivo: na
-   largura que sobra numa linha do rail ele fica com 5px de altura e deixa de
-   ser palavra. Empilhar é o que devolve legibilidade a ele. */
+/* Só o símbolo da marca, ao lado do nome da aplicação. O wordmark "APOIO"
+   ocupa 12% da altura do arquivo: na escala de um rail ele só é legível se a
+   marca inteira virar um bloco alto, e aí a identidade da empresa passa a
+   gritar mais alto que a navegação, que é o trabalho desta coluna. O símbolo
+   sozinho carrega a marca e cabe numa linha. */
 .rail-marca {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 13px;
+  display: flex; align-items: center; gap: 11px;
   /* 10px, e não 8px, para a coluna da marca nascer na mesma vertical dos
      ícones do menu (que têm 10px de recuo dentro do item). */
   padding: 4px 10px;
@@ -117,19 +118,23 @@ a { color: var(--texto); }
    no rail escuro sem exigir uma segunda versão do arquivo, e acompanha a cor
    do texto se a marca for reaproveitada sobre fundo claro. Trocar pelo .svg
    oficial, se ele aparecer, é só mudar a URL. */
+/* O arquivo é PNG preto sobre transparente, então a marca entra como máscara
+   pintada com currentColor: fica branca aqui sem exigir uma segunda versão do
+   arquivo. A caixa tem a proporção da parte gráfica (148:117) e a máscara
+   fica ancorada no topo — é isso que recorta o wordmark para fora, sem
+   precisar de um segundo arquivo. Se aparecer o .svg oficial, troca a URL. */
 .rail-apoio {
   flex-shrink: 0;
-  width: 64px; height: 69px;
+  width: 30px; height: 24px;
   background-color: currentColor;
-  -webkit-mask: url("/img/apoio.png") center / contain no-repeat;
-  mask: url("/img/apoio.png") center / contain no-repeat;
+  -webkit-mask: url("/img/apoio.png") top center / 100% auto no-repeat;
+  mask: url("/img/apoio.png") top center / 100% auto no-repeat;
 }
 /* Em alto contraste a máscara some junto com o background-color; CanvasText
    devolve a marca na cor que o sistema reservou para texto. */
 @media (forced-colors: active) {
   .rail-apoio { background-color: CanvasText; }
 }
-.rail-marca-fio { align-self: stretch; height: 1px; background: rgba(255,255,255,0.16); }
 .rail-marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
 .rail-marca-texto strong { font-family: var(--fonte-titulo); font-size: 17px; font-weight: 600; }
 .rail-marca-texto span { font-size: 12px; color: rgba(255,255,255,0.52); }
@@ -369,6 +374,10 @@ input:focus, select:focus, textarea:focus {
   transition: background 0.1s ease;
 }
 .sugestoes button:hover, .sugestoes button:focus { background: var(--superficie-2); outline: none; }
+/* Item percorrido com as setas. Mais forte que o hover: é a posição do
+   teclado, e precisa se distinguir de onde o mouse passou por acaso. */
+.sugestoes button.ativo { background: var(--tinta); color: #fff; }
+.sugestoes button.ativo .uf { color: rgba(255,255,255,0.72); }
 .sugestoes button:focus-visible { box-shadow: inset 0 0 0 2px var(--tinta); }
 .sugestoes .uf { color: var(--texto-fraco); font-family: var(--fonte-dado); font-size: 12px; }
 .sem-resultado { margin: 6px 0 0; color: var(--texto-fraco); font-size: 13px; }
@@ -851,12 +860,7 @@ table.calendario td { height: 34px; font-size: 13px; }
     overflow-x: auto;
   }
   .rail-marca { padding: 0; }
-  .rail-marca-texto, .rail-marca-fio { display: none; }
-  .rail-apoio {
-    width: 38px; height: 30px;
-    -webkit-mask: url("/img/apoio.png") top center / 100% auto no-repeat;
-    mask: url("/img/apoio.png") top center / 100% auto no-repeat;
-  }
+  .rail-marca-texto { display: none; }
   .rail-nav { flex-direction: row; gap: 4px; }
   .rail-item { padding: 7px 11px; font-size: 13px; white-space: nowrap; }
   .rail-nota { display: none; }

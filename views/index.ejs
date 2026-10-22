@@ -21,8 +21,9 @@
                 <circle cx="11" cy="11" r="7"></circle>
                 <path d="m20 20-3.6-3.6"></path>
               </svg>
-              <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off"
+              <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off" required
                      placeholder="Digite o nome do município..."
+                     role="combobox" aria-expanded="false" aria-controls="lista-municipios" aria-autocomplete="list"
                      hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
                      hx-target="#lista-municipios" hx-swap="innerHTML" />
             </div>
@@ -48,17 +49,17 @@
 
             <div class="campo campo-data" x-show="modo === 'dia'">
               <label for="data">Data</label>
-              <input type="date" id="data" name="data" />
+              <input type="date" id="data" name="data" :required="modo === 'dia'" />
             </div>
 
             <div class="campo-grupo" x-show="modo === 'periodo'" x-cloak>
               <div class="campo campo-data">
                 <label for="dataInicio">De</label>
-                <input type="date" id="dataInicio" name="dataInicio" />
+                <input type="date" id="dataInicio" name="dataInicio" :required="modo === 'periodo'" />
               </div>
               <div class="campo campo-data">
                 <label for="dataFim">Até</label>
-                <input type="date" id="dataFim" name="dataFim" />
+                <input type="date" id="dataFim" name="dataFim" :required="modo === 'periodo'" />
               </div>
             </div>
 
@@ -106,13 +107,6 @@
     </div>
   </div>
 
-  <script>
-    function selecionarMunicipio(codigoIbge, nome, uf) {
-      document.getElementById("codigoIbge").value = codigoIbge;
-      document.getElementById("municipio-busca").value = nome + " / " + uf;
-      document.getElementById("lista-municipios").innerHTML = "";
-      document.getElementById("municipio-selecionado").textContent = "Selecionado: " + nome + "/" + uf;
-    }
-  </script>
+  <script src="/js/consulta.js" defer></script>
 </body>
 </html>

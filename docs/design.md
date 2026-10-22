@@ -115,27 +115,36 @@ nos dois modos do toggle — zero falhas AA.
 
 ### Marca institucional no rail
 
-O topo do rail traz a marca da **Apoio** em branco, e abaixo dela, separado
-por um fio, o nome da aplicação. O ícone de calendário que ocupava esse lugar
-saiu: duas marcas no topo competem, e um glifo genérico ao lado de uma marca
-real perde sempre. Uma marca só, e é a verdadeira.
+O topo do rail traz o **símbolo da Apoio** em branco, ao lado do nome da
+aplicação, numa linha só. O ícone de calendário que ocupava esse lugar saiu:
+duas marcas no topo competem, e um glifo genérico ao lado de uma marca real
+perde sempre.
 
-Três decisões que não são óbvias no CSS:
+**Só o símbolo, sem o wordmark.** O "APOIO" ocupa 12% da altura do arquivo da
+marca. Para ele ficar legível, a marca inteira precisa virar um bloco alto de
+~70px — e aí a identidade da empresa passa a gritar mais alto que a
+navegação, que é o trabalho desta coluna. A primeira tentativa foi assim e foi
+rejeitada na revisão. O símbolo sozinho carrega a marca e cabe numa linha.
 
-- **A logo entra como máscara, não como `<img>`.** O arquivo
-  (`public/img/apoio.png`) é preto sobre fundo transparente;
-  `mask` + `background-color: currentColor` pinta de branco sem exigir uma
-  segunda versão do arquivo, e acompanha a cor do texto se a marca for
-  reaproveitada sobre fundo claro. Se um dia aparecer o `.svg` oficial,
-  trocar é mudar a URL.
-- **Empilhada, não lado a lado.** O wordmark "APOIO" ocupa 12% da altura do
-  arquivo. Numa linha horizontal do rail ele cairia para 5px de altura e
-  deixaria de ser palavra. Empilhar é o que devolve legibilidade a ele.
-- **No rail compacto, só o símbolo.** Em vez de um segundo arquivo, a máscara
-  é recortada: a parte gráfica ocupa os 117px de cima dos 160 do arquivo,
-  então uma caixa na proporção 148:117 com a máscara ancorada no topo mostra
-  o símbolo e deixa o wordmark de fora.
+**A logo entra como máscara, não como `<img>`.** O arquivo
+(`public/img/apoio.png`) é preto sobre fundo transparente;
+`mask` + `background-color: currentColor` pinta de branco sem exigir uma
+segunda versão do arquivo. A caixa tem a proporção da parte gráfica (148:117)
+e a máscara fica ancorada no topo — é o que recorta o wordmark para fora, sem
+precisar de um segundo arquivo. Se aparecer o `.svg` oficial, trocar é mudar
+a URL.
 
 A coluna da marca nasce na mesma vertical dos ícones do menu (24px da borda).
 O anel de foco do link da marca é branco: o anel global é `var(--tinta)`, a
 própria cor do rail, e sumiria ali.
+
+### Autocomplete de município
+
+O campo é um combobox, não um campo de texto com lista decorativa: setas
+percorrem, Enter escolhe, Esc fecha, e o item percorrido pelo teclado usa
+fundo de tinta cheia — mais forte que o hover de propósito, porque é posição
+do teclado e precisa se distinguir de onde o mouse passou por acaso.
+
+Escolher um município joga o foco para a data. Quem usa isto confere dezenas
+de datas por dia; o caminho inteiro tem que funcionar sem tirar a mão do
+teclado.
