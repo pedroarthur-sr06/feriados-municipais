@@ -239,7 +239,22 @@ export interface FeriadoCuradoResumo {
   ativo: boolean;
 }
 
-export function listarFeriadosCurados(): FeriadoCuradoResumo[] {
+/** Filtro da listagem administrativa de feriados curados. */
+export interface FiltroFeriadosCurados {
+  uf?: string;
+}
+
+function condicoesFeriadosCurados(filtro: FiltroFeriadosCurados) {
+  const condicoes = [];
+  if (filtro.uf) condicoes.push(eq(feriados.uf, filtro.uf));
+  return condicoes;
+}
+
+/**
+ * Colunas + joins da listagem administrativa, compartilhados pela listagem
+ * paginada e pela busca por id — as duas nunca divergem de forma.
+ */
+function consultaFeriadosCurados() {
   return db
     .select({
       id: feriados.id,
@@ -266,10 +281,41 @@ export function listarFeriadosCurados(): FeriadoCuradoResumo[] {
     .from(feriados)
     .innerJoin(tiposFeriado, eq(feriados.tipoFeriadoId, tiposFeriado.id))
     .innerJoin(fontes, eq(feriados.fonteId, fontes.id))
-    .leftJoin(municipios, eq(feriados.codigoIbge, municipios.codigoIbge))
+    .leftJoin(municipios, eq(feriados.codigoIbge, municipios.codigoIbge));
+}
+
+/**
+ * Uma página da listagem administrativa. A paginação é feita no próprio
+ * SQLite (LIMIT/OFFSET) e não fatiando array em memória: são milhares de
+ * registros curados e a tela nunca precisa de todos de uma vez.
+ */
+export function listarFeriadosCurados(
+  filtro: FiltroFeriadosCurados = {},
+  limite = 50,
+  offset = 0,
+): FeriadoCuradoResumo[] {
+  return consultaFeriadosCurados()
+    .where(and(...condicoesFeriadosCurados(filtro)))
     .orderBy(feriados.uf, feriados.nome)
+    .limit(limite)
+    .offset(offset)
     .all()
     .map((l) => ({ ...l, tipo: comoTipoCurado(l.tipo, l.nome) }));
+}
+
+/** Total de feriados curados que casam com o filtro (para paginação e métrica). */
+export function contarFeriadosCurados(filtro: FiltroFeriadosCurados = {}): number {
+  const linha = db
+    .select({ total: sql<number>`count(*)` })
+    .from(feriados)
+    .where(and(...condicoesFeriadosCurados(filtro)))
+    .get();
+  return linha?.total ?? 0;
+}
+
+/** Todas as UFs distintas que já têm feriado curado (para o filtro da tela administrativa). */
+export function listarUfsComFeriadosCurados(): string[] {
+  return db.selectDistinct({ uf: feriados.uf }).from(feriados).orderBy(feriados.uf).all().map((r) => r.uf);
 }
 
 export interface DadosFeriadoCurado {
@@ -383,7 +429,8 @@ export function definirAtivoFeriadoCurado(id: number, ativo: boolean): void {
 }
 
 export function buscarFeriadoCuradoPorId(id: number): FeriadoCuradoResumo | undefined {
-  return listarFeriadosCurados().find((f) => f.id === id);
+  const linha = consultaFeriadosCurados().where(eq(feriados.id, id)).get();
+  return linha ? { ...linha, tipo: comoTipoCurado(linha.tipo, linha.nome) } : undefined;
 }
 
 export interface CandidatoResumo {

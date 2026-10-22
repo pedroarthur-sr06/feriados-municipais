@@ -36,12 +36,29 @@
             <span class="metrica-seta" aria-hidden="true">→</span>
           </a>
           <div class="metrica metrica-estatica">
-            <span class="metrica-valor"><%= feriadosCurados.length %></span>
+            <span class="metrica-valor"><%= totalCurados %></span>
             <span class="metrica-rotulo">feriados curados com fonte</span>
           </div>
         </div>
 
         <h2 class="secao-titulo">Feriados curados</h2>
+
+        <% const filtroQuery = (ufSelecionada ? "uf=" + ufSelecionada + "&" : "") + "pagina=" + pagina; %>
+
+        <div class="barra-filtros">
+          <form method="get" action="/admin" class="filtros">
+            <div class="campo">
+              <label for="uf">UF</label>
+              <select id="uf" name="uf" onchange="this.form.submit()">
+                <option value="">Todas</option>
+                <% ufs.forEach(function (uf) { %>
+                  <option value="<%= uf %>" <%= ufSelecionada === uf ? "selected" : "" %>><%= uf %></option>
+                <% }); %>
+              </select>
+            </div>
+          </form>
+          <p class="contagem"><strong><%= total %></strong> feriado(s) curado(s)<%= ufSelecionada ? " em " + ufSelecionada : "" %><%= totalPaginas > 1 ? " — página " + pagina + " de " + totalPaginas : "" %></p>
+        </div>
 
         <div class="tabela-wrap">
           <table class="tabela-dados">
@@ -70,11 +87,11 @@
                   <td class="acoes">
                     <a class="botao-link" href="/admin/feriados/<%= f.id %>/editar">Editar</a>
                     <% if (f.ativo) { %>
-                      <form method="post" action="/admin/feriados/<%= f.id %>/desativar" onsubmit="return confirm('Desativar este feriado?');">
+                      <form method="post" action="/admin/feriados/<%= f.id %>/desativar?<%= filtroQuery %>" onsubmit="return confirm('Desativar este feriado?');">
                         <button type="submit" class="botao-perigo">Desativar</button>
                       </form>
                     <% } else { %>
-                      <form method="post" action="/admin/feriados/<%= f.id %>/reativar">
+                      <form method="post" action="/admin/feriados/<%= f.id %>/reativar?<%= filtroQuery %>">
                         <button type="submit" class="botao-secundario">Reativar</button>
                       </form>
                     <% } %>
@@ -82,11 +99,25 @@
                 </tr>
               <% }); %>
               <% if (feriadosCurados.length === 0) { %>
-                <tr><td colspan="8" class="sem-resultado">Nenhum feriado curado ainda.</td></tr>
+                <tr><td colspan="8" class="sem-resultado">Nenhum feriado curado<%= ufSelecionada ? " em " + ufSelecionada : " ainda" %>.</td></tr>
               <% } %>
             </tbody>
           </table>
         </div>
+
+        <% if (totalPaginas > 1) { %>
+          <nav class="paginacao" aria-label="Paginação">
+            <% paginas.forEach(function (p) { %>
+              <% if (p === "…") { %>
+                <span class="reticencias" aria-hidden="true">…</span>
+              <% } else if (p === pagina) { %>
+                <span class="atual" aria-current="page"><%= p %></span>
+              <% } else { %>
+                <a href="/admin?pagina=<%= p %><%= ufSelecionada ? '&uf=' + ufSelecionada : '' %>"><%= p %></a>
+              <% } %>
+            <% }); %>
+          </nav>
+        <% } %>
       </main>
 
       <%- include('partials/foot') %>

@@ -11,15 +11,18 @@ import {
   buscarFeriadoCuradoPorId,
   buscarMunicipioPorCodigo,
   contarCandidatos,
+  contarFeriadosCurados,
   criarFeriadoCurado,
   definirAtivoFeriadoCurado,
   listarCandidatos,
   listarFeriadosCurados,
   listarUfsComCandidatos,
+  listarUfsComFeriadosCurados,
   marcarStatusCandidato,
   type DadosFeriadoCurado,
   type TipoFonte,
 } from "../services/feriados-service.js";
+import { janelaDePaginas } from "../web/paginacao.js";
 
 const UFS = [
   "AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI",
@@ -27,6 +30,28 @@ const UFS = [
 ] as const;
 
 const TIPOS_FONTE: TipoFonte[] = ["lei", "decreto", "diario_oficial", "api_publica", "outro"];
+
+/** Quantos feriados curados a listagem administrativa mostra por página. */
+const FERIADOS_POR_PAGINA = 50;
+
+function ufValida(uf: string | undefined): string | undefined {
+  const normalizada = uf?.trim().toUpperCase();
+  return normalizada && UFS.includes(normalizada as (typeof UFS)[number]) ? normalizada : undefined;
+}
+
+/**
+ * Devolve a pessoa à mesma fatia da listagem depois de uma ação de linha —
+ * sem isso, desativar um feriado da página 120 jogaria de volta na página 1.
+ */
+function voltarParaListagem(query: { uf?: string; pagina?: string }): string {
+  const params = new URLSearchParams();
+  const uf = ufValida(query.uf);
+  if (uf) params.set("uf", uf);
+  const pagina = Number(query.pagina);
+  if (Number.isInteger(pagina) && pagina > 1) params.set("pagina", String(pagina));
+  const queryString = params.toString();
+  return queryString ? `/admin?${queryString}` : "/admin";
+}
 
 interface CorpoFormularioFeriado {
   nome?: string;
@@ -126,10 +151,23 @@ function validarFormulario(corpo: CorpoFormularioFeriado): DadosFeriadoCurado | 
 }
 
 export default async function rotasAdmin(app: FastifyInstance) {
-  app.get("/admin", async (_req, reply) => {
+  app.get<{ Querystring: { uf?: string; pagina?: string } }>("/admin", async (req, reply) => {
+    const limite = FERIADOS_POR_PAGINA;
+    const filtro = { uf: ufValida(req.query.uf) };
+    const total = contarFeriadosCurados(filtro);
+    const totalPaginas = Math.max(1, Math.ceil(total / limite));
+    const pagina = Math.min(totalPaginas, Math.max(1, Number(req.query.pagina) || 1));
     return reply.view("admin.ejs", {
       titulo: "Administração — Feriados Municipais",
-      feriadosCurados: listarFeriadosCurados(),
+      feriadosCurados: listarFeriadosCurados(filtro, limite, (pagina - 1) * limite),
+      total,
+      // A métrica do topo conta a base inteira, independente do filtro da tabela.
+      totalCurados: contarFeriadosCurados(),
+      pagina,
+      totalPaginas,
+      paginas: janelaDePaginas(pagina, totalPaginas),
+      ufs: listarUfsComFeriadosCurados(),
+      ufSelecionada: filtro.uf ?? "",
       totalCandidatosPendentes: contarCandidatos({ status: "pendente" }),
     });
   });
@@ -226,15 +264,21 @@ export default async function rotasAdmin(app: FastifyInstance) {
     return reply.redirect("/admin");
   });
 
-  app.post<{ Params: { id: string } }>("/admin/feriados/:id/desativar", async (req, reply) => {
-    definirAtivoFeriadoCurado(Number(req.params.id), false);
-    return reply.redirect("/admin");
-  });
+  app.post<{ Params: { id: string }; Querystring: { uf?: string; pagina?: string } }>(
+    "/admin/feriados/:id/desativar",
+    async (req, reply) => {
+      definirAtivoFeriadoCurado(Number(req.params.id), false);
+      return reply.redirect(voltarParaListagem(req.query));
+    },
+  );
 
-  app.post<{ Params: { id: string } }>("/admin/feriados/:id/reativar", async (req, reply) => {
-    definirAtivoFeriadoCurado(Number(req.params.id), true);
-    return reply.redirect("/admin");
-  });
+  app.post<{ Params: { id: string }; Querystring: { uf?: string; pagina?: string } }>(
+    "/admin/feriados/:id/reativar",
+    async (req, reply) => {
+      definirAtivoFeriadoCurado(Number(req.params.id), true);
+      return reply.redirect(voltarParaListagem(req.query));
+    },
+  );
 
   app.get<{ Querystring: { uf?: string; pagina?: string } }>("/admin/candidatos", async (req, reply) => {
     const pagina = Math.max(1, Number(req.query.pagina) || 1);
