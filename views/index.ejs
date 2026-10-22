@@ -12,68 +12,71 @@
           formulário, com os campos como lacunas a preencher. É o único
           elemento alto da tela; todo o resto é quieto de propósito.
         %>
-        <form id="form-consulta" class="pergunta" hx-get="/consulta" hx-target="#resultado" hx-indicator="#carregando"
+        <%#
+          Console de consulta: superfície escura, campos com poço próprio e
+          rótulo visível. A passada anterior dissolveu os campos dentro de uma
+          frase e o resultado foi não se distinguir o que era texto do que era
+          controle — clareza de affordance vale mais que a ideia bonita.
+        %>
+        <form id="form-consulta" class="console" hx-get="/consulta" hx-target="#resultado" hx-indicator="#carregando"
               x-data="{ modo: 'dia' }">
-
-          <div class="pergunta-modo" role="group" aria-label="Tipo de consulta">
-            <label class="modo-opcao">
-              <input type="radio" name="modo" value="dia" x-model="modo" checked />
-              <span>um dia</span>
-            </label>
-            <label class="modo-opcao">
-              <input type="radio" name="modo" value="periodo" x-model="modo" />
-              <span>um período</span>
-            </label>
+          <div class="console-topo">
+            <h1 class="console-titulo">Consulta</h1>
+            <div class="segmentos" role="group" aria-label="Tipo de consulta">
+              <label class="segmento">
+                <input type="radio" name="modo" value="dia" x-model="modo" checked />
+                <span>Um dia</span>
+              </label>
+              <label class="segmento">
+                <input type="radio" name="modo" value="periodo" x-model="modo" />
+                <span>Um período</span>
+              </label>
+            </div>
           </div>
 
-          <%# div e não p: o <div> da lista de sugestões, que precisa estar
-              ancorado na lacuna, fecharia um <p> antes da hora e jogaria o
-              fecho da frase para fora dela. %>
-          <div class="pergunta-frase">
-            <span x-show="modo === 'dia'" class="trecho">
-              No dia
-              <span class="lacuna lacuna-data">
-                <label class="rotulo-oculto" for="data">Data</label>
-                <input type="date" id="data" name="data" :required="modo === 'dia'" />
-              </span>
-            </span>
-
-            <span x-show="modo === 'periodo'" x-cloak class="trecho">
-              De
-              <span class="lacuna lacuna-data">
-                <label class="rotulo-oculto" for="dataInicio">Data inicial</label>
-                <input type="date" id="dataInicio" name="dataInicio" :required="modo === 'periodo'" />
-              </span>
-              a
-              <span class="lacuna lacuna-data">
-                <label class="rotulo-oculto" for="dataFim">Data final</label>
-                <input type="date" id="dataFim" name="dataFim" :required="modo === 'periodo'" />
-              </span>
-            </span>
-
-            <span class="trecho">
-              em
-              <span class="lacuna lacuna-municipio" id="ancora-municipio">
-                <label class="rotulo-oculto" for="municipio-busca">Município</label>
+          <div class="console-campos">
+            <div class="campo campo-municipio" id="ancora-municipio">
+              <label for="municipio-busca">Município</label>
+              <div class="entrada">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <path d="m20 20-3.6-3.6"></path>
+                </svg>
                 <input type="text" id="municipio-busca" name="municipioTexto" autocomplete="off" required
-                       placeholder="município"
+                       placeholder="Digite e escolha na lista"
                        role="combobox" aria-expanded="false" aria-controls="lista-municipios" aria-autocomplete="list"
                        hx-get="/municipios/busca" hx-trigger="keyup changed delay:300ms, focus"
                        hx-target="#lista-municipios" hx-swap="innerHTML" />
-                <input type="hidden" id="codigoIbge" name="codigoIbge" />
-                <div id="lista-municipios" class="lista-sugestoes"></div>
-              </span>
-            </span>
+              </div>
+              <input type="hidden" id="codigoIbge" name="codigoIbge" />
+              <div id="lista-municipios" class="lista-sugestoes"></div>
+            </div>
 
-            <span class="trecho trecho-fecho">
-              houve feriado?
-              <button type="submit" class="botao-responder">
-                Responder
-                <span id="carregando" class="htmx-indicator" role="status">
-                  <span class="fiandeira" aria-hidden="true"></span>
-                </span>
-              </button>
-            </span>
+            <div class="campo campo-data" x-show="modo === 'dia'">
+              <label for="data">Data</label>
+              <div class="entrada">
+                <input type="date" id="data" name="data" :required="modo === 'dia'" />
+              </div>
+            </div>
+
+            <div class="campo campo-data" x-show="modo === 'periodo'" x-cloak>
+              <label for="dataInicio">De</label>
+              <div class="entrada">
+                <input type="date" id="dataInicio" name="dataInicio" :required="modo === 'periodo'" />
+              </div>
+            </div>
+            <div class="campo campo-data" x-show="modo === 'periodo'" x-cloak>
+              <label for="dataFim">Até</label>
+              <div class="entrada">
+                <input type="date" id="dataFim" name="dataFim" :required="modo === 'periodo'" />
+              </div>
+            </div>
+
+            <div class="campo campo-acao">
+              <%# Texto como nó direto do botão: envolto num <span> extra, o
+                  nome acessível deixava de ser calculado a partir dele. %>
+              <button type="submit" class="botao-consultar">Consultar<span id="carregando" class="htmx-indicator" role="status"><span class="fiandeira" aria-hidden="true"></span></span></button>
+            </div>
           </div>
 
           <p id="municipio-selecionado" class="rotulo-oculto" aria-live="polite"></p>

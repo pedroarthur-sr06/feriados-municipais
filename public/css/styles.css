@@ -38,6 +38,11 @@
 
   /* Mesmas categorias, clareadas para viverem sobre a tinta da laje do
      veredito — as versões escuras não chegariam a 4.5:1 ali. */
+  /* Poço dos campos sobre o console escuro — é o degrau de luminosidade que
+     faz um input parecer input sem precisar de borda forte. */
+  --poco: #10182a;
+  --poco-borda: #2f3a52;
+
   --nacional-claro: #8fbcfb;
   --estadual-claro: #cbb0f7;
   --municipal-claro: #6ddba6;
@@ -786,94 +791,107 @@ table.calendario td { height: 34px; font-size: 13px; }
 .legenda-item { background: transparent; border-color: transparent; padding: 1px 6px 1px 0; }
 
 
-/* ===== A pergunta é o controle ==========================================
-   O subtítulo desta tela sempre foi "No dia X, no município Y/UF, houve
-   feriado?". Em vez de descrever a pergunta acima de um formulário rotulado,
-   a frase virou o formulário e os campos viraram lacunas. É o único elemento
-   alto da interface — tudo em volta é quieto de propósito. */
+/* ===== Console de consulta =============================================
+   Superfície escura onde se age; papel branco onde se lê a prova. A divisão
+   é semântica, não decorativa: instrumento e documento são coisas diferentes.
 
-.pergunta { padding: 54px 0 46px; }
+   Os campos têm poço próprio (fundo mais escuro que o painel) e rótulo
+   visível. A passada anterior dissolveu os campos dentro de uma frase e o
+   resultado foi não se distinguir controle de texto corrido. */
 
-.pergunta-modo { display: flex; gap: 4px; margin: 0 0 22px; }
-.modo-opcao { cursor: pointer; }
-.modo-opcao input { position: absolute; opacity: 0; width: 0; height: 0; }
-.modo-opcao span {
-  display: inline-block;
-  padding: 5px 13px;
-  border-radius: 999px;
-  font-size: 13px; font-weight: 500;
-  color: var(--texto-fraco);
-  transition: background 0.12s ease, color 0.12s ease;
+.console {
+  margin: 28px 0 0;
+  padding: 20px 22px 22px;
+  border-radius: 12px;
+  background: var(--tinta);
+  color: #fff;
 }
-.modo-opcao:hover span { color: var(--texto); }
-.modo-opcao input:checked + span { background: var(--tinta); color: #fff; }
-.modo-opcao input:focus-visible + span { outline: 2px solid var(--tinta); outline-offset: 2px; }
 
-.pergunta-frase {
+.console-topo {
+  display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.console-titulo {
   margin: 0;
   font-family: var(--fonte-titulo);
-  font-size: 37px; font-weight: 500; line-height: 1.5; letter-spacing: -0.03em;
-  color: var(--texto);
+  font-size: 19px; font-weight: 600; letter-spacing: -0.02em;
+  color: #fff;
 }
-.trecho { display: inline; }
-/* O fecho em bloco: a frase quebra onde foi decidido que ela quebra, em duas
-   linhas estáveis, em vez de onde a largura da janela calhar. */
-.trecho-fecho { display: block; margin-top: 4px; }
 
-/* A lacuna: o campo não parece caixa de formulário, parece espaço a
-   preencher. Pontilhado enquanto vazio, traço cheio depois de respondido —
-   a frase vai ficando pronta conforme a pessoa escreve. */
-.lacuna { position: relative; display: inline-block; }
-.lacuna input {
-  font: inherit; letter-spacing: inherit; color: var(--tinta);
-  background: none;
-  border: none; border-bottom: 2px dashed var(--linha-forte);
-  border-radius: 0;
-  padding: 0 2px 2px;
-  transition: border-color 0.12s ease, width 0.15s ease;
+/* Segmentado dentro do console */
+.console .segmentos {
+  display: inline-flex; gap: 2px; padding: 3px;
+  background: var(--poco); border-radius: 999px;
 }
-.lacuna input::placeholder { color: var(--texto-fraco); font-weight: 400; }
-.lacuna input:hover { border-bottom-color: var(--texto-fraco); }
-.lacuna input:focus { border-bottom-color: var(--tinta); border-bottom-style: solid; }
-/* O traço fechando sozinho é indicador fraco demais para quem chega pelo
-   teclado; a lacuna em foco ganha caixa. Campo de texto casa com
-   :focus-visible também no clique, e aqui isso é bom: marca qual lacuna
-   está ativa no meio de uma frase longa. */
-.lacuna input:focus-visible { outline: 2px solid var(--tinta); outline-offset: 4px; border-radius: 3px; }
-.lacuna-municipio input { width: 11ch; min-width: 11ch; }
-.lacuna-municipio input:focus { width: 15ch; }
-/* Preenchida: traço cheio. A largura vem do script, medida no nome escolhido. */
-.lacuna.preenchida input { border-bottom-style: solid; border-bottom-color: var(--tinta); min-width: 0; }
-/* Data preenchida fecha o traço do mesmo jeito. Vazia e obrigatória ela é
-   :invalid, então o pontilhado marca exatamente o que falta responder. */
-.lacuna-data input:valid { border-bottom-style: solid; border-bottom-color: var(--tinta); }
-/* Largura amarrada ao conteúdo: solto, o campo de data nativo reserva folga
-   à direita e o ícone do calendário descola do "dd/mm/aaaa", parecendo
-   defeito. O ícone também encolhe — em 37px o padrão fica desproporcional. */
-.lacuna-data input { width: 7.4em; }
-.lacuna-data input::-webkit-calendar-picker-indicator { width: 15px; height: 15px; opacity: 0.4; cursor: pointer; }
-.lacuna-data input:hover::-webkit-calendar-picker-indicator { opacity: 0.75; }
+.console .segmento { cursor: pointer; }
+.console .segmento input { position: absolute; opacity: 0; width: 0; height: 0; }
+.console .segmento span {
+  display: block; padding: 5px 14px; border-radius: 999px;
+  font-size: 12.5px; font-weight: 500; color: rgba(255,255,255,0.6);
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.console .segmento:hover span { color: #fff; }
+.console .segmento input:checked + span { background: var(--tinta-3); color: #fff; font-weight: 600; }
+.console .segmento input:focus-visible + span { outline: 2px solid #fff; outline-offset: 2px; }
 
-.botao-responder {
-  display: inline-flex; align-items: center; gap: 8px;
-  vertical-align: middle;
-  margin-left: 14px;
-  padding: 9px 20px;
-  border: none; border-radius: 999px;
-  background: var(--tinta); color: #fff;
-  font-family: var(--fonte); font-size: 14.5px; font-weight: 600; letter-spacing: 0;
+.console-campos {
+  display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap;
+}
+.console .campo { gap: 7px; }
+.console .campo label {
+  font-size: 11.5px; font-weight: 500; letter-spacing: 0.01em;
+  color: rgba(255,255,255,0.62);
+}
+.console .campo-municipio { flex: 1 1 280px; min-width: 240px; position: relative; }
+.console .campo-data { flex: 0 0 auto; }
+.console .campo-acao { margin-left: auto; }
+
+/* O poço: é ele que faz o campo parecer campo sobre fundo escuro. */
+.entrada {
+  display: flex; align-items: center; gap: 9px;
+  padding: 0 12px;
+  height: 42px;
+  background: var(--poco);
+  border: 1px solid var(--poco-borda);
+  border-radius: 8px;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.entrada:focus-within { border-color: rgba(255,255,255,0.5); background: #0b111c; }
+.entrada svg { color: rgba(255,255,255,0.42); flex-shrink: 0; }
+.entrada input {
+  flex: 1; min-width: 0;
+  background: none; border: none; outline: none;
+  color: #fff;
+  font-family: var(--fonte); font-size: 14.5px;
+  padding: 0;
+}
+/* 0.38 dava 3.57:1 sobre o poço; este placeholder carrega instrução de uso
+   ("escolha na lista"), então precisa passar de 4.5:1 como texto normal. */
+.entrada input::placeholder { color: rgba(255,255,255,0.56); }
+/* Data em mono: é dado, e a mono alinha os dígitos. */
+.campo-data .entrada { padding-right: 10px; }
+.campo-data input {
+  font-family: var(--fonte-codigo); font-size: 14px;
+  color-scheme: dark; /* faz o seletor nativo nascer escuro, combinando */
+}
+.campo-data input::-webkit-calendar-picker-indicator { opacity: 0.5; cursor: pointer; }
+.campo-data input:hover::-webkit-calendar-picker-indicator { opacity: 0.9; }
+
+.botao-consultar {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  height: 42px; padding: 0 24px;
+  border: none; border-radius: 8px;
+  background: #fff; color: var(--tinta);
+  font-family: var(--fonte); font-size: 14.5px; font-weight: 600;
   cursor: pointer;
   transition: background 0.12s ease;
 }
-.botao-responder:hover { background: var(--tinta-2); }
+.botao-consultar:hover { background: #e4e8ef; }
+.botao-consultar:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
-/* A lista de sugestões ancora na lacuna, que é inline. */
-.lacuna .lista-sugestoes { position: static; }
-.lacuna .sugestoes {
-  top: calc(100% + 8px); left: 0; right: auto;
-  min-width: 300px;
-  font-size: 15px; letter-spacing: 0;
-}
+/* A lista de sugestões desce do poço do município. */
+.console .lista-sugestoes { position: absolute; left: 0; right: 0; top: 100%; }
+.console .sugestoes { top: 6px; }
 
 .rotulo-oculto {
   position: absolute; width: 1px; height: 1px;
@@ -897,10 +915,14 @@ table.calendario td { height: 34px; font-size: 13px; }
    carregando significado, em versões claras — as escuras não passariam de
    4.5:1 sobre a tinta. */
 
+/* Objeto separado do console por um vão: perguntar e responder são dois
+   momentos, e encostar as duas superfícies escuras fundia os dois num bloco
+   só, que foi a confusão da passada anterior. */
+#resultado { display: block; margin-top: 22px; }
 .bloco-veredito {
   margin: 0;
-  padding: 32px 34px 34px;
-  border-radius: var(--raio-g) var(--raio-g) 0 0;
+  padding: 30px 32px 32px;
+  border-radius: 12px 12px 0 0;
   background: var(--tinta);
   color: #fff;
 }
@@ -927,7 +949,7 @@ table.calendario td { height: 34px; font-size: 13px; }
   display: grid; grid-template-columns: minmax(0, 1fr) 436px; gap: 0;
   align-items: stretch;
   border: 1px solid var(--linha); border-top: none;
-  border-radius: 0 0 var(--raio-g) var(--raio-g);
+  border-radius: 0 0 12px 12px;
   background: var(--superficie);
   overflow: hidden;
 }
@@ -942,7 +964,7 @@ table.calendario td { height: 34px; font-size: 13px; }
    pode cobrir o ano inteiro e não cabe numa coluna lateral. */
 .resposta-painel {
   border: 1px solid var(--linha); border-top: none;
-  border-radius: 0 0 var(--raio-g) var(--raio-g);
+  border-radius: 0 0 12px 12px;
   background: var(--superficie);
   overflow: hidden;
 }
@@ -965,8 +987,8 @@ table.calendario td { height: 34px; font-size: 13px; }
 
 @media (max-width: 980px) {
   .barra { gap: 18px; padding: 0 20px; }
-  .pergunta { padding: 38px 0 32px; }
-  .pergunta-frase { font-size: 31px; max-width: none; }
+  .console { padding: 18px 18px 20px; }
+  .console-topo { margin-bottom: 16px; }
   .apresentacao-itens { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .bloco-veredito { padding: 26px 22px 28px; }
   .veredito { font-size: 36px; }
@@ -983,13 +1005,14 @@ table.calendario td { height: 34px; font-size: 13px; }
   .pagina-topo h1 { font-size: 23px; }
   .veredito { font-size: 28px; }
   /* A frase quebra em várias linhas; os campos não podem estourar a tela. */
-  .pergunta-frase { font-size: 25px; line-height: 1.4; }
-  .lacuna input { max-width: 100%; }
-  .lacuna-municipio input, .lacuna-municipio input:focus { width: 9ch; min-width: 9ch; }
-  .lacuna.preenchida input { min-width: 0; width: auto; max-width: 100%; }
-  .trecho-fecho { white-space: normal; }
-  .botao-responder { margin-left: 0; margin-top: 10px; }
-  .lacuna .sugestoes { min-width: 0; width: 78vw; }
+  /* Empilhado: cada campo ocupa a linha e o botao vira alvo cheio. */
+  .console-campos { gap: 12px; }
+  .console .campo, .console .campo-municipio, .console .campo-data { flex: 1 1 100%; min-width: 0; }
+  .console .campo-acao { margin-left: 0; }
+  .botao-consultar { width: 100%; }
+  .console .segmentos { width: 100%; }
+  .console .segmento { flex: 1; }
+  .console .segmento span { text-align: center; }
   .barra-marca-texto span { display: none; }
   .lista-ocorrencias, .calendario-wrap, .legenda { max-width: none; }
   .busca-linha { gap: 14px; }

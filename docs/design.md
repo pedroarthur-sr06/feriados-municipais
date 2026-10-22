@@ -113,38 +113,44 @@ hachura diagonal (forma, não cor); o dia consultado leva anel de tinta,
 independente da categoria. Contraste auditado no navegador em todas as telas e
 nos dois modos do toggle — zero falhas AA.
 
-### A pergunta é o controle
+### A frase-formulário: o que foi tentado e por que saiu
 
-A terceira passada trocou a anatomia da tela de Consulta. O subtítulo sempre
-foi "No dia X, no município Y/UF, houve feriado ou ponto facultativo?" — e
-logo abaixo dele havia um cartão com campos rotulados que perguntavam a mesma
-coisa, de novo, em outra linguagem.
+Houve uma passada em que o formulário virou a própria frase da pergunta —
+"No dia [08/12/2026] em [Campinas / SP] houve feriado?", com os campos como
+lacunas sublinhadas dentro do texto. Foi rejeitada na revisão, e a razão vale
+mais que a ideia:
 
-Agora a frase **é** o formulário:
+> "não dá para entender nada, as informações misturadas"
 
-    No dia [08/12/2026] em [Campinas / SP]
-    houve feriado?  (Responder)
+Ao tirar dos campos a aparência de campo, nada na tela se distinguia de texto
+corrido. **Affordance perdida não se compensa com ideia bonita.** Se alguém
+tiver essa ideia de novo, este parágrafo é a resposta.
 
-Os campos são lacunas, não caixas: fundo transparente, traço embaixo,
-pontilhado enquanto vazio e cheio depois de respondido. A frase vai ficando
-pronta conforme a pessoa preenche, e a lacuna do município encolhe no nome
-escolhido (largura medida no script) para não sobrar traço depois da palavra.
+### Console de consulta
 
-Este é o único elemento alto da interface. Tudo em volta é quieto de
-propósito — é onde a ousadia foi gasta.
+Superfície escura onde se age, papel branco onde se lê a prova. A divisão é
+semântica e não decorativa: **instrumento e documento são coisas diferentes**,
+e é essa separação que faz a tela se explicar sozinha.
 
-Cuidados que isso exige e que não são óbvios:
+O console é um painel de tinta com rótulo visível em cada campo e um poço
+mais escuro que o painel atrás de cada entrada — é o degrau de luminosidade
+que faz um input parecer input sem precisar de borda gritante. A data usa a
+mono da família (é dado, e os dígitos alinham) e `color-scheme: dark`, para
+o seletor nativo nascer escuro em vez de abrir um retângulo branco.
 
-- O contêiner da frase é `<div>`, não `<p>`: o `<div>` da lista de
-  sugestões, que precisa ficar ancorado na lacuna, fecharia um parágrafo
-  antes da hora e jogaria o fecho da frase para fora dele.
-- O fecho ("houve feriado?") é `display: block`, então a frase quebra em
-  duas linhas estáveis, onde foi decidido, e não onde a janela calhar.
-- A lacuna em foco ganha caixa de foco. O traço fechando sozinho é indicador
-  fraco demais para quem chega pelo teclado.
-- O campo de data tem largura amarrada ao conteúdo (`7.4em`): solto, o
-  controle nativo reserva folga e o ícone do calendário descola do
-  "dd/mm/aaaa", parecendo defeito.
+O botão é branco sobre a tinta: o elemento de maior contraste da tela é a
+ação que se quer que aconteça.
+
+### Resposta: objeto separado, não continuação
+
+A resposta é um bloco próprio, **separado do console por um vão**. Encostar
+as duas superfícies escuras fundia perguntar e responder num bloco só — que
+foi exatamente a confusão apontada na revisão. Zonas distintas, separadas por
+espaço, é o que torna a tela legível.
+
+Dentro do bloco: veredito sobre tinta, prova sobre papel, mês ao lado. As
+categorias sobre a tinta usam versões clareadas (`--nacional-claro` e
+irmãs); as escuras não chegariam a 4.5:1 ali. Medido: 7.95 a 9.92:1.
 
 ### Shell: barra no topo, não coluna lateral
 
