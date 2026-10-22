@@ -38,8 +38,8 @@ verificável no próprio texto do código.
 
 **Por quê essa stack**: o requisito não-funcional pede "simples de hospedar e
 manter" em servidor próprio/VM (não cloud gerenciada) e "sem dependências
-pesadas". SQLite elimina serviço de banco separado (backup = copiar
-arquivo); Fastify + server-side rendering elimina build step de SPA; nenhuma
+pesadas". SQLite elimina serviço de banco separado (backup = um comando,
+`npm run db:backup`); Fastify + server-side rendering elimina build step de SPA; nenhuma
 dependência exige binário externo (Chromium, etc.) além do próprio Node.
 
 ## Comandos
@@ -49,6 +49,7 @@ npm install          # instala dependências (better-sqlite3 compila binário na
 npm run dev           # servidor em modo watch (tsx)
 npm run build         # compila para dist/ (usa tsconfig.build.json: só src, sem os testes)
 npm start             # roda a build compilada
+npm run db:backup     # snapshot consistente do banco via VACUUM INTO (seguro com o servidor no ar)
 npm test              # roda a suíte de testes (Vitest)
 npm run test:watch    # Vitest em modo watch
 
@@ -101,6 +102,8 @@ drizzle/            # migrations SQL geradas (versionadas no git)
 data/                # holidays.db (SQLite) — gitignored, gerado localmente
 docs/
   fontes-de-dados.md # pesquisa de fontes (Fase 0)
+  design.md          # direção visual — ler antes de mexer em CSS/views
+  implantacao.md     # como subir num Windows Server da rede interna
 tests/                # Vitest
 ```
 

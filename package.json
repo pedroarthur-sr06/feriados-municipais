@@ -21,7 +21,8 @@
     "seed:candidatos": "tsx src/scripts/seed-candidatos.ts",
     "seed:feriados-curados": "tsx src/scripts/seed-feriados-curados.ts",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+    "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "db:backup": "tsx src/scripts/backup.ts"
   },
   "dependencies": {
     "@fastify/formbody": "^9.0.0",

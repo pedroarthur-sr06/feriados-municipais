@@ -8,3 +8,9 @@ data/*.db-shm
 .env
 .env.local
 scratch-*.json
+
+# Backups gerados pelo npm run db:backup
+backups/
+
+# Lixo do Windows/OneDrive
+desktop.ini
