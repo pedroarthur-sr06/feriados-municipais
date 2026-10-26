@@ -42,6 +42,17 @@ pesadas". SQLite elimina serviço de banco separado (backup = um comando,
 `npm run db:backup`); Fastify + server-side rendering elimina build step de SPA; nenhuma
 dependência exige binário externo (Chromium, etc.) além do próprio Node.
 
+## Como se usa no dia a dia
+
+A ferramenta roda **sob demanda**: alguem do DP da dois cliques em
+`Abrir Feriados Municipais.cmd`, que prepara, sobe o servidor e mostra na
+janela o endereco da rede para compartilhar com quem precisar naquele
+momento. Fechar a janela derruba. Ver [docs/implantacao.md](docs/implantacao.md)
+para isso e para o caminho de servico sempre no ar.
+
+O `LOG_LEVEL` controla o barulho do log: o atalho usa `warn` para a janela
+ficar limpa para quem nao e tecnico; o padrao e `info`.
+
 ## Comandos
 
 ```bash

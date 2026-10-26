@@ -1,3 +1,53 @@
+# Como deixar a ferramenta no ar
+
+Duas formas, da mais simples para a mais robusta. Escolha pelo uso real, não
+pelo que parece mais profissional.
+
+## Sob demanda: dois cliques (é o caminho atual)
+
+Na pasta do projeto existe **`Abrir Feriados Municipais.cmd`**. Dois cliques
+nele e pronto: ele prepara o que falta, sobe o sistema e abre no navegador.
+A janela mostra o endereço para passar aos outros:
+
+```
+  Feriados Municipais está no ar.
+
+  Neste computador:   http://localhost:3000
+  Para compartilhar:  http://192.168.1.149:3000
+```
+
+Quem estiver na mesma rede abre pelo segundo endereço — **sempre com o dado
+atual**, porque todos olham a mesma base. Fechar a janela derruba o sistema.
+
+Serve quando a ferramenta é usada por períodos, não o dia inteiro: alguém do
+DP abre, trabalha, compartilha o endereço com quem precisar naquele momento e
+fecha no fim.
+
+Três coisas que valem saber:
+
+- **A primeira execução demora alguns minutos** (instala dependências). As
+  seguintes levam segundos.
+- **O endereço muda** se o IP da máquina mudar. Por isso ele é mostrado na
+  janela toda vez, em vez de ficar anotado em algum lugar que envelhece.
+- **Na primeira vez o Windows pode perguntar** se libera o Node.js na rede.
+  Precisa responder que sim, senão só funciona no próprio computador. Se a
+  pergunta não aparecer e mesmo assim ninguém conseguir abrir de fora, veja
+  a liberação de porta na seção 6.
+
+**Atalho na área de trabalho:** clique direito no `.cmd` → Enviar para → Área
+de trabalho. Dá para trocar o ícone nas propriedades do atalho.
+
+## Sempre no ar: serviço do Windows
+
+Quando o uso virar diário e a ferramenta passar a ser consultada o tempo
+todo, vale subir como serviço numa máquina que fica ligada — aí o endereço
+responde sem ninguém precisar abrir nada. Não precisa ser uma VM da TI: um
+computador da empresa que não desliga já resolve.
+
+O resto deste documento descreve esse caminho.
+
+---
+
 # Implantação em Windows Server (rede interna)
 
 Como tirar a aplicação da máquina de quem desenvolve e deixá-la de pé num

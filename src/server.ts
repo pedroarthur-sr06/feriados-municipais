@@ -3,6 +3,7 @@
  * rendering com EJS + htmx/Alpine vendorizados) e estáticos (public/).
  */
 import { fileURLToPath } from "node:url";
+import { networkInterfaces } from "node:os";
 import path from "node:path";
 import Fastify from "fastify";
 import fastifyView from "@fastify/view";
@@ -20,7 +21,13 @@ import { apresentarCalendario, DIAS_CABECALHO, nomeMes } from "./web/calendario.
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ_PROJETO = path.resolve(__dirname, "..");
 
-const app = Fastify({ logger: true });
+/**
+ * Nivel de log por ambiente. Em "warn" o Fastify para de imprimir uma linha
+ * JSON por requisicao e so fala quando algo da errado — e o que o atalho de
+ * um clique usa, porque quem abre a ferramenta ve essa janela e log tecnico
+ * rolando ali parece defeito. Erro continua aparecendo.
+ */
+const app = Fastify({ logger: { level: process.env.LOG_LEVEL ?? "info" } });
 
 await app.register(fastifyView, {
   engine: { ejs },
@@ -51,7 +58,40 @@ await app.register(rotasAdmin);
 
 const PORT = Number(process.env.PORT ?? 3000);
 
-app.listen({ port: PORT, host: "0.0.0.0" }).catch((err) => {
-  app.log.error(err);
-  process.exit(1);
-});
+/**
+ * Endereços IPv4 desta máquina na rede local — é o que se manda para outra
+ * pessoa abrir. O log do Fastify já imprime isso, mas em JSON no meio de
+ * outras linhas; quem sobe a ferramenta pelo atalho precisa de uma linha só,
+ * legível, para copiar e colar.
+ */
+function enderecosDeRede(): string[] {
+  return Object.values(networkInterfaces())
+    .flatMap((lista) => lista ?? [])
+    .filter((i) => i.family === "IPv4" && !i.internal)
+    .map((i) => `http://${i.address}:${PORT}`);
+}
+
+app
+  .listen({ port: PORT, host: "0.0.0.0" })
+  .then(() => {
+    const naRede = enderecosDeRede();
+    console.log("");
+    console.log("  Feriados Municipais está no ar.");
+    console.log("");
+    console.log(`  Neste computador:   http://localhost:${PORT}`);
+    if (naRede.length > 0) {
+      console.log(`  Para compartilhar:  ${naRede[0]}`);
+      for (const extra of naRede.slice(1)) console.log(`                      ${extra}`);
+      console.log("");
+      console.log("  Quem estiver na mesma rede abre por esse endereço.");
+    } else {
+      console.log("");
+      console.log("  Sem rede detectada — só dá para abrir neste computador.");
+    }
+    console.log("  Para encerrar, feche esta janela ou pressione Ctrl+C.");
+    console.log("");
+  })
+  .catch((err) => {
+    app.log.error(err);
+    process.exit(1);
+  });
