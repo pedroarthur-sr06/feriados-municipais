@@ -33,9 +33,8 @@ await app.register(fastifyView, {
   engine: { ejs },
   root: path.join(RAIZ_PROJETO, "views"),
   viewExt: "ejs",
-  // A frase do veredito e a descrição das camadas vêm de src/web/veredito.ts,
-  // o mesmo módulo que o HTML offline embute — para as duas versões nunca
-  // dizerem coisas diferentes sobre o mesmo dia.
+  // A frase do veredito, a descrição das camadas e as classes do calendário
+  // vêm de src/web/ — decididas em TypeScript, com tipo, e não dentro do EJS.
   defaultContext: { montarVeredito, porExtenso, DESCRICAO_CAMADA, apresentarCalendario, DIAS_CABECALHO, nomeMes },
 });
 

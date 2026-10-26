@@ -70,11 +70,10 @@ export function nomeMes(mes: number): string {
 // ---------------------------------------------------------------------------
 // Apresentação da grade
 //
-// As classes de cada célula moravam dentro do template EJS. Como o HTML
-// offline desenha o mesmo calendário por outro caminho, as duas cópias
-// divergiram na primeira tentativa — o offline lia um campo que não existe e
-// contava o marcador de outro jeito. Decidir aqui, uma vez, é o que impede
-// isso de voltar.
+// As classes de cada célula moravam dentro do template EJS. Decidir aqui o
+// que é cada dia — categoria, destaque, fim de semana, marcador de
+// sobreposição — deixa a regra num lugar tipado e conferível, em vez de
+// espalhada em condicionais de template.
 // ---------------------------------------------------------------------------
 
 /** Cabeçalho de domingo a sábado; o fim de semana é posição, não dado. */

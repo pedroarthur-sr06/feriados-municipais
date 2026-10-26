@@ -2,12 +2,10 @@
  * A frase do veredito e a descrição de cada camada — a parte mais importante
  * da interface, em TypeScript e não dentro do EJS.
  *
- * O motivo é concreto: além das telas servidas pelo Fastify, existe o arquivo
- * HTML offline gerado por `npm run html`, que responde as mesmas consultas
- * sem servidor. Com a lógica dentro do template, as duas versões diriam
- * coisas diferentes sobre o mesmo dia assim que uma das duas fosse mexida —
- * e "Feriado municipal" contra "Ponto facultativo" é exatamente a distinção
- * que o projeto não pode errar.
+ * É a sentença que a pessoa lê e anexa ao fechamento, e "Feriado municipal"
+ * contra "Ponto facultativo" muda a folha de alguém. Dentro de um template
+ * essa decisão não tem tipo, não tem teste e é fácil de duplicar sem
+ * perceber; aqui ela tem um lugar só, conferível.
  */
 import type { ResultadoConsultaDia } from "../motor/resolver.js";
 
