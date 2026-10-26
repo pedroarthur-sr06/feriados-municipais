@@ -22,7 +22,8 @@
     "seed:feriados-curados": "tsx src/scripts/seed-feriados-curados.ts",
     "typecheck": "tsc --noEmit",
     "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
-    "db:backup": "tsx src/scripts/backup.ts"
+    "db:backup": "tsx src/scripts/backup.ts",
+    "marcas": "node tools/marcas/gerar-marcas.mjs"
   },
   "dependencies": {
     "@fastify/formbody": "^9.0.0",

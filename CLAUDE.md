@@ -50,6 +50,7 @@ npm run dev           # servidor em modo watch (tsx)
 npm run build         # compila para dist/ (usa tsconfig.build.json: só src, sem os testes)
 npm start             # roda a build compilada
 npm run db:backup     # snapshot consistente do banco via VACUUM INTO (seguro com o servidor no ar)
+npm run marcas        # regera os arquivos de marca em public/img/ a partir de tools/marcas/origem/
 npm test              # roda a suíte de testes (Vitest)
 npm run test:watch    # Vitest em modo watch
 
@@ -100,6 +101,9 @@ db/
   seed-data/        # snapshots versionados de datasets externos usados no seed (ex.: candidatos comunitários)
 drizzle/            # migrations SQL geradas (versionadas no git)
 data/                # holidays.db (SQLite) — gitignored, gerado localmente
+tools/
+  marcas/           # gera public/img/ (favicon, logos) a partir dos originais em marcas/origem/
+                    # — os arquivos publicados são derivados; não editar à mão, rodar "npm run marcas"
 docs/
   fontes-de-dados.md # pesquisa de fontes (Fase 0)
   design.md          # direção visual — ler antes de mexer em CSS/views
