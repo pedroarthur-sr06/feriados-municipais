@@ -1,56 +1,12 @@
 <%
-  /* Traduz o resultado resolvido numa frase. A cor vem da camada mais forte
-     presente; a ordem segue a mesma prioridade do helper de calendário. */
-  const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
-                 "julho","agosto","setembro","outubro","novembro","dezembro"];
-  const porExtenso = (iso) => {
-    const [a, m, d] = iso.split("-");
-    return Number(d) + " de " + MESES[Number(m) - 1] + " de " + a;
-  };
-  const ROTULO = {
-    nacional: "nacional",
-    estadual: "estadual",
-    municipal: "municipal",
-  };
-
-  const camadas = resultado.ocorrencias.map((o) => o.camada);
-  const feriados = ["nacional", "estadual", "municipal"].filter((c) => camadas.includes(c));
-  const temFacultativo = camadas.includes("ponto_facultativo");
-
-  let frase, camadaCor;
-  if (feriados.length > 0) {
-    const nomes = feriados.map((c) => ROTULO[c]);
-    frase = "Feriado " + (nomes.length === 1 ? nomes[0] : nomes.slice(0, -1).join(", ") + " e " + nomes.at(-1));
-    if (temFacultativo) frase += " e ponto facultativo";
-    camadaCor = feriados[0];
-  } else if (temFacultativo) {
-    frase = "Ponto facultativo";
-    camadaCor = "ponto_facultativo";
-  } else if (resultado.statusMunicipal === "verificado") {
-    frase = "Dia útil";
-    camadaCor = "util";
-  } else {
-    frase = "Não verificado";
-    camadaCor = "nao_verificado";
-  }
+  /* Toda a decisão de frase, cor e ressalva vem de src/web/veredito.ts, que o
+     HTML offline também usa. Aqui só se apresenta. */
+  const v = montarVeredito(resultado, municipio.nome);
 %>
 <div class="bloco-veredito">
   <p class="linha-contexto"><%= municipio.nome %>/<%= municipio.uf %>, <%= resultado.diaSemana %>, <%= porExtenso(resultado.data) %></p>
-  <h2 class="veredito camada-<%= camadaCor %>"><%= frase %></h2>
-
-  <% if (camadaCor === "nao_verificado") { %>
-    <p class="veredito-nota">
-      Ninguém confirmou os feriados municipais de <%= municipio.nome %> com fonte oficial.
-      Não há feriado nacional nem estadual nesta data — mas isso não basta para tratar o dia como útil.
-    </p>
-  <% } else if (camadaCor === "util") { %>
-    <p class="veredito-nota">
-      Nenhum feriado nacional, estadual ou municipal nesta data. Os feriados municipais de
-      <%= municipio.nome %> já foram conferidos com fonte oficial.
-    </p>
-  <% } else if (resultado.statusMunicipal === "nao_verificado") { %>
-    <p class="veredito-nota">
-      Pode haver também feriado municipal: ninguém conferiu os feriados de <%= municipio.nome %> ainda.
-    </p>
+  <h2 class="veredito camada-<%= v.camada %>"><%= v.frase %></h2>
+  <% if (v.nota) { %>
+    <p class="veredito-nota"><%= v.nota %></p>
   <% } %>
 </div>

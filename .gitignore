@@ -14,3 +14,7 @@ backups/
 
 # Lixo do Windows/OneDrive
 desktop.ini
+
+# HTML offline gerado por npm run html (barra inicial: senao o padrao casaria
+# tambem com tools/offline/, que e codigo e precisa ser versionado)
+/offline/

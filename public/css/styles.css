@@ -651,7 +651,12 @@ td .marcador-multiplo {
 .console-lote .campo-arquivo { display: block; margin-bottom: 16px; }
 .console-lote .campo-arquivo label { display: block; margin-bottom: 7px; }
 .console-rodape { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
-.console-ajuda { margin: 0; max-width: 56ch; font-size: 12.5px; line-height: 1.55; color: rgba(255,255,255,0.58); }
+.console-ajuda { margin: 0; max-width: 56ch; font-size: 12.5px; line-height: 1.55; color: rgba(255,255,255,0.72); }
+/* Link sobre a tinta: o azul de link não se lê aqui, então o contraste vem
+   do branco e do sublinhado. */
+.link-console { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+.link-console:hover { text-decoration-thickness: 2px; }
+.link-console:focus-visible { outline-color: #fff; }
 .erro-console {
   margin: 0 0 16px;
   background: rgba(255,167,156,0.12);

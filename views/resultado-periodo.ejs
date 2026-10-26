@@ -1,12 +1,4 @@
-<%
-  const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
-                 "julho","agosto","setembro","outubro","novembro","dezembro"];
-  const porExtenso = (iso) => {
-    const [a, m, d] = iso.split("-");
-    return Number(d) + " de " + MESES[Number(m) - 1] + " de " + a;
-  };
-  const qtd = diasComOcorrencia.length;
-%>
+<% const qtd = diasComOcorrencia.length; %>
 <div class="bloco-veredito">
   <p class="linha-contexto"><%= municipio.nome %>/<%= municipio.uf %>, de <%= porExtenso(dataInicioIso) %> a <%= porExtenso(dataFimIso) %></p>
   <h2 class="veredito camada-<%= qtd > 0 ? 'estadual' : 'util' %>">

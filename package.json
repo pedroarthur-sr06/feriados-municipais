@@ -23,7 +23,8 @@
     "typecheck": "tsc --noEmit",
     "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
     "db:backup": "tsx src/scripts/backup.ts",
-    "marcas": "node tools/marcas/gerar-marcas.mjs"
+    "marcas": "node tools/marcas/gerar-marcas.mjs",
+    "html": "npm run build && node tools/offline/gerar-html.mjs"
   },
   "dependencies": {
     "@fastify/formbody": "^9.0.0",

@@ -1,17 +1,3 @@
-<%
-  const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
-                 "julho","agosto","setembro","outubro","novembro","dezembro"];
-  const porExtenso = (iso) => {
-    const [a, m, d] = iso.split("-");
-    return Number(d) + " de " + MESES[Number(m) - 1] + " de " + a;
-  };
-  const DESCRICAO_CAMADA = {
-    nacional: "Feriado nacional, vale em todo o país",
-    estadual: "Feriado estadual, vale para todos os municípios da UF",
-    municipal: "Feriado municipal",
-    ponto_facultativo: "Ponto facultativo, não é feriado — vincula só quem decretou",
-  };
-%>
 <article class="ocorrencia camada-<%= o.camada %>">
   <strong class="ocorrencia-nome"><%= o.nome %></strong>
   <p class="ocorrencia-camada"><%= DESCRICAO_CAMADA[o.camada] %> — <%= porExtenso(o.data) %></p>

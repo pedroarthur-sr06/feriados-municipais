@@ -51,6 +51,7 @@ npm run build         # compila para dist/ (usa tsconfig.build.json: só src, se
 npm start             # roda a build compilada
 npm run db:backup     # snapshot consistente do banco via VACUUM INTO (seguro com o servidor no ar)
 npm run marcas        # regera os arquivos de marca em public/img/ a partir de tools/marcas/origem/
+npm run html          # gera offline/feriados-municipais.html — arquivo único, sem servidor (ver tools/offline/README.md)
 npm test              # roda a suíte de testes (Vitest)
 npm run test:watch    # Vitest em modo watch
 
@@ -87,7 +88,8 @@ src/
     exportacao.ts        # exportação CSV/PDF de um período
     admin.ts              # tela administrativa (CRUD de feriados curados + fila de candidatos)
   web/
-    calendario.ts      # helper de apresentação: monta a grade do calendário mensal
+    calendario.ts      # grade do calendário + classes de cada célula (compartilhado com o HTML offline)
+    veredito.ts        # a frase do veredito e a descrição das camadas (compartilhado com o HTML offline)
   lote/
     planilha.ts          # leitura/escrita CSV/XLSX (I/O puro, sem banco)
     classificador.ts      # classifica linhas de planilha usando o serviço
@@ -104,6 +106,8 @@ data/                # holidays.db (SQLite) — gitignored, gerado localmente
 tools/
   marcas/           # gera public/img/ (favicon, logos) a partir dos originais em marcas/origem/
                     # — os arquivos publicados são derivados; não editar à mão, rodar "npm run marcas"
+  offline/          # gera o HTML único de consulta sem servidor + verificador que o
+                    # compara com o servidor (ver tools/offline/README.md)
 docs/
   fontes-de-dados.md # pesquisa de fontes (Fase 0)
   design.md          # direção visual — ler antes de mexer em CSS/views
@@ -175,6 +179,26 @@ tests/                # Vitest
   projeto para esta fase. Editar um feriado sempre grava uma fonte nova no
   banco (fontes antigas nunca são apagadas) — dá um rastro básico de quem
   citou o quê, mas não é um histórico de versões completo.
+
+## Duas interfaces, um motor só
+
+Além das telas servidas pelo Fastify existe **o HTML offline** gerado por
+`npm run html`: um arquivo único que o time de DP guarda numa pasta e abre
+com dois cliques, sem servidor e sem internet. Ele responde consulta por dia
+e por período, citando a mesma fonte, e exporta o período em CSV.
+
+Duas interfaces respondendo a mesma pergunta divergem na primeira correção
+feita só de um lado. O que impede isso:
+
+- O arquivo offline **embute o motor compilado** de `dist/`, nunca uma
+  reimplementação.
+- A frase do veredito (`src/web/veredito.ts`) e as classes do calendário
+  (`src/web/calendario.ts`) são **módulos compartilhados**, consumidos pelos
+  templates EJS via `defaultContext` e pelo arquivo offline. Não devolver
+  essa lógica para dentro do EJS.
+- `node tools/offline/verificar.mjs` compara veredito, fontes e calendário
+  entre os dois, numa amostra aleatória. Rodar depois de mexer no motor, nos
+  módulos compartilhados ou no gerador.
 
 ## Fases do projeto (ver plano completo com o usuário)
 

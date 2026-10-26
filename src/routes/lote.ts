@@ -13,6 +13,33 @@ export default async function rotasLote(app: FastifyInstance) {
     return reply.view("lote.ejs", { titulo: "Operação em lote — Feriados Municipais" });
   });
 
+  /**
+   * Planilha modelo. O formato estava só descrito em texto ao lado do campo
+   * de upload — quem monta a planilha pela primeira vez tinha de transcrever
+   * os nomes das colunas na mão, e errar um acento ali faz o arquivo inteiro
+   * voltar com erro. Baixar um arquivo pronto elimina esse passo.
+   */
+  app.get("/lote/modelo.csv", async (_req, reply) => {
+    // Escrito pelo mesmo gerarCsv que produz o arquivo de volta — assim o
+    // modelo sai exatamente no formato que o leitor desta tela espera, BOM
+    // incluído, em vez de um texto montado à parte que pode envelhecer.
+    const exemplos = [
+      { posto: "Loja Centro", municipio: "Campinas", uf: "SP", data: "2026-12-08" },
+      { posto: "Loja Norte", municipio: "Sorocaba", uf: "SP", data: "15/08/2026" },
+      { posto: "Matriz", municipio: "Salvador", uf: "BA", data: "2026-07-02" },
+    ];
+    const modelo = gerarCsv(exemplos, [
+      { chave: "posto", cabecalho: "posto" },
+      { chave: "municipio", cabecalho: "municipio" },
+      { chave: "uf", cabecalho: "uf" },
+      { chave: "data", cabecalho: "data" },
+    ]);
+    return reply
+      .header("Content-Disposition", 'attachment; filename="modelo-feriados.csv"')
+      .type("text/csv; charset=utf-8")
+      .send(modelo);
+  });
+
   app.post("/lote/processar", async (req, reply) => {
     const arquivo = await req.file();
     if (!arquivo) {

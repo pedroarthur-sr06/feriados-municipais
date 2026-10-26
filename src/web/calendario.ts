@@ -66,3 +66,60 @@ export const NOMES_MES = [
 export function nomeMes(mes: number): string {
   return NOMES_MES[mes - 1] ?? String(mes);
 }
+
+// ---------------------------------------------------------------------------
+// Apresentação da grade
+//
+// As classes de cada célula moravam dentro do template EJS. Como o HTML
+// offline desenha o mesmo calendário por outro caminho, as duas cópias
+// divergiram na primeira tentativa — o offline lia um campo que não existe e
+// contava o marcador de outro jeito. Decidir aqui, uma vez, é o que impede
+// isso de voltar.
+// ---------------------------------------------------------------------------
+
+/** Cabeçalho de domingo a sábado; o fim de semana é posição, não dado. */
+export const DIAS_CABECALHO: { rotulo: string; fimDeSemana: boolean }[] = [
+  { rotulo: "D", fimDeSemana: true },
+  { rotulo: "S", fimDeSemana: false },
+  { rotulo: "T", fimDeSemana: false },
+  { rotulo: "Q", fimDeSemana: false },
+  { rotulo: "Q", fimDeSemana: false },
+  { rotulo: "S", fimDeSemana: false },
+  { rotulo: "S", fimDeSemana: true },
+];
+
+export interface CelulaApresentacao {
+  dia: number | null;
+  /** Pronta para o atributo class. */
+  classes: string;
+  /** Nomes das ocorrências, para o title; "" quando não há. */
+  titulo: string;
+  /** "+N" quando o dia tem mais de uma ocorrência; "" caso contrário. */
+  marcador: string;
+}
+
+export function apresentarCalendario(
+  semanas: CelulaCalendario[][],
+  dataDestaque?: string,
+): CelulaApresentacao[][] {
+  return semanas.map((semana) =>
+    semana.map((celula, coluna) => {
+      const fds = DIAS_CABECALHO[coluna]?.fimDeSemana ? " fim-de-semana" : "";
+      if (celula.dia === null) {
+        return { dia: null, classes: "vazia" + fds, titulo: "", marcador: "" };
+      }
+      const ocorrencias = celula.resultado?.ocorrencias ?? [];
+      const classes =
+        `dia-${celula.categoria}` +
+        (ocorrencias.length > 0 ? " tem-ocorrencia" : "") +
+        (dataDestaque && celula.data === dataDestaque ? " dia-consultado" : "") +
+        fds;
+      return {
+        dia: celula.dia,
+        classes,
+        titulo: ocorrencias.map((o) => o.nome).join(" + "),
+        marcador: ocorrencias.length > 1 ? `+${ocorrencias.length}` : "",
+      };
+    }),
+  );
+}

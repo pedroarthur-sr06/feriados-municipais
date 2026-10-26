@@ -1,31 +1,25 @@
 <%
-  const NOMES_DIA_SEMANA = ["D", "S", "T", "Q", "Q", "S", "S"];
-  const NOMES_MES_PT = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+  /* Classes, title e marcador vêm de src/web/calendario.ts — o mesmo módulo
+     que o HTML offline embute. Aqui só se desenha. */
+  const grade = apresentarCalendario(semanas, typeof dataDestaque !== "undefined" ? dataDestaque : undefined);
 %>
 <div class="calendario-wrap">
-  <p class="calendario-titulo"><%= NOMES_MES_PT[mes - 1] %> de <%= ano %></p>
+  <p class="calendario-titulo"><%= nomeMes(mes) %> de <%= ano %></p>
   <table class="calendario">
     <thead>
       <tr>
-        <% NOMES_DIA_SEMANA.forEach(function (n, i) { %><th scope="col" class="<%= (i === 0 || i === 6) ? 'fim-de-semana' : '' %>"><%= n %></th><% }); %>
+        <% DIAS_CABECALHO.forEach(function (d) { %><th scope="col" class="<%= d.fimDeSemana ? 'fim-de-semana' : '' %>"><%= d.rotulo %></th><% }); %>
       </tr>
     </thead>
     <tbody>
-      <% semanas.forEach(function (semana) { %>
+      <% grade.forEach(function (semana) { %>
         <tr>
-          <% semana.forEach(function (celula, i) { %>
-            <% const fds = (i === 0 || i === 6) ? ' fim-de-semana' : ''; %>
-            <% if (celula.dia === null) { %>
-              <td class="vazia<%= fds %>"></td>
+          <% semana.forEach(function (c) { %>
+            <% if (c.dia === null) { %>
+              <td class="<%= c.classes %>"></td>
             <% } else { %>
-              <%
-                const qtd = celula.resultado ? celula.resultado.ocorrencias.length : 0;
-                const titulo = qtd > 0 ? celula.resultado.ocorrencias.map(function(o){ return o.nome; }).join(" + ") : "";
-                const destacado = typeof dataDestaque !== "undefined" && celula.data === dataDestaque;
-              %>
-              <td class="dia-<%= celula.categoria %><%= qtd > 0 ? ' tem-ocorrencia' : '' %><%= destacado ? ' dia-consultado' : '' %><%= fds %>" <% if (titulo) { %>title="<%= titulo %>"<% } %>>
-                <%= celula.dia %>
-                <% if (qtd > 1) { %><span class="marcador-multiplo">+<%= qtd %></span><% } %>
+              <td class="<%= c.classes %>" <% if (c.titulo) { %>title="<%= c.titulo %>"<% } %>>
+                <%= c.dia %><% if (c.marcador) { %><span class="marcador-multiplo"><%= c.marcador %></span><% } %>
               </td>
             <% } %>
           <% }); %>
