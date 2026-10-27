@@ -15,6 +15,7 @@ import rotasWeb from "./routes/web.js";
 import rotasLote from "./routes/lote.js";
 import rotasExportacao from "./routes/exportacao.js";
 import rotasAdmin from "./routes/admin.js";
+import rotasApi from "./routes/api.js";
 import { montarVeredito, porExtenso, DESCRICAO_CAMADA } from "./web/veredito.js";
 import { apresentarCalendario, DIAS_CABECALHO, nomeMes } from "./web/calendario.js";
 
@@ -54,6 +55,7 @@ await app.register(rotasWeb);
 await app.register(rotasLote);
 await app.register(rotasExportacao);
 await app.register(rotasAdmin);
+await app.register(rotasApi);
 
 const PORT = Number(process.env.PORT ?? 3000);
 

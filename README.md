@@ -66,6 +66,12 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
 - **`/exportar/csv`** e **`/exportar/pdf`** — a partir da tela de consulta
   por período, exportam todos os dias do intervalo (incluindo os úteis)
   para anexar ao fechamento de ponto.
+- **`/api/feriados`** — os feriados de um município e período em JSON, para
+  outras ferramentas internas (a "Cálculo das Horas" do DP usa). Parâmetros:
+  `municipio` + `uf` (ou `codigoIbge`), `dataInicio`, `dataFim` (AAAA-MM-DD,
+  até 400 dias). Devolve `municipio`, `statusMunicipal` e as `ocorrencias`
+  com a camada de cada uma, inclusive ponto facultativo. Liberada para
+  leitura de qualquer origem (CORS), por ser só o que a consulta já mostra.
 - **`/admin`** — cadastra/edita/desativa feriados estaduais e municipais, e
   revisa a fila de candidatos importados (`/admin/candidatos`), promovendo
   os que tiverem fonte primária confirmada ou rejeitando os demais.

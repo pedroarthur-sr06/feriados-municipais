@@ -96,6 +96,9 @@ src/
     web.ts             # página inicial + endpoints htmx (autocomplete, consulta)
     lote.ts             # upload CSV/XLSX -> download classificado
     exportacao.ts        # exportação CSV/PDF de um período
+    api.ts                # /api/feriados: JSON de um período para outras ferramentas (CORS liberado, só leitura)
+  api/
+    feriados-json.ts     # monta a resposta JSON a partir do motor (pura, testada)
     admin.ts              # tela administrativa (CRUD de feriados curados + fila de candidatos)
   web/
     calendario.ts      # grade do calendário + as classes de cada célula
