@@ -1265,7 +1265,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Anadia/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data (Nossa Senhora dos Navegantes/Candelária). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -1303,7 +1303,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Arapiraca/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -1341,7 +1341,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Arapiraca/AL, corroborado por reportagem que confirma o município entre as cidades de Alagoas com folga na data de Nossa Senhora da Conceição. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -1379,7 +1379,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Atalaia/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -1512,7 +1512,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Penha é a padroeira de Cacimbinhas/AL, com feriado municipal em 8 de setembro — distinto da emancipação política (19/09, Lei nº 2108/1958), não representada entre os candidatos deste dataset. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -1778,7 +1778,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dois Riachos/AL é confirmado entre os municípios alagoanos que decretam 20 de janeiro (São Sebastião) como feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -1797,7 +1797,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Dois Riachos/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -1892,7 +1892,7 @@ const FERIADOS = [
     mes: 5,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "16 de maio é o feriado municipal de Emancipação Política de Igreja Nova/AL, confirmado pela própria página oficial da Prefeitura (reportagem dos 132 anos de emancipação). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -2063,7 +2063,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.391, de 26/08/1964 (Maceió/AL), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -2082,7 +2082,7 @@ const FERIADOS = [
     mes: 8,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Prazeres, padroeira de Maceió/AL — feriado municipal em 27/08, instituído pela Lei Municipal nº 1.391/1964, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -2101,7 +2101,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Maceió/AL em 08/12, instituído pela Lei Municipal nº 1.391/1964, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -2139,7 +2139,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão (nome específico do dataset + data universal do santo é suficiente).",
     fonte: {
@@ -2158,7 +2158,7 @@ const FERIADOS = [
     mes: 4,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Maragogi/AL foi emancipada em 24/04/1875 — 151 anos completados em 24/04/2026, confirmado por reportagem específica (Tribuna do Sertão) e pela Associação dos Municípios Alagoanos (AMA). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -2177,7 +2177,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto da emancipação política de Maragogi (24/04), promovida separadamente. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -2310,7 +2310,7 @@ const FERIADOS = [
     mes: 4,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Matriz de Camaragibe/AL foi emancipada em 24/04/1958. Confirmado pela página oficial da Assembleia Legislativa de Alagoas (perfil do município). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial estadual é suficiente).",
     fonte: {
@@ -2405,7 +2405,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -2443,7 +2443,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Olivença/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -2576,7 +2576,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Paulo Jacinto/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -2652,7 +2652,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Pilar/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -2690,7 +2690,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Piranhas/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -2937,7 +2937,7 @@ const FERIADOS = [
     mes: 4,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santana do Ipanema/AL foi emancipada em 24/04/1875 (mesma data de Maragogi/AL, promovida separadamente) — 151 anos completados em 24/04/2026, confirmado por reportagem específica (Tribuna do Sertão) e pela AMA. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -3070,7 +3070,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em São Luís do Quitunde/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -3089,7 +3089,7 @@ const FERIADOS = [
     mes: 5,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Luís do Quitunde/AL foi emancipada em 16/05/1892 — 134 anos celebrados com programação festiva em 2026. Confirmado por reportagem específica (Política Alagoana). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -3146,7 +3146,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro do próprio município de São Sebastião/AL (nome coincide), com feriado municipal decretado em 20 de janeiro — data universal da festa católica do santo. Confirmado por múltiplas reportagens sobre cidades brasileiras que adotam essa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada + coincidência de nome + data universal do santo é suficiente).",
     fonte: {
@@ -3260,7 +3260,7 @@ const FERIADOS = [
     mes: 5,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Traipu/AL foi emancipada em 16/05/1870. Confirmado pela Associação dos Municípios Alagoanos (AMA). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte associativa estadual é suficiente).",
     fonte: {
@@ -3298,7 +3298,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em União dos Palmares/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -3336,7 +3336,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "02/02 é feriado municipal em Viçosa/AL, corroborado por reportagem que lista nominalmente o município entre as cidades de Alagoas com folga na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -3393,7 +3393,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado estadual no Amazonas por Nossa Senhora da Conceição ser padroeira do Estado e da capital (Manaus) — tradição/reconhecimento consolidado, corroborado por múltiplas fontes secundárias independentes (redeondadigital.com.br, portaldoholanda.com.br, aca.org.br, glossário Buser), sem número de lei estadual específica localizado nas fontes consultadas. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -3488,7 +3488,7 @@ const FERIADOS = [
     mes: 6,
     dia: 9,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "9 de junho é o aniversário/emancipação de Barreirinha/AM, celebrado oficialmente pela Prefeitura com programação cultural, esportiva e shows — distinto da festa da padroeira (05-15/08), promovida separadamente. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (celebração oficial recorrente da própria Prefeitura é suficiente).",
     fonte: {
@@ -3507,7 +3507,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A festa da padroeira de Barreirinha/AM ocorre entre 5 e 15 de agosto, culminando em 15/08 — data que coincide com a festa universal de Nossa Senhora da Assunção no calendário católico, embora a fonte consultada não identifique explicitamente a invocação mariana local. Distinto do aniversário de 09/06, promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -3526,7 +3526,7 @@ const FERIADOS = [
     mes: 1,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Benjamin Constant/AM foi desmembrado de São Paulo de Olivença em 29/01/1898. Confirmado pela página oficial de história da Prefeitura e pela Wikipédia em português. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -3564,7 +3564,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29/06 (Dia de São Pedro, padroeiro dos pescadores) é feriado municipal oficializado em Boca do Acre/AM, corroborado por múltiplas fontes jornalísticas independentes que listam as cidades brasileiras com expediente suspenso na data (Metrópoles, CNN Brasil, O Povo, MSN, Portal Tela, França News). Número de lei municipal específico não localizado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes independentes é suficiente).",
     fonte: {
@@ -3602,7 +3602,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio é padroeiro de Borba/AM — a Catedral Basílica de Santo Antônio e os festejos anuais (1 a 13 de junho, com fechamento no dia 13) são amplamente documentados por fontes municipais e jornalísticas (borba.am.gov.br, cm7brasil.com, portaldoalexbraga.com.br), corroborando 13/06 como feriado municipal do padroeiro. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes independentes é suficiente).",
     fonte: {
@@ -3659,7 +3659,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13 de maio é feriado municipal em Careiro/AM em homenagem à padroeira Nossa Senhora de Fátima — coincide com a data universal da primeira aparição de Fátima. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -3678,7 +3678,7 @@ const FERIADOS = [
     mes: 12,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Careiro foi criado em 19/12/1955 pela Lei Estadual nº 99/1955 (onda de criação simultânea de municípios amazonenses nessa data), confirmado por fonte governamental (IDAM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte governamental é suficiente).",
     fonte: {
@@ -3716,7 +3716,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26/07 é feriado municipal em Coari/AM em homenagem a Sant'Ana, padroeira da Diocese de Coari, ratificado por Projeto de Lei Municipal nº 002/2020 — citação corroborada por fonte agregadora (feriadosapi.com) e pela confirmação da padroaria pela Diocese de Coari. Texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -3735,7 +3735,7 @@ const FERIADOS = [
     mes: 8,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "2 de agosto é o aniversário de emancipação de Coari/AM, um dos feriados municipais decretados da cidade. Confirmado por agregador de feriados (calendario.online). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -3754,7 +3754,7 @@ const FERIADOS = [
     mes: 3,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "31 de março é a data de emancipação/aniversário de Codajás/AM. Confirmado pela Associação Amazonense de Municípios (AAM) e por agregadores de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -3773,7 +3773,7 @@ const FERIADOS = [
     mes: 5,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "31 de maio encerra as festividades de Nossa Senhora das Graças (22 a 31 de maio), padroeira de Codajás/AM, celebrado como feriado municipal — distinto do feriado de 31/03 (aniversário de emancipação), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -3811,7 +3811,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de setembro de 1894 é a data de emancipação política de Eirunepé/AM, um dos feriados municipais decretados da cidade — distinto do dia do padroeiro São Francisco de Assis (04/10), não representado entre os candidatos deste dataset. Confirmado por múltiplas fontes (blogdodurango.com.br, Prefeitura de Eirunepé). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -3906,7 +3906,7 @@ const FERIADOS = [
     mes: 12,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "12 de dezembro é a celebração de Nossa Senhora de Guadalupe em Fonte Boa/AM, reconhecida como Patrimônio Cultural do Amazonas. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por reconhecimento oficial de patrimônio cultural estadual é suficiente).",
     fonte: {
@@ -4001,7 +4001,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29/06 (Dia de São Pedro, padroeiro dos pescadores) é feriado municipal oficializado em Itacoatiara/AM, corroborado por múltiplas fontes jornalísticas independentes que listam as cidades brasileiras com expediente suspenso na data (Metrópoles, CNN Brasil, O Povo, MSN, Portal Tela, França News). Número de lei municipal específico não localizado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes independentes é suficiente).",
     fonte: {
@@ -4058,7 +4058,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Nazaré é a padroeira de Lábrea/AM, com celebração religiosa em 8 de setembro — um dos 6 feriados municipais decretados da cidade, distinto do aniversário de 07/03 (que, segundo a mesma fonte, NÃO é feriado oficial, rejeitado separadamente). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -4077,7 +4077,7 @@ const FERIADOS = [
     mes: 7,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "16 de julho é, simultaneamente, o aniversário de Manacapuru/AM e o dia de Nossa Senhora do Carmo, padroeira de diversos municípios amazonenses. Confirmado por múltiplos agregadores de feriados (calendario.online, feriados.inf.br, feriados.site). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4115,7 +4115,7 @@ const FERIADOS = [
     mes: 10,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Elevação de Manaus/AM à categoria de cidade, feriado em 24/10, instituído pela Lei Municipal nº 495, de 06/01/2020, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -4153,7 +4153,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Manaus tem lei municipal própria e distinta declarando 08/12 feriado municipal (Lei Municipal nº 496, de 05/10/1999), além do reconhecimento estadual já cadastrado separadamente — não é redundância, é base legal municipal específica citada por múltiplas fontes (redeondadigital.com.br, portaldoholanda.com.br, aca.org.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4191,7 +4191,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A própria Lei Orgânica do Município de Manicoré/AM cita 15 de setembro como feriado municipal do Dia da Padroeira, Nossa Senhora das Dores — distinto da emancipação política (15/05/1878), não confirmada como feriado oficial (apenas celebração de aniversário pela Câmara Municipal). Fonte primária municipal (Lei Orgânica) consultada diretamente.",
     fonte: {
@@ -4229,7 +4229,7 @@ const FERIADOS = [
     mes: 1,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nhamundá/AM tornou-se município autônomo pela Lei Estadual nº 96, de dezembro de 1955, com instalação oficial em 31/01/1956, data celebrada desde então como aniversário da cidade. Confirmado pela Associação Amazonense de Municípios (AAM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -4248,7 +4248,7 @@ const FERIADOS = [
     mes: 12,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nova Olinda do Norte foi criado em 19/12/1955 pela Lei Estadual nº 96/1955, confirmado por IBGE Cidades, prefeitura do município e Associação Amazonense de Municípios (AAM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes independentes é suficiente).",
     fonte: {
@@ -4267,7 +4267,7 @@ const FERIADOS = [
     mes: 5,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "5 de maio é feriado municipal em Novo Airão/AM, em homenagem ao padroeiro Santo Ângelo. Confirmado por múltiplas fontes jornalísticas (CNN Brasil e O Seringal) sobre feriados regionais de 5 de maio. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4305,7 +4305,7 @@ const FERIADOS = [
     mes: 12,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Novo Airão foi emancipado originalmente em 19/12/1955 (onda de criação simultânea de municípios amazonenses nessa data); extinto e reincorporado depois, e reinstalado como município em 1981 mantendo a data de sua primeira oficialização (19 de dezembro) como data-base. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4324,7 +4324,7 @@ const FERIADOS = [
     mes: 12,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Novo Aripuanã foi criado em 19/12/1955 pela Lei Estadual nº 96/1955 (separado de Borba e Manicoré), confirmado diretamente por documento governamental (IDAM) e por site institucional do município. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte governamental direta é suficiente).",
     fonte: {
@@ -4343,7 +4343,7 @@ const FERIADOS = [
     mes: 5,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "14 de maio é feriado municipal em Parintins/AM em comemoração à sagração do primeiro bispo da Diocese de Parintins — distinto do feriado de 16/07 (Nossa Senhora do Carmo, padroeira), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -4362,7 +4362,7 @@ const FERIADOS = [
     mes: 7,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Carmo é a padroeira de Parintins/AM, com festa em 16 de julho — distinto do feriado de 14/05 (Sagração do Primeiro Bispo), promovido separadamente. Confirmado por reportagem específica sobre os festejos do Carmo em Parintins. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4381,7 +4381,7 @@ const FERIADOS = [
     mes: 6,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "27 de junho é a festa religiosa de Nossa Senhora do Perpétuo Socorro, padroeira de Presidente Figueiredo/AM — distinto do aniversário de criação do município (10/12/1981), que segundo a mesma fonte NÃO é feriado oficial, rejeitado separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -4400,7 +4400,7 @@ const FERIADOS = [
     mes: 3,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Rio Preto da Eva/AM foi emancipado em 1981, celebrando aniversário em 31 de março. Confirmado pela própria página oficial da Prefeitura de Rio Preto da Eva (reportagem dos 44 anos). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -4419,7 +4419,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é o padroeiro de Rio Preto da Eva/AM (Festa de São Pedro celebrada em junho), e 29 de junho é a data universal da festa católica de São Pedro — distinto do aniversário de emancipação (31/03), promovido separadamente. Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -4495,7 +4495,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio de Lisboa é o padroeiro de Santo Antônio do Içá/AM (o próprio nome do município homenageia o santo), com procissão em 13 de junho. Confirmado por múltiplas fontes independentes (blogdodurango.com.br, Eco Regional, Revista Fanzini, Associação Amazonense de Municípios). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 3+ fontes é suficiente).",
     fonte: {
@@ -4514,7 +4514,7 @@ const FERIADOS = [
     mes: 9,
     dia: 3,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Gabriel da Cachoeira/AM foi fundada em 03/09/1668 e oficialmente criada como município pela Lei Estadual nº 96, de 19/12/1955 (desmembrada de Barcelos) — 3 de setembro é celebrado como aniversário/feriado municipal decretado. Distinto do dia do padroeiro São Gabriel Arcanjo (29/09), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -4533,7 +4533,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Gabriel Arcanjo é o padroeiro de São Gabriel da Cachoeira/AM (o próprio nome do município homenageia o santo), com festa em 29 de setembro — data universal da festa católica de São Gabriel Arcanjo. Distinto do aniversário de fundação (03/09), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -4552,7 +4552,7 @@ const FERIADOS = [
     mes: 5,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "31 de maio é o aniversário de emancipação político-administrativa de São Paulo de Olivença/AM (criado pela Lei Provincial nº 83, de 04/04/1852). Confirmado pelo Portal de Transparência Municipal e pela Associação Amazonense de Municípios (AAM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4571,7 +4571,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29/06 (Dia de São Pedro, padroeiro dos pescadores) é feriado municipal oficializado em São Paulo de Olivença/AM, corroborado por múltiplas fontes jornalísticas independentes que listam as cidades brasileiras com expediente suspenso na data (Metrópoles, CNN Brasil, O Povo, MSN, Portal Tela, França News). Número de lei municipal específico não localizado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes independentes é suficiente).",
     fonte: {
@@ -4590,7 +4590,7 @@ const FERIADOS = [
     mes: 2,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Tabatinga/AM celebra sua emancipação política em 1º de fevereiro. Confirmado pela Rádio Nacional (EBC) e por reportagem da própria Prefeitura de Tabatinga sobre os 43 anos da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes, incluindo fonte oficial municipal, é suficiente).",
     fonte: {
@@ -4647,7 +4647,7 @@ const FERIADOS = [
     mes: 6,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de junho é feriado municipal em Tefé/AM, comemorando o aniversário/emancipação da cidade (origem na Missão de Santa Teresa de Tefé, fundada em 1759 pelos Carmelitas). Confirmado pela Associação Amazonense de Municípios (AAM) e por agregadores de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -4666,7 +4666,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Urucará/AM foi criado pela Lei nº 744, de 12/05/1887, data hoje celebrada como aniversário da cidade. Confirmado por documento oficial do IDAM (órgão do Governo do Amazonas). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial estadual é suficiente).",
     fonte: {
@@ -4685,7 +4685,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Sant'Ana é a padroeira de Urucará/AM, com festividades de 16 a 26 de julho, culminando em 26/07 — data que coincide com a festa universal de Sant'Ana no calendário católico. Distinto do aniversário de criação (12/05/1887), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -6186,7 +6186,7 @@ const FERIADOS = [
     mes: 12,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico, feriado municipal em Baixa Grande/BA em 14/12, instituído por decreto de 2013, citado diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -10632,7 +10632,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei 851/1978 (Feira de Santana/BA), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -10689,7 +10689,7 @@ const FERIADOS = [
     mes: 9,
     dia: 18,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Cidade, emancipação político-administrativa de Feira de Santana/BA (18/09/1833), feriado instituído pela Lei Complementar nº 031, de 15/09/2006, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -12380,7 +12380,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.052/2007 (Itabuna/BA), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -12399,7 +12399,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de Itabuna/BA — feriado municipal em 19/03, instituído pela Lei Municipal nº 2.052, de 03/07/2007, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -12418,7 +12418,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em Itabuna/BA em 24/06, instituído pela Lei Municipal nº 2.052/2007, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -12437,7 +12437,7 @@ const FERIADOS = [
     mes: 7,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de emancipação política e administrativa de Itabuna/BA, feriado em 28/07, instituído pela Lei Municipal nº 2.052/2007, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -13748,7 +13748,7 @@ const FERIADOS = [
     mes: 8,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico, feriado municipal em Jequié/BA em 20/08, instituído pela Lei nº 2.053, de 06/06/2018, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -18574,7 +18574,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1997/1967 (Salvador/BA), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -18593,7 +18593,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em Salvador/BA em 24/06, instituído pela Lei Municipal nº 1997/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -18612,7 +18612,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Salvador/BA em 08/12, instituído pela Lei Municipal nº 1997/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -19771,7 +19771,7 @@ const FERIADOS = [
     mes: 1,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Gonçalo, padroeiro de São Francisco do Conde/BA — feriado municipal em 28/01, instituído pela Lei nº 415, de 14/03/1975, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -19790,7 +19790,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Cidadania Franciscana, feriado municipal em São Francisco do Conde/BA em 29/06, em memória dos franciscanos que participaram das lutas pela independência, instituído pela Lei nº 415/1975, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -19809,7 +19809,7 @@ const FERIADOS = [
     mes: 10,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Francisco de Assis, padroeiro de São Francisco do Conde/BA — feriado municipal em 04/10, instituído pela Lei nº 415/1975, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -21101,7 +21101,7 @@ const FERIADOS = [
     mes: 9,
     dia: 18,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico, feriado municipal em Tapiramutá/BA em 18/09, instituído pelo Art. 1º da Lei nº 014/2009, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -21120,7 +21120,7 @@ const FERIADOS = [
     mes: 10,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Servidor Público, feriado municipal em Tapiramutá/BA em 28/10, instituído pelo Art. 213 da Lei nº 03/1995, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -22203,7 +22203,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em Vitória da Conquista/BA em 24/06, instituído pela Lei Municipal nº 1.391/2006, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -22222,7 +22222,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Vitórias, padroeira de Vitória da Conquista/BA — feriado municipal em 15/08, instituído pela Lei Municipal nº 1.391/2006, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -22241,7 +22241,7 @@ const FERIADOS = [
     mes: 11,
     dia: 9,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário e emancipação política de Vitória da Conquista/BA, feriado em 09/11, instituído pela Lei Municipal nº 1.391/2006, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -22488,7 +22488,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José é padroeiro do Estado do Ceará — feriado estadual em 19/03 instituído pela Lei Estadual nº 11.010, de 23/12/1985. Citação vinda de um candidato do dataset comunitário que a anexava (erroneamente) só a Caucaia — corrigido aqui para abrangência estadual correta. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -22526,7 +22526,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Acaraú/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal, lista confirmada por múltiplas reportagens (Diário do Nordeste, GC Mais). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes jornalísticas é suficiente).",
     fonte: {
@@ -22545,7 +22545,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia São João' no dataset comunitário, e 24 de junho é a data universal da festa católica de São João Batista. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -22583,7 +22583,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Aiuaba/CE — confirmado por reportagem que lista nominalmente 17 cidades cearenses com feriado nessa data (Aiuaba, Aquiraz, Barroquinha, Baturité, Caucaia, Fortaleza, Graça, Guaraciaba do Norte, Massapê, Milagres, Mombaça, Nova Russas, Quixeramobim, Reriutaba, Tabuleiro do Norte, Uruoca, Viçosa do Ceará — 11 delas batem com candidatos deste dataset, promovidas separadamente nesta mesma leva). Motivo específico (padroeira local) não detalhado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes jornalísticas é suficiente).",
     fonte: {
@@ -22602,7 +22602,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Dores é a padroeira de Aiuaba/CE, com feriado municipal em 15 de setembro — distinto do candidato de 08/15, promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre o feriado de 15/09 no Ceará. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22640,7 +22640,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Amontada/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22697,7 +22697,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São Sebastião' no dataset comunitário, e 20 de janeiro é a data universal da festa católica de São Sebastião. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -22754,7 +22754,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Aracoiaba/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22792,7 +22792,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -22811,7 +22811,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Dores é a padroeira de Assaré/CE, com feriado municipal em 15 de setembro. Confirmado por reportagem específica sobre o feriado de 15/09 no Ceará. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22887,7 +22887,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -22906,7 +22906,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Barreira/CE — confirmado por reportagem que lista nominalmente as cidades cearenses com feriado nessa data (Barreira, Beberibe, Camocim, Caririaçu, Fortim, Ibiapina, Paracuru, Parambu, Tejuçuoca — todas batem com candidatos deste dataset, promovidas separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22925,7 +22925,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -22944,7 +22944,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Baturité/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva) — distinto do candidato de 08/12, não confirmado, deixado pendente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22963,7 +22963,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Beberibe/CE (ver Barreira, promovido separadamente nesta mesma leva, para a lista completa de cidades). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -22982,7 +22982,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Bela Cruz/CE, com Festa da Padroeira em 08/12 — uma de 35 cidades cearenses com o mesmo padrão, confirmado também pela própria Prefeitura de Bela Cruz. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -23058,7 +23058,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Camocim/CE (ver Barreira, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23172,7 +23172,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -23191,7 +23191,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -23210,7 +23210,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Caririaçu/CE (ver Barreira, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23267,7 +23267,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 326, de 22/06/1981 (Caucaia/CE), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -23286,7 +23286,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Prazeres, padroeira de Caucaia/CE — feriado municipal em 15/08, instituído pela Lei Municipal nº 326/1981, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -23324,7 +23324,7 @@ const FERIADOS = [
     mes: 10,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Caucaia/CE, feriado municipal em 15/10, instituído pela Lei Municipal nº 326/1981, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -23400,7 +23400,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de setembro é feriado municipal em Coreaú/CE. Confirmado por reportagem específica sobre o feriado de 15/09 no Ceará. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23552,7 +23552,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Eusébio/CE — confirmado por reportagem que lista nominalmente 11 cidades cearenses que celebram Sant'Ana nessa data (Iguatu, Tianguá, Independência, Jati, Santana do Cariri, Santana do Acaraú, Mocambo, Jaguaruana, Eusébio, Paramoti, Varjota — 8 delas batem com candidatos deste dataset, promovidas separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes jornalísticas é suficiente).",
     fonte: {
@@ -23571,7 +23571,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Farias Brito/CE (paróquia dedicada à santa, Diocese de Crato) — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal — distinto do candidato de 19/03 (São José, rejeitado por redundância com o estadual pleno). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes, incluindo diocesana, é suficiente).",
     fonte: {
@@ -23590,7 +23590,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 8.796/2003 (Fortaleza/CE), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -23609,7 +23609,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fortaleza/CE tem lei municipal própria e distinta declarando 19/03 feriado municipal (Lei Municipal nº 8.796, de 09/12/2003), além do reconhecimento estadual (São José é padroeiro do Ceará, Lei Estadual nº 11.010/1985, já cadastrada separadamente) — não é redundância, é base legal municipal específica, mesmo padrão usado para Manaus/AM (Nossa Senhora da Conceição) e Rio de Janeiro/RJ (São Sebastião vs. São Jorge estadual). Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -23628,7 +23628,7 @@ const FERIADOS = [
     mes: 4,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Fortaleza/CE, feriado municipal em 13/04, instituído pela Lei Municipal nº 7.535, de 16/06/1994, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -23647,7 +23647,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Assunção, padroeira de Fortaleza/CE — feriado municipal em 15/08, instituído pela Lei Municipal nº 8.796/2003, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -23685,7 +23685,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Fortim/CE (ver Barreira, promovido separadamente nesta mesma leva) — distinto do candidato de 19/03 (São José, rejeitado por redundância com o estadual pleno). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23723,7 +23723,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Graça/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23780,7 +23780,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Prazeres é a padroeira de Guaraciaba do Norte/CE, com feriado municipal em 15 de agosto — confirmado pela própria página oficial da Prefeitura e pela mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -23799,7 +23799,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Hidrolândia/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -23856,7 +23856,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é o padroeiro de Ibiapina/CE, com feriado municipal decretado em 29 de junho — confirmado pela própria página oficial da Prefeitura de Ibiapina (decreto municipal) — distinto do candidato de 19/03 (São José, rejeitado por redundância com o estadual pleno) e de 01/20 (São Sebastião, não confirmado, deixado pendente). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -23970,7 +23970,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Padroeira' no dataset comunitário. Senhora Sant'Ana é a padroeira de Iguatu/CE (sede da Diocese de Iguatu), com festa de 16 a 26 de julho — uma de 11 cidades cearenses que celebram Sant'Ana. Confirmado pela própria Diocese de Iguatu. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte diocesana + 2ª fonte é suficiente).",
     fonte: {
@@ -23989,7 +23989,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Independência/CE (ver Eusébio, promovido separadamente nesta mesma leva, para a lista completa de cidades). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24008,7 +24008,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Ipaumirim/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24065,7 +24065,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Ipueiras/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24084,7 +24084,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Iracema/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24141,7 +24141,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -24217,7 +24217,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Itapiúna/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24255,7 +24255,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São João' no dataset comunitário, e 24 de junho é a data universal da festa católica de São João Batista. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -24293,7 +24293,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Jaguaretama/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24407,7 +24407,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Jaguaruana/CE (ver Eusébio, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24426,7 +24426,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -24540,7 +24540,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Padroeira' no dataset comunitário. A Lei Municipal nº 335, de 26/09/1968, institui 15 de setembro, Dia de Nossa Senhora das Dores, como feriado municipal em Juazeiro do Norte/CE. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24616,7 +24616,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Limoeiro do Norte/CE (Catedral dedicada à santa, sede da Diocese de Limoeiro do Norte) — uma de 35 cidades cearenses onde 08/12 é feriado municipal — distinto do candidato de 19/03 (São José, rejeitado por redundância com o estadual pleno). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -24673,7 +24673,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto do candidato de 19/03 (São José, rejeitado por redundância com o estadual pleno). Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -24749,7 +24749,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Mauriti/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24768,7 +24768,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Meruoca/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24787,7 +24787,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Milagres/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -24882,7 +24882,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto, Dia de Nossa Senhora da Assunção, é feriado municipal em Mombaça/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva) — distinto do candidato de 09/15, não confirmado, deixado pendente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25053,7 +25053,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Nova Russas/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25072,7 +25072,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -25091,7 +25091,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de dezembro é o Dia da Padroeira do Município de Pacajus/CE, Nossa Senhora da Imaculada Conceição — feriado municipal decretado, uma de 35 cidades cearenses com o mesmo padrão. Confirmado por múltiplas fontes locais. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -25110,7 +25110,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de dezembro é declarado feriado municipal em Pacatuba/CE, consagrado a Nossa Senhora da Conceição, padroeira do município — confirmado pela própria página oficial da Prefeitura de Pacatuba (legislação municipal) e por publicação da própria prefeitura. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -25129,7 +25129,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Pacoti/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25148,7 +25148,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Palhano/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25243,7 +25243,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Paracuru/CE (ver Barreira/Ibiapina, promovidos separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25281,7 +25281,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Parambu/CE (ver Barreira/Ibiapina, promovidos separadamente nesta mesma leva) — distinto do candidato de 09/15, não confirmado, deixado pendente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25300,7 +25300,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Pentecoste/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25376,7 +25376,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Porteiras/CE (paróquia dedicada à santa) — uma de 35 cidades cearenses onde 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -25414,7 +25414,7 @@ const FERIADOS = [
     mes: 10,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Quixadá/CE, feriado municipal em 27/10, instituído pela Lei nº 1.960, de 14/12/2000, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -25452,7 +25452,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -25471,7 +25471,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Quixeré/CE (Igreja Matriz dedicada à santa, ponto turístico da cidade) — uma de 35 cidades cearenses onde 08/12 é feriado municipal. Confirmado pela própria página oficial da Prefeitura de Quixeré. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -25490,7 +25490,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Redenção/CE (Paróquia Nossa Senhora da Conceição, Arquidiocese de Fortaleza) — uma de 35 cidades cearenses onde 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes, incluindo arquidiocesana, é suficiente).",
     fonte: {
@@ -25509,7 +25509,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Reriutaba/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25680,7 +25680,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Sant'Ana é a padroeira de Santana do Acaraú/CE (o próprio nome do município homenageia a santa), com feriado municipal em 26 de julho — uma de 11 cidades cearenses que celebram Sant'Ana. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes, incluindo o Ministério Público do CE, é suficiente).",
     fonte: {
@@ -25699,7 +25699,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Sant'Ana é a padroeira de Santana do Cariri/CE (o próprio nome do município homenageia a santa), com dez dias de festejos culminando em 26 de julho. Confirmado pela própria página oficial da Prefeitura de Santana do Cariri. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -25851,7 +25851,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Padroeira' no dataset comunitário. Nossa Senhora da Conceição é a padroeira de Sobral/CE, com feriado municipal em 08/12. Confirmado por comunicado oficial de ordem profissional local (CRF-CE) sobre a suspensão de expediente na data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -25870,7 +25870,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Tabuleiro do Norte/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25946,7 +25946,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Tejuçuoca/CE (ver Barreira/Ibiapina, promovidos separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -25965,7 +25965,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Sant'Ana é a padroeira de Tianguá/CE (sede de Diocese), com feriado municipal em 26 de julho — uma de 11 cidades cearenses que celebram Sant'Ana. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes, incluindo diocesana, é suficiente).",
     fonte: {
@@ -26003,7 +26003,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Tururu/CE — uma de 35 cidades cearenses onde a santa é padroeira e 08/12 é feriado municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26174,7 +26174,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Uruoca/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26193,7 +26193,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Varjota/CE (ver Eusébio, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26250,7 +26250,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Viçosa do Ceará/CE — mesma lista de 17 cidades cearenses (ver Aiuaba, promovido separadamente nesta mesma leva). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26307,7 +26307,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES (Afonso Cláudio).",
     fonte: {
@@ -26364,7 +26364,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Reforma Luterana, feriado municipal em Afonso Cláudio/ES em 31/10 (região de colonização protestante), corroborado por reportagem que nomeia o município. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26383,7 +26383,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei 145/93 (Águia Branca).",
     fonte: {
@@ -26478,7 +26478,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 677/1967 (Alegre).",
     fonte: {
@@ -26497,7 +26497,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Alfredo Chaves/ES, corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -26535,7 +26535,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 125/94, de 03/06/1994 (Alto Rio Novo).",
     fonte: {
@@ -26573,7 +26573,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 986, de 15/09/2014 (Anchieta) — distinto da homenagem a Nossa Senhora da Assunção (15/08), promovida separadamente nesta mesma leva.",
     fonte: {
@@ -26592,7 +26592,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 986/2014 (Anchieta) — distinto da homenagem a São Pedro (29/06), promovida separadamente nesta mesma leva.",
     fonte: {
@@ -26649,7 +26649,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 3.658, de 15/04/2013 (Aracruz).",
     fonte: {
@@ -26725,7 +26725,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 488/67 (Baixo Guandu).",
     fonte: {
@@ -26744,7 +26744,7 @@ const FERIADOS = [
     mes: 10,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Barra de São Francisco/ES, feriado em 04/10, instituído pela Lei nº 131, de 17/10/2005, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26763,7 +26763,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico Francisquense, feriado municipal em Barra de São Francisco/ES em 31/10, instituído pela Lei nº 0508, de 11/11/2013, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26801,7 +26801,7 @@ const FERIADOS = [
     mes: 5,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Município de Bom Jesus do Norte/ES, feriado em 28/05, instituído pela Lei nº 371/1986, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26820,7 +26820,7 @@ const FERIADOS = [
     mes: 10,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Geraldo Magela é padroeiro de Bom Jesus do Norte/ES — feriado municipal em 16/10, instituído pela Lei nº 044/2000, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26839,7 +26839,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em Bom Jesus do Norte/ES em 08/12, instituído pela Lei nº 035/2009, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26858,7 +26858,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o Dia do Evangélico, feriado municipal em Brejetuba/ES, instituído pela Lei nº 449/2009. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -26896,7 +26896,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Decreto nº 31.201/21 (Cachoeiro de Itapemirim).",
     fonte: {
@@ -26915,7 +26915,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md). A Lei Municipal nº 317/1967 (Cariacica/ES), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de Rolim de Moura/RO, Teresina/PI, Natal/RN, Campo Grande/MS, Belém/PA, Cuiabá/MT e Juara/MT.",
     fonte: {
@@ -26934,7 +26934,7 @@ const FERIADOS = [
     mes: 4,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Penha, feriado municipal em Cariacica/ES em 13/04, instituído pela Lei Municipal nº 317, de 10/07/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26953,7 +26953,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista, feriado municipal em Cariacica/ES em 24/06, instituído pela Lei Municipal nº 317/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -26972,7 +26972,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 457/1967 (Castelo) — distinto de Nossa Senhora da Conceição (08/12, não representado entre os candidatos deste dataset), citado na mesma fonte.",
     fonte: {
@@ -27029,7 +27029,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 2.583, de 07/07/2011 (Conceição da Barra) — distinto do dia de São Pedro (29/06), promovido separadamente nesta mesma leva.",
     fonte: {
@@ -27048,7 +27048,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 2.583/2011 (Conceição da Barra) — distinto do dia de São João Batista (24/06), promovido separadamente nesta mesma leva.",
     fonte: {
@@ -27067,7 +27067,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Conceição da Barra/ES (o próprio nome do município é a homenagem), corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -27105,7 +27105,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Conceição do Castelo/ES (o próprio nome do município é a homenagem), corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -27124,7 +27124,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES: em Domingos Martins/ES, 20/01 é oficialmente nomeado 'Dia da Penitência' pela Lei Municipal nº 531/2017 (mesma data do padroeiro São Sebastião em outras cidades vizinhas, mas com nome local distinto).",
     fonte: {
@@ -27181,7 +27181,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Reforma, feriado municipal em Domingos Martins/ES em 31/10, instituído pela Lei Municipal nº 2.100/2008, citada por reportagem. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -27276,7 +27276,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -27314,7 +27314,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 2.806/2007 (Guarapari).",
     fonte: {
@@ -27352,7 +27352,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Guarapari/ES, corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -27561,7 +27561,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Reforma, feriado municipal em Itaguaçu/ES em 31/10 (região de colonização protestante), corroborado por reportagem que nomeia o município. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -27694,7 +27694,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do Poder Judiciário do Espírito Santo (TJES), que lista feriado, data e legislação de todas as comarcas do estado — fonte primária muito completa, usada para toda esta leva de ES. Lei nº 692/03 (Itarana).",
     fonte: {
@@ -27770,7 +27770,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 169, de 05/05/1967 (Jerônimo Monteiro).",
     fonte: {
@@ -27865,7 +27865,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 908/2019 (Laranja da Terra) — distinto da Reforma Protestante (31/10), promovida separadamente nesta mesma leva.",
     fonte: {
@@ -27884,7 +27884,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 908, de 24/05/2019 (Laranja da Terra).",
     fonte: {
@@ -27922,7 +27922,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Linhares/ES, corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -27998,7 +27998,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES: em Marechal Floriano/ES, 13/05 comemora o marco fundador da colônia (chegada dos imigrantes/instalação da estação ferroviária) — distinto da emancipação política (31/10) e do padroeira Sant'Ana (26/07), ambos promovidos separadamente nesta mesma leva.",
     fonte: {
@@ -28036,7 +28036,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES: 31/10 em Marechal Floriano é Emancipação Política (não Reforma Protestante, ao contrário do padrão do cluster) — distinto do marco fundador de 13/05 e do padroeira Sant'Ana de 26/07, ambos promovidos separadamente nesta mesma leva.",
     fonte: {
@@ -28074,7 +28074,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Decreto nº 003/2022 (Mimoso do Sul).",
     fonte: {
@@ -28150,7 +28150,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 727/2009 (Montanha).",
     fonte: {
@@ -28169,7 +28169,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 288/1995 (Mucurici) — distinto do dia de Nossa Senhora de Fátima (13/05), promovido separadamente nesta mesma leva.",
     fonte: {
@@ -28188,7 +28188,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 288/1995 (Mucurici) — distinto do dia de São Sebastião (20/01), promovido separadamente nesta mesma leva. Coincide com a data universal da primeira aparição de Nossa Senhora de Fátima.",
     fonte: {
@@ -28207,7 +28207,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 2.573/2018 (Muniz Freire).",
     fonte: {
@@ -28245,7 +28245,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Decreto Municipal nº 074/2021 (Muqui).",
     fonte: {
@@ -28321,7 +28321,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 637/1995 (Pancas) — distinto da Reforma Luterana (31/10) e do dia de Santa Luzia (13/12, não representado entre os candidatos deste dataset), promovida separadamente nesta mesma leva.",
     fonte: {
@@ -28340,7 +28340,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 701/98 (Pancas) — distinto do Dia do Município (13/05) e do Dia de Santa Luzia (13/12, não representado entre os candidatos deste dataset), ambos citados na mesma fonte.",
     fonte: {
@@ -28378,7 +28378,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 190/90 (Pedro Canário).",
     fonte: {
@@ -28454,7 +28454,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 657, de 22/04/1997 (Piúma).",
     fonte: {
@@ -28549,7 +28549,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES (Rio Bananal) — nome específico da padroeira não indicado na fonte; distinto da emancipação política (14/09, não representada entre os candidatos deste dataset).",
     fonte: {
@@ -28663,7 +28663,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 1.632/2018 (Santa Leopoldina).",
     fonte: {
@@ -28682,7 +28682,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 006/1989 (Santa Maria de Jetibá, fundada por imigrantes pomeranos em 1857 — forte herança luterana).",
     fonte: {
@@ -28720,7 +28720,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 1552/2004 (Santa Teresa).",
     fonte: {
@@ -28777,7 +28777,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 775/2014 (São Domingos do Norte).",
     fonte: {
@@ -28834,7 +28834,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei Municipal nº 1.073/97 (São Gabriel da Palha) — distinto da emancipação político-administrativa (14/05) e do padroeiro Arcanjo Gabriel (29/09), ambos citados na mesma fonte.",
     fonte: {
@@ -28853,7 +28853,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 1.052/99 (São José do Calçado — o próprio nome do município homenageia o santo).",
     fonte: {
@@ -28967,7 +28967,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Serra/ES em 29/06, instituído pela Lei Municipal nº 228, de 14/08/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -28986,7 +28986,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Serra/ES em 08/12, instituído pela Lei Municipal nº 228/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29005,7 +29005,7 @@ const FERIADOS = [
     mes: 12,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Serrano, feriado municipal em Serra/ES em 26/12, instituído pela Lei Municipal nº 228/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29062,7 +29062,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pelo PDF oficial 'Feriados Municipais 2025' do TJES. Lei nº 311/1998 (Vargem Alta).",
     fonte: {
@@ -29176,7 +29176,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Viana/ES, corroborado por 2 reportagens distintas (folhavitoria.com.br, agazeta.com.br) que nomeiam explicitamente o município entre as 7 cidades do ES com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -29214,7 +29214,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Confirmado pela própria página oficial da Prefeitura de Vila Pavão/ES. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -29252,7 +29252,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "31 de outubro é feriado municipal em Vila Valério/ES (Dia da Reforma), confirmado por reportagem sobre municípios capixabas com herança luterana que observam a data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -29290,7 +29290,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md). A Lei Municipal nº 5.622/2015 (Vila Velha/ES), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -29309,7 +29309,7 @@ const FERIADOS = [
     mes: 4,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Penha, feriado municipal em Vila Velha/ES em 13/04, instituído pela Lei Municipal nº 5.622, de 20/05/2015, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29328,7 +29328,7 @@ const FERIADOS = [
     mes: 5,
     dia: 23,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Vila Velha/ES em 23/05, instituído pela Lei Municipal nº 5.622, de 20/05/2015, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29347,7 +29347,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md). A Lei Municipal nº 1.732/1967 (Vitória/ES), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -29366,7 +29366,7 @@ const FERIADOS = [
     mes: 4,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Penha, feriado em Vitória/ES em 13/04, instituído pela Lei Estadual nº 11.010, de 03/07/2019 (lei estadual mas de aplicação específica à capital, conforme candidato do dataset comunitário, que traz codigoIbge de Vitória). Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29385,7 +29385,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Vitória, padroeira de Vitória/ES — feriado municipal em 08/09, instituído pela Lei Municipal nº 1.732/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29822,7 +29822,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. As Leis Municipais nº 792/1988 e nº 3.257/2015 (Aparecida de Goiânia/GO), citadas pelo dataset comunitário, elevam a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -29841,7 +29841,7 @@ const FERIADOS = [
     mes: 5,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Aparecida de Goiânia/GO, feriado em 11/05, instituído pelas Leis Municipais nº 792/1988 e nº 3.257/2015, citadas diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -29879,7 +29879,7 @@ const FERIADOS = [
     mes: 11,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Aparecida de Goiânia/GO, feriado em 14/11, instituído pelas Leis Municipais nº 792/1988 e nº 3.257/2015, citadas diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -32653,7 +32653,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 9.553/2015 (Goiânia/GO), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -32672,7 +32672,7 @@ const FERIADOS = [
     mes: 5,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Auxiliadora, feriado municipal em Goiânia/GO em 24/05, instituído pela Lei Municipal nº 701, de 30/08/1956, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -32691,7 +32691,7 @@ const FERIADOS = [
     mes: 10,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Goiânia/GO, feriado em 24/10, instituído pela Lei Municipal nº 6.968, de 19/06/1991, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -35750,7 +35750,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.822/1992 (Rio Verde/GO), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -35769,7 +35769,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, padroeiro de Rio Verde/GO — feriado municipal em 20/01, instituído pela Lei Municipal nº 2.822, de 16/10/1992, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -35788,7 +35788,7 @@ const FERIADOS = [
     mes: 8,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Rio Verde/GO, feriado em 05/08, instituído pelas Leis Municipais nº 2.822/1992 e nº 1.401/1976, citadas diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -37023,7 +37023,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12, Nossa Senhora da Conceição, é feriado ESTADUAL no Maranhão, reconhecido no calendário oficial de feriados do estado (confirmado por decreto de calendário da Prefeitura de Imperatriz que cita o calendário estadual, e por reportagem — diegoemir.com — sobre as 17 datas oficiais do calendário maranhense). Corrige um padrão: dezenas de candidatos municipais do dataset comunitário para essa mesma data em municípios maranhenses são, na verdade, o feriado estadual vazando para a lista municipal (mesmo padrão identificado em RJ/São Jorge e CE/São José) — rejeitados separadamente nesta leva. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por múltiplas fontes é suficiente).",
     fonte: {
@@ -37232,7 +37232,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Alto Alegre do Pindaré/MA foi emancipado em 10/11 (onda de mais de 80 municípios maranhenses criados por leis estaduais entre 1994-1996; 66 municípios ainda comemoram aniversário nessa data). Corroborado por múltiplas reportagens (famem.org.br, folhadomaranhao.com). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -37764,7 +37764,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Bacabeira/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -38182,7 +38182,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Buriticupu/MA foi emancipado em 10/11/1994, parte da mesma onda de municípios maranhenses. Corroborado pelo site oficial da Prefeitura e da Câmara Municipal de Buriticupu, além de reportagens. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -38220,7 +38220,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Campestre do Maranhão/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39075,7 +39075,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Formosa da Serra Negra/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39379,7 +39379,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Governador Newton Bello/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39398,7 +39398,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Governador Nunes Freire/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39721,7 +39721,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Itinga do Maranhão/MA foi criado em 10/11/1994 pela Lei Estadual nº 6.147, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39968,7 +39968,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Maracaçumé/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -39987,7 +39987,7 @@ const FERIADOS = [
     mes: 11,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Maracaçumé/MA em 28/11, em memória de Paulo Germano de Souza, ex-prefeito do município, conforme Projeto de Lei nº 005/2017, citado diretamente pelo próprio registro do dataset comunitário. ATENÇÃO para quem revisar: a fonte é descrita como \"Projeto de Lei\" — não há confirmação de que o projeto foi de fato sancionado/promulgado como lei vigente; texto legal original não lido. Promovido pelo padrão combinado com o usuário (citação específica é suficiente), mas com confiança menor que os demais desta leva — reavaliar se surgir dúvida.",
     fonte: {
@@ -40386,7 +40386,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nova Olinda do Maranhão/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -42305,7 +42305,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.432, de 06/02/1996 (São Luís/MA), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -42324,7 +42324,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em São Luís/MA em 29/06, instituído pela Lei Municipal nº 3.432/1996, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -42362,7 +42362,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Natividade de Nossa Senhora, feriado municipal em São Luís/MA em 08/09, instituído pela Lei Municipal nº 3.432/1996, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -42381,7 +42381,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em São Luís/MA em 08/12, instituído pela Lei Municipal nº 3.432/1996, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -42647,7 +42647,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Senador Alexandre Costa/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -42666,7 +42666,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Senador La Rocque/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -42856,7 +42856,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de Timon/MA — feriado municipal em 19/03, instituído pela Lei Municipal nº 1.210/2001, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -42894,7 +42894,7 @@ const FERIADOS = [
     mes: 10,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Rosário de Fátima, feriado municipal em Timon/MA em 15/10, instituído pela Lei Municipal nº 126, de 13/10/1953, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -43312,7 +43312,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Vila Nova dos Martírios/MA foi emancipado em 10/11, parte da mesma onda de municípios maranhenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -43996,7 +43996,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. O decreto 1723/1996 (Além Paraíba/MG), citado pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -44015,7 +44015,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de Além Paraíba/MG — feriado municipal em 19/03, instituído pelo decreto 1723/1996, citado diretamente pelo dataset comunitário.",
     fonte: {
@@ -44034,7 +44034,7 @@ const FERIADOS = [
     mes: 9,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Além Paraíba/MG e São Cosme e São Damião, feriado em 28/09, instituído pelo decreto 1723/1996, citado diretamente pelo dataset comunitário.",
     fonte: {
@@ -44737,7 +44737,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 6.725/2014 (Araxá/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -44756,7 +44756,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa-47",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Carnaval é ponto facultativo na camada nacional. A Lei Municipal nº 6.725/2014 (Araxá/MG), citada pelo dataset comunitário, eleva terça-feira de Carnaval a feriado MUNICIPAL pleno — mesmo padrão já usado para Balneário Camboriú/SC e Terra Roxa/SP.",
     fonte: {
@@ -44775,7 +44775,7 @@ const FERIADOS = [
     mes: 8,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Festa de São Domingos, feriado municipal em Araxá/MG em 08/08, instituído pela Lei Municipal nº 6.725/2014, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -44794,7 +44794,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia, feriado municipal em Araxá/MG em 15/08, instituído pela Lei Municipal nº 6.725/2014, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -44813,7 +44813,7 @@ const FERIADOS = [
     mes: 12,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Município de Araxá/MG, feriado em 19/12, instituído pela Lei Orgânica Municipal, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -45497,7 +45497,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.327/1967 (Belo Horizonte/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -45516,7 +45516,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Assunção de Nossa Senhora, feriado municipal em Belo Horizonte/MG em 15/08, instituído pela Lei Municipal nº 1.327/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -45535,7 +45535,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em Belo Horizonte/MG em 08/12, instituído pela Lei Municipal nº 1.327/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -45649,7 +45649,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 4.731/2008 (Betim/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -45668,7 +45668,7 @@ const FERIADOS = [
     mes: 7,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Carmo, padroeira de Betim/MG — feriado municipal em 16/07, instituído pela Lei Municipal nº 4.731/2008, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -45820,7 +45820,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 713/1976 (Bom Despacho/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -45839,7 +45839,7 @@ const FERIADOS = [
     mes: 6,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação de Bom Despacho/MG, feriado cívico em 01/06, instituído pela Lei Municipal nº 713/1976, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -45877,7 +45877,7 @@ const FERIADOS = [
     mes: 8,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Assunção de Nossa Senhora, feriado municipal em Bom Despacho/MG em 19/08, instituído pela Lei Municipal nº 713/1976, alterada pela Lei nº 2.328/2013, citadas diretamente pelo dataset comunitário.",
     fonte: {
@@ -47967,7 +47967,7 @@ const FERIADOS = [
     mes: 11,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Graças (Medalha Milagrosa), feriado municipal em Capinópolis/MG em 27/11, citado pelo dataset comunitário como \"Projeto de Lei 1.799/2017\". ATENÇÃO para quem revisar: fonte descrita como \"projeto de lei\", sem confirmação de sanção/promulgação — promovido pelo padrão combinado com o usuário, mas com confiança menor que os demais desta leva (mesmo tipo de ressalva já usada para o candidato de Maracaçumé/MA).",
     fonte: {
@@ -49658,7 +49658,7 @@ const FERIADOS = [
     mes: 12,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Confins/MG, feriado em 21/12, instituído pela Lei Estadual nº 12.030, de 21/12/1995 (lei estadual de criação do próprio município, não feriado estadual genérico — mesmo padrão de André da Rocha/RS), citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -49886,7 +49886,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.484/2001 (Contagem/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -49905,7 +49905,7 @@ const FERIADOS = [
     mes: 3,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Jubileu de Nossa Senhora das Dores, feriado municipal em Contagem/MG em 27/03, instituído pela Lei Municipal nº 3.484/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -49924,7 +49924,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Jubileu de Nossa Senhora da Conceição, feriado municipal em Contagem/MG em 08/12, instituído pela Lei Municipal nº 3.484/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -53838,7 +53838,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 431/1973 (Ipatinga/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -53857,7 +53857,7 @@ const FERIADOS = [
     mes: 4,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Ipatinga/MG, feriado em 29/04, instituído pela Lei Municipal nº 431/1973, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -53876,7 +53876,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Esperança, feriado municipal em Ipatinga/MG em 15/08, instituído pela Lei Municipal nº 431/1973, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -54997,7 +54997,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa-46",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Quarta-feira de Cinzas, feriado municipal em Jacinto/MG, instituído pela lei nº 603, de 05/03/1996, citada diretamente pelo dataset comunitário. Data móvel calculada a partir da Páscoa (46 dias antes) — o schema deste projeto suporta regras relativas à Páscoa, diferente de outras datas móveis por 'enésimo dia da semana' encontradas em outros estados.",
     fonte: {
@@ -55966,7 +55966,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.650/1963 (Juiz de Fora/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -55985,7 +55985,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, feriado municipal em Juiz de Fora/MG em 13/06, instituído pela Lei Municipal nº 2.650/1963, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -58531,7 +58531,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.258/1979 (Montes Claros/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -58550,7 +58550,7 @@ const FERIADOS = [
     mes: 7,
     dia: 3,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Montes Claros/MG, feriado em 03/07, instituído pela Lei Municipal nº 1.258/1979, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -58569,7 +58569,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Montes Claros/MG em 08/12, instituído pela Lei Municipal nº 1.258/1979, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -60336,7 +60336,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Assunção de Nossa Senhora, feriado municipal em Patos de Minas/MG em 15/08, instituído pela Lei nº 5.280/2003, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -61704,7 +61704,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Ordinária 5070/2011 (Pouso Alegre/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -61723,7 +61723,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Senhor Bom Jesus, padroeiro de Pouso Alegre/MG — feriado municipal em 06/08, instituído pela Lei Ordinária 5070/2011, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -61742,7 +61742,7 @@ const FERIADOS = [
     mes: 10,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política e administrativa de Pouso Alegre/MG, feriado em 19/10, instituído pela Lei Ordinária 5070/2011, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -62464,7 +62464,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.259/1987 (Ribeirão das Neves/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -62483,7 +62483,7 @@ const FERIADOS = [
     mes: 8,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Neves, padroeira de Ribeirão das Neves/MG — feriado municipal em 05/08, instituído pela Lei Municipal nº 1.259/1987, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -62502,7 +62502,7 @@ const FERIADOS = [
     mes: 12,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Ribeirão das Neves/MG, feriado em 12/12, instituído pela Lei Municipal nº 1.259/1987, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -63262,7 +63262,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Rosário, feriado municipal em Sabinópolis/MG em 15/08, instituído pela Lei Municipal nº 293, de 01/02/1961, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -63946,7 +63946,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 351/1993 (Santa Rosa da Serra/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -63965,7 +63965,7 @@ const FERIADOS = [
     mes: 3,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Santa Rosa da Serra/MG, feriado em 01/03, instituído pela Lei Municipal nº 351/1993, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -63984,7 +63984,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição, padroeira de Santa Rosa da Serra/MG — feriado municipal em 08/12, instituído pela Lei Municipal nº 351/1993, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -65124,7 +65124,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em São José da Lapa/MG (nome do município é a própria homenagem) em 19/03, instituído pela lei nº 3, de 08/02/1993, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -65143,7 +65143,7 @@ const FERIADOS = [
     mes: 4,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São José da Lapa/MG, feriado em 27/04, instituído pela lei nº 3/1993, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -66568,7 +66568,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 676/2001 (Tapira/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -66587,7 +66587,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, padroeiro de Tapira/MG — feriado municipal em 20/01, instituído pela lei 676/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -66606,7 +66606,7 @@ const FERIADOS = [
     mes: 3,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Tapira/MG, feriado em 01/03, instituído pela lei 676/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -66625,7 +66625,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia, feriado municipal em Tapira/MG em 15/08, instituído pela lei 676/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67271,7 +67271,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 12.608/2017 (Uberaba/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -67290,7 +67290,7 @@ const FERIADOS = [
     mes: 3,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Uberaba/MG, feriado em 02/03, instituído pela Lei Municipal nº 12.608/2017, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67309,7 +67309,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia, feriado municipal em Uberaba/MG em 15/08, instituído pela Lei Municipal nº 12.608/2017, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67328,7 +67328,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.115/1973 (Uberlândia/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -67347,7 +67347,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia, feriado municipal em Uberlândia/MG em 15/08, instituído pela Lei Municipal nº 2.115/1973, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67366,7 +67366,7 @@ const FERIADOS = [
     mes: 8,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Uberlândia/MG, feriado em 31/08, instituído pela Lei Municipal nº 2.115/1973, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67499,7 +67499,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 501/1968 (Varginha/MG), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -67518,7 +67518,7 @@ const FERIADOS = [
     mes: 10,
     dia: 7,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Varginha/MG, feriado em 07/10, instituído pela Lei Municipal nº 501/1968, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -67537,7 +67537,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em Varginha/MG em 08/12, instituído pela Lei Municipal nº 501/1968, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -68316,7 +68316,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Anaurilândia/MS. Confirmado por reportagem específica sobre as cidades de MS que observam o feriado de São João. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68335,7 +68335,7 @@ const FERIADOS = [
     mes: 11,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Anaurilândia/MS foi fundada em 11/11/1963 — mesma data de fundação de Ivinhema, Jateí, Naviraí e Pedro Gomes/MS (onda de criação simultânea, todas promovidas separadamente nesta mesma leva). Confirmado por reportagem do Portal do MS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68354,7 +68354,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Angélica/MS — MS é o estado com mais municípios que observam essa data no Brasil (devoção a Nossa Senhora de Fátima e/ou aniversário/emancipação, conforme o município). Corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente Angélica na lista. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68449,7 +68449,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o feriado municipal de aniversário de Aquidauana/MS, confirmado pelo calendário oficial do Tribunal de Justiça de MS (TJMS) e pelo MPMS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2 fontes oficiais é suficiente).",
     fonte: {
@@ -68468,7 +68468,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Aquidauana/MS, corroborado por múltiplas fontes (campograndenews.com.br, CNN Brasil, gov.br/INSS listando municípios de MS com feriado em 08/12). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68525,7 +68525,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Bataguassu/MS — distinto do dia da padroeira Nossa Senhora dos Navegantes (15/08), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre as cidades de MS que observam o feriado de São João. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68544,7 +68544,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Navegantes é a padroeira de Bataguassu/MS, com feriado municipal em 15 de agosto. Confirmado pelo calendário oficial do Tribunal de Justiça de MS (TJMS) e pelo MPMS. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2 fontes oficiais é suficiente).",
     fonte: {
@@ -68601,7 +68601,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Bodoquena/MS foi fundada em 13/05/1980. Confirmado pela Wikipédia em português. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68639,7 +68639,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro Apóstolo é o padroeiro de Bonito/MS, com a tradicional Festa de São Pedro (mais de 90 edições) e feriado municipal em 29 de junho. Confirmado pela própria página oficial da Prefeitura de Bonito e por múltiplas reportagens locais. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -68734,7 +68734,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Camapuã/MS — distinto do aniversário da cidade (30/06, não representado entre os candidatos deste dataset). Confirmado por reportagem específica sobre as cidades de MS que observam o feriado de São João. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68772,7 +68772,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 3.901, de 29/10/2001 (Campo Grande/MS, reafirmando a Lei nº 95/1949), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno em Campo Grande — mesmo padrão já usado para Rolim de Moura/RO, Teresina/PI e Natal/RN. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -68791,7 +68791,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio de Pádua é padroeiro de Campo Grande/MS — feriado municipal em 13/06 instituído pela Lei Municipal nº 3.901, de 29/10/2001, citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca (feriadosmunicipais.com.br e agregadores oficiais). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68810,7 +68810,7 @@ const FERIADOS = [
     mes: 8,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Campo Grande/MS (fundação em 26/08/1899), feriado municipal instituído pela Lei Municipal nº 3.901, de 29/10/2001, citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68829,7 +68829,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em Cassilândia/MS em 19/03, corroborado por múltiplas reportagens (infomoney.com.br, leiaja.com, portaldeprefeitura.com.br) que listam nominalmente o município entre as cidades com feriado na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68943,7 +68943,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Retomada de Corumbá/MS (evento histórico militar da Guerra do Paraguai), feriado municipal em 13/06, corroborado por múltiplas fontes jornalísticas locais (diarionline.com.br, mspost.com.br) que confirmam a data e mencionam inclusive transferências pontuais da observância para 17/06 em anos específicos — mas a data legal de referência é 13/06. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -68981,7 +68981,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Costa Rica/MS foi criada em 12/05/1980 — mesma data de criação de Douradina, São Gabriel do Oeste, Selvíria e Taquarussu/MS (onda de criação simultânea, todas promovidas separadamente nesta mesma leva). Confirmado por reportagem do Campo Grande News sobre os 46 anos de emancipação de 5 municípios. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -69000,7 +69000,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, feriado municipal em Costa Rica/MS em 13/06, corroborado por múltiplas fontes jornalísticas (correiodoestado.com.br, jornaldoestadoms.com.br) que listam nominalmente os municípios de MS com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69019,7 +69019,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em Coxim/MS em 19/03, corroborado por múltiplas reportagens (infomoney.com.br, leiaja.com, portaldeprefeitura.com.br) que listam nominalmente o município entre as cidades com feriado na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69057,7 +69057,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Deodápolis/MS, corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município na lista de cidades de MS com feriado na data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69095,7 +69095,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Douradina/MS foi criada em 12/05/1980 — mesma onda de criação simultânea que Costa Rica, São Gabriel do Oeste, Selvíria e Taquarussu/MS (promovidas separadamente nesta mesma leva). Confirmado por reportagem do Campo Grande News. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -69114,7 +69114,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Dourados/MS — a devoção regional na fronteira com o Paraguai frequentemente identifica a data como Nossa Senhora Imaculada Conceição de Caacupé (padroeira do Paraguai), com forte influência local. Corroborado por múltiplas fontes (campograndenews.com.br, CNN Brasil, gov.br/INSS listando municípios de MS com feriado em 08/12). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69152,7 +69152,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Eldorado/MS, corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município na lista de cidades de MS com feriado na data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69171,7 +69171,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Fátima do Sul/MS (nome do município é a própria homenagem a Nossa Senhora de Fátima), corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69304,7 +69304,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Iguatemi/MS, corroborado por múltiplas fontes (campograndenews.com.br, CNN Brasil, gov.br/INSS listando municípios de MS com feriado em 08/12). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69361,7 +69361,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em Itaporã/MS em 19/03, corroborado por múltiplas reportagens (infomoney.com.br, leiaja.com, portaldeprefeitura.com.br) que listam nominalmente o município entre as cidades com feriado na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69399,7 +69399,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Itaquiraí/MS, corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município na lista de cidades de MS com feriado na data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69456,7 +69456,7 @@ const FERIADOS = [
     mes: 11,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Ivinhema/MS foi fundada em 11/11/1963 — mesma onda de criação simultânea que Anaurilândia, Jateí, Naviraí e Pedro Gomes/MS (promovidas separadamente nesta mesma leva). Confirmado por reportagem do Portal do MS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -69532,7 +69532,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, feriado municipal em Jardim/MS em 13/06, corroborado por múltiplas fontes jornalísticas (correiodoestado.com.br, jornaldoestadoms.com.br) que listam nominalmente os municípios de MS com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69570,7 +69570,7 @@ const FERIADOS = [
     mes: 11,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Jateí/MS foi fundada em 11/11/1963 — mesma onda de criação simultânea que Anaurilândia, Ivinhema, Naviraí e Pedro Gomes/MS (promovidas separadamente nesta mesma leva). Distinto do candidato de 29/06 (padroeiro, não confirmado, deixado pendente). Confirmado por reportagem do Portal do MS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -69722,7 +69722,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Miranda/MS, corroborado por múltiplas fontes (campograndenews.com.br, CNN Brasil, gov.br/INSS listando municípios de MS com feriado em 08/12). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69741,7 +69741,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Mundo Novo/MS, corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município na lista de cidades de MS com feriado na data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69760,7 +69760,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13/05 é feriado municipal em Naviraí/MS (a Catedral de Nossa Senhora de Fátima de Naviraí reforça a devoção local), corroborado por 2 fontes (acritica.net e blog.feriados.com.br) que nomeiam explicitamente o município. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -69779,7 +69779,7 @@ const FERIADOS = [
     mes: 11,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Naviraí/MS foi fundada em 11/11/1963 — mesma onda de criação simultânea que Anaurilândia, Ivinhema, Jateí e Pedro Gomes/MS (promovidas separadamente nesta mesma leva). Confirmado por reportagem do Portal do MS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -69988,7 +69988,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Pedro Gomes/MS, com feriado municipal em 20 de janeiro — distinto do aniversário de fundação (11/11/1963), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades de MS que observam o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70007,7 +70007,7 @@ const FERIADOS = [
     mes: 11,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Pedro Gomes/MS foi fundada em 11/11/1963 — mesma onda de criação simultânea que Anaurilândia, Ivinhema, Jateí e Naviraí/MS (promovidas separadamente nesta mesma leva) — distinto do dia do padroeiro São Sebastião (20/01), promovido separadamente nesta mesma leva. Confirmado por reportagem do Portal do MS. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70026,7 +70026,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em Ponta Porã/MS em 19/03, corroborado por múltiplas reportagens (infomoney.com.br, leiaja.com, portaldeprefeitura.com.br) que listam nominalmente o município entre as cidades com feriado na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -70083,7 +70083,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Porto Murtinho/MS. Confirmado por reportagem específica sobre as cidades de MS que observam o feriado de São João. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70121,7 +70121,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Ribas do Rio Pardo/MS, com feriado municipal em 20 de janeiro. Confirmado por reportagem específica (Rádio 90,7FM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70197,7 +70197,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Rio Brilhante/MS — o próprio prefeito confirma em reportagem que a data é mantida também pela tradição de fronteira. Corroborado por múltiplas fontes (campograndenews.com.br, CNN Brasil, gov.br/INSS). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -70349,7 +70349,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Gabriel do Oeste/MS foi criada em 12/05/1980 — mesma onda de criação simultânea que Costa Rica, Douradina, Selvíria e Taquarussu/MS (promovidas separadamente nesta mesma leva). Confirmado por reportagem do Campo Grande News. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70387,7 +70387,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13 de maio é o aniversário de emancipação política de Sete Quedas/MS. Confirmado pela Associação dos Municípios de Mato Grosso do Sul (ASSOMASUL). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte oficial associativa é suficiente).",
     fonte: {
@@ -70444,7 +70444,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Selvíria/MS foi criada em 12/05/1980 — mesma onda de criação simultânea que Costa Rica, Douradina, São Gabriel do Oeste e Taquarussu/MS (promovidas separadamente nesta mesma leva) — distinto do dia de São João Batista (24/06), promovido separadamente nesta mesma leva. Confirmado por reportagem do Campo Grande News. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70463,7 +70463,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Selvíria/MS — distinto do aniversário de emancipação (12/05/1980), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre as cidades de MS que observam o feriado de São João. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70482,7 +70482,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia é a padroeira de Sidrolândia/MS, com feriado municipal em 15 de agosto. Confirmado pelo calendário oficial do Tribunal de Justiça de MS (TJMS) e pelo MPMS. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2 fontes oficiais é suficiente).",
     fonte: {
@@ -70558,7 +70558,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Taquarussu/MS foi criada em 12/05/1980 — mesma onda de criação simultânea que Costa Rica, Douradina, São Gabriel do Oeste e Selvíria/MS (promovidas separadamente nesta mesma leva). Confirmado por reportagem do Campo Grande News. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70596,7 +70596,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, feriado municipal em Terenos/MS em 13/06, corroborado por múltiplas fontes jornalísticas (correiodoestado.com.br, jornaldoestadoms.com.br) que listam nominalmente os municípios de MS com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -70729,7 +70729,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Alto Garças/MT, com feriado municipal em 20 de janeiro — distinto do aniversário de separação (10/12/1953), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70767,7 +70767,7 @@ const FERIADOS = [
     mes: 12,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Alto Garças/MT foi separada como entidade independente em 10/12/1953 — distinto do dia do padroeiro São Sebastião (20/01), promovido separadamente nesta mesma leva. Confirmado pela Wikipédia em português. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -70786,7 +70786,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -70805,7 +70805,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "6 de agosto (Dia da Transfiguração do Senhor no calendário litúrgico católico) é feriado municipal decretado em Alto Paraguai/MT, distinto da emancipação (13/05/1953) e do padroeiro São José (19/03), ambos promovidos separadamente nesta sessão. Confirmado por reportagem específica listando cidades brasileiras com feriado em 06/08. Motivo exato não confirmado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -70824,7 +70824,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de São José, padroeiro da cidade' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -70843,7 +70843,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Alto Taquari/MT foi emancipado em 13/05/1986, parte da onda de 27 municípios mato-grossenses criados na mesma data (mesmo padrão já usado para Sorriso, Primavera do Leste e outros, ver commit anterior). Corroborado por múltiplas reportagens (gcnoticias.com.br, semana7.com.br, primeirapagina.com.br, nortaomt.com.br). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -70995,7 +70995,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Arenápolis/MT, com feriado municipal em 20 de janeiro — distinto do feriado de 06/08 e da emancipação (13/05/1953), promovidos separadamente nesta sessão. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71033,7 +71033,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "6 de agosto é feriado municipal decretado em Arenápolis/MT, distinto da emancipação (13/05/1953) e do padroeiro São Sebastião (20/01), ambos promovidos separadamente nesta sessão. Confirmado por reportagem específica listando cidades brasileiras com feriado em 06/08. Motivo exato não confirmado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -71147,7 +71147,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -71261,7 +71261,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Campinápolis/MT foi emancipado em 13/05/1986, parte da mesma onda de 27 municípios mato-grossenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -71280,7 +71280,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "6 de agosto é feriado municipal decretado em Campinápolis/MT, distinto da emancipação (01/01/1988). Confirmado por reportagem específica listando cidades brasileiras com feriado em 06/08. Motivo exato não confirmado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -71318,7 +71318,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Aniversário da Cidade' no dataset comunitário. 4 de julho é a data de emancipação de uma onda de 8 municípios do Mato Grosso (Campo Novo do Parecis, Campo Verde, Cláudia, Juruena, Matupá, Nova Mutum, São José do Povo e Tapurah — os 5 últimos promovidos separadamente nesta mesma leva). Confirmado por reportagem do O Povo sobre feriados de 4 de julho no Brasil. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71337,7 +71337,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de São Cristóvão' no dataset comunitário, e 25 de julho é a data universal da festa católica de São Cristóvão. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -71356,7 +71356,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Emancipação do Município' no dataset comunitário. 4 de julho é a data de emancipação da mesma onda de 8 municípios do Mato Grosso (ver Campo Novo do Parecis, promovido separadamente nesta mesma leva, para a lista completa). Confirmado por reportagem do O Povo. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71375,7 +71375,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São Cristóvão' no dataset comunitário, e 25 de julho é a data universal da festa católica de São Cristóvão. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -71508,7 +71508,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Cláudia/MT faz parte da onda de emancipação simultânea de 8 municípios do Mato Grosso em 4 de julho (Campo Novo do Parecis, Campo Verde, Cláudia, Juruena, Matupá, Nova Mutum, São José do Povo, Tapurah). Confirmado por reportagem do O Povo. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71622,7 +71622,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Comodoro/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71717,7 +71717,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 1.077, de 02/04/1968 (Cuiabá/MT), confirmada em leismunicipais.com.br, eleva a data a feriado MUNICIPAL pleno em Cuiabá — mesmo padrão já usado para Rolim de Moura/RO, Teresina/PI, Natal/RN, Campo Grande/MS e Belém/PA. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71736,7 +71736,7 @@ const FERIADOS = [
     mes: 4,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Cuiabá/MT (fundação em 08/04/1719), feriado municipal instituído pela Lei Municipal nº 1.077, de 02/04/1968 ('declara feriados municipais os dias 08 de abril e 08 de dezembro, Dia de Corpus Christi e Sexta-feira da Paixão'), texto integral confirmado em leismunicipais.com.br e ainda citada em decretos municipais recentes (2019-2025). Texto legal original não lido diretamente; padrão combinado com o usuário atendido com folga (repositório de legislação + referências oficiais recorrentes).",
     fonte: {
@@ -71755,7 +71755,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Cuiabá/MT em 08/12, instituído pela Lei Municipal nº 1.077, de 02/04/1968, confirmada em leismunicipais.com.br. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71831,7 +71831,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Dom Aquino/MT, com feriado municipal em 20 de janeiro. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -71869,7 +71869,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, padroeiro de Feliz Natal/MT — feriado municipal em 29/06, corroborado por reportagem que lista o município entre as cidades mato-grossenses com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72002,7 +72002,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia da Reforma Protestante' no dataset comunitário — 31 de outubro é a data universal em que a Reforma Protestante é comemorada (afixação das 95 teses de Lutero em 1517), feriado municipal em Itanhangá/MT. Texto legal original não lido; padrão combinado com o usuário (nome específico do dataset + data universal reconhecida é suficiente).",
     fonte: {
@@ -72021,7 +72021,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Itaúba/MT foi emancipado em 13/05/1986, parte da mesma onda de 27 municípios mato-grossenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -72040,7 +72040,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Itaúba/MT em 29/06, corroborado por reportagem que lista o município entre as cidades mato-grossenses com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72059,7 +72059,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião e Nossa Senhora do Carmo são celebrados como padroeiros de Itiquira/MT em 20 de janeiro, feriado municipal. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72230,7 +72230,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 2.094/2010 (Juara/MT), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno em Juara. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -72268,7 +72268,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José é padroeiro de Juara/MT — feriado municipal em 19/03 instituído pela Lei Municipal nº 1.543/2004, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -72287,7 +72287,7 @@ const FERIADOS = [
     mes: 12,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Juara/MT, feriado municipal em 14/12 instituído pela Lei Municipal nº 2.094/2010, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -72382,7 +72382,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Juruena/MT faz parte da onda de emancipação simultânea de 8 municípios do Mato Grosso em 4 de julho (ver Cláudia, promovido separadamente nesta mesma leva, para a lista completa). Confirmado por reportagem do O Povo. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72439,7 +72439,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Rosário de Fátima é padroeira de Lucas do Rio Verde/MT — feriado municipal em 13/05 confirmado diretamente pelo site oficial da Prefeitura de Lucas do Rio Verde. Data coincide com a onda de emancipações simultâneas de municípios mato-grossenses de 13/05/1986, mas aqui o motivo registrado pela própria prefeitura é religioso (padroeira), não a emancipação. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (fonte oficial municipal é suficiente).",
     fonte: {
@@ -72477,7 +72477,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Vila Bela da Santíssima Trindade/MT foi fundada em 19/03/1752 pelo Capitão Dom Antônio Rolim de Moura (primeira capital de Mato Grosso, 1752-1835) — data celebrada anualmente, inclusive com transferência simbólica da capital estadual para o município nesse dia, prevista em lei estadual sancionada em 2016. Confirmado pela página oficial de história da Câmara Municipal e pelo portal de transparência do Governo de MT. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes oficiais é suficiente).",
     fonte: {
@@ -72515,7 +72515,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Marcelândia/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72534,7 +72534,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "31 de outubro, Dia do Evangélico, é feriado municipal em Marcelândia/MT — distinto do aniversário de emancipação (13/05) e do dia da padroeira Nossa Senhora Imaculada Conceição (08/12), não representados entre os candidatos deste dataset. Confirmado por calendário forense oficial do Tribunal de Justiça de Mato Grosso (TJMT). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do Judiciário é suficiente).",
     fonte: {
@@ -72572,7 +72572,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "4 de julho é o aniversário de emancipação político-administrativa de Matupá/MT — distinto do dia do padroeiro São Cristóvão (25/07), promovido separadamente nesta mesma leva. Confirmado pela própria página oficial da Prefeitura de Matupá. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -72591,7 +72591,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Cristóvão é o padroeiro de Matupá/MT, com feriado municipal em 25 de julho — distinto do aniversário de emancipação (04/07), promovido separadamente nesta mesma leva. Confirmado pela Superintendência do Desenvolvimento do Centro-Oeste (SUDECO, órgão federal). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial federal é suficiente).",
     fonte: {
@@ -72667,7 +72667,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Nobres/MT, com feriado municipal em 20 de janeiro. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72724,7 +72724,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nova Canaã do Norte/MT foi emancipado em 13/05/1986, parte da mesma onda de 27 municípios mato-grossenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -72762,7 +72762,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nova Mutum/MT celebra seus 37 anos de emancipação com festa de 2 a 4 de julho, culminando no feriado de 04/07 — parte da onda de emancipação simultânea de 8 municípios do MT nessa data. Confirmado pela própria página oficial da Prefeitura de Nova Mutum. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -72781,7 +72781,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nova Olímpia/MT foi emancipado em 13/05/1986, parte da mesma onda de 27 municípios mato-grossenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -72857,7 +72857,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Novo São Joaquim/MT foi emancipado em 13/05/1986, parte da mesma onda de 27 municípios mato-grossenses. Corroborado por múltiplas reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -72914,7 +72914,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Paranaíta/MT em 29/06 (junto com o aniversário do município), corroborado por reportagem. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72933,7 +72933,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Paranatinga/MT em 29/06 (junto com o aniversário do município), corroborado por reportagem. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -72990,7 +72990,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Pedra Preta/MT foi emancipado em 13/05/1976 (onda menor e anterior à de 1986, junto com São Félix do Araguaia e Tangará da Serra). Corroborado por reportagem que detalha a coincidência histórica de municípios mato-grossenses emancipados em 13 de maio. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -73009,7 +73009,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Pedra Preta/MT em 29/06, corroborado por reportagem. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -73028,7 +73028,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Peixoto de Azevedo/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -73161,7 +73161,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "6 de agosto é feriado municipal decretado em Pontes e Lacerda/MT. Confirmado por reportagem específica listando cidades brasileiras com feriado em 06/08. Motivo exato não confirmado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -73199,7 +73199,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -73313,7 +73313,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Poxoréu/MT, padroeiro da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -73351,7 +73351,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Primavera do Leste/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br e nortaomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -73370,7 +73370,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Cristóvão é o padroeiro de Primavera do Leste/MT (a Catedral da Diocese de Primavera do Leste–Paranatinga é dedicada a São Cristóvão), com feriado municipal em 25 de julho — data universal da festa católica do santo; a cidade tem 3 feriados municipais decretados. Confirmado pela Wikipédia em português (artigo sobre a Diocese). Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -73541,7 +73541,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Ribeirão Cascalheira/MT, padroeiro da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -73674,7 +73674,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — mesmo santo que dá nome à cidade São José do Rio Claro/MT. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -73712,7 +73712,7 @@ const FERIADOS = [
     mes: 12,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Rondonópolis/MT foi fundada em 10/12/1953, celebrando o aniversário de sua emancipação político-administrativa nessa data — distinto do dia do padroeiro São João Batista (24/06, não representado entre os candidatos deste dataset; feriado recém-sancionado pela Câmara Municipal em 2026). Confirmado pela Wikipédia em português e por reportagem específica sobre o novo feriado do padroeiro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -73845,7 +73845,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — mesmo santo que dá nome à cidade Santo Antônio do Leste/MT. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -73883,7 +73883,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — mesmo santo que dá nome à cidade Santo Antônio de Leverger/MT. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -73902,7 +73902,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Félix do Araguaia/MT foi emancipado em 13/05/1976 (onda menor e anterior à de 1986, junto com Pedra Preta e Tangará da Serra). Corroborado por reportagem que detalha a coincidência histórica. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74016,7 +74016,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia do Evangélico' no dataset comunitário, com data fixa em 31 de outubro (diferente do caso bloqueado por limitação de schema de Confresa/MT, cuja regra é '2º sábado de julho' — aqui é uma data fixa, representável em mes/dia). Feriado municipal em Sapezal/MT. Texto legal original não lido; padrão combinado com o usuário (nome específico do dataset, data fixa, é suficiente).",
     fonte: {
@@ -74035,7 +74035,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74073,7 +74073,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Sorriso/MT foi emancipado em 13/05/1986, parte de uma grande onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br (\"13 de maio é a Emancipação Político Administrativa de Sorriso - feriado municipal\") e nortaomt.com.br (\"Aniversário de 27 municípios é comemorado nesta quarta-feira (13) em Mato Grosso\"). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -74092,7 +74092,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, padroeiro de Sorriso/MT — feriado municipal em 29/06, corroborado pelo site oficial da Prefeitura de Sorriso (calendário de feriados) e por reportagens. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -74111,7 +74111,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74149,7 +74149,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Tangará da Serra/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74168,7 +74168,7 @@ const FERIADOS = [
     mes: 7,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Tapurah/MT faz parte da onda de emancipação simultânea de 8 municípios do Mato Grosso em 4 de julho (ver Cláudia, promovido separadamente nesta mesma leva, para a lista completa). Confirmado por fonte específica sobre o aniversário da cidade. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74187,7 +74187,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Terra Nova do Norte/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74206,7 +74206,7 @@ const FERIADOS = [
     mes: 12,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "10 de dezembro é o aniversário de Torixoréu/MT, feriado municipal. Confirmado por agregador de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74225,7 +74225,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 1.128/1991 (Várzea Grande/MT), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno em Várzea Grande. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -74244,7 +74244,7 @@ const FERIADOS = [
     mes: 5,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Várzea Grande/MT, feriado municipal instituído pela Lei Municipal nº 1.128, de 18/12/1991, citada diretamente pelo próprio registro do dataset comunitário (mesma lei cobre também Sexta-feira Santa, Corpus Christi e Nossa Senhora da Conceição, mesmo padrão de Cuiabá). Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -74263,7 +74263,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Várzea Grande/MT em 08/12, instituído pela Lei Municipal nº 1.128/1991, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -74282,7 +74282,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Vera/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74339,7 +74339,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Vila Rica/MT foi emancipado em 13/05/1986, parte da mesma onda de emancipações simultâneas de municípios mato-grossenses nessa data (27 municípios). Confirmado nominalmente por cenariomt.com.br. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74358,7 +74358,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Vila Rica/MT em 29/06, corroborado por reportagem. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74396,7 +74396,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74453,7 +74453,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "IMPORTANTE — reclassificado de \"estadual\" (como veio no dataset comunitário) para \"ponto_facultativo\": segundo o Decreto (Pará) nº 4.464, de 10/02/2025 (calendário oficial), 8 de dezembro é PONTO FACULTATIVO no Pará, não feriado estadual pleno — distinção com efeito jurídico diferente na folha de ponto (ver CLAUDE.md). Corroborado por reportagem (Brasil de Fato) que confirma a classificação. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74510,7 +74510,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74586,7 +74586,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Alenquer/PA — distinto do dia de Santo Antônio (13/06), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74605,7 +74605,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74662,7 +74662,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20/01, Dia de São Sebastião, é feriado municipal em Altamira/PA, corroborado por múltiplas fontes jornalísticas que listam as cidades brasileiras com expediente suspenso na data (sampi.net.br, CircuitoMT, IstoÉ Dinheiro, O Povo). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -74719,7 +74719,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Ananindeua/PA, corroborado pelo próprio decreto municipal de calendário de feriados publicado pela Prefeitura de Ananindeua. Número de lei específico não localizado neste registro; texto legal original não lido diretamente. Padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -74757,7 +74757,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Augusto Corrêa/PA. Confirmado por agregador de feriados específico da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74776,7 +74776,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Miguel Arcanjo é o padroeiro de Augusto Corrêa/PA, com festividades culminando em missa em 29 de setembro na Igreja de São Miguel — distinto do dia de Sant'Ana (26/07), promovido separadamente nesta mesma leva. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74833,7 +74833,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -74909,7 +74909,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 6.306, de 01/03/1967 (Belém/PA), citada diretamente pelo próprio registro do dataset comunitário e corroborada por leismunicipais.com.br e pelo portal oficial da Prefeitura de Belém, eleva a data a feriado MUNICIPAL pleno em Belém — mesmo padrão já usado para Rolim de Moura/RO, Teresina/PI, Natal/RN e Campo Grande/MS. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -74928,7 +74928,7 @@ const FERIADOS = [
     mes: 1,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "O próprio candidato do dataset comunitário já trazia a citação \"conforme Lei Municipal nº 6306 de 01 de março de 1967\" (Belém/PA). Corroborado por leismunicipais.com.br (texto integral) e pelo portal oficial de leis da Prefeitura de Belém (belem.pa.gov.br/semaj). Texto legal original não lido diretamente; padrão combinado com o usuário atendido com folga (repositório + portal oficial).",
     fonte: {
@@ -74947,7 +74947,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição (distinta de Nossa Senhora de Nazaré, padroeira do Círio) tem feriado MUNICIPAL pleno em Belém/PA em 08/12, instituído pela Lei Municipal nº 6.306, de 01/03/1967, citada diretamente pelo próprio registro do dataset comunitário. Note-se que no Pará como um todo (camada estadual) a mesma data é apenas ponto facultativo (Decreto nº 4.464/2025) — mas em Belém a lei municipal própria eleva a data a feriado pleno municipal, camadas distintas coexistindo. Corroborado por leismunicipais.com.br, portal oficial da Prefeitura de Belém e reportagens (Brasil de Fato, IstoÉ Dinheiro). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75099,7 +75099,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Breu Branco/PA — distinto do aniversário de criação (13/12/1991), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75118,7 +75118,7 @@ const FERIADOS = [
     mes: 12,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Breu Branco/PA celebra sua criação/emancipação em 13 de dezembro (Lei nº 5.703/1991) — distinto do dia do padroeiro São Sebastião (20/01), promovido separadamente nesta mesma leva. Confirmado por documento oficial do Governo do Estado do Pará (FAPESPA). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial estadual é suficiente).",
     fonte: {
@@ -75137,7 +75137,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Breves/PA. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de 26 de julho. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75156,7 +75156,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Cametá/PA. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São João Batista. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75175,7 +75175,7 @@ const FERIADOS = [
     mes: 10,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "O próprio candidato do dataset comunitário já trazia como fonte a URL da Lei Orgânica do próprio município (Art. 5º), hoje fora do ar (erro 500 ao tentar acessar diretamente), mas confirmada por múltiplos agregadores de feriados (calendario.online, feriados.site, feriadosapi.com) que listam 5 de outubro como aniversário/emancipação de Canaã dos Carajás. Texto legal original não lido (link original indisponível); padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -75232,7 +75232,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Capanema/PA, corroborado por reportagem (agenciapara.com.br) sobre fechamento de Hemocentro na data, confirmando o reconhecimento do feriado municipal. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75251,7 +75251,7 @@ const FERIADOS = [
     mes: 12,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de dezembro é o aniversário de Capitão Poço/PA, um de 11 municípios paraenses que celebram aniversário nessa mesma data (onda de emancipação simultânea). Confirmado pela Assembleia Legislativa do Pará (ALEPA) e pelo Portal Amazônia. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -75289,7 +75289,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -75308,7 +75308,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Castanhal/PA, corroborado por reportagem (agenciapara.com.br) sobre fechamento de Hemocentro na data, confirmando o reconhecimento do feriado municipal. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75346,7 +75346,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Concórdia do Pará/PA foi emancipado em 10/05/1988, parte de uma onda de 15 municípios paraenses criados na mesma data pela nova Constituição de 1988. Corroborado por reportagens (dol.com.br, duas matérias distintas) que nomeiam o município nessa lista. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -75365,7 +75365,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Curionópolis/PA foi emancipado em 10/05/1988, parte da mesma onda de 15 municípios paraenses. Corroborado por reportagens (dol.com.br). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -75650,7 +75650,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20/01, Dia de São Sebastião, é feriado municipal em Igarapé-Açu/PA, corroborado por múltiplas fontes jornalísticas que listam as cidades brasileiras com expediente suspenso na data (sampi.net.br, CircuitoMT, IstoÉ Dinheiro, O Povo). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -75688,7 +75688,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A Lei Municipal nº 551, de 26/11/1960, institui 26 de julho como feriado municipal em Igarapé-Miri/PA (Dia de Sant'Ana). Confirmado pela própria página oficial da Prefeitura de Igarapé-Miri, que cita a lei diretamente. Texto legal original não lido (apenas a ementa); padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -75745,7 +75745,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Senhora Sant'Ana é a padroeira de Itaituba/PA, com festividades culminando em procissão e missa em 26 de julho. Confirmado pela própria página oficial da Prefeitura de Itaituba. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -75783,7 +75783,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -75821,7 +75821,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é o padroeiro de Jacundá/PA, com feriado municipal em 24 de junho — distinto do aniversário de emancipação (29/12/1961), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São João Batista. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75840,7 +75840,7 @@ const FERIADOS = [
     mes: 12,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Jacundá/PA foi emancipada em 29/12/1961 — mesma onda de 11 municípios paraenses com aniversário em 29/12 (ver Capitão Poço, promovido separadamente nesta mesma leva). Distinto do dia do padroeiro São João Batista (24/06), promovido separadamente nesta mesma leva. Confirmado pela Wikipédia em português. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75859,7 +75859,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Juruti/PA. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -75992,7 +75992,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Miguel Arcanjo é o padroeiro de Maracanã/PA, com feriado municipal em 29 de setembro. Confirmado pela própria página oficial da Prefeitura de Maracanã. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -76277,7 +76277,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "26 de julho, Dia de Sant'Ana, é feriado municipal em Óbidos/PA. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de 26 de julho. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -76372,7 +76372,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Pacajá/PA foi emancipado em 10/05/1988, parte da mesma onda de 15 municípios paraenses. Corroborado por reportagens (dol.com.br). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -76410,7 +76410,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é padroeiro de Parauapebas/PA, declarado pela Lei Municipal nº 011, de 22/05/1989 — feriado municipal em 20/01, corroborado por múltiplas fontes (falaseriocanaa.com.br, sampi.net.br, calendario.online). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -76429,7 +76429,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Parauapebas/PA foi criado em 10/05/1988 pela Lei Estadual nº 5.443/1988, parte da mesma onda de 15 municípios paraenses. Corroborado pelo site oficial da Prefeitura e da Câmara Municipal de Parauapebas, além de reportagens (dol.com.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -76524,7 +76524,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Porto de Moz/PA. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São João Batista. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -76600,7 +76600,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Redenção/PA foi emancipada por lei estadual sancionada em 13/05/1982 pelo Governador Alacid Nunes — distinto do dia do padroeiro Cristo Redentor (14/09, não representado entre os candidatos deste dataset). Confirmado pela Wikipédia em português. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -76657,7 +76657,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Rondon do Pará foi elevada à categoria de município em 13/05/1982 pela Lei Estadual nº 5.027 — mesma data de Redenção e Xinguara/PA (promovidas separadamente nesta mesma leva). Confirmado pela própria Câmara Municipal de Rondon do Pará. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -76695,7 +76695,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Rurópolis/PA foi emancipado em 10/05/1988, parte da mesma onda de 15 municípios paraenses. Corroborado por reportagens (dol.com.br). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -76790,7 +76790,7 @@ const FERIADOS = [
     mes: 12,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de dezembro é o aniversário de Santa Maria do Pará, um de 11 municípios paraenses que celebram aniversário nessa mesma data (onda de emancipação simultânea, ver Capitão Poço, promovido separadamente nesta mesma leva). Confirmado pela Assembleia Legislativa do Pará (ALEPA). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -76866,7 +76866,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — mesmo santo que dá nome à cidade Santo Antônio do Tauá/PA. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -76961,7 +76961,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Geraldo do Araguaia/PA foi emancipado em 10/05/1988, parte da mesma onda de 15 municípios paraenses. Corroborado por reportagens (dol.com.br). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -76980,7 +76980,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Miguel Arcanjo é o padroeiro de São Miguel do Guamá/PA (o próprio nome do município homenageia o santo). O Projeto de Lei nº 005/2022, de 30/09/2022, institui 29 de setembro como feriado municipal em sua homenagem — confiança menor por se tratar de projeto de lei, sem confirmação de sanção definitiva encontrada. Distinto do candidato de 31/10 (aniversário, rejeitado separadamente por evidência de que NÃO é feriado oficial). Texto legal original não lido; padrão combinado com o usuário (citação corroborada + ressalva de projeto de lei explícita é suficiente).",
     fonte: {
@@ -77018,7 +77018,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Soure/PA — distinto do candidato de 08/12 (rejeitado por redundância com o estadual pleno de Nossa Senhora da Conceição). Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77075,7 +77075,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Terra Santa/PA. Confirmado por reportagem específica sobre cidades brasileiras que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77170,7 +77170,7 @@ const FERIADOS = [
     mes: 5,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Tucumã/PA foi criado em 10/05/1988 pela Lei Estadual nº 5.455/1988, parte da mesma onda de 15 municípios paraenses. Corroborado pela Wikipédia (verbete do município) e por reportagens (dol.com.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -77208,7 +77208,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — distinto do candidato de 31/10, não confirmado, deixado pendente. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -77246,7 +77246,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Tucuruí/PA, corroborado por reportagem (agenciapara.com.br) sobre fechamento de Hemocentro na data, confirmando o reconhecimento do feriado municipal. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77303,7 +77303,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20/01, Dia de São Sebastião, é feriado municipal em Vigia/PA, corroborado por múltiplas fontes jornalísticas que listam as cidades brasileiras com expediente suspenso na data (sampi.net.br, CircuitoMT, IstoÉ Dinheiro, O Povo). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -77379,7 +77379,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13 de maio é o aniversário de Xinguara/PA, feriado municipal — mesma data de Redenção e Rondon do Pará/PA (promovidas separadamente nesta mesma leva). Confirmado por agregador de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77550,7 +77550,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Alagoa Nova/PB — Paraíba tem forte tradição cultural de São João (festas juninas de Campina Grande são das maiores do Brasil). Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77721,7 +77721,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Alhandra/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77759,7 +77759,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em São João do Rio do Peixe/PB (o próprio nome do município homenageia o santo). Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77778,7 +77778,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em São João do Rio do Peixe/PB — distinto do dia de São João Batista (24/06, promovido separadamente em leva anterior desta sessão). Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77835,7 +77835,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Araçagi/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77873,7 +77873,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Arara/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -77968,7 +77968,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Araruna/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78025,7 +78025,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Areia/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78044,7 +78044,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Areia/PB, com feriado municipal em 8 de dezembro, um dos eventos turísticos mais importantes da cidade — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por fonte específica sobre padroeiros de municípios brasileiros. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78234,7 +78234,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Barra de Santana/PB. Confirmado pela própria página oficial da Prefeitura de Barra de Santana. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -78424,7 +78424,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Belém/PB em 29/06, instituído pela Lei nº 01/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -78443,7 +78443,7 @@ const FERIADOS = [
     mes: 9,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Belém/PB, feriado em 06/09, instituído pela Lei nº 12/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -78462,7 +78462,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, padroeira de Belém/PB — feriado municipal em 08/12, instituído pela Lei nº 12/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -78595,7 +78595,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Boqueirão/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78671,7 +78671,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Caaporã/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78747,7 +78747,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Cabaceiras/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -78823,7 +78823,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A Lei nº 1.262/05 institui 24 de junho, Dia de São João Batista, como feriado municipal em Cabedelo/PB. Confirmado pela própria página oficial da Prefeitura de Cabedelo. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -79070,7 +79070,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 348, de 10/03/1967 (Campina Grande/PB), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -79089,7 +79089,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em Campina Grande/PB em 24/06 (tradicionalmente a maior festa junina do mundo), instituído pela Lei Municipal nº 348/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -79108,7 +79108,7 @@ const FERIADOS = [
     mes: 10,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Campina Grande/PB, feriado em 11/10, instituído pela Lei Municipal nº 348/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -79127,7 +79127,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Campina Grande/PB em 08/12, instituído pela Lei Municipal nº 348/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -79241,7 +79241,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Caturité/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79260,7 +79260,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Conceição/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79393,7 +79393,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Coremas/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79507,7 +79507,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Dona Inês/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79659,7 +79659,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é um dos 5 feriados municipais decretados de Esperança/PB. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79773,7 +79773,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Fagundes/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79830,7 +79830,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é um dos 3 feriados municipais decretados de Guarabira/PB. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79887,7 +79887,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Gurinhém/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -79925,7 +79925,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Gurinhém/PB (paróquia dedicada à santa), com celebrações religiosas em 8 de dezembro. Confirmado pela Arquidiocese da Paraíba. Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte diocesana + data universal da santa é suficiente).",
     fonte: {
@@ -80001,7 +80001,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Ingá/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80039,7 +80039,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Ingá/PB (paróquia dedicada à santa), com celebrações religiosas em 8 de dezembro. Confirmado pela Arquidiocese da Paraíba. Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte diocesana + data universal da santa é suficiente).",
     fonte: {
@@ -80077,7 +80077,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Itabaiana/PB. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80115,7 +80115,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Itabaiana/PB, com feriado municipal em 8 de dezembro — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado pela própria página oficial da Prefeitura de Itabaiana. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -80153,7 +80153,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Itaporanga/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80172,7 +80172,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é um dos feriados municipais decretados de Itaporanga/PB — distinto do dia da padroeira Nossa Senhora da Imaculada Conceição (08/12), promovido separadamente em leva anterior desta sessão. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80191,7 +80191,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição é a padroeira de Itaporanga/PB, com festa em 8 de dezembro — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado pela própria página oficial da Prefeitura de Itaporanga. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -80210,7 +80210,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Itapororoca/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80267,7 +80267,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Jacaraú/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80305,7 +80305,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Jacaraú/PB, com celebrações confirmadas em 8 de dezembro (ofício da Imaculada, missas e procissão). Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80324,7 +80324,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em João Pessoa/PB em 24/06, instituído pela Lei Municipal nº 8.805, de 23/05/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -80343,7 +80343,7 @@ const FERIADOS = [
     mes: 8,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Neves, padroeira de João Pessoa/PB — feriado municipal em 05/08, instituído pela Lei Municipal nº 8.805/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -80362,7 +80362,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em João Pessoa/PB em 08/12, instituído pela Lei Municipal nº 8.805/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -80514,7 +80514,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Lagoa de Dentro/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80533,7 +80533,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Lagoa Seca/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80552,7 +80552,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Lagoa Seca/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80761,7 +80761,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro e São Paulo, é feriado municipal em Mamanguape/PB. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80799,7 +80799,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Manaíra/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80856,7 +80856,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Mari/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -80875,7 +80875,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Mari/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81046,7 +81046,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Monteiro/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81122,7 +81122,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Mulungu/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81274,7 +81274,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Patos/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81464,7 +81464,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Pedras de Fogo/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81483,7 +81483,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Pedras de Fogo/PB (Igreja Matriz dedicada à santa, novenário celebrado desde 1865), com feriado municipal confirmado em 8 de dezembro — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81616,7 +81616,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Picuí/PB. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81825,7 +81825,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Pirpirituba/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81844,7 +81844,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A Lei Municipal nº 014/2002 institui 29 de junho, Dia de São Pedro, como feriado municipal em Pirpirituba/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado pela própria página oficial da Prefeitura de Pirpirituba. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -81920,7 +81920,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Pocinhos/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -81996,7 +81996,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Pombal/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -82015,7 +82015,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Pombal/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -82110,7 +82110,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Princesa Isabel/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -82243,7 +82243,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Queimadas/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -82395,7 +82395,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Rio Tinto/PB. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -82547,7 +82547,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "O São João de Santa Luzia/PB (83ª edição em 2025, celebrado de 20 a 24/06) foi reconhecido como Patrimônio Cultural do Estado da Paraíba pela Lei Estadual nº 11.160/2018. Confirmado pela própria página oficial da Prefeitura de Santa Luzia. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + reconhecimento estadual é suficiente).",
     fonte: {
@@ -82946,7 +82946,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em São Mamede/PB, padroeiro da cidade. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83041,7 +83041,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Sapé/PB, padroeiro da cidade. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83117,7 +83117,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Serra Branca/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83174,7 +83174,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Serraria/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83497,7 +83497,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Tacima/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83516,7 +83516,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Taperoá/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83554,7 +83554,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é a padroeira de Taperoá/PB (Igreja Matriz dedicada à santa desde 1861, construção iniciada em 1887-1888) — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado pela própria página oficial da Prefeitura de Taperoá. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -83573,7 +83573,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Tavares/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83592,7 +83592,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Teixeira/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83611,7 +83611,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Teixeira/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83668,7 +83668,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é tradicional feriado municipal em Uiraúna/PB, mantido há muitos anos — bancos, repartições e comércio não funcionam. Confirmado por reportagem específica sobre o feriado de 29/06/2026 na cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83725,7 +83725,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Umbuzeiro/PB. Confirmado por reportagem sobre cidades brasileiras com o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -83744,7 +83744,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Umbuzeiro/PB — distinto do dia de São João Batista (24/06), promovido separadamente em leva anterior desta sessão. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -85397,7 +85397,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, padroeiro de Cabo de Santo Agostinho/PE — feriado municipal em 13/06, instituído pelo Decreto nº 1.300, de 17/12/2014, citado diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -85416,7 +85416,7 @@ const FERIADOS = [
     mes: 7,
     dia: 9,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fundação de Cabo de Santo Agostinho/PE, feriado em 09/07, instituído pelo Decreto nº 1.300, de 17/12/2014, citado diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -85435,7 +85435,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia Municipal da Reforma Protestante e Ação de Graças em Cabo de Santo Agostinho/PE, feriado em 31/10, instituído pelo Decreto nº 1.300, de 17/12/2014, citado diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -86043,7 +86043,7 @@ const FERIADOS = [
     mes: 5,
     dia: 18,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Caruaru/PE, feriado em 18/05, instituído pela Lei nº 2.959, de 1985, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -86062,7 +86062,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, feriado municipal em Caruaru/PE em 29/06, instituído pela Lei nº 2.959/1985, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -86081,7 +86081,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Dores, padroeira de Caruaru/PE — feriado municipal em 15/09, instituído pela Lei nº 2.959/1985, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -88931,7 +88931,7 @@ const FERIADOS = [
     mes: 3,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Olinda/PE, feriado em 12/03, instituído pela Lei Municipal nº 4.380, de 10/10/1983, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -88969,7 +88969,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Salvador do Mundo, padroeiro de Olinda/PE — feriado municipal em 06/08, instituído pela Lei Municipal nº 4.380/1983, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -88988,7 +88988,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Comemoração do Primeiro Grito de República no Brasil, feriado municipal em Olinda/PE em 10/11, instituído pela Lei Municipal nº 4.380/1983, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -89463,7 +89463,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal em Paulista/PE em 24/06, instituído pela Lei Municipal nº 1.258/1961, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -89482,7 +89482,7 @@ const FERIADOS = [
     mes: 9,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Paulista/PE, feriado em 04/09, instituído pela Lei Municipal nº 1.258/1961, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -89520,7 +89520,7 @@ const FERIADOS = [
     mes: 12,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Ó, feriado municipal em Paulista/PE em 15/12, instituído pela Lei Municipal nº 1.258/1961, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -89748,7 +89748,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 403, de 15/12/1992, Art. 1º inc. II (Petrolina/PE), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores.",
     fonte: {
@@ -89767,7 +89767,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Rainha dos Anjos, padroeira de Petrolina/PE — feriado municipal em 15/08, instituído pela Lei Municipal nº 403/1992, Art. 1º inc. III, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -89786,7 +89786,7 @@ const FERIADOS = [
     mes: 9,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Data Magna da Emancipação Política de Petrolina/PE, feriado em 21/09, instituído pela Lei Municipal nº 403/1992, Art. 1º inc. IV, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -90014,7 +90014,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, feriado municipal no Recife/PE em 24/06, instituído pela Lei Municipal nº 9.777, de 06/04/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -90033,7 +90033,7 @@ const FERIADOS = [
     mes: 7,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Carmo, padroeira do Recife/PE — feriado municipal em 16/07, instituído pela Lei Municipal nº 9.777/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -90052,7 +90052,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal no Recife/PE em 08/12, instituído pela Lei Municipal nº 9.777/1967, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -92332,7 +92332,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 (Nossa Senhora da Conceição) é PONTO FACULTATIVO para a administração pública estadual do Piauí, decretado anualmente pelo Governo do Estado (ex.: Decreto Nº 22663/2024, Decreto Nº 24285/2025) — distinto do caso do Maranhão (curado nesta sessão em commit anterior), onde 08/12 é feriado ESTADUAL PLENO. Em Teresina (capital) é feriado MUNICIPAL pleno, não representado neste registro estadual. Não usar este registro para rejeitar os 14 candidatos municipais pendentes de outros municípios do PI para a mesma data — ponto facultativo estadual não implica automaticamente feriado municipal em cada cidade, ao contrário do padrão MA (feriado estadual pleno cobre todos os municípios). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por múltiplas fontes oficiais é suficiente).",
     fonte: {
@@ -92465,7 +92465,7 @@ const FERIADOS = [
     mes: 9,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de setembro é o aniversário/emancipação de Barras/PI, um dos feriados municipais da cidade. Confirmado por agregador de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -92484,7 +92484,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Barras/PI, corroborado por reportagem que confirma o município entre as cidades do Piauí com folga na data de Nossa Senhora da Conceição (a maior festa do estado dedicada à padroeira acontece em Barras, a 120km de Teresina). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -92503,7 +92503,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Batalha/PI, corroborado por reportagem (opovo.com.br, mais de 500 cidades) e por agregador (calendario.online) que nomeiam o município. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -92522,7 +92522,7 @@ const FERIADOS = [
     mes: 12,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de dezembro é o aniversário/emancipação de Batalha/PI. Confirmado pela Wikipédia em português e por agregador de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -92579,7 +92579,7 @@ const FERIADOS = [
     mes: 9,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Buriti dos Lopes/PI teve sua autonomia restaurada pelo Decreto Estadual nº 1478, de 04/09/1933 (havia sido anexada a Parnaíba desde 1931) — data celebrada desde então como aniversário de emancipação política. Confirmado por múltiplas fontes locais (Portal Buritiense, Cidades na Net). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -92598,7 +92598,7 @@ const FERIADOS = [
     mes: 12,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santa Luzia é a padroeira de Buriti dos Lopes/PI, com procissão tradicional culminando em 13 de dezembro — data universal da festa católica de Santa Luzia. Confirmado por reportagem local (Portal Boca do Povo). Distinto do aniversário de emancipação (04/09/1933), promovido separadamente. Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal da santa é suficiente).",
     fonte: {
@@ -92617,7 +92617,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -92636,7 +92636,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio de Pádua/Lisboa. Padrão já usado várias vezes nesta sessão (nome específico do dataset + data universal do santo é suficiente).",
     fonte: {
@@ -92655,7 +92655,7 @@ const FERIADOS = [
     mes: 8,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de agosto é um feriado municipal decretado de Campo Maior/PI, confirmado por reportagem — distinto do padroeiro Santo Antônio (13/06, promovido separadamente em leva anterior desta sessão) e sem relação clara com emancipação. Motivo específico de 08/08 não identificado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -92788,7 +92788,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Cocal/PI, corroborado por reportagem (opovo.com.br) que nomeia o município entre as cidades do Piauí com folga na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -92845,7 +92845,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Curimatá/PI, corroborado por reportagem (opovo.com.br) que nomeia o município entre as cidades do Piauí com folga na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -92902,7 +92902,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Boa Esperança é a padroeira de Esperantina/PI (o nome do município é uma homenagem à santa), com festejos de 29/08 a 08/09 — data de encerramento com a tradicional 'Vesperal' de 08/09. Distinto do aniversário de emancipação (28/09, não representado entre os candidatos deste dataset). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93035,7 +93035,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Gilbués/PI, corroborado por reportagem (opovo.com.br) e por agregador (calendario.online) que nomeiam o município. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -93054,7 +93054,7 @@ const FERIADOS = [
     mes: 9,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Gilbués/PI teve sua autonomia restaurada pelo Decreto Estadual nº 1478, de 04/09/1933 — mesmo decreto que restaurou Buriti dos Lopes/PI na mesma data (onda de restauração de municípios anexados em 1931, promovida separadamente para Buriti dos Lopes e Simplício Mendes). Confirmado pelo IBGE Cidades. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial + padrão de onda já identificado é suficiente).",
     fonte: {
@@ -93092,7 +93092,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -93111,7 +93111,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -93168,7 +93168,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em José de Freitas/PI, corroborado por reportagem (opovo.com.br) que nomeia o município entre as cidades do Piauí com folga na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93206,7 +93206,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Luís Correia/PI foi colonizada/emancipada em 26/07/1938, celebrada com dez dias de festa e a tradicional Banda Municipal 26 de Julho. Confirmado pela própria página oficial da Prefeitura de Luís Correia (múltiplas reportagens). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -93282,7 +93282,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Miguel Arcanjo é o padroeiro de Miguel Alves/PI, com festejos de 19 a 29 de setembro — data universal da festa católica de São Miguel Arcanjo. Confirmado pelo Portal Miguel Alves (jornal local). Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -93320,7 +93320,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Oeiras/PI, corroborado por reportagem (opovo.com.br) que nomeia o município entre as cidades do Piauí com folga na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93358,7 +93358,7 @@ const FERIADOS = [
     mes: 12,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A Lei nº 1.135, de 22/08/1979, institui 26 de dezembro como data de emancipação política de Oeiras/PI, em referência à instalação solene da Vila da Mocha (posteriormente Oeiras) em 1717. Confirmado por reportagem específica sobre o projeto de lei e por múltiplos agregadores de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -93396,7 +93396,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Mãe da Divina Graça é a padroeira de Parnaíba/PI, com celebrações culminando em procissão em 8 de setembro. Confirmado pela própria página oficial da Prefeitura de Parnaíba e por múltiplos agregadores de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -93434,7 +93434,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Paulistana/PI, corroborado por reportagem (opovo.com.br) que nomeia o município entre as cidades do Piauí com folga na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93453,7 +93453,7 @@ const FERIADOS = [
     mes: 12,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de dezembro é o aniversário de Paulistana/PI, um dos feriados municipais decretados da cidade. Confirmado por agregador de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93510,7 +93510,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Remédios, padroeira de Picos/PI — feriado municipal em 15/08, corroborado por reportagem (opovo.com.br) e por matéria do MPT-PI sobre transferência pontual do feriado da padroeira em Picos (confirmando a existência do feriado regular). Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -93529,7 +93529,7 @@ const FERIADOS = [
     mes: 12,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Picos/PI foi fundada em 12/12/1890, data celebrada como aniversário/emancipação e feriado municipal decretado — confirmado por múltiplos agregadores de feriados e por reportagem sobre as 77 cidades brasileiras com feriado municipal em 12/12/2025. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -93548,7 +93548,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15/08 é feriado municipal em Pio IX/PI, corroborado por reportagem (opovo.com.br) e por agregador (calendario.online) que nomeiam o município. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -93567,7 +93567,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -93700,7 +93700,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é o padroeiro de Ribeiro Gonçalves/PI, com festejos de 15 a 24 de junho — data universal da festa católica de São João Batista. Distinto do aniversário de emancipação (26/07/1938), promovido separadamente. Confirmado pela página oficial de história da Câmara Municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -93719,7 +93719,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Ribeiro Gonçalves/PI foi emancipada politicamente em 26/07/1938 — distinto do dia do padroeiro São João Batista (24/06), promovido separadamente. Confirmado pela página oficial de história da Câmara Municipal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -93757,7 +93757,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é o padroeiro principal de São João do Piauí/PI (um dos 6 municípios do Piauí que fazem referência a São João Batista no próprio nome), com feriado municipal em 24 de junho, data universal da festa católica do santo. Confirmado por reportagem específica sobre os municípios piauienses homônimos de São João Batista. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -93852,7 +93852,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Miguel Arcanjo é o padroeiro de São Miguel do Tapuio/PI (o próprio nome do município homenageia o santo), com festejos de 19 a 29 de setembro — data universal da festa católica de São Miguel Arcanjo. Confirmado por múltiplas fontes locais (tapuionoticias.com). Texto legal original não lido; padrão combinado com o usuário (citação corroborada + data universal do santo é suficiente).",
     fonte: {
@@ -93947,7 +93947,7 @@ const FERIADOS = [
     mes: 12,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "13 de dezembro é um dos feriados municipais decretados de São Raimundo Nonato/PI, confirmado por agregador de feriados — distinto da festa do padroeiro São Raimundo Nonato (em agosto) e da emancipação política (data histórica incerta entre fontes, 1850 ou 1938), não representadas entre os candidatos deste dataset. Motivo específico de 13/12 não identificado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -94023,7 +94023,7 @@ const FERIADOS = [
     mes: 9,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Simplício Mendes/PI foi fundada/emancipada em 04/09/1933 — mesma data da onda de restauração de municípios do Piauí anexados em 1931 (ver Buriti dos Lopes e Gilbués, promovidos com a mesma data nesta leva). Confirmado pela Associação Piauiense de Municípios (APPM). Texto legal original não lido; padrão combinado com o usuário (citação corroborada + padrão de onda já identificado é suficiente).",
     fonte: {
@@ -94042,7 +94042,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 2.847, de 22/11/1999 (Teresina/PI), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno em Teresina — mesmo padrão já usado para Rolim de Moura/RO. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -94061,7 +94061,7 @@ const FERIADOS = [
     mes: 8,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Teresina/PI (fundação em 16/08/1852), feriado municipal instituído pela Lei Municipal nº 2.847, de 22/11/1999, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -94080,7 +94080,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "O próprio candidato do dataset comunitário já trazia a citação \"conforme Lei Municipal nº 2.847 de 22/11/1999\" (Teresina/PI). Corroborado por reportagens que listam Teresina entre as capitais/cidades do Piauí que decretam feriado em 08/12, Dia de Nossa Senhora da Conceição (infonewss.com, CNN Brasil sobre capitais que decretam o feriado). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -94156,7 +94156,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Uruçuí/PI — um dos 2 feriados municipais decretados da cidade, com festejos de 11 a 20/01 culminando em procissão no dia 20. Confirmado pela própria página oficial da Prefeitura de Uruçuí (múltiplas reportagens). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -94213,7 +94213,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já identificava explicitamente 'N. Sra. Conceição' como o nome do feriado (diferente dos demais 13 candidatos de 12/08 em outros municípios do PI, todos genéricos 'Feriado Municipal' sem nome específico, deixados pendentes por falta de confirmação individual). Nossa Senhora da Conceição é padroeira de Uruçuí/PI. Texto legal original não lido; padrão combinado com o usuário (nome específico já presente no dataset comunitário é suficiente).",
     fonte: {
@@ -96360,7 +96360,7 @@ const FERIADOS = [
     mes: 12,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Carambeí/PR, feriado em 13/12, instituído pela Lei nº 172/2001, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -96417,7 +96417,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 5.250/2009 (Cascavel/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -96436,7 +96436,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição Aparecida, padroeira de Cascavel/PR — feriado municipal em 15/08, instituído pela Lei Municipal nº 5.250/2009, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -96455,7 +96455,7 @@ const FERIADOS = [
     mes: 11,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Cascavel/PR, feriado em 14/11, instituído pela Lei Municipal nº 5.250/2009, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -96797,7 +96797,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 35/1967 (Colombo/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -96816,7 +96816,7 @@ const FERIADOS = [
     mes: 2,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário da emancipação e instalação de Colombo/PR, feriado em 05/02, instituído pela Lei Orgânica Municipal, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -96835,7 +96835,7 @@ const FERIADOS = [
     mes: 5,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Caravaggio, feriado municipal em Colombo/PR em 26/05, instituído pela Lei Municipal nº 1.017, de 14/05/2007, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -96854,7 +96854,7 @@ const FERIADOS = [
     mes: 10,
     dia: 7,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Rosário, padroeira de Colombo/PR — feriado municipal em 07/10, instituído pela Lei Municipal nº 35/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -97215,7 +97215,7 @@ const FERIADOS = [
     mes: 6,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Sagrado Coração de Jesus, feriado municipal em Cruz Machado/PR em 27/06, instituído pela lei 009, de 1961, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -97234,7 +97234,7 @@ const FERIADOS = [
     mes: 12,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Cruz Machado/PR, feriado em 14/12, instituído pela lei 790, de 1951, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -97253,7 +97253,7 @@ const FERIADOS = [
     mes: 12,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Segundo dia de Natal, feriado municipal em Cruz Machado/PR em 26/12, instituído pela lei 636, de 24/11/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -97272,7 +97272,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.018/1967 (Curitiba/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -97291,7 +97291,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Luz dos Pinhais, padroeira de Curitiba/PR — feriado municipal em 08/09, instituído pela Lei Municipal nº 3.018/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -97994,7 +97994,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.411/1988 (Foz do Iguaçu/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -98013,7 +98013,7 @@ const FERIADOS = [
     mes: 6,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Foz do Iguaçu/PR, feriado em 10/06, instituído pela Lei Municipal nº 1.411/1988, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -98032,7 +98032,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista, feriado municipal em Foz do Iguaçu/PR em 24/06, instituído pela Lei Municipal nº 1.411/1988, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -99989,7 +99989,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, padroeiro da Lapa/PR — feriado municipal em 13/06, instituído pelas Leis Municipais nº 1.558/2001 e nº 2.530/2010, citadas diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -100179,7 +100179,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.016/1980 (Londrina/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -100198,7 +100198,7 @@ const FERIADOS = [
     mes: 6,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Sagrado Coração de Jesus, feriado municipal em Londrina/PR em 12/06, instituído pela Lei Municipal nº 3.016/1980, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -100217,7 +100217,7 @@ const FERIADOS = [
     mes: 12,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Londrina/PR, feriado em 10/12, instituído pela Lei Municipal nº 3.016/1980, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -100901,7 +100901,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 512/1967 (Maringá/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -101870,7 +101870,7 @@ const FERIADOS = [
     mes: 5,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia de criação de Nova Laranjeiras/PR, feriado em 16/05, instituído pela Lei nº 9.249, de 16/05/1990, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -101889,7 +101889,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista, padroeiro da Paróquia de Nova Laranjeiras/PR — feriado municipal em 24/06, instituído pela lei nº 919/2013, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -101908,7 +101908,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Senhor Bom Jesus, feriado municipal em Nova Laranjeiras/PR em 06/08, instituído pela lei nº 919/2013, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -102573,7 +102573,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 2.589/2005 (Paranaguá/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -102592,7 +102592,7 @@ const FERIADOS = [
     mes: 7,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangelho, feriado municipal em Paranaguá/PR em 29/07, instituído pela Lei nº 2.589/2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -102611,7 +102611,7 @@ const FERIADOS = [
     mes: 10,
     dia: 7,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Santíssimo Rosário, feriado municipal em Paranaguá/PR em 07/10, instituído pela Lei nº 2.589/2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -103599,7 +103599,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 06/1984 (Quatro Barras/PR), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -104473,7 +104473,7 @@ const FERIADOS = [
     mes: 12,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Nicolau, feriado municipal em Roncador/PR em 06/12, instituído pela lei 07, de 22/08/1984, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -106012,7 +106012,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de fundação de Saudade do Iguaçu/PR, feriado em 19/03, instituído pela Lei nº 9.911, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -106278,7 +106278,7 @@ const FERIADOS = [
     mes: 8,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Roque, padroeiro de Tamarana/PR — feriado municipal em 16/08, instituído pela lei nº 97/1999, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -106297,7 +106297,7 @@ const FERIADOS = [
     mes: 12,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Tamarana/PR, feriado em 13/12, instituído pela lei nº 57/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -106392,7 +106392,7 @@ const FERIADOS = [
     mes: 3,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Telêmaco Borba/PR, feriado em 21/03, instituído pelo decreto nº 23.746, citado diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -106430,7 +106430,7 @@ const FERIADOS = [
     mes: 11,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia de Todos os Santos, feriado municipal em Telêmaco Borba/PR em 01/11, instituído pelo decreto nº 23.746, citado diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -107323,7 +107323,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Angra dos Reis/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107342,7 +107342,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Aperibé/RJ. Confirmado por reportagem específica sobre cidades fluminenses que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107380,7 +107380,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Padroeiro' no dataset comunitário, e São Sebastião é confirmado como padroeiro de Araruama/RJ por reportagem específica sobre cidades fluminenses que celebram a data (20/01), data universal da festa do santo.",
     fonte: {
@@ -107456,7 +107456,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Dores é a padroeira de Areal/RJ (Paróquia Nossa Senhora das Dores), com feriado municipal em 15 de setembro. Confirmado pela própria página oficial da Prefeitura de Areal. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -107608,7 +107608,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 3.429, de 11/08/2003 (Barra Mansa/RJ), citada diretamente pelo próprio registro do dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -107684,7 +107684,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, padroeira de Belford Roxo/RJ — feriado municipal em 08/12, corroborado por reportagem que lista o município entre as cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107722,7 +107722,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Bom Jardim/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107741,7 +107741,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Bom Jesus do Itabapoana/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107779,7 +107779,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.125/2020 (Cabo Frio/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -107798,7 +107798,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Assunção, padroeira de Cabo Frio/RJ — feriado municipal em 15/08, instituído pela Lei Municipal nº 3.125/2020, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -107817,7 +107817,7 @@ const FERIADOS = [
     mes: 11,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fundação de Cabo Frio/RJ, feriado municipal em 13/11, instituído pela Lei Municipal nº 3.125/2020, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -107874,7 +107874,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Cambuci/RJ. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -107950,7 +107950,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Carapebus/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108007,7 +108007,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 8.441/2013 (Campos dos Goytacazes/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -108026,7 +108026,7 @@ const FERIADOS = [
     mes: 1,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Amaro, padroeiro da Baixada Campista — feriado municipal em Campos dos Goytacazes/RJ em 15/01, instituído pela Lei Municipal nº 8.441, de 15/05/2013, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -108045,7 +108045,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santíssimo Salvador, padroeiro de Campos dos Goytacazes/RJ — feriado municipal em 06/08, instituído pela Lei Municipal nº 8.441/2013, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -108102,7 +108102,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Cantagalo/RJ. Confirmado por reportagem específica sobre cidades fluminenses que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108121,7 +108121,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -108197,7 +108197,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Casimiro de Abreu/RJ — distinto da festa da padroeira (15/08), promovida separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108216,7 +108216,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é a Festa da Padroeira de Casimiro de Abreu/RJ, feriado municipal — distinto do dia de São João Batista (24/06), promovido separadamente nesta mesma leva. Confirmado por reportagem local e página oficial. Nome específico da padroeira não identificado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108292,7 +108292,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Cordeiro/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108368,7 +108368,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de setembro é feriado municipal decretado em Duas Barras/RJ, confirmado por reportagem sobre cidades fluminenses que observam a data. Motivo específico não identificado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -108406,7 +108406,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.096/1991 (Duque de Caxias/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -108425,7 +108425,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, padroeiro de Duque de Caxias/RJ — feriado municipal em 13/06, instituído pela Lei Municipal nº 1.096/1991, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -108444,7 +108444,7 @@ const FERIADOS = [
     mes: 8,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia de Duque de Caxias, patrono da cidade e do Exército Brasileiro — feriado municipal em 25/08, instituído pela Lei Municipal nº 1.096/1991, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -108501,7 +108501,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Guapimirim/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108596,7 +108596,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Itaboraí/RJ. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108672,7 +108672,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Italva/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108729,7 +108729,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -108786,7 +108786,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -108843,7 +108843,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Japeri/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108900,7 +108900,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Macaé/RJ. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -108938,7 +108938,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, Dia de São João Batista, é feriado municipal em Macuco/RJ. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109033,7 +109033,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Guia é a padroeira de Mangaratiba/RJ, com feriado municipal em 8 de setembro. Confirmado por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109109,7 +109109,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Maricá/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109204,7 +109204,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto do dia de Nossa Senhora da Glória (15/08), promovido separadamente nesta mesma leva. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -109223,7 +109223,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o dia de Nossa Senhora da Glória, padroeira do distrito de Governador Portela em Miguel Pereira/RJ, celebrado anualmente com festa na praça da estação — distinto do dia de Santo Antônio (13/06), promovido separadamente nesta mesma leva. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109280,7 +109280,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -109318,7 +109318,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de setembro é feriado municipal decretado em Natividade/RJ — o próprio nome do município homenageia a Natividade de Maria, celebrada nessa data no calendário católico. Confirmado por reportagem sobre cidades fluminenses que observam a data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109356,7 +109356,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Nilópolis/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109375,7 +109375,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.142/2004 (Niterói/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -109394,7 +109394,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João, padroeiro de Niterói/RJ — feriado municipal em 24/06, instituído pela Lei Municipal nº 2.142/2004, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -109413,7 +109413,7 @@ const FERIADOS = [
     mes: 11,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Niterói/RJ, feriado municipal em 22/11, instituído pela Lei Municipal nº 2.142/2004, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -109451,7 +109451,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.593/2004 (Nova Iguaçu/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -109470,7 +109470,7 @@ const FERIADOS = [
     mes: 1,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário da emancipação política de Nova Iguaçu/RJ, feriado em 15/01, instituído pela Lei Municipal nº 3.657, de 10/01/2005, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -109489,7 +109489,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, padroeiro de Nova Iguaçu/RJ — feriado municipal em 13/06, instituído pela Lei Municipal nº 3.593/2004, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -109508,7 +109508,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Paracambi/RJ. Confirmado por reportagem específica sobre cidades fluminenses que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109565,7 +109565,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro e São Paulo, é feriado municipal em Paraíba do Sul/RJ. Confirmado por reportagem específica sobre cidades fluminenses que observam o feriado. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109603,7 +109603,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Remédios é a padroeira de Paraty/RJ, com feriado municipal em 8 de setembro. Confirmado por reportagem específica sobre cidades fluminenses que observam a data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109679,7 +109679,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Em Petrópolis/RJ, 29 de junho não é feriado do padroeiro (diferente do padrão do cluster) — é o Dia da Chegada dos Primeiros Colonos Alemães, celebrando a fundação da cidade pela imigração alemã. Confirmado por reportagem específica sobre cidades fluminenses e a data de 29/06. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109774,7 +109774,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Porciúncula/RJ — distinto do dia de Santo Antônio (13/06), promovido separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -109793,7 +109793,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto do dia de São Sebastião (20/01), promovido separadamente nesta mesma leva. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -109926,7 +109926,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Queimados/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110059,7 +110059,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Rio Bonito/RJ, corroborado por reportagem que lista o município entre as 15 cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110173,7 +110173,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Rio das Ostras/RJ, corroborado por reportagem que lista o município entre as cidades do RJ com esse feriado. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110192,7 +110192,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md). A Lei Municipal nº 5.146/2010 (Rio de Janeiro/RJ) eleva a data a feriado MUNICIPAL pleno — mesmo padrão de commits anteriores (Rolim de Moura/RO, Teresina/PI, Natal/RN, Campo Grande/MS, Belém/PA, Cuiabá/MT, Grande Vitória/ES).",
     fonte: {
@@ -110211,7 +110211,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é padroeiro do município do Rio de Janeiro (distinto da padroaria estadual, que é São Jorge) — feriado municipal em 20/01, instituído pela Lei Municipal nº 5.146, de 07/01/2010, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -110249,7 +110249,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto do dia de São Pedro (29/06), promovido separadamente nesta mesma leva. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110268,7 +110268,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Santa Maria Madalena/RJ — distinto do dia de Santo Antônio (13/06), promovido separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110325,7 +110325,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — mesmo santo que dá nome à cidade Santo Antônio de Pádua/RJ. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110458,7 +110458,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 434/2012 (São Gonçalo/RJ), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -110477,7 +110477,7 @@ const FERIADOS = [
     mes: 1,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Gonçalo é padroeiro do próprio município (nome do município é a homenagem) — feriado municipal em 10/01, instituído pela Lei Municipal nº 434, de 20/03/2012, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -110496,7 +110496,7 @@ const FERIADOS = [
     mes: 9,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de emancipação político-administrativa de São Gonçalo/RJ, feriado em 22/09, instituído pela Lei Municipal nº 434/2012, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -110572,7 +110572,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho é feriado religioso fixado em São João da Barra/RJ, consagrado ao padroeiro São João Batista — distinto da data civil de elevação a cidade (17/06/1850). Confirmado por múltiplas fontes. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110629,7 +110629,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é o padroeiro de São João de Meriti/RJ, com festa religiosa e popular e feriado municipal em 24 de junho. Confirmado pela própria página oficial da Prefeitura de São João de Meriti. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -110667,7 +110667,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — mesmo santo que dá nome à cidade São José de Ubá/RJ. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110686,7 +110686,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — mesmo santo que dá nome à cidade São José do Vale do Rio Preto/RJ, distinto do dia de Nossa Senhora da Assunção (15/08), promovido separadamente nesta mesma leva. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110705,7 +110705,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em São José do Vale do Rio Preto/RJ — distinto do dia de São José (19/03), promovido separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110762,7 +110762,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro e Dia do Pescador, é feriado municipal em São Pedro da Aldeia/RJ (o próprio nome do município homenageia o santo). Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110781,7 +110781,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em São Sebastião do Alto/RJ — mesmo santo que dá nome à cidade. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -110876,7 +110876,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110914,7 +110914,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio — distinto do dia de Nossa Senhora de Nazaré (08/09), promovido separadamente nesta mesma leva. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -110933,7 +110933,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Nazaré é a padroeira de Saquarema/RJ, com feriado municipal em 8 de setembro — distinto do dia de Santo Antônio (13/06), promovido separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -111009,7 +111009,7 @@ const FERIADOS = [
     mes: 9,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de setembro é feriado municipal decretado em Silva Jardim/RJ, confirmado por reportagem sobre cidades fluminenses que observam a data. Motivo específico não identificado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (confirmação de existência do feriado decretado é suficiente).",
     fonte: {
@@ -111066,7 +111066,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Tanguá/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -111104,7 +111104,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Dia de Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -111180,7 +111180,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Três Rios/RJ. Confirmado por reportagem específica sobre cidades fluminenses que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -111218,7 +111218,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é feriado municipal em Valença/RJ. Confirmado por reportagem específica sobre cidades brasileiras que decretam feriado nessa data. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -111256,7 +111256,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "20 de janeiro, Dia de São Sebastião, é feriado municipal em Varre-Sai/RJ. Confirmado por reportagem específica sobre cidades fluminenses que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -111332,7 +111332,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'Santo Antônio' no dataset comunitário, e 13 de junho é a data universal da festa católica de Santo Antônio. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -111408,7 +111408,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São João' no dataset comunitário, e 24 de junho é a data universal da festa católica de São João Batista. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -111560,7 +111560,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -111902,7 +111902,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Caraúbas/RN desde 1791 (promessa de Leandro da Cunha), com a tradicional Festa de São Sebastião de 10 a 20 de janeiro, culminando em 20/01 — data universal da festa católica do santo. Confirmado pela própria Prefeitura de Caraúbas e pela Wikipédia (artigo dedicado à festa). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -111940,7 +111940,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -111959,7 +111959,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Ceará-Mirim/RN, padroeiro dos pescadores — confirmado por agregador de feriados específico da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112073,7 +112073,7 @@ const FERIADOS = [
     mes: 5,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Fátima é padroeira de Parnamirim/RN — feriado municipal em 13/05 instituído pela Lei nº 1.081, de 27/04/2001, citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca (leismunicipais.com.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -112111,7 +112111,7 @@ const FERIADOS = [
     mes: 12,
     dia: 17,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação municipal de Parnamirim/RN, feriado em 17/12 instituído pela Lei nº 324, de 20/06/1973, citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca (leismunicipais.com.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -112187,7 +112187,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Florânia/RN, com feriado municipal em 20 de janeiro, data universal da festa católica do santo. Confirmado por reportagem específica sobre as cidades do Rio Grande do Norte que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112225,7 +112225,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Governador Dix-Sept Rosado/RN, com a tradicional Festa de São Sebastião de 10 a 20 de janeiro. Confirmado por fonte específica dedicada a padroeiros de municípios brasileiros (umsantotododia.com.br) e pela própria página oficial de história da Prefeitura. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -112263,7 +112263,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Guamaré/RN, com feriado municipal em 20 de janeiro, data universal da festa católica do santo. Confirmado por reportagem específica sobre as cidades do Rio Grande do Norte que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112510,7 +112510,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Jucurutu/RN, com feriado municipal em 20 de janeiro, data universal da festa católica do santo. Confirmado por reportagem específica sobre as cidades do Rio Grande do Norte que celebram o Dia de São Sebastião. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112662,7 +112662,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "08/12 é feriado municipal em Macaíba/RN, corroborado por reportagem que confirma o município entre as cidades com folga na data de Nossa Senhora da Conceição. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112833,7 +112833,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo (não feriado pleno) na camada nacional (ver CLAUDE.md e feriados-nacionais.ts). A Lei Municipal nº 245, de 03/01/1974 (Natal/RN), citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca, eleva a data a feriado MUNICIPAL pleno em Natal — mesmo padrão já usado para Rolim de Moura/RO e Teresina/PI. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112852,7 +112852,7 @@ const FERIADOS = [
     mes: 1,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "O próprio candidato do dataset comunitário já trazia a citação \"conforme Lei Municipal nº 245 de 03/01/1974\" (Natal/RN). Corroborado por busca que confirma a mesma lei institui feriados municipais em Natal, incluindo Dia de Santos Reis (06/01). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -112871,7 +112871,7 @@ const FERIADOS = [
     mes: 11,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Apresentação é padroeira de Natal/RN — feriado municipal em 21/11 instituído pela Lei Municipal nº 245, de 03/01/1974, citada diretamente pelo próprio registro do dataset comunitário e corroborada por busca (colegiopinheirosnatal.com.br, natal.rn.gov.br). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -112947,7 +112947,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Nova Cruz/RN, com feriado municipal em 20 de janeiro, data universal da festa católica do santo — distinto do feriado de São Pedro (29/06), promovido separadamente nesta mesma leva. Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -112966,7 +112966,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Nova Cruz/RN — distinto do feriado do padroeiro São Sebastião (20/01), promovido separadamente nesta mesma leva. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São Pedro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -113042,7 +113042,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião é o padroeiro de Parelhas/RN, com feriado municipal em 20 de janeiro, data universal da festa católica do santo — distinto do candidato de 24/06 (não confirmado, deixado pendente). Confirmado por reportagem específica. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -113156,7 +113156,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, padroeira de Pau dos Ferros/RN — feriado municipal e facultativo em 08/12, corroborado pelo site oficial da Prefeitura de Pau dos Ferros e por cobertura das festividades religiosas que se encerram na data. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -113175,7 +113175,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Pedro Avelino/RN — nome do município já homenageia o santo. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São Pedro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -113441,7 +113441,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — mesmo santo que dá nome à cidade São José do Campestre/RN. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -113764,7 +113764,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de junho, Dia de São Pedro, é feriado municipal em Touros/RN. Confirmado por reportagem específica sobre cidades brasileiras que observam o feriado de São Pedro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -115911,7 +115911,7 @@ const FERIADOS = [
     mes: 4,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Aceguá/RS, feriado em 16/04, instituído pela lei 23/2001, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -116348,7 +116348,7 @@ const FERIADOS = [
     mes: 5,
     dia: 12,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Nereu e Santo Aquiles, data de criação do município de André da Rocha/RS pela Lei Estadual nº 8.629, de 1988 (lei estadual de criação do próprio município, não um feriado estadual genérico — citação vinda diretamente do dataset comunitário). Feriado municipal em 12/05.",
     fonte: {
@@ -118628,7 +118628,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.159/1967 (Canoas/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -118647,7 +118647,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Navegantes, feriado municipal em Canoas/RS em 02/02, instituído pela Lei Municipal nº 1.159, de 31/01/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -118666,7 +118666,7 @@ const FERIADOS = [
     mes: 6,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Canoas/RS, feriado em 27/06, instituído pela Lei Municipal nº 1.159/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -118989,7 +118989,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.705/1968 (Caxias do Sul/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -119008,7 +119008,7 @@ const FERIADOS = [
     mes: 5,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Caravaggio, feriado municipal em Caxias do Sul/RS em 26/05, instituído pela Lei Municipal nº 6.046, de 26/05/2003, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -120908,7 +120908,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei nº 1.460/2014 (Fazenda Vilanova/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -120927,7 +120927,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Cristóvão, padroeiro de Fazenda Vilanova/RS, e Dia do Colono — feriado municipal em 25/07, instituído pela lei nº 1.460/2014, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -121250,7 +121250,7 @@ const FERIADOS = [
     mes: 1,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em General Câmara/RS em 15/01, instituído pela lei nº 1.797, de 11/11/2013, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset.",
     fonte: {
@@ -121269,7 +121269,7 @@ const FERIADOS = [
     mes: 5,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em General Câmara/RS em 04/05, instituído pela lei nº 1.797/2013, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset.",
     fonte: {
@@ -121288,7 +121288,7 @@ const FERIADOS = [
     mes: 12,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em General Câmara/RS em 06/12, instituído pela lei nº 1.797/2013, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset.",
     fonte: {
@@ -121421,7 +121421,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.125/2011 (Gravataí/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -121440,7 +121440,7 @@ const FERIADOS = [
     mes: 8,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Anjos, feriado municipal em Gravataí/RS em 02/08, instituído pela Lei Municipal nº 3.125/2011, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -121972,7 +121972,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. O Decreto nº 5.375, de 17/02/2014 (Ijuí/RS), citado pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -123093,7 +123093,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo André Avelino, feriado municipal em Maquiné/RS em 10/11, instituído pela lei 317, de outubro de 1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -123473,7 +123473,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, feriado municipal em Montauri/RS em 19/03, instituído pela Lei nº 1.096, de 22/03/2016, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -123701,7 +123701,7 @@ const FERIADOS = [
     mes: 8,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Luís, padroeiro de Mostardas/RS — feriado municipal em 25/08, instituído pela lei 94, de 1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -123720,7 +123720,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Aparecida, feriado municipal em Mostardas/RS em 08/12, instituído pela lei 94/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -123758,7 +123758,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei nº 2.012/1999 (Não-Me-Toque/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -123777,7 +123777,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Não-Me-Toque/RS em 31/10, instituído pela lei nº 2.012/1999, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset (provavelmente Dia da Reforma, dado o padrão de outras cidades de colonização alemã em SC/RS na mesma data, mas não confirmado).",
     fonte: {
@@ -124100,7 +124100,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 308/1997 (Nova Pádua/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -124119,7 +124119,7 @@ const FERIADOS = [
     mes: 5,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Caravaggio, padroeira de Nova Pádua/RS — feriado municipal em 26/05, instituído pela Lei nº 308, de 16/12/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -124214,7 +124214,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 4245/1999 (Nova Prata/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -124347,7 +124347,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 162/1959 (Novo Hamburgo/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -124385,7 +124385,7 @@ const FERIADOS = [
     mes: 5,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Ascensão do Senhor, feriado municipal em Novo Hamburgo/RS, instituído pela Lei Municipal nº 162, de 31/08/1959, citada diretamente pelo próprio registro do dataset comunitário. NOTA: esta é uma data móvel (baseada na Páscoa, quinta-feira Ascensão), mas o candidato do dataset comunitário só trouxe a data já resolvida para 2026 (14/05); cadastrado como data fixa deste ano específico por ora — revisar/corrigir para regraCalculo relativo à Páscoa em revisão futura, se confirmado que a lei usa a data móvel.",
     fonte: {
@@ -124404,7 +124404,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Reforma (Protestante), feriado municipal em Novo Hamburgo/RS em 31/10, instituído pela Lei Municipal nº 162/1959, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -124974,7 +124974,7 @@ const FERIADOS = [
     mes: 4,
     dia: 16,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Paulo Bento/RS em 16/04, instituído pela Lei Municipal nº 234, de 29/04/2003, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset.",
     fonte: {
@@ -125449,7 +125449,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 4.453/1978 (Porto Alegre/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -125468,7 +125468,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora dos Navegantes, feriado municipal em Porto Alegre/RS em 02/02, instituído pela Lei Municipal nº 4.453, de 18/09/1978, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -125620,7 +125620,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei nº 515/2006 (Presidente Lucena/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -125639,7 +125639,7 @@ const FERIADOS = [
     mes: 11,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação de Presidente Lucena/RS, feriado em 10/11, instituído pela lei municipal nº 515/2006, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -127121,7 +127121,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 265/1989 (São Jerônimo/RS), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -127140,7 +127140,7 @@ const FERIADOS = [
     mes: 9,
     dia: 30,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Instalação do município de São Jerônimo/RS e dia de seu padroeiro onomástico, feriado em 30/09, instituído pela lei 265/1989, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -127159,7 +127159,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, padroeira da Igreja Matriz de São Jerônimo/RS — feriado municipal em 08/12, instituído pela lei 265/1989, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -127444,7 +127444,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de São José dos Ausentes/RS — feriado municipal em 19/03, instituído pela lei nº 57, de 14/10/1993, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -127463,7 +127463,7 @@ const FERIADOS = [
     mes: 3,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São José dos Ausentes/RS, feriado em 20/03, instituído pela lei nº 57, de 14/10/1993, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -129952,7 +129952,7 @@ const FERIADOS = [
     mes: 6,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Sagrado Coração de Jesus, feriado municipal em Vista Alegre/RS em 27/06, instituído pela lei nº 10, de 13/02/1989, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -129971,7 +129971,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em Vista Alegre/RS em 08/12, instituído pela lei nº 10/1989, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -129990,7 +129990,7 @@ const FERIADOS = [
     mes: 12,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Vista Alegre/RS, feriado em 20/12, instituído pela lei nº 10/1989, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -130199,7 +130199,7 @@ const FERIADOS = [
     mes: 8,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "11 de agosto, criação da Capitania de Santa Catarina (1738) — Data Magna do estado, instituída pela Lei nº 12.906, de 22/01/2004, reforçada pela Lei nº 18.531, de 05/12/2022 (que também estabelece transferência da observância para o domingo seguinte quando a data cai em dia útil — não modelado aqui, mantido o dia legal 11/08). Corroborado por múltiplas fontes (NSC Total, ocalendario.com.br, Buser, LegisWeb). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por múltiplas fontes é suficiente).",
     fonte: {
@@ -130294,7 +130294,7 @@ const FERIADOS = [
     mes: 5,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Abelardo Luz/SC em 25/05, instituído pela Lei nº 2.279, de 15/05/2013, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset (só \"Feriado Municipal\"); texto legal original não lido.",
     fonte: {
@@ -131073,7 +131073,7 @@ const FERIADOS = [
     mes: 4,
     dia: 7,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Ascurra/SC, feriado em 07/04, instituído pela lei 915/2002, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -131149,7 +131149,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa-47",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Carnaval é ponto facultativo (não feriado pleno) na camada nacional. O Decreto nº 8.472 (Balneário Camboriú/SC), citado diretamente pelo dataset comunitário, eleva terça-feira de Carnaval a feriado MUNICIPAL pleno — plausível dado o peso turístico do carnaval na cidade. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -131320,7 +131320,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.222/1964 (Blumenau/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -131339,7 +131339,7 @@ const FERIADOS = [
     mes: 9,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Blumenau/SC, feriado em 02/09, instituído pela Lei Municipal nº 1.222/1964, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -131358,7 +131358,7 @@ const FERIADOS = [
     mes: 10,
     dia: 31,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia da Reforma (Protestante), feriado municipal em Blumenau/SC em 31/10, instituído pela Lei Municipal nº 5.564, de 11/12/2000, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -132517,7 +132517,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 884/1993 (Dona Emma/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -132536,7 +132536,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Colono, feriado municipal em Dona Emma/SC em 25/07, instituído pela lei 884/1993, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -132631,7 +132631,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 10.306/2017 (Florianópolis/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -132650,7 +132650,7 @@ const FERIADOS = [
     mes: 3,
     dia: 23,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Florianópolis/SC, feriado em 23/03, instituído pela Lei Municipal nº 10.306, de 24/11/2017, citada diretamente pelo próprio registro do dataset comunitário e confirmada por fontes atuais (feriadosapi.com, queroferiado.com.br).",
     fonte: {
@@ -132669,7 +132669,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santa Catarina de Alexandria, padroeira de Florianópolis/SC — feriado municipal em 25/11, instituído pela Lei Municipal nº 10.306/2017, citada diretamente pelo próprio registro do dataset comunitário e confirmada como vigente por fontes atuais (feriadosapi.com, queroferiado.com.br 2026).",
     fonte: {
@@ -133296,7 +133296,7 @@ const FERIADOS = [
     mes: 3,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação de Indaial/SC, feriado em 21/03, instituído pela Lei nº 3.382, de 2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -133334,7 +133334,7 @@ const FERIADOS = [
     mes: 12,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Segundo dia de Natal, feriado municipal em Indaial/SC em 26/12, instituído pela lei 3382/2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -133752,7 +133752,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.064/1996 (Itajaí/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -133771,7 +133771,7 @@ const FERIADOS = [
     mes: 6,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Itajaí/SC, feriado em 15/06, instituído pelo Art. 3º da Lei Orgânica Municipal e pela Lei Municipal nº 3.064/1996, citadas diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -133790,7 +133790,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição, padroeira de Itajaí/SC — feriado municipal em 08/12, instituído pela Lei Municipal nº 3.064/1996, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -134208,7 +134208,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 844/1967 (Joinville/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -134227,7 +134227,7 @@ const FERIADOS = [
     mes: 3,
     dia: 9,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Joinville/SC, feriado em 09/03, instituído pela Lei Municipal nº 733, de 22/06/1965, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -134246,7 +134246,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em Joinville/SC em 08/12, instituído pela Lei Municipal nº 844/1967, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -134588,7 +134588,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. O decreto 55/1990 (Lindóia do Sul/SC), citado pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -135538,7 +135538,7 @@ const FERIADOS = [
     mes: 8,
     dia: 30,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Data de criação de Orleans/SC, feriado em 30/08, instituído pela Lei nº 456, de 07/05/1973, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -135614,7 +135614,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 008/1973 (Palhoça/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -135633,7 +135633,7 @@ const FERIADOS = [
     mes: 4,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Data de criação do município de Palhoça/SC, feriado em 24/04, instituído pela lei nº 127/1974, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -135709,7 +135709,7 @@ const FERIADOS = [
     mes: 7,
     dia: 18,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação política de Palmeira/SC, feriado em 18/07, instituído pela lei nº 25/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -135728,7 +135728,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Padroeira de Palmeira/SC, feriado em 15/08, instituído pela lei nº 25/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -136089,7 +136089,7 @@ const FERIADOS = [
     mes: 5,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Peritiba/SC em 19/05, instituído pela lei 914, de 23/05/1994, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset (só \"Feriado Municipal\"); texto legal original não lido.",
     fonte: {
@@ -136108,7 +136108,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Peritiba/SC, feriado em 15/08, instituído pela lei 914, de 23/05/1994, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -136127,7 +136127,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Peritiba/SC em 08/12, instituído pela lei 914/1994, citada diretamente pelo próprio registro do dataset comunitário. Ocasião específica não nomeada na fonte do dataset (só \"Feriado Municipal\"); dada a data (08/12), provavelmente Nossa Senhora da Conceição, mas não confirmado. Texto legal original não lido.",
     fonte: {
@@ -137666,7 +137666,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 3.780/2010 (São José do Cedro/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -137685,7 +137685,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de São José do Cedro/SC — feriado municipal em 19/03, instituído pela Lei nº 3.780, de 2010, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -137704,7 +137704,7 @@ const FERIADOS = [
     mes: 7,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São José do Cedro/SC, feriado em 27/07, instituído pela Lei nº 3.780/2010, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138293,7 +138293,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei 1738/2012 (Trombudo Central/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -138312,7 +138312,7 @@ const FERIADOS = [
     mes: 7,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Trombudo Central/SC, feriado em 22/07, instituído pela lei 1738/2012, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138331,7 +138331,7 @@ const FERIADOS = [
     mes: 12,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Segundo dia de Natal, feriado municipal em Trombudo Central/SC em 26/12, instituído pela lei 1738/2012, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138445,7 +138445,7 @@ const FERIADOS = [
     mes: 1,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de União do Oeste/SC, feriado em 04/01, instituído pela Lei nº 344, de 15/10/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138464,7 +138464,7 @@ const FERIADOS = [
     mes: 7,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Colono e do Motorista, feriado municipal em União do Oeste/SC em 25/07, instituído pela lei 344/1997, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138654,7 +138654,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei nº 22/93 (Vargem Bonita/SC), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -138673,7 +138673,7 @@ const FERIADOS = [
     mes: 3,
     dia: 30,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Vargem Bonita/SC, feriado em 30/03, instituído pela Lei nº 628/2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138692,7 +138692,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Imaculada Conceição, feriado municipal em Vargem Bonita/SC em 08/12, instituído pela lei nº 628/2005, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -138730,7 +138730,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, padroeira de Videira/SC — feriado municipal em 08/12, instituído pela lei 830/2001, citada diretamente pelo próprio registro do dataset comunitário.",
     fonte: {
@@ -139034,7 +139034,7 @@ const FERIADOS = [
     mes: 7,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "8 de julho é feriado estadual em Sergipe, Emancipação Política (separação da Bahia por Carta Régia de D. João VI em 08/07/1820), reconhecido pelo Governo do Estado via Decreto nº 920, de 06/01/2025 (calendário oficial de feriados/pontos facultativos), corroborado por múltiplas fontes (TJSE, se.gov.br oficial, infonet.com.br, imprensa24h.com.br, Buser). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por múltiplas fontes, inclusive oficial, é suficiente).",
     fonte: {
@@ -139110,7 +139110,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06, Dia de São João, é feriado municipal em Aracaju/SE instituído pela Lei Municipal nº 3.805, de 14/12/2009 (que altera a Lei Municipal nº 2.899, de 06/03/2001), corroborado pelo site oficial da Prefeitura de Aracaju e por leismunicipais.com.br (texto integral da lei). Texto legal original não lido diretamente, mas localizado em repositório de legislação municipal; padrão combinado com o usuário atendido com folga (fonte oficial + repositório de leis).",
     fonte: {
@@ -139129,7 +139129,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição é padroeira de Aracaju/SE — feriado municipal fixo em 08/12 instituído pela Lei nº 6.741/1979, corroborado por múltiplas fontes (aracaju.se.gov.br oficial, contabeis.com.br, CNN Brasil sobre capitais que decretam o feriado). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -139319,7 +139319,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Boquim/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município entre as cidades sergipanas com feriado próprio de São João. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -139357,7 +139357,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão (nome específico do dataset + data universal do santo é suficiente).",
     fonte: {
@@ -139376,7 +139376,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o feriado municipal da padroeira de Campo do Brito/SE, segundo o calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE) — nome específico da santa não identificado nas fontes consultadas. Distinto do padroeiro de 16/08, não representado entre os candidatos deste dataset. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -139433,7 +139433,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -139509,7 +139509,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "2 de fevereiro é o feriado municipal da padroeira de Capela/SE, segundo o calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE) — nome específico da santa não identificado nas fontes consultadas. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -139566,7 +139566,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Carira/SE foi emancipado em 25/11/1953 — feriado municipal de emancipação política, corroborado por fonte enciclopédica (histórico do município) e por reportagem (fdr.com.br) sobre municípios com folga em 25/11. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -139794,7 +139794,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Estância/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -139851,7 +139851,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São João' no dataset comunitário, e 24 de junho é a data universal da festa católica de São João Batista. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -139870,7 +139870,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São Pedro' no dataset comunitário, e 29 de junho é a data universal da festa católica de São Pedro. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -140022,7 +140022,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o Dia da Assunção de Nossa Senhora, feriado municipal em Gararu/SE, segundo o calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -140136,7 +140136,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Itabaianinha/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -140193,7 +140193,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Itabi/SE foi emancipado em 25/11/1953 — feriado municipal de emancipação política, corroborado por fonte enciclopédica (histórico do município) e por reportagem (fdr.com.br) sobre municípios com folga em 25/11. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -140212,7 +140212,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Ajuda é a padroeira de Itaporanga d'Ajuda/SE (o próprio nome do município homenageia a santa), com feriado municipal ('Dia de Itaporanga d'Ajuda') em 2 de fevereiro. Confirmado pelo calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -140250,7 +140250,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Itaporanga d'Ajuda/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -140288,7 +140288,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Japaratuba/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -140383,7 +140383,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho é feriado municipal instituído em Lagarto/SE em homenagem a São João — confirmado pela própria Câmara Municipal de Lagarto (SAPL) e por reportagem local (Portal Lagartense). Distinto da co-padroeira Nossa Senhora da Piedade (08/09, não representada entre os candidatos deste dataset). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial da Câmara + 2ª fonte é suficiente).",
     fonte: {
@@ -140497,7 +140497,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José — mesmo santo que dá nome ao padroeiro de Malhador/SE, confirmado por fonte oficial da Prefeitura. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -140516,7 +140516,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Malhador/SE foi criado pela Lei nº 525-A, de 25/11/1953 — mesma lei que criou Tomar do Geru/SE (promovido separadamente nesta mesma leva). Confirmado pela própria página oficial da Prefeitura de Malhador. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -140573,7 +140573,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o feriado municipal de Nossa Senhora da Paz, co-padroeira de Maruim/SE, segundo o calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -140687,7 +140687,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é padroeiro de Neópolis/SE — feriado municipal em 29/06 confirmado diretamente pelo site oficial da Prefeitura de Neópolis (seção de feriados) e corroborado por listagem no Calendário Oficial do TJSE (repetida em várias edições anuais, 2020-2027). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte oficial municipal + calendário oficial do TJSE é suficiente).",
     fonte: {
@@ -140782,7 +140782,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Glória é a padroeira do município homônimo em Sergipe (o próprio nome da cidade homenageia a santa), com festa em 15 de agosto — missa solene, procissões e show católico. Confirmado por múltiplas fontes, incluindo a própria Câmara Municipal (consolidação do calendário de feriados). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial da Câmara + 2ª fonte é suficiente).",
     fonte: {
@@ -140839,7 +140839,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Nossa Senhora das Dores/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -140934,7 +140934,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Socorro é a padroeira principal do município homônimo em Sergipe (o próprio nome da cidade homenageia a santa), com festa em 2 de fevereiro — distinto da co-padroeira Nossa Senhora do Amparo (15/08), promovida separadamente nesta mesma leva. Confirmado pela própria página oficial da Prefeitura de Nossa Senhora do Socorro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -140972,7 +140972,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de agosto é o feriado municipal de Nossa Senhora do Amparo, co-padroeira de Nossa Senhora do Socorro/SE — distinto da padroeira principal Nossa Senhora do Socorro (02/02), promovida separadamente nesta mesma leva. Confirmado pela própria página oficial da Prefeitura de Nossa Senhora do Socorro. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -141067,7 +141067,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Candidato já trazia o nome 'São José' no dataset comunitário, e 19 de março é a data universal da festa católica de São José. Padrão já usado várias vezes nesta sessão.",
     fonte: {
@@ -141200,7 +141200,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Poço Verde/SE foi emancipado em 25/11/1953 — feriado municipal de emancipação política, corroborado por fonte enciclopédica (histórico do município) e por reportagem (fdr.com.br) sobre municípios com folga em 25/11. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -141523,7 +141523,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Santo Amaro das Brotas/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -141561,7 +141561,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em São Cristóvão/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -141580,7 +141580,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "A Lei nº 09/1990, de 08/06/1990, institui 29 de junho (Dia de São Pedro) como feriado municipal em São Cristóvão/SE. Confirmado pela própria página oficial da Prefeitura de São Cristóvão (decreto anual que divulga feriados nacionais e municipais). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal é suficiente).",
     fonte: {
@@ -141694,7 +141694,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Simão Dias/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -141770,7 +141770,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Imperatriz dos Campos é a padroeira de Tobias Barreto/SE, com feriado municipal em 15 de agosto. Confirmado por múltiplas fontes, incluindo a página oficial de feriados da Prefeitura de Tobias Barreto e o calendário oficial das comarcas do TJSE. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + TJSE é suficiente).",
     fonte: {
@@ -141827,7 +141827,7 @@ const FERIADOS = [
     mes: 11,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Tomar do Geru/SE foi criado pela Lei nº 525-A, de 25/11/1953 — mesma lei que criou Malhador/SE (promovido separadamente nesta mesma leva). Distinto da festa da padroeira Nossa Senhora do Socorro (em setembro, não representada entre os candidatos deste dataset). Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -141846,7 +141846,7 @@ const FERIADOS = [
     mes: 2,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Guia é a padroeira de Umbaúba/SE, com feriado municipal em 2 de fevereiro. Confirmado pelo calendário oficial de feriados das comarcas do Tribunal de Justiça de Sergipe (TJSE). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial do TJSE é suficiente).",
     fonte: {
@@ -141903,7 +141903,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24/06 é feriado municipal em Umbaúba/SE, corroborado por reportagem do Sindicato dos Bancários de Sergipe (bancariose.com.br) que lista nominalmente o município. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte que nomeia o município é suficiente).",
     fonte: {
@@ -143233,7 +143233,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei 978/1967 (Atibaia/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -143252,7 +143252,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Atibaia/SP, feriado em 24/06, instituído pela Lei 978/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -143708,7 +143708,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 354/1982 (Barueri/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -143727,7 +143727,7 @@ const FERIADOS = [
     mes: 3,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Barueri/SP, feriado em 26/03, instituído pela Lei Municipal nº 354/1982, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -143746,7 +143746,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista, padroeiro de Barueri/SP — feriado municipal em 24/06, instituído pela Lei Municipal nº 354/1982, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -143841,7 +143841,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.401/1968 (Bauru/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -143860,7 +143860,7 @@ const FERIADOS = [
     mes: 8,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Bauru/SP, feriado em 01/08, instituído pela Lei Municipal nº 1.401/1968, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -144753,7 +144753,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 950/1969 (Caconde/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -144772,7 +144772,7 @@ const FERIADOS = [
     mes: 4,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Feriado municipal em Caconde/SP, em homenagem a Ranieri Mazzilli (político brasileiro, ex-presidente da República, natural do município), instituído pela Lei Municipal nº 2255, de 14/12/2005, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -144791,7 +144791,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Caconde/SP, feriado em 08/12, instituído pela Lei Municipal nº 841/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -145076,7 +145076,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 173/1949 (Campinas/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -145095,7 +145095,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Campinas/SP em 08/12, instituído pela Lei Municipal nº 173/1949, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -146349,7 +146349,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.488/2005 (Cristais Paulista/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -146368,7 +146368,7 @@ const FERIADOS = [
     mes: 7,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Cristais Paulista/SP, feriado em 28/07, instituído pela Lei Municipal nº 1.488/2005, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -146387,7 +146387,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Abadia, feriado municipal em Cristais Paulista/SP em 15/08, instituído pela Lei Municipal nº 1.488/2005, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -146482,7 +146482,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora Imaculada Conceição, padroeira de Cruzeiro/SP — feriado municipal em 08/12, instituído pela Lei Municipal nº 0803/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -147014,7 +147014,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 1917/2004 (Embu-Guaçu/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -148078,7 +148078,7 @@ const FERIADOS = [
     mes: 12,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Elevação de Guapiara/SP a município, feriado em 24/12, instituído pela Lei Municipal nº 1.342/2002, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -148344,7 +148344,7 @@ const FERIADOS = [
     mes: 10,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Frei Galvão (Santo Antônio de Sant'Ana Galvão, primeiro santo nascido no Brasil, natural de Guaratinguetá), feriado municipal em 25/10, instituído pela Lei nº 4.025/2008, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -148458,7 +148458,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.631/1970 (Guarulhos/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -148477,7 +148477,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição e aniversário de Guarulhos/SP, feriado em 08/12, instituído pela Lei Municipal nº 1.631/1970, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -149332,7 +149332,7 @@ const FERIADOS = [
     mes: 10,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Francisco de Assis, feriado municipal em Ilha Solteira/SP em 04/10, instituído pela lei nº 787/2001, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -150567,7 +150567,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei 262/1980 (Itupeva/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -150586,7 +150586,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, padroeiro de Itupeva/SP — feriado municipal em 20/01, instituído pela Lei 262/1980, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -151213,7 +151213,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.102/1975 (Jundiaí/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -151232,7 +151232,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Desterro, feriado municipal em Jundiaí/SP em 15/08, instituído pela Lei Municipal nº 2.102/1975, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -151536,7 +151536,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 4.901/2012 (Limeira/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -151555,7 +151555,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora das Dores, padroeira de Limeira/SP — feriado municipal em 15/09, instituído pela Lei Municipal nº 4.901/2012, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -152790,7 +152790,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 3.125/1986 (Mogi das Cruzes/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -152809,7 +152809,7 @@ const FERIADOS = [
     mes: 7,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora de Sant'Ana, feriado municipal em Mogi das Cruzes/SP em 26/07, instituído pela Lei Municipal nº 3.125/1986, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -152828,7 +152828,7 @@ const FERIADOS = [
     mes: 9,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Mogi das Cruzes/SP, feriado em 01/09, instituído pela Lei Municipal nº 1.585/1966, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -153056,7 +153056,7 @@ const FERIADOS = [
     mes: 5,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Monte Alto/SP, feriado em 15/05, instituído pela lei nº 585/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -153075,7 +153075,7 @@ const FERIADOS = [
     mes: 8,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Padroeiro de Monte Alto/SP, feriado em 06/08, instituído pela lei nº 585/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -154291,7 +154291,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.121/1972 (Osasco/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -154310,7 +154310,7 @@ const FERIADOS = [
     mes: 2,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação de Osasco/SP, feriado em 19/02, instituído pela Lei Municipal nº 1.121/1972, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -154329,7 +154329,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, feriado municipal em Osasco/SP em 13/06, instituído pela Lei Municipal nº 1.121/1972, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -154709,7 +154709,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei nº 2177/2006 (Palmital/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -154728,7 +154728,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fundação de Palmital/SP e São Sebastião (padroeiro), feriado em 20/01, instituído pela Lei nº 2177/2006, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -155203,7 +155203,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, padroeiro de Pedra Bela/SP — feriado municipal em 20/01, instituído pela lei nº 03/1983, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -155222,7 +155222,7 @@ const FERIADOS = [
     mes: 4,
     dia: 6,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Pedra Bela/SP, feriado em 06/04, instituído pela lei nº 03/1983, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -155241,7 +155241,7 @@ const FERIADOS = [
     mes: 8,
     dia: 9,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Pedra, feriado municipal em Pedra Bela/SP em 09/08, instituído pela lei nº 321/2010, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -155887,7 +155887,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.459/1966 (Piracicaba/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -155906,7 +155906,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio, padroeiro de Piracicaba/SP — feriado municipal em 13/06, instituído pela Lei Municipal nº 1.459/1966, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -155925,7 +155925,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Conceição, feriado municipal em Piracicaba/SP em 08/12, instituído pela Lei Municipal nº 1.459/1966, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -156685,7 +156685,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 701/1991 (Praia Grande/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -156704,7 +156704,7 @@ const FERIADOS = [
     mes: 1,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Praia Grande/SP, feriado em 19/01, instituído pela Lei Municipal nº 701/1991, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -156723,7 +156723,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro, padroeiro de Praia Grande/SP — feriado municipal em 29/06, instituído pela Lei Municipal nº 701/1991, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -157578,7 +157578,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 11.919/2009 (Ribeirão Preto/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -157597,7 +157597,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, feriado municipal em Ribeirão Preto/SP em 20/01, instituído pela Lei Municipal nº 11.919/2009, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -157616,7 +157616,7 @@ const FERIADOS = [
     mes: 6,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Ribeirão Preto/SP e Santa Juliana Falconieri, feriado em 19/06, instituído pela Lei Municipal nº 11.919/2009, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -157711,7 +157711,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.487/1977 (Rio Claro/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -157730,7 +157730,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista, padroeiro, e aniversário de Rio Claro/SP — feriado municipal em 24/06, instituído pela Lei Municipal nº 1.487/1977, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -158262,7 +158262,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 373/1971 (Salto Grande/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -158281,7 +158281,7 @@ const FERIADOS = [
     mes: 9,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora do Patrocínio, feriado municipal em Salto Grande/SP em 15/09, instituído pela Lei Municipal nº 373/1971, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -158300,7 +158300,7 @@ const FERIADOS = [
     mes: 12,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Salto Grande/SP, feriado em 27/12, instituído pela Lei Municipal nº 373/1971, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -158908,7 +158908,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 4.148/1973 (Santo André/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -158927,7 +158927,7 @@ const FERIADOS = [
     mes: 4,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Santo André/SP, feriado em 08/04, instituído pela Lei Municipal nº 4.148/1973, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159193,7 +159193,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 2.241/1976 (São Bernardo do Campo/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -159212,7 +159212,7 @@ const FERIADOS = [
     mes: 8,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São Bernardo do Campo/SP, feriado em 20/08, instituído pela Lei Municipal nº 2.241/1976, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159250,7 +159250,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 7.502/1974 (São Carlos/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -159269,7 +159269,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Nossa Senhora da Babilônia, feriado municipal em São Carlos/SP em 15/08, instituído pela Lei Municipal nº 7.502/1974, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159288,7 +159288,7 @@ const FERIADOS = [
     mes: 11,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São Carlos/SP, feriado em 04/11, instituído pela Lei Municipal nº 7.502/1974, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159497,7 +159497,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.227/1967 (São José do Rio Preto/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -159516,7 +159516,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro e aniversário de São José do Rio Preto/SP — feriado municipal em 19/03, instituído pela Lei Municipal nº 1.227/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159535,7 +159535,7 @@ const FERIADOS = [
     mes: 12,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Imaculada Conceição, feriado municipal em São José do Rio Preto/SP em 08/12, instituído pela Lei Municipal nº 1.227/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159554,7 +159554,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.324/1967 (São José dos Campos/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -159573,7 +159573,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José, padroeiro de São José dos Campos/SP — feriado municipal em 19/03, instituído pela Lei Municipal nº 8.821/2012, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159592,7 +159592,7 @@ const FERIADOS = [
     mes: 7,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São José dos Campos/SP, feriado em 27/07, instituído pela Lei Municipal nº 1.324/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -159801,7 +159801,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 14.485/2007 (São Paulo/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -159820,7 +159820,7 @@ const FERIADOS = [
     mes: 1,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de São Paulo/SP, feriado em 25/01, instituído pela Lei Municipal nº 14.485/2007, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160067,7 +160067,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.332/1967 (São Vicente/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -160086,7 +160086,7 @@ const FERIADOS = [
     mes: 1,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fundação de São Vicente/SP, feriado em 22/01, instituído pela Lei Municipal nº 1.332/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160485,7 +160485,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 1.439/1966 (Sorocaba/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -160504,7 +160504,7 @@ const FERIADOS = [
     mes: 8,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fundação de Sorocaba/SP e Nossa Senhora da Ponte, feriado em 15/08, instituído pela Lei Municipal nº 1.439/1966, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160561,7 +160561,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 782/1967 (Suzano/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -160580,7 +160580,7 @@ const FERIADOS = [
     mes: 1,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Sebastião, padroeiro de Suzano/SP — feriado municipal em 20/01, instituído pela Lei Municipal nº 782/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160599,7 +160599,7 @@ const FERIADOS = [
     mes: 4,
     dia: 2,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Suzano/SP, feriado em 02/04, instituído pela Lei Municipal nº 782/1967, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160656,7 +160656,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 495/1974 (Taboão da Serra/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -160675,7 +160675,7 @@ const FERIADOS = [
     mes: 2,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Emancipação político-administrativa de Taboão da Serra/SP, feriado em 19/02, instituído pela Lei Municipal nº 191/1963, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -160694,7 +160694,7 @@ const FERIADOS = [
     mes: 10,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Amor Misericordioso de Deus, feriado municipal religioso em Taboão da Serra/SP em 01/10, instituído pela Lei Municipal nº 2225/2015, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -161131,7 +161131,7 @@ const FERIADOS = [
     mes: 4,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Benedito, feriado municipal em Taubaté/SP em 22/04, instituído pela Lei nº 4.128/2007, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -161150,7 +161150,7 @@ const FERIADOS = [
     mes: 10,
     dia: 4,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Francisco de Assis, padroeiro de Taubaté/SP — feriado municipal em 04/10, instituído pela Lei nº 4.128/2007, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -161169,7 +161169,7 @@ const FERIADOS = [
     mes: 12,
     dia: 5,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aniversário de Taubaté/SP, feriado em 05/12, instituído pela Lei nº 4.562/2011, citada diretamente pelo dataset comunitário.",
     fonte: {
@@ -161302,7 +161302,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A lei nº 1242/2014 (Terra Roxa/SP), citada pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -161321,7 +161321,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa-47",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Carnaval é ponto facultativo (não feriado pleno) na camada nacional. A lei nº 1242/2014 (Terra Roxa/SP), citada pelo dataset comunitário, eleva terça-feira de Carnaval a feriado MUNICIPAL pleno — mesmo padrão já usado para Balneário Camboriú/SC.",
     fonte: {
@@ -162423,7 +162423,7 @@ const FERIADOS = [
     mes: 1,
     dia: 10,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Aliança do Norte tornou-se Aliança do Tocantins em 10/01/1989, com a criação e implantação do Estado do Tocantins, pelo Decreto nº 10.439. Corroborado por reportagem sobre os 31 anos de emancipação política da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -162442,7 +162442,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é padroeiro de Aliança do Tocantins/TO — feriado municipal em 24/06, confirmado diretamente por comunicado oficial da Câmara Municipal de Aliança do Tocantins (que inclusive registrou o adiamento pontual da celebração de 2026 para 26/06 via Portaria nº 037/2026, evidenciando que o feriado de 24/06 é uma prática municipal já estabelecida). Texto legal original (lei municipal de origem) não lido; padrão combinado com o usuário atendido: fonte oficial do Poder Legislativo municipal.",
     fonte: {
@@ -162556,7 +162556,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é padroeiro de Ananás/TO — feriado municipal em 29/06 confirmado diretamente pela Lei Municipal nº 113/2025 (PDF oficial publicado pela própria Prefeitura de Ananás), corroborado também por listagens jornalísticas de cidades com feriado em 29/06. Padrão combinado com o usuário atendido com folga: fonte primária oficial localizada e citada.",
     fonte: {
@@ -162632,7 +162632,7 @@ const FERIADOS = [
     mes: 6,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "15 de junho é feriado municipal em Araguaína/TO em homenagem ao padroeiro Sagrado Coração de Jesus, instituído pela Lei nº 1.508, de 1994. Confirmado pela própria página de legislação oficial da Prefeitura de Araguaína (leis.araguaina.to.gov.br) e por reportagem local (Araguaína Notícias). Texto legal original não lido (só a ementa/referência); padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -162746,7 +162746,7 @@ const FERIADOS = [
     mes: 5,
     dia: 22,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "22 de maio é feriado municipal religioso em Augustinópolis/TO em homenagem à padroeira do município, Santa Rita de Cássia — distinto do feriado civil de 14/05 (aniversário de emancipação política, não representado entre os candidatos deste dataset). Confirmado por reportagem específica do jornal Voz do Bico. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -162860,7 +162860,7 @@ const FERIADOS = [
     mes: 6,
     dia: 23,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "23 de junho é o aniversário/emancipação de Cristalândia/TO, confirmado por agregador (calendario.online, feriado municipal decretado) e por referência aos 70 anos da cidade em 2023 (base 1953), consistente com a data do candidato. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -162879,7 +162879,7 @@ const FERIADOS = [
     mes: 7,
     dia: 27,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "27 de julho é o feriado municipal de Nossa Senhora do Perpétuo Socorro em Cristalândia/TO, padroeira da cidade (existe Catedral Prelatícia Nossa Senhora do Perpétuo Socorro no município). Confirmado por agregador (calendario.online, feriado municipal decretado) e pela dedicação da catedral local. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -162898,7 +162898,7 @@ const FERIADOS = [
     mes: 3,
     dia: 8,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dianópolis/TO institui 08/03 (Dia Internacional da Mulher) como feriado municipal pela Lei Municipal nº 1.190/2011, corroborado por múltiplas fontes agregadoras (feriadosapi.com, iferiados.com.br, feriadosweb.com.br) que citam o mesmo número de lei. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 3+ fontes é suficiente).",
     fonte: {
@@ -162917,7 +162917,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José é padroeiro de Dianópolis/TO — feriado municipal em 19/03, corroborado por reportagem da Defensoria Pública do Tocantins e por matéria do Conexão Tocantins listando os municípios do estado (Palmas, Dianópolis, Palmeirante, Centenário) que têm São José como padroeiro e feriado em 19/03. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163012,7 +163012,7 @@ const FERIADOS = [
     mes: 5,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Fátima/TO foi emancipada em 14/05/1982 pela Lei Estadual (Goiás, à época — Tocantins só foi criado em 1988) nº 9.188/1982, desmembrada de Brejinho de Nazaré, mantendo o nome em homenagem à padroeira Nossa Senhora de Fátima. Corroborado por Wikipédia em português e reportagem do governo do Tocantins sobre as comemorações do aniversário da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163050,7 +163050,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de junho, dia de São João Batista, é o padroeiro de Figueirópolis/TO — o primeiro ato religioso do povoado ocorreu nessa data em 1960, celebrado pelo Padre Geraldo Torres, o que deu origem à devoção. Distinto da emancipação política do município (10/06, não representada entre os candidatos deste dataset). Confirmado pela página oficial de legislação da Prefeitura de Figueirópolis. Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte oficial municipal + data universal do santo é suficiente).",
     fonte: {
@@ -163069,7 +163069,7 @@ const FERIADOS = [
     mes: 9,
     dia: 21,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "21 de setembro, Dia do Feijão, é feriado municipal em Filadélfia/TO — data temática local (produção agrícola do feijão no município), confirmado por múltiplos agregadores de feriados (feriados.com.br) e pelo calendário oficial de feriados/pontos facultativos do TJTO para 2026, que lista os feriados municipais das comarcas tocantinenses. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163088,7 +163088,7 @@ const FERIADOS = [
     mes: 6,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São João Batista é o padroeiro de Formoso do Araguaia/TO (Paróquia São João Batista no município), e 24 de junho é a data universal da festa católica de São João Batista. Confirmado por múltiplas fontes (gcatholic.org, página da paróquia). Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes + data universal do santo é suficiente).",
     fonte: {
@@ -163164,7 +163164,7 @@ const FERIADOS = [
     mes: 4,
     dia: 11,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "11 de abril é a data de emancipação política de Guaraí/TO, celebrada anualmente com programação cultural oficial da Prefeitura (56 anos em 2026, portanto emancipação em 1970). Número de lei específico não localizado nas fontes consultadas; texto legal original não lido. Padrão combinado com o usuário (celebração oficial recorrente da própria Prefeitura, mais de uma reportagem, é suficiente).",
     fonte: {
@@ -163183,7 +163183,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é padroeiro de Guaraí/TO — feriado municipal em 29/06, corroborado por múltiplas fontes jornalísticas/agregadoras que listam as cidades brasileiras com expediente suspenso na data. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163202,7 +163202,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio é padroeiro de Gurupi/TO — feriado municipal em 13/06 confirmado por listagem de feriados municipais (iferiados.com.br) e reconhecimento do padroado. Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163240,7 +163240,7 @@ const FERIADOS = [
     mes: 11,
     dia: 30,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico, feriado municipal em Gurupi/TO em 30/11. Histórico legislativo com mais de uma lei: instituído originalmente pela Lei Ordinária nº 1.907, de 06/12/2010, revogada e substituída pela Lei Ordinária nº 2.189, de 30/12/2014 (que também revogou a Lei nº 2.140/2013), atualmente vigente segundo o portal legislativo da Câmara de Gurupi. Corroborado por cobertura jornalística (guiame.com.br) e pelo site da própria Prefeitura de Gurupi. Texto integral da lei mais recente não lido diretamente (link direto ao PDF retornou erro); padrão combinado com o usuário (citação corroborada por múltiplas fontes é suficiente), mas revisar o Art. 1º da Lei 2.189/2014 se a data se mostrar crítica no futuro.",
     fonte: {
@@ -163259,7 +163259,7 @@ const FERIADOS = [
     mes: 2,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Lagoa da Confusão foi criada pela Lei Estadual (Goiás, à época) nº 251, de 20/02/1991, desmembrada de Cristalândia (plebiscito realizado em 10/02/1991). Confirmado pelo portal de turismo oficial do Governo do Tocantins e por reportagem sobre os 33 anos da cidade. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial estadual + 2ª fonte é suficiente).",
     fonte: {
@@ -163297,7 +163297,7 @@ const FERIADOS = [
     mes: 8,
     dia: 25,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Miracema do Tocantins foi emancipada em 25/08/1948 pela Lei Estadual (Goiás, à época) nº 120, desmembrada de Araguacema — data coincide com o Aniversário da Cidade. Corroborado pela página oficial de história da Prefeitura de Miracema do Tocantins e por agregador de feriados. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial municipal + 2ª fonte é suficiente).",
     fonte: {
@@ -163316,7 +163316,7 @@ const FERIADOS = [
     mes: 10,
     dia: 1,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santa Teresinha do Menino Jesus, padroeira de Miracema do Tocantins/TO — feriado municipal em 01/10, instituído pela Lei nº 124/2004, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente).",
     fonte: {
@@ -163354,7 +163354,7 @@ const FERIADOS = [
     mes: 6,
     dia: 13,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Santo Antônio é o padroeiro de Miranorte/TO (existe Paróquia Santo Antônio no município, Diocese de Miracema do Tocantins), e 13 de junho é a data universal da festa católica de Santo Antônio de Pádua. Candidato já vinha com o nome correto do dataset comunitário. Texto legal municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por fonte diocesana + data universal do santo é suficiente).",
     fonte: {
@@ -163620,7 +163620,7 @@ const FERIADOS = [
     mes: 6,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São Pedro é padroeiro de Pedro Afonso/TO (nome do município é homenagem ligada ao dia do padroeiro) — feriado municipal em 29/06, corroborado por múltiplas fontes (feriados.com.br, Transportal, listagens jornalísticas). Número de lei municipal específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163639,7 +163639,7 @@ const FERIADOS = [
     mes: 7,
     dia: 15,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Pedro Afonso foi elevada à categoria de cidade e sede de Distrito pelo Decreto nº 118, de 15/07/1937, ato do então governador de Goiás Pedro Ludovico Teixeira (à época o território ainda pertencia a Goiás). Confirmado pela Wikipédia em português. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -163677,7 +163677,7 @@ const FERIADOS = [
     mes: 5,
     dia: 14,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Colméia/TO foi emancipado em 14/05/1980, desmembrado de Pequizeiro. Corroborado por reportagem sobre os 46 anos de aniversário da cidade em 14/05/2026 (base 1980), consistente com a data do candidato. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163696,7 +163696,7 @@ const FERIADOS = [
     mes: 9,
     dia: 24,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "24 de setembro é decretado feriado municipal em Porto Nacional/TO em comemoração ao dia da padroeira do município — distinto do aniversário de emancipação (13/07), que segundo a mesma fonte NÃO é feriado oficial (falta lei municipal que regularize). Fonte municipal citada explicitamente diferencia as duas datas. Texto legal original não lido; padrão combinado com o usuário (citação corroborada é suficiente).",
     fonte: {
@@ -163753,7 +163753,7 @@ const FERIADOS = [
     mes: 5,
     dia: 26,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Talismã/TO foi fundada em 26/05/1994, celebrando sua emancipação política nessa data (instalação oficial em 01/01/1997). Confirmado pela Associação Tocantinense de Municípios (ATM-TO) e por reportagem sobre os 25 anos da cidade. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163772,7 +163772,7 @@ const FERIADOS = [
     mes: null,
     dia: null,
     regraCalculo: "pascoa+60",
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Corpus Christi é ponto facultativo na camada nacional. A Lei Municipal nº 577/1996 (Palmas/TO — já usada para o feriado de São José curado em commit anterior), citada diretamente pelo dataset comunitário, eleva a data a feriado MUNICIPAL pleno.",
     fonte: {
@@ -163791,7 +163791,7 @@ const FERIADOS = [
     mes: 3,
     dia: 19,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "São José é padroeiro de Palmas/TO — feriado municipal instituído pela Lei nº 577/96, de 02/04/1996, confirmado diretamente pelo site oficial da Prefeitura de Palmas (palmas.to.gov.br) e por outras fontes (Defensoria Pública/TO). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial + 2ª fonte é suficiente).",
     fonte: {
@@ -163829,7 +163829,7 @@ const FERIADOS = [
     mes: 5,
     dia: 20,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Palmas (capital do TO, fundada em 20/05/1989) tem feriado de aniversário instituído pela Lei Municipal nº 108/1991 e reforçado pela Lei nº 577/1996 (calendário oficial de datas comemorativas), corroborado por múltiplas fontes (TJTO, Defensoria Pública/TO, imprensa local). Texto legal original não lido; padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163848,7 +163848,7 @@ const FERIADOS = [
     mes: 11,
     dia: 30,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "Dia do Evangélico, feriado municipal em Palmas/TO em 30/11, instituído pela Lei Municipal nº 1254, de 24/11/2003, citada diretamente pelo próprio registro do dataset comunitário. Texto legal original não lido; padrão combinado com o usuário (citação específica é suficiente). NOTA: pesquisa sobre o mesmo feriado em Gurupi/TO (cidade vizinha, mesmo cluster de data) revelou histórico legislativo confuso — a Câmara de Gurupi teria revogado e depois reinstituído feriados de Santo Antônio e Dia do Evangélico em anos diferentes; por segurança, o candidato de Gurupi para esta data foi deixado PENDENTE (não promovido) até esclarecer qual lei está vigente hoje. Isso não afeta Palmas, que tem lei própria e específica.",
     fonte: {
@@ -163886,7 +163886,7 @@ const FERIADOS = [
     mes: 7,
     dia: 28,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "28 de julho é o aniversário/emancipação política de Tocantinópolis/TO, confirmado por reportagem local (Folha do Bico, cobertura da comemoração de aniversário) e por agregadores de feriados. Número de lei específico não localizado; texto legal original não lido. Padrão combinado com o usuário (citação corroborada por 2+ fontes é suficiente).",
     fonte: {
@@ -163905,7 +163905,7 @@ const FERIADOS = [
     mes: 9,
     dia: 29,
     regraCalculo: null,
-    autor: "pedro.arthur@redesaoroque.com.br",
+    autor: "pedro.arthur",
     dataVerificacao: "2026-08-27",
     observacao: "29 de setembro é, ao mesmo tempo, a data universal da festa católica de São Miguel Arcanjo (padroeiro de Xambioá/TO) e a data de criação do Distrito de Xambioá pela Lei Municipal nº 015, de 29/09/1956 (à época subordinado a Araguatins) — confirmado pela página oficial de história da Câmara Municipal de Xambioá. Distinto do aniversário de emancipação a município pleno, que é 14/11/1958 (Lei Estadual nº 2.118), não representado entre os candidatos deste dataset. Texto legal original não lido; padrão combinado com o usuário (citação corroborada por fonte oficial da Câmara + data universal do santo é suficiente).",
     fonte: {

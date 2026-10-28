@@ -1,0 +1,30 @@
+Feriados Municipais
+Copyright 2026 Rede Sao Roque
+
+Este produto inclui software desenvolvido pela Rede Sao Roque.
+Licenciado sob a Apache License, Version 2.0 — ver o arquivo LICENSE.
+
+---
+
+MARCAS
+
+A licenca NAO concede direito de uso das marcas (secao 6 da Apache 2.0).
+Os arquivos de marca em public/img/ e tools/marcas/origem/ — os logotipos
+da Rede Sao Roque e da Apoio — sao marcas de seus titulares e estao no
+repositorio porque a aplicacao os exibe, nao como permissao de uso.
+
+Quem reaproveitar este codigo deve substituir esses arquivos pelos proprios.
+
+---
+
+DADOS DE FERIADOS
+
+A base em src/scripts/seed-feriados-curados.ts reune datas de feriados
+estaduais e municipais brasileiros com a norma que cria cada um (lei,
+decreto ou Diario Oficial) citada registro a registro. As normas sao atos
+publicos; a compilacao, a conferencia e as anotacoes sao trabalho deste
+projeto e seguem a licenca acima.
+
+A base nao e exaustiva: municipio sem curadoria feita e marcado como
+"nao verificado", e a aplicacao nunca infere dia util por ausencia de
+registro. Ver CLAUDE.md e docs/fontes-de-dados.md.

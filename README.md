@@ -146,3 +146,17 @@ aplicação; a "correção" automática (`npm audit fix --force`) rebaixaria o
 - [x] Fase 2 — Motor de feriados (cálculo + resolução em camadas + testes)
 - [x] Fase 3 — Interface web (busca com autocomplete, data única/período, calendário mensal, aviso de não verificado)
 - [x] Fase 4 — Operação em lote (CSV/XLSX, exportação CSV/PDF, tela administrativa)
+
+## Licença
+
+[Apache License 2.0](LICENSE).
+
+Escolhida por causa da seção 6: a licença é permissiva com o código e os
+dados, mas **não concede direito sobre as marcas**. Os logotipos da Rede São
+Roque e da Apoio estão no repositório porque a aplicação os exibe, não como
+permissão de uso — quem reaproveitar o código deve trocá-los pelos próprios.
+Detalhes em [NOTICE](NOTICE).
+
+A base de feriados compila atos públicos (leis, decretos, Diários Oficiais),
+citados registro a registro. As normas são públicas; a compilação e a
+conferência são trabalho deste projeto.
