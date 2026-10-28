@@ -25,7 +25,7 @@ services:
     name: feriados-municipais
     runtime: node
     plan: free
-    branch: master
+    branch: main
     buildCommand: npm ci && npm run build && npm run db:preparar
     startCommand: npm start
     healthCheckPath: /health
