@@ -1,0 +1,38 @@
+# Publicação do site de consulta (render.com).
+#
+# O que esta configuração assume, e por quê:
+#
+# - **Modo consulta.** ADMIN_HABILITADO=false deixa a tela de administração
+#   fora da instância pública. Sem ela exposta não há escrita a proteger, e o
+#   projeto segue sem login (ver CLAUDE.md) sem que isso vire um buraco.
+#   A curadoria continua na cópia local e chega aqui pelo seed versionado.
+#
+# - **O banco é reconstruído, não transportado.** `db:preparar` monta a base a
+#   partir dos seeds do repositório — nenhum deles depende de rede, então a
+#   publicação é determinística e não quebra se a API do IBGE sair do ar. Leva
+#   ~14s. O mesmo comando roda antes do servidor subir (ver "start" no
+#   package.json), o que cobre o sistema de arquivos efêmero do plano free.
+#
+# - **Node 22.** O better-sqlite3 só publica binário pré-compilado até a ABI do
+#   22; em versão mais nova a instalação tenta compilar e falha.
+#
+# Plano free: o serviço dorme após 15 min sem acesso e o primeiro acesso
+# depois disso leva cerca de um minuto para responder. Para ficar sempre
+# instantâneo é trocar `plan: free` por um plano pago no painel.
+
+services:
+  - type: web
+    name: feriados-municipais
+    runtime: node
+    plan: free
+    branch: master
+    buildCommand: npm ci && npm run build && npm run db:preparar
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: ADMIN_HABILITADO
+        value: "false"
+      - key: LOG_LEVEL
+        value: warn

@@ -47,6 +47,22 @@ Enviar para → Área de trabalho.
 
 ---
 
+## O site publicado
+
+Além de rodar na própria máquina, o projeto é publicado como site a partir
+deste repositório: cada envio para o GitHub reconstrói e republica. Quem só
+consulta abre o endereço e pronto — nada para instalar.
+
+A instância publicada roda em **modo consulta** (`ADMIN_HABILITADO=false`):
+a tela de administração fica de fora. Isso é deliberado — ela escreve no
+banco e o projeto não tem login, então expô-la seria abrir escrita para
+qualquer um. A curadoria continua sendo feita na cópia local, onde o banco é
+o de verdade, e chega ao site pelo seed versionado quando você commita.
+
+Configuração em [render.yaml](render.yaml). O banco não é transportado: é
+reconstruído a partir dos seeds do repositório a cada publicação, o que torna
+o resultado determinístico e independente de a API do IBGE estar no ar.
+
 ## Para quem for mexer no código
 
 > Arquitetura e regras de negócio: [CLAUDE.md](CLAUDE.md).
@@ -65,11 +81,14 @@ que exige admin) e extraia num local do seu usuário.
 
 ```bash
 npm install
-npm run db:generate   # gera as migrations a partir do schema (só é preciso rodar de novo se o schema mudar)
-npm run db:migrate    # cria/atualiza data/holidays.db
-npm run seed          # popula tipos de feriado, municípios (IBGE) e candidatos não verificados
 npm run dev            # sobe o servidor em http://localhost:3000 (modo watch)
 ```
+
+O banco se constrói sozinho na primeira subida: `npm start` roda
+`db:preparar` antes do servidor, que aplica as migrations e os seeds quando
+encontra a base vazia (~14s, sem depender de rede). Em modo `dev` não há
+esse guarda — rode `npm run db:preparar` uma vez, ou `npm run seed` para
+incluir também os candidatos não verificados, que só a tela administrativa usa.
 
 Verifique a instalação:
 

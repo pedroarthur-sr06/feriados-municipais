@@ -53,6 +53,28 @@ para isso e para o caminho de servico sempre no ar.
 O `LOG_LEVEL` controla o barulho do log: o atalho usa `warn` para a janela
 ficar limpa para quem nao e tecnico; o padrao e `info`.
 
+## Onde a ferramenta roda
+
+Dois lugares, com papéis diferentes:
+
+- **Cópia local** (`Abrir Feriados Municipais.cmd`): tem tudo, inclusive a
+  tela administrativa. É onde a curadoria acontece e onde o banco é o de
+  verdade.
+- **Site publicado**, a partir deste repositório no GitHub (ver
+  [render.yaml](render.yaml)): roda em **modo consulta**,
+  `ADMIN_HABILITADO=false`, sem a tela administrativa. Cada envio para o
+  GitHub republica.
+
+A ponte entre os dois é o **seed versionado**: o banco do site não é
+transportado, é reconstruído a partir de `src/scripts/seed-*.ts` a cada
+publicação. Por isso nenhum seed pode depender de rede — o de municípios
+passou a ler o snapshot em `db/seed-data/municipios-ibge.json`, e só busca
+no IBGE com `-- --atualizar`.
+
+**Consequência que importa:** feriado cadastrado pela tela administrativa
+vive só no SQLite local. Para chegar ao site, precisa entrar no seed e ser
+commitado.
+
 ## Comandos
 
 ```bash
@@ -62,6 +84,7 @@ npm run build         # compila para dist/ (usa tsconfig.build.json: só src, se
 npm start             # roda a build compilada
 npm run db:backup     # snapshot consistente do banco via VACUUM INTO (seguro com o servidor no ar)
 npm run marcas        # regera os arquivos de marca em public/img/ a partir de tools/marcas/origem/
+npm run db:preparar   # constrói o banco a partir dos seeds se ele estiver vazio (roda antes do npm start)
 npm test              # roda a suíte de testes (Vitest)
 npm run test:watch    # Vitest em modo watch
 
@@ -110,7 +133,8 @@ public/
   css/styles.css        # estilos (sem framework externo)
   vendor/                # htmx.min.js e alpine.min.js vendorizados (sem CDN)
 db/
-  seed-data/        # snapshots versionados de datasets externos usados no seed (ex.: candidatos comunitários)
+  seed-data/        # snapshots versionados de datasets externos usados no seed
+                    # (municípios do IBGE, candidatos comunitários) — nenhum seed usa rede
 drizzle/            # migrations SQL geradas (versionadas no git)
 data/                # holidays.db (SQLite) — gitignored, gerado localmente
 tools/

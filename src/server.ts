@@ -53,7 +53,17 @@ app.get("/health", async () => ({ status: "ok" }));
 await app.register(rotasWeb);
 await app.register(rotasLote);
 await app.register(rotasExportacao);
-await app.register(rotasAdmin);
+/**
+ * A tela administrativa escreve no banco e não tem login (decisão do projeto,
+ * ver CLAUDE.md). Na instância publicada ela fica desligada por
+ * ADMIN_HABILITADO=false, e aí não há o que proteger: quem abre o endereço só
+ * consulta. A curadoria continua sendo feita na cópia local, onde o banco é o
+ * de verdade, e chega ao site pelo seed versionado.
+ */
+const ADMIN_HABILITADO = process.env.ADMIN_HABILITADO !== "false";
+if (ADMIN_HABILITADO) {
+  await app.register(rotasAdmin);
+}
 
 const PORT = Number(process.env.PORT ?? 3000);
 
@@ -76,6 +86,7 @@ app
     const naRede = enderecosDeRede();
     console.log("");
     console.log("  Feriados Municipais está no ar.");
+    if (!ADMIN_HABILITADO) console.log("  (modo consulta: a tela de administração está desligada)");
     console.log("");
     console.log(`  Neste computador:   http://localhost:${PORT}`);
     if (naRede.length > 0) {
