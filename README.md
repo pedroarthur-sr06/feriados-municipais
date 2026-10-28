@@ -1,11 +1,58 @@
 # Feriados Municipais
 
-Consulta de feriados nacionais, estaduais e municipais brasileiros para
-apoiar o fechamento de ponto mensal — responde se uma data foi feriado ou
-ponto facultativo num município, sempre citando a fonte.
+Responde, em segundos, se uma data foi feriado ou ponto facultativo num
+município — **sempre citando a lei ou o decreto que cria o feriado**, com
+quem conferiu e quando. É o documento que vai anexado ao fechamento de ponto.
 
-> Contexto de arquitetura e regras de negócio: [CLAUDE.md](CLAUDE.md).
+A base tem **8.6 mil feriados estaduais e municipais com fonte primária
+conferida**, mais os nacionais, que são calculados por lei e algoritmo de
+Páscoa. Município sem curadoria feita responde "não verificado" — nunca
+"dia útil" por omissão.
+
+---
+
+## Para quem vai usar a ferramenta
+
+Precisa de duas coisas instaladas na máquina, uma vez só:
+
+1. **[Node.js 22 LTS](https://nodejs.org/)** — na dúvida, baixe a versão LTS.
+   Não instale a 24 ou mais nova (ver [Instalação](#instalação)).
+2. **[Git](https://git-scm.com/)** — só se você quiser receber as atualizações
+   com dois cliques. Sem ele dá para usar, mas atualizar vira baixar o ZIP de
+   novo.
+
+Depois disso, dentro da pasta do projeto:
+
+| Arquivo | O que faz |
+| --- | --- |
+| **Abrir Feriados Municipais.cmd** | Sobe a ferramenta e abre no navegador. É o do dia a dia. |
+| **Atualizar.cmd** | Busca a versão mais nova e atualiza a base de feriados. |
+
+A janela que abre ao subir mostra dois endereços:
+
+```
+  Neste computador:   http://localhost:3000
+  Para compartilhar:  http://192.168.1.149:3000
+```
+
+O segundo é o que você manda para outra pessoa da rede — enquanto a janela
+estiver aberta, qualquer um na mesma rede abre e vê exatamente a mesma base.
+Fechar a janela derruba a ferramenta.
+
+> **Na primeira vez o Windows pode perguntar** se libera o Node.js na rede.
+> Precisa responder que sim, senão só funciona no seu próprio computador.
+
+Para não procurar a pasta toda vez: clique direito no `.cmd` →
+Enviar para → Área de trabalho.
+
+---
+
+## Para quem for mexer no código
+
+> Arquitetura e regras de negócio: [CLAUDE.md](CLAUDE.md).
 > Pesquisa de fontes de dados: [docs/fontes-de-dados.md](docs/fontes-de-dados.md).
+> Direção visual: [docs/design.md](docs/design.md).
+> Deixar sempre no ar: [docs/implantacao.md](docs/implantacao.md).
 
 ## Instalação
 
