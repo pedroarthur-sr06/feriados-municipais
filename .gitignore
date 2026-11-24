@@ -15,3 +15,6 @@ backups/
 # Lixo do Windows/OneDrive
 desktop.ini
 
+
+# Notas de trabalho que nao vao para o repositorio publico
+CONTEXTO-*.md
